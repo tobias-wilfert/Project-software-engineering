@@ -1,0 +1,3 @@
+/home/student/Desktop/Verkeerssimulatie/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/student/Desktop/Verkeerssimulatie/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/student/Desktop/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir
