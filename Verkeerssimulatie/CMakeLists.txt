@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.6)
 project(Verkeerssimulatie)
 
 set(CMAKE_CXX_STANDARD 98)
-set(CMAKE_CXX_FLAGS "-Wall -Werror")
+#set(CMAKE_CXX_FLAGS "-Wall -Werror")
 set(CMAKE_EXE_LINKER_FLAGS -pthread)
 
 # Set include dir
@@ -15,7 +15,7 @@ link_directories(gtest/lib)
 #set(RELEASE_SOURCE_FILES src/TicTacToe.cpp src/TicTacToeMain.cpp)
 
 # Set source files for DEBUG target
-set(DEBUG_SOURCE_FILES main.cpp tinystr.cpp tinystr.h tinyxml.cpp tinyxml.h tinyxmlerror.cpp tinyxmlparser.cpp)
+set(DEBUG_SOURCE_FILES main.cpp tinystr.cpp tinystr.h tinyxml.cpp tinyxml.h tinyxmlerror.cpp tinyxmlparser.cpp XmlParser.cpp XmlParser.h NullPointer.h)
 
 # Create RELEASE target
 #add_executable(Verkeerssimulatie ${RELEASE_SOURCE_FILES})
