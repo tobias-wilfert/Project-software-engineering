@@ -6,77 +6,59 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/Baan.cpp
-Baan.h
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/Baan.h
-
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/Baan.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
 string
 -
 
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/NullPointer.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/NullPointer.h
 
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp
 Voertuig.h
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/Voertuig.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/Voertuig.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 string
 -
 
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp
 XmlParser.h
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/XmlParser.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/XmlParser.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
+set
+-
 vector
 -
 string
+-
+sstream
 -
 iostream
 -
 algorithm
 -
-tinyxml.h
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinyxml.h
-Voertuig.h
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/Voertuig.h
-sstream
--
-NullPointer.h
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/NullPointer.h
-set
--
 Baan.h
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/Baan.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
+tinyxml.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxml.h
+Voertuig.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
+NullPointer.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/NullPointer.h
 
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/main.cpp
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/main.cpp
 iostream
 -
 XmlParser.h
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/XmlParser.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinystr.cpp
-tinystr.h
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinystr.h
-
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinystr.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinystr.h
 assert.h
 -
 string.h
 -
 
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinyxml.cpp
-ctype.h
--
-sstream
--
-iostream
--
-tinyxml.h
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinyxml.h
-
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinyxml.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxml.h
 ctype.h
 -
 stdio.h
@@ -94,19 +76,5 @@ iostream
 sstream
 -
 tinystr.h
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinystr.h
-
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinyxmlerror.cpp
-tinyxml.h
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinyxml.h
-
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinyxmlparser.cpp
-ctype.h
--
-stddef.h
--
-tinyxml.h
-C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinyxml.h
-windows.h
--
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinystr.h
 

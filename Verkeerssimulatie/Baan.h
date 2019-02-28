@@ -9,9 +9,9 @@
 
 class Baan {
 private:
-    std::string naam;
     int lengte;
     int snelheidsLimiet;
+    std::string naam;
     std::string verbinding;
 public:
     Baan();

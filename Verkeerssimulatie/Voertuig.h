@@ -9,12 +9,11 @@
 
 class Voertuig {
 private:
-    std::string type;
-    std::string nummerPlaat;
-    std::string baan;
     int positie;
     int snelheid;
-
+    std::string baan;
+    std::string type;
+    std::string nummerPlaat;
 public:
     Voertuig(const std::string &type, const std::string &nummerPlaat, const std::string &baan, int positie,
              unsigned int snelheid);

@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/Baan.cpp" "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.obj"
-  "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp" "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.obj"
-  "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp" "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.obj"
-  "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/main.cpp" "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/main.cpp.obj"
-  "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinystr.cpp" "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinystr.cpp.obj"
-  "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinyxml.cpp" "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinyxml.cpp.obj"
-  "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinyxmlerror.cpp" "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlerror.cpp.obj"
-  "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/tinyxmlparser.cpp" "C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlparser.cpp.obj"
+  "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.cpp" "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o"
+  "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp" "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o"
+  "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp" "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o"
+  "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/main.cpp" "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/main.cpp.o"
+  "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinystr.cpp" "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinystr.cpp.o"
+  "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxml.cpp" "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinyxml.cpp.o"
+  "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxmlerror.cpp" "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlerror.cpp.o"
+  "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxmlparser.cpp" "/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlparser.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

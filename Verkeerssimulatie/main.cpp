@@ -13,13 +13,8 @@ int main() {
     XmlParser parser = XmlParser(fileName);
     //vector<Weeg*> wegen = parser.wegen()
 
-    std::cout << "Hello, World!" << std::endl;
-
-
-    //XmlParser* parserr = new XmlParser(file);
+    std::cout << "The program executed till here without crashing." << std::endl;
     return 0;
-
-
 }
 
 /*
@@ -77,13 +72,4 @@ for every Root element{
 
     }
 }
-
-
-    //baan
-        verbinding
-
-vliegveld
-    //baan
-        verbinding
-
-        */
+*/

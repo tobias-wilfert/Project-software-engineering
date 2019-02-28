@@ -1,16 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Verkeerssimulatie_debug.dir/main.cpp.obj"
-  "CMakeFiles/Verkeerssimulatie_debug.dir/tinystr.cpp.obj"
-  "CMakeFiles/Verkeerssimulatie_debug.dir/tinyxml.cpp.obj"
-  "CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlerror.cpp.obj"
-  "CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlparser.cpp.obj"
-  "CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.obj"
-  "CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.obj"
-  "CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.obj"
+  "CMakeFiles/Verkeerssimulatie_debug.dir/main.cpp.o"
+  "CMakeFiles/Verkeerssimulatie_debug.dir/tinystr.cpp.o"
+  "CMakeFiles/Verkeerssimulatie_debug.dir/tinyxml.cpp.o"
+  "CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlerror.cpp.o"
+  "CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlparser.cpp.o"
+  "CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o"
+  "CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o"
+  "CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o"
   "Verkeerssimulatie_debug.pdb"
-  "Verkeerssimulatie_debug.exe"
-  "Verkeerssimulatie_debug.exe.manifest"
-  "libVerkeerssimulatie_debug.dll.a"
+  "Verkeerssimulatie_debug"
 )
 
 # Per-language clean rules from dependency scanning.
