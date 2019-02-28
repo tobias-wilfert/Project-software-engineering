@@ -11,15 +11,26 @@
 #include <algorithm>
 
 #include "tinyxml.h"
-
+#include "Voertuig.h"
+#include <sstream>      // std::istringstream
+#include "NullPointer.h"
+#include<set>
+#include "Baan.h"
 class XmlParser {
 private:
+    TiXmlDocument document;
+    std::string typeOfFile;
+    const char* fileName;
+    std::vector<Voertuig*> voertuigen;
+    std::vector<Baan*> banen;
+    std::vector<Baan*> wegenNetwerk;
 
 public:
-    XmlParser(const char* fileName);
-    bool isValidFile(TiXmlDocument& file,  const char* fileName);
-    std::string checkFileType(TiXmlDocument& document);
-
+    XmlParser(const char* nameOfFile);
+    bool isReadable();
+    std::string checkFileType();
+    void parseFile(); //als preconditie moet typeOfFile al bepaald zijn
+    int stoi(std::string string);
     /*
     vector<CD*> cdPointers = {};
 

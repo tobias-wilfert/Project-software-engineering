@@ -3,189 +3,122 @@
 //
 
 #include "XmlParser.h"
-#include "NullPointer.h"
-#include<set>
 
 
-XmlParser::XmlParser(const char* fileName) {
 
-    TiXmlDocument document;
+XmlParser::XmlParser(const char* nameOfFile) {
+    fileName = nameOfFile;
+    if(!isReadable()){
+        exit(1);
+    }; //stopt programma als niet readable
 
-    if(isValidFile(document, fileName)){
-        std::string typeOfFile = checkFileType(document);  // get document type
-    }
-
+    parseFile();
+    //typeOfFile = checkFileType();  // get document type
 
 }
 
 
 
 
-bool XmlParser::isValidFile(TiXmlDocument& file, const char* fileName) {
+bool XmlParser::isReadable(){
     //precon
     //postcon
     //checkt of file valid is
 
-    if(!file.LoadFile(fileName)) {
-        std::cerr << file.ErrorDesc() << std::endl;
-        std::cerr << "Error in document row: "<< file.ErrorRow() << std::endl;
+    if(!document.LoadFile(fileName)) {
+        std::cerr << document.ErrorDesc() << std::endl;
+        std::cerr << "Error in document row: "<< document.ErrorRow() << std::endl;
         return false;
 
 
     }
-    if(file.FirstChildElement() == NULL) { //if root == NULL
+    if(document.FirstChildElement() == NULL) { //if root == NULL
         std::cerr << "Failed to load file: No root element." << std::endl;
-        file.Clear();
+        document.Clear();
         return false;
 
     }
     return true;
 }
 
-std::string XmlParser::checkFileType(TiXmlDocument &document) {
-    TiXmlElement* root = document.FirstChildElement();
-    TiXmlElement* brother = root->FirstChildElement()->NextSiblingElement();
-    std::set<std::string> attribute;
+void XmlParser::parseFile() {
+    TiXmlElement* root = document.FirstChildElement(); //bepaal de root
+    std::string BAAN = "BAAN";
+    std::string VOERTUIG = "VOERTUIG";
 
-    for(TiXmlElement* elem = root->FirstChildElement(); elem != nullptr; elem = elem->NextSiblingElement()){
-        //CD* cd = new CD();
-        //cdPointers.push_back(cd);
-        TiXmlElement* currentElement;
-        if(elem->GetText() == "VOERTUIG"){}
-        if(elem->GetText() == "BAAN"){ // zoek voor verbinding, if verbinding aan
-            for(TiXmlElement* elem2 = elem->FirstChildElement(); elem2 != NULL;
-                elem2 = elem2->NextSiblingElement()) {
-                std::string elemName = elem2->Value();
-
-                const char* attr;
-                if(elemName == "verbinding") {
-                    if(attr != NULL){
-                            attribute.insert("verbinding");
-                        }
-                        //cout << attr << endl;
-                    }; // Do stuff with it
+    for (TiXmlElement* elem = root; elem != nullptr; elem = elem->NextSiblingElement()){
+        std::string o = elem->Value();
+        if (elem->Value() == VOERTUIG) {
+            Voertuig* voertuig = new Voertuig();
+            for (TiXmlElement *elem2 = elem->FirstChildElement(); elem2 != NULL; elem2 = elem2->NextSiblingElement()) {
+                std::string elemValue = elem2->Value();
+                std::string elemText = elem2->GetText();
+                if (elemValue == "type") {
+                    //if typeid(elemValue) != std:: string
+                    //else if nog een ander check
+                    //else
+                    voertuig->setType(elemText);
+                 }
+                else if (elemValue == "nummerplaat") {
+                    voertuig->setNummerPlaat(elemText);
+                }
+                else if (elemValue == "baan") {
+                    voertuig->setBaan(elemText);
+                }
+                else if (elemValue == "positie") {
+                    voertuig->setPositie(stoi(elemText));
+                }
+                else if (elemValue == "snelheid") {
+                    voertuig->setSnelheid(stoi(elemText));
+                }
+            }
+            voertuigen.push_back(voertuig);
         }
-        for(TiXmlElement* elem2 = elem->FirstChildElement(); elem2 != NULL;
-            elem2 = elem2->NextSiblingElement()) {
-            std::string elemName = elem2->Value();
-
-            const char* attr;
-            if(elemName == "ARTIST") {
-                if(attr != NULL){
-                    //cout << "Artist: " << elem->GetText() << endl;
-                    if(elem2->GetText() != NULL){
-                        cd->setArtist(elem2->GetText());
-                    }
-                    //cout << attr << endl;
+        if (elem->Value() == BAAN) { // zoek voor verbinding, if verbinding aan
+            Baan* baan = new Baan;
+            bool isWegenNetwerk = false;
+            for (TiXmlElement *elem2 = elem->FirstChildElement(); elem2 != NULL; elem2 = elem2->NextSiblingElement()) {
+                std::string elemValue = elem2->Value();
+                std::string elemText = elem2->GetText();
+                if (elemValue == "naam") {
+                    //if typeid(elemValue) != std:: string
+                    //else if nog een ander check
+                    //else
+                    baan->setNaam(elemText);
                 }
-                ; // Do stuff with it
+                else if (elemValue == "snelheidslimiet") {
+                    baan->setSnelheidsLimiet(stoi(elemText));
+                }
+                else if (elemValue == "lengte") {
+                    baan->setLengte(stoi(elemText));
+                }
+                else if (elemValue == "verbinding") {
+                    isWegenNetwerk = true;
+                    baan->setVerbinding(elemText);
+                }
             }
-            else if(elemName == "TITLE") {
-                if(attr != NULL){
-                    if(elem2->GetText() != NULL){
-                        cd->setTitle(elem2->GetText());
-                    }
-                    //cout << "Title: "<< elem->GetText() << endl;
-                    //cout << attr << endl;
-                }
-                ; // Do stuff with it
+            if(isWegenNetwerk){
+                wegenNetwerk.push_back(baan);
             }
-            else if(elemName == "COUNTRY") {
-                if(attr != NULL){
-                    if(elem2->GetText() != NULL){
-                        cd->setCountry(elem2->GetText());
-                    }
-                    //cout << "Title: "<< elem->GetText() << endl;
-                    //cout << attr << endl;
-                }
-                ; // Do stuff with it
+            else{
+                banen.push_back(baan);
             }
-            else if(elemName == "COMPANY") {
-                if(attr != NULL){
-                    if(elem2->GetText() != NULL){
-                        cd->setCompany(elem2->GetText());
-                    }
-                    // cout << "Title: "<< elem->GetText() << endl;
-                    //cout << attr << endl;
-                }
-                ; // Do stuff with it
-            }
-            else if(elemName == "PRICE") {
-
-
-                if(attr != NULL){
-                    if(elem2->GetText() != NULL) {
-                        try {
-                            double value = std::stod(elem2->GetText());
-                            cd->setPrice(stod(elem2->GetText()));
-                            //std::cout << "Converted string to a value of " << value << std::endl;
-                        }
-                        catch (std::exception &e) {
-                            std::cout << "Could not convert string to double" << std::endl;
-                        }
-                    }
-
-                    //cout << "Title: "<< elem->GetText() << endl;
-                    //cout << attr << endl;
-                }
-                ; // Do stuff with it
-            }
-            else if(elemName == "YEAR") {
-                if(attr != NULL){
-                    if(elem2->GetText() != NULL) {
-                        try {
-                            int value = std::stoi(elem2->GetText());
-                            cd->setYear(stoi(elem2->GetText()));
-                            //std::cout << "Converted string to a value of " << value << std::endl;
-                        }
-                        catch (std::exception &e) {
-                            std::cout << "Could not convert string to int" << std::endl;
-                        }
-                    }
-                    //cout << "Title: "<< elem->GetText() << endl;
-                    //cout << attr << endl;
-                }
-                ; // Do stuff with it
-            }
-
-
-
-
-            else if(elemName == "Element2") {
-                attr = elem->Attribute("attribute2");
-                if(attr != NULL){
-                    cout << attr << endl;
-                }
-                ; // Do stuff with it
-                attr = elem->Attribute("attribute3");
-                if(attr != NULL){
-                    cout << attr << endl;
-                }
-                ; // Do stuff with it
-
-                for(TiXmlElement* e = elem->FirstChildElement("Element3"); e != NULL;
-                    e = e->NextSiblingElement("Element3")){
-                    attr = e->Attribute("attribute4");
-                    if(attr != NULL){
-                        cout << attr << endl;
-                    }
-                    ; // Do stuff with it
-                }
-                for(TiXmlNode* e = elem->FirstChild(); e != NULL; e = e->NextSibling()){
-                    TiXmlText* text = e->ToText();
-                    if(text == NULL)
-                        continue;
-                    string t = text->Value();
-                    cout << t << endl;
-// Do stuff
-                }}
-
         }
     }
-
-    doc.Clear();
-
-    return fileType;
 }
+
+int XmlParser::stoi(std::string string) {
+    int i;
+    std::istringstream(string) >> i;
+    return i;
+}
+
+
+
+
+
+
+
+
 
 

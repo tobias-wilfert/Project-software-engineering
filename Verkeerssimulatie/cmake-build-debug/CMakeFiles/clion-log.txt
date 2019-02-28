@@ -1,4 +1,4 @@
-/opt/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/student/Desktop/Verkeerssimulatie
+"C:\Program Files\JetBrains\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\yanok\Desktop\bagonBuhay\PSE\Project-software-engineering\Verkeerssimulatie
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/student/Desktop/Verkeerssimulatie/cmake-build-debug
+-- Build files have been written to: C:/Users/yanok/Desktop/bagonBuhay/PSE/Project-software-engineering/Verkeerssimulatie/cmake-build-debug

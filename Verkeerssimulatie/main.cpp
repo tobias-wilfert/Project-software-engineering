@@ -4,8 +4,14 @@
 
 int main() {
 
-    const char* file =  "file1.xml";
-    XmlParser parser = XmlParser(file);
+    const char* fileName =  "Wegennetwerk.xml";
+
+    //vector<Weeg*> wegen;
+    //vector<Auto*> autos;
+    //vector<WegenNetwerk*> wegenNetwerken;
+
+    XmlParser parser = XmlParser(fileName);
+    //vector<Weeg*> wegen = parser.wegen()
 
     std::cout << "Hello, World!" << std::endl;
 
