@@ -12,10 +12,6 @@ string
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/NullPointer.h
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp
-Voertuig.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
-
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 string
 -
@@ -45,12 +41,6 @@ Voertuig.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 NullPointer.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/NullPointer.h
-
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/main.cpp
-iostream
--
-XmlParser.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinystr.h
 assert.h

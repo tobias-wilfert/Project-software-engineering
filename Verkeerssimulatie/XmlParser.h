@@ -8,7 +8,7 @@
 #include <set>
 #include <vector>
 #include <string>
-#include <sstream>      // std::istringstream
+#include <sstream>      // std::istringstream$
 #include <iostream>
 #include <algorithm>
 
@@ -16,6 +16,7 @@
 #include "tinyxml.h"
 #include "Voertuig.h"
 #include "NullPointer.h"
+
 
 class XmlParser {
 private:
@@ -31,8 +32,10 @@ public:
     bool isReadable();
     std::string checkFileType();
     void parseFile(); //als preconditie moet typeOfFile al bepaald zijn
-    int stoi(std::string string);
 
+    int stoi(std::string string) const;
+    bool is_digits(const std::string &str) const;
+    bool is_equal(const char* cc1, const char* cc2) const;
 };
 
 

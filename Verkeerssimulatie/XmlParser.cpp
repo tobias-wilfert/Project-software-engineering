@@ -71,38 +71,69 @@ void XmlParser::parseFile() {
     TiXmlElement* root = document.FirstChildElement();
 
     // Loop over all elements in the most outer scope
-    for (TiXmlElement* rootElement = root; rootElement != NULL; rootElement = rootElement->NextSiblingElement()){
+    for (TiXmlElement* rootElement = root; rootElement != NULL; rootElement = rootElement->NextSiblingElement()) {
 
         // If the type is "VOERTUIG"
-        if (rootElement->Value() == VOERTUIG) {
+        if (is_equal(rootElement->Value(),"VOERTUIG")) {
             // Make a new instance of 'voertuig'
-            Voertuig* voertuig = new Voertuig();
+            Voertuig *voertuig = new Voertuig();
             // Loop over all child elements of rootElement
-            for (TiXmlElement *childOfRootElement = rootElement->FirstChildElement(); childOfRootElement != NULL; childOfRootElement = childOfRootElement->NextSiblingElement()) {
+            for (TiXmlElement *childOfRootElement = rootElement->FirstChildElement();
+                 childOfRootElement != NULL; childOfRootElement = childOfRootElement->NextSiblingElement()) {
+
+
                 // Get the value and text
-                std::string elementValue = childOfRootElement->Value();
-                std::string elementText = childOfRootElement->GetText();
+                std::string elementText;
+                std::string elementValue;
+                try {
+                    // Check that the item is not NULL before we assign it.
+                    if (childOfRootElement->GetText() != NULL) {
+                        elementText = childOfRootElement->GetText();
+                    } else {
+                        throw "text Invalid";
+                    }
+
+                    if (childOfRootElement->Value() != NULL) {
+                        elementValue = childOfRootElement->Value();
+                    } else {
+                        throw "value Invalid";
+                    }
+                }
+                catch (const char* &error) {
+                    if (is_equal(error, "value Invalid")) {
+                        std::cerr << childOfRootElement << "->Value() is NULL." << std::endl;
+                    } else if (is_equal(error, "text Invalid")) {
+                        std::cerr << childOfRootElement->Value() << " tag is NULL." << std::endl;
+                    }
+                }
+
 
                 // Check the value of element Value
                 if (elementValue == "type") {
-                    // TODO: Add exception handling
                     voertuig->setType(elementText);
-                 }
-                else if (elementValue == "nummerplaat") {
-                    // TODO: Add exception handling
+
+                } else if (elementValue == "nummerplaat") {
                     voertuig->setNummerPlaat(elementText);
-                }
-                else if (elementValue == "baan") {
-                    // TODO: Add exception handling
+
+                } else if (elementValue == "baan") {
                     voertuig->setBaan(elementText);
-                }
-                else if (elementValue == "positie") {
-                    // TODO: Add exception handling
-                    voertuig->setPositie(stoi(elementText));
-                }
-                else if (elementValue == "snelheid") {
-                    // TODO: Add exception handling
-                    voertuig->setSnelheid(stoi(elementText));
+
+                } else if (elementValue == "positie") {
+                    try {
+                        voertuig->setPositie(stoi(elementText));
+                    }
+                    catch (const char* &error) {
+                        std::cerr << elementText << " can't be converted to a number." << std::endl;
+                    }
+
+                } else if (elementValue == "snelheid") {
+                    try {
+                        voertuig->setSnelheid(stoi(elementText));
+                    }
+                    catch (const char* &error) {
+                        std::cerr << elementText << " can't be converted to a number." << std::endl;
+                    }
+
                 }
             }
             // Add the new instance of 'voertuig' to 'voertuigen'
@@ -110,49 +141,111 @@ void XmlParser::parseFile() {
         }
 
         // If the type is "BAAN"
-        if (rootElement->Value() == BAAN) {
+        if (is_equal(rootElement->Value(),"BAAN")) {
             // Make a new instance of 'Baan'
-            Baan* baan = new Baan;
+            Baan *baan = new Baan;
+
             // Set 'isWegenNetwerk' to false as default
             bool isWegenNetwerk = false;
+
             // Loop over all child elements of rootElement
-            for (TiXmlElement *childOfRootElement = rootElement->FirstChildElement(); childOfRootElement != NULL; childOfRootElement = childOfRootElement->NextSiblingElement()) {
+            for (TiXmlElement *childOfRootElement = rootElement->FirstChildElement();
+                 childOfRootElement != NULL; childOfRootElement = childOfRootElement->NextSiblingElement()) {
+
+
                 // Get the value and text
-                std::string elementValue = childOfRootElement->Value();
-                std::string elementText = childOfRootElement->GetText();
+                std::string elementText;
+                std::string elementValue;
+                try {
+                    // Check that the item is not NULL before we assign it.
+                    if (childOfRootElement->GetText() != NULL) {
+                        elementText = childOfRootElement->GetText();
+                    } else {
+                        throw "text Invalid";
+                    }
+
+                    if (childOfRootElement->Value() != NULL) {
+                        elementValue = childOfRootElement->Value();
+                    } else {
+                        throw "value Invalid";
+                    }
+                }
+                catch (const char* &error) {
+                    if (is_equal(error, "value Invalid")) {
+                        std::cerr << childOfRootElement << "->Value() is NULL." << std::endl;
+                    } else if (is_equal(error, "text Invalid")) {
+                        std::cerr << childOfRootElement->Value() << " tag is NULL." << std::endl;
+                    }
+                }
+
 
                 // Check the value of element Value
                 if (elementValue == "naam") {
-                    // TODO: Add exception handling
                     baan->setNaam(elementText);
-                }
-                else if (elementValue == "snelheidslimiet") {
-                    // TODO: Add exception handling
-                    baan->setSnelheidsLimiet(stoi(elementText));
-                }
-                else if (elementValue == "lengte") {
-                    // TODO: Add exception handling
-                    baan->setLengte(stoi(elementText));
-                }
-                else if (elementValue == "verbinding") {
-                    // TODO: Add exception handling
-                    // Only wegennetwerk has the child element verbinding
+
+                } else if (elementValue == "snelheidslimiet") {
+                    try {
+                        baan->setSnelheidsLimiet(stoi(elementText));
+                    }
+                    catch (const char* &error) {
+                        std::cerr << elementText << " can't be converted to a number." << std::endl;
+                    }
+
+
+                } else if (elementValue == "lengte") {
+                    try {
+                        baan->setLengte(stoi(elementText));
+                    }
+                    catch (const char* &error) {
+                        std::cerr << elementText << " can't be converted to a number." << std::endl;
+                    }
+
+                } else if (elementValue == "verbinding") {
                     isWegenNetwerk = true;
                     baan->setVerbinding(elementText);
                 }
             }
-            if(isWegenNetwerk){
+
+            if (isWegenNetwerk) {
                 wegenNetwerk.push_back(baan);
-            }
-            else{
+            } else {
                 banen.push_back(baan);
             }
         }
     }
+
+    // TODO: Check Verifeer consitentie van deerkeersituatie ??
+
+    // Close file
+    document.Clear();
+
 }
 
-int XmlParser::stoi(std::string string) {
+int XmlParser::stoi(std::string string) const {
+    /**
+     * @param string  The string that is to be converted to an integer
+     * @pre The string must only contain digits
+     * @post If the conversion was succesful,
+     *       the integer of string will be returned else nothing
+     * @throw ConversionFailed
+     */
+
+    // Check that string contains only numbers
     int integer;
-    std::istringstream(string) >> integer;
+    if (is_digits(string)) {
+        std::istringstream(string) >> integer;
+    } else {
+        throw "ConversionFailed";
+    }
     return integer;
+}
+
+
+// Credit https://stackoverflow.com/questions/19678572/how-to-validate-that-there-are-only-digits-in-a-string
+bool XmlParser::is_digits(const std::string &str) const {
+    return str.find_first_not_of("0123456789") == std::string::npos;
+}
+
+bool XmlParser::is_equal(const char *cc1, const char *cc2) const {
+    return 0 == std::strncmp(cc1, cc2, std::strlen(cc1));
 }
