@@ -150,6 +150,33 @@ Baan.cpp.s:
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.s
 .PHONY : Baan.cpp.s
 
+System.o: System.cpp.o
+
+.PHONY : System.o
+
+# target to build an object file
+System.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o
+.PHONY : System.cpp.o
+
+System.i: System.cpp.i
+
+.PHONY : System.i
+
+# target to preprocess a source file
+System.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.i
+.PHONY : System.cpp.i
+
+System.s: System.cpp.s
+
+.PHONY : System.s
+
+# target to generate assembly for a file
+System.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.s
+.PHONY : System.cpp.s
+
 Voertuig.o: Voertuig.cpp.o
 
 .PHONY : Voertuig.o
@@ -351,6 +378,9 @@ help:
 	@echo "... Baan.o"
 	@echo "... Baan.i"
 	@echo "... Baan.s"
+	@echo "... System.o"
+	@echo "... System.i"
+	@echo "... System.s"
 	@echo "... Voertuig.o"
 	@echo "... Voertuig.i"
 	@echo "... Voertuig.s"

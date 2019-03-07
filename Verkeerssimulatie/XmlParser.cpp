@@ -4,68 +4,60 @@
 
 #include "XmlParser.h"
 
-
 XmlParser::XmlParser(const char* nameOfFile): fileName(nameOfFile) {
 
     // If file can't be read stop the program
-    if(!isReadable()){ exit(1); };
+    try {
+        isReadable();
+    }
+    catch (const char* &error){
+        std::cerr <<"Program was terminated because of an "<< error <<" thrown by isReadable()"<< std::endl;
+        exit(1);
+    }
+
     // Parse the file
     parseFile();
 
 }
 
-
 bool XmlParser::isReadable(){
-    // TODO: Add documentation
-    //precon
-    //postcon
-    //checkt of file valid is
+    /**
+     * @pre This instance of XmlParser was initialized properly
+     * @post Will throw an error if the file 'XmlParser.fileName' has xml formatting
+     *       errors that are so severe that the file can't be reed by the tinyxmlparser.
+     *       Before throwing the error  it will print debugging info.
+     * @throw FormattingError
+     * @return True if file can be read without problems
+     */
 
     if(!document.LoadFile(fileName)) {
         std::cerr << document.ErrorDesc() << std::endl;
         std::cerr << "Error in document row: "<< document.ErrorRow() << std::endl;
-        return false;
+        throw "FormattingError";
 
     }
     if(document.FirstChildElement() == NULL) { //if root == NULL
         std::cerr << "Failed to load file: No root element." << std::endl;
         document.Clear();
-        return false;
+        return "FormattingError";
 
     }
     return true;
 }
 
 std::string XmlParser::checkFileType() {
-    /*
-    TiXmlElement* root = document.FirstChildElement(); //bepaal de root
-
-    for (TiXmlElement* elem = root->FirstChildElement(); elem != nullptr; elem = elem->NextSiblingElement()) {
-        //wij gaan ervan uit dat wegen en voertuigen altijd autos hebben en dat wegennetwerk niet
-        // en dat wegennetwerk "verbinding" als element heeft
-        TiXmlElement *currentElement;
-        if (elem->GetText() == "VOERTUIG") {
-            return "Wegen en voertuigen";
-        }
-        if (elem->GetText() == "BAAN") { // zoek voor verbinding, if verbinding aan
-            for (TiXmlElement *elem2 = elem->FirstChildElement(); elem2 != NULL; elem2 = elem2->NextSiblingElement()) {
-                std::string elemName = elem2->Value();
-                if (elemName == "verbinding") {
-                    return "Wegennetwerk";
-                }
-            }
-        }
-    }*/
+    /**
+     * @pre This instance of XmlParser was initialized properly, XmlParser.document is readable
+     * @return Returns the type of XmlParser.document
+     */
     return "Wegennetwerk of Wegen en voertuigen";
 }
 
-
 void XmlParser::parseFile() {
-    // TODO: Add documentation
-
-    // Work around solution
-    std::string BAAN = "BAAN";
-    std::string VOERTUIG = "VOERTUIG";
+    /**
+     * @pre This instance of XmlParser was initialized properly, XmlParser.document is readable
+     * @post The file was parsed and the information is from the file is now available to the programme
+     */
 
     // Define the root of the file
     TiXmlElement* root = document.FirstChildElement();
@@ -73,41 +65,38 @@ void XmlParser::parseFile() {
     // Loop over all elements in the most outer scope
     for (TiXmlElement* rootElement = root; rootElement != NULL; rootElement = rootElement->NextSiblingElement()) {
 
-        // If the type is "VOERTUIG"
         if (is_equal(rootElement->Value(),"VOERTUIG")) {
-            // Make a new instance of 'voertuig'
             Voertuig *voertuig = new Voertuig();
+
             // Loop over all child elements of rootElement
             for (TiXmlElement *childOfRootElement = rootElement->FirstChildElement();
                  childOfRootElement != NULL; childOfRootElement = childOfRootElement->NextSiblingElement()) {
 
-
-                // Get the value and text
+                // Get the value and text of the element
                 std::string elementText;
                 std::string elementValue;
                 try {
-                    // Check that the item is not NULL before we assign it.
                     if (childOfRootElement->GetText() != NULL) {
                         elementText = childOfRootElement->GetText();
                     } else {
-                        throw "text Invalid";
+                        throw "InvalidText";
                     }
 
                     if (childOfRootElement->Value() != NULL) {
                         elementValue = childOfRootElement->Value();
                     } else {
-                        throw "value Invalid";
+                        throw "InvalidValue";
                     }
                 }
                 catch (const char* &error) {
-                    if (is_equal(error, "value Invalid")) {
+                    if (is_equal(error, "InvalidValue")) {
                         std::cerr << childOfRootElement << "->Value() is NULL." << std::endl;
-                    } else if (is_equal(error, "text Invalid")) {
+                    } else if (is_equal(error, "InvalidText")) {
                         std::cerr << childOfRootElement->Value() << " tag is NULL." << std::endl;
                     }
                 }
 
-
+                // TODO: Catch all inconsititentiess
                 // Check the value of element Value
                 if (elementValue == "type") {
                     voertuig->setType(elementText);
@@ -140,9 +129,7 @@ void XmlParser::parseFile() {
             voertuigen.push_back(voertuig);
         }
 
-        // If the type is "BAAN"
         if (is_equal(rootElement->Value(),"BAAN")) {
-            // Make a new instance of 'Baan'
             Baan *baan = new Baan;
 
             // Set 'isWegenNetwerk' to false as default
@@ -153,27 +140,26 @@ void XmlParser::parseFile() {
                  childOfRootElement != NULL; childOfRootElement = childOfRootElement->NextSiblingElement()) {
 
 
-                // Get the value and text
+                // Get the value and text of the element
                 std::string elementText;
                 std::string elementValue;
                 try {
-                    // Check that the item is not NULL before we assign it.
                     if (childOfRootElement->GetText() != NULL) {
                         elementText = childOfRootElement->GetText();
                     } else {
-                        throw "text Invalid";
+                        throw "InvalidText";
                     }
 
                     if (childOfRootElement->Value() != NULL) {
                         elementValue = childOfRootElement->Value();
                     } else {
-                        throw "value Invalid";
+                        throw "InvalidValue";
                     }
                 }
                 catch (const char* &error) {
-                    if (is_equal(error, "value Invalid")) {
+                    if (is_equal(error, "InvalidValue")) {
                         std::cerr << childOfRootElement << "->Value() is NULL." << std::endl;
-                    } else if (is_equal(error, "text Invalid")) {
+                    } else if (is_equal(error, "InvalidText")) {
                         std::cerr << childOfRootElement->Value() << " tag is NULL." << std::endl;
                     }
                 }
@@ -214,23 +200,32 @@ void XmlParser::parseFile() {
         }
     }
 
-    // TODO: Check Verifeer consitentie van deerkeersituatie ??
-
     // Close file
     document.Clear();
-
 }
 
-int XmlParser::stoi(std::string string) const {
+const std::vector<Baan*> &XmlParser::getBanen() const {
+    return banen;
+}
+
+const std::vector<Baan*> &XmlParser::getWegenNetwerk() const {
+    return wegenNetwerk;
+}
+
+const std::vector<Voertuig*> &XmlParser::getVoertuigen() const {
+    return voertuigen;
+}
+
+int XmlParser::stoi(std::string &string) const {
     /**
      * @param string  The string that is to be converted to an integer
      * @pre The string must only contain digits
      * @post If the conversion was succesful,
-     *       the integer of string will be returned else nothing
-     * @throw ConversionFailed
+     *       the integer of string will be returned else an error will be thrown
+     * @throw ConversionFailed if string can't be converted to integer
+     * @return An integer that consist of the same digits as string
      */
 
-    // Check that string contains only numbers
     int integer;
     if (is_digits(string)) {
         std::istringstream(string) >> integer;
@@ -240,12 +235,24 @@ int XmlParser::stoi(std::string string) const {
     return integer;
 }
 
-
-// Credit https://stackoverflow.com/questions/19678572/how-to-validate-that-there-are-only-digits-in-a-string
-bool XmlParser::is_digits(const std::string &str) const {
-    return str.find_first_not_of("0123456789") == std::string::npos;
+bool XmlParser::is_digits(const std::string &string) const {
+    /**
+     * @author Lingasamy Sakthivel at https://stackoverflow.com/a/19678719/8076979
+     * @param string The string that is to be checked if it only contains digits
+     * @pre None
+     * @post None
+     * @return True if string the string contains only digets else False
+     */
+    return string.find_first_not_of("0123456789") == std::string::npos;
 }
 
 bool XmlParser::is_equal(const char *cc1, const char *cc2) const {
-    return 0 == std::strncmp(cc1, cc2, std::strlen(cc1));
+    /**
+     * @param cc1 The first of the two const char that will be compared for equality
+     * @param cc2 The second of the two const char that will be compared for equality
+     * @pre None
+     * @pre None
+     * @return True if cc1 and cc2 are equal on the length of cc1 + 1 else False
+     */
+    return 0 == std::strncmp(cc1, cc2, std::strlen(cc1)+1);
 }

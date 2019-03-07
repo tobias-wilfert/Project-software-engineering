@@ -8,7 +8,7 @@
 #include <set>
 #include <vector>
 #include <string>
-#include <sstream>      // std::istringstream$
+#include <sstream>
 #include <iostream>
 #include <algorithm>
 
@@ -28,14 +28,26 @@ private:
     std::vector<Voertuig*> voertuigen;
 
 public:
-    XmlParser(const char* nameOfFile);
-    bool isReadable();
-    std::string checkFileType();
-    void parseFile(); //als preconditie moet typeOfFile al bepaald zijn
 
-    int stoi(std::string string) const;
-    bool is_digits(const std::string &str) const;
+    XmlParser(const char* nameOfFile);
+
+    bool isReadable();
+
+    std::string checkFileType();
+
+    void parseFile();
+
+    int stoi(std::string &string) const;
+
+    bool is_digits(const std::string &string) const;
+
     bool is_equal(const char* cc1, const char* cc2) const;
+
+    const std::vector<Baan*> &getBanen() const;
+
+    const std::vector<Baan*> &getWegenNetwerk() const;
+
+    const std::vector<Voertuig*> &getVoertuigen() const;
 };
 
 

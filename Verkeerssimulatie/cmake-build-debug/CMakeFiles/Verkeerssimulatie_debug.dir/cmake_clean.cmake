@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o"
   "CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o"
   "CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o"
+  "CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o"
   "Verkeerssimulatie_debug.pdb"
   "Verkeerssimulatie_debug"
 )
