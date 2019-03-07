@@ -4,10 +4,10 @@
 
 #include "Voertuig.h"
 
-Voertuig::Voertuig(const std::string &type, const std::string &nummerPlaat, const std::string &baan, int positie,
-                   unsigned int snelheid):
+Voertuig::Voertuig(const std::string &type, const std::string &nummerPlaat, const std::string &baan, double positie,
+                   double snelheid):
 
-type (type), nummerPlaat(nummerPlaat), baan(baan), positie(positie), snelheid(snelheid) {}
+        positie(positie), snelheid(snelheid), baan(baan), type (type), nummerPlaat(nummerPlaat), nextVoertuig(nullptr98){}
 
 const std::string &Voertuig::getType() const {
     return type;
@@ -33,7 +33,7 @@ void Voertuig::setBaan(const std::string &baan) {
     Voertuig::baan = baan;
 }
 
-int Voertuig::getPositie() const {
+double Voertuig::getPositie() const {
     return positie;
 }
 
@@ -41,7 +41,7 @@ void Voertuig::setPositie(int positie) {
     Voertuig::positie = positie;
 }
 
-int Voertuig::getSnelheid() const {
+double Voertuig::getSnelheid() const {
     return snelheid;
 }
 
@@ -49,4 +49,10 @@ void Voertuig::setSnelheid(int snelheid) {
     Voertuig::snelheid = snelheid;
 }
 
-Voertuig::Voertuig() {}
+Voertuig::Voertuig():nextVoertuig(nullptr98) {}
+
+
+
+void Voertuig::setNextVoertuig(Voertuig *nextVoertuig) {
+    Voertuig::nextVoertuig = nextVoertuig;
+}

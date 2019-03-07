@@ -6,21 +6,27 @@
 #define VERKEERSSIMULATIE_VOERTUIG_H
 
 #include <string>
+#include "NullPointer.h"
 
 class Voertuig {
 private:
-    int positie;
-    int snelheid;
+    double positie;
+    double snelheid;
     std::string baan;
     std::string type;
     std::string nummerPlaat;
+    Voertuig* nextVoertuig;
 public:
-    Voertuig(const std::string &type, const std::string &nummerPlaat, const std::string &baan, int positie,
-             unsigned int snelheid);
+    Voertuig(const std::string &type, const std::string &nummerPlaat, const std::string &baan, double positie,
+             double snelheid);
+    Voertuig();
+
+    void setNextVoertuig(Voertuig *nextVoertuig);
+    void setPreviousVoertuig(Voertuig *previousVoertuig);
+
 
     const std::string &getType() const;
 
-    Voertuig();
 
     void setType(const std::string &type);
 
@@ -32,13 +38,16 @@ public:
 
     void setBaan(const std::string &baan);
 
-    int getPositie() const;
+    double getPositie() const;
 
     void setPositie(int positie);
 
-    int getSnelheid() const;
+    double getSnelheid() const;
 
     void setSnelheid(int snelheid);
+
+
+    void updatePosition();
 
 };
 

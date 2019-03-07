@@ -9,8 +9,8 @@
 
 class Baan {
 private:
-    int lengte;
-    int snelheidsLimiet;
+    double lengte;
+    double snelheidsLimiet;
     std::string naam;
     std::string verbinding;
 public:
@@ -20,11 +20,11 @@ public:
 
     void setNaam(const std::string &naam);
 
-    int getLengte() const;
+    double getLengte() const;
 
     void setLengte(int lengte);
 
-    int getSnelheidsLimiet() const;
+    double getSnelheidsLimiet() const;
 
     void setSnelheidsLimiet(int snelheidsLimiet);
 

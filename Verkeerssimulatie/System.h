@@ -8,23 +8,36 @@
 #include <vector>
 #include <string>
 #include <iostream>
+#include <map>
 
 #include "Baan.h"
 #include "Voertuig.h"
 
 class System {
 private:
-    std::vector<Baan> Banen;
-    std::vector<Baan> WegenNetwerk;
-    std::vector<Voertuig> Voertuigen;
+    std::vector<Baan*>* Banen;
+    std::vector<Baan*>* WegenNetwerk;
+    std::vector<Voertuig*>* Voertuigen;
+    std::map<std::string ,std::vector<Voertuig*>*> organizedVehicles;
 public:
-    void setBanen(const std::vector<Baan> &Banen);
+    std::vector<Baan *> *getBanen() const;
 
-    void setWegenNetwerk(const std::vector<Baan> &WegenNetwerk);
+    std::vector<Baan *> *getWegenNetwerk() const;
 
-    void setVoertuigen(const std::vector<Voertuig> &Voertuigen);
+    std::vector<Voertuig *> *getVoertuigen() const;
 
     void simpeleUitvoer() const;
+
+    void setBanen(std::vector<Baan *> *Banen);
+
+    void setWegenNetwerk(std::vector<Baan *> *WegenNetwerk);
+
+    void setVoertuigen(std::vector<Voertuig *> *Voertuigen);
+
+    void simulate(unsigned int elapsedTime = 1);
+
+    void organizeVehicles();
+    void beginSimulation();
 
 };
 

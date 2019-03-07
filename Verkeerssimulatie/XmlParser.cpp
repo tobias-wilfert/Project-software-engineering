@@ -2,10 +2,13 @@
 // Created by student on 25.02.19.
 //
 
+#include <cstring>
 #include "XmlParser.h"
 
 XmlParser::XmlParser(const char* nameOfFile): fileName(nameOfFile) {
-
+    voertuigen = new  std::vector<Voertuig*>;
+    banen = new  std::vector<Baan*>;
+    wegenNetwerk = new  std::vector<Baan*>;
     // If file can't be read stop the program
     try {
         isReadable();
@@ -126,7 +129,7 @@ void XmlParser::parseFile() {
                 }
             }
             // Add the new instance of 'voertuig' to 'voertuigen'
-            voertuigen.push_back(voertuig);
+            voertuigen->push_back(voertuig);
         }
 
         if (is_equal(rootElement->Value(),"BAAN")) {
@@ -193,9 +196,9 @@ void XmlParser::parseFile() {
             }
 
             if (isWegenNetwerk) {
-                wegenNetwerk.push_back(baan);
+                wegenNetwerk->push_back(baan);
             } else {
-                banen.push_back(baan);
+                banen->push_back(baan);
             }
         }
     }
@@ -204,17 +207,7 @@ void XmlParser::parseFile() {
     document.Clear();
 }
 
-const std::vector<Baan*> &XmlParser::getBanen() const {
-    return banen;
-}
 
-const std::vector<Baan*> &XmlParser::getWegenNetwerk() const {
-    return wegenNetwerk;
-}
-
-const std::vector<Voertuig*> &XmlParser::getVoertuigen() const {
-    return voertuigen;
-}
 
 int XmlParser::stoi(std::string &string) const {
     /**
@@ -255,4 +248,16 @@ bool XmlParser::is_equal(const char *cc1, const char *cc2) const {
      * @return True if cc1 and cc2 are equal on the length of cc1 + 1 else False
      */
     return 0 == std::strncmp(cc1, cc2, std::strlen(cc1)+1);
+}
+
+std::vector<Voertuig *> *XmlParser::getVoertuigen() const {
+    return voertuigen;
+}
+
+std::vector<Baan *> *XmlParser::getBanen() const {
+    return banen;
+}
+
+std::vector<Baan *> *XmlParser::getWegenNetwerk() const {
+    return wegenNetwerk;
 }

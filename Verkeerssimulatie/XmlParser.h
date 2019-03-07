@@ -23,9 +23,9 @@ private:
     const char* fileName;
     TiXmlDocument document;
     std::string typeOfFile;
-    std::vector<Baan*> banen;
-    std::vector<Baan*> wegenNetwerk;
-    std::vector<Voertuig*> voertuigen;
+    std::vector<Voertuig*>* voertuigen;
+    std::vector<Baan*>* banen;
+    std::vector<Baan*>* wegenNetwerk;
 
 public:
 
@@ -43,11 +43,12 @@ public:
 
     bool is_equal(const char* cc1, const char* cc2) const;
 
-    const std::vector<Baan*> &getBanen() const;
+    std::vector<Voertuig *> *getVoertuigen() const;
 
-    const std::vector<Baan*> &getWegenNetwerk() const;
+    std::vector<Baan *> *getBanen() const;
 
-    const std::vector<Voertuig*> &getVoertuigen() const;
+    std::vector<Baan *> *getWegenNetwerk() const;
+
 };
 
 

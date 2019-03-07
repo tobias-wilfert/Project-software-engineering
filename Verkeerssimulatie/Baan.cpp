@@ -14,7 +14,7 @@ void Baan::setNaam(const std::string &naam) {
     Baan::naam = naam;
 }
 
-int Baan::getLengte() const {
+double Baan::getLengte() const {
     return lengte;
 }
 
@@ -22,7 +22,7 @@ void Baan::setLengte(int lengte) {
     Baan::lengte = lengte;
 }
 
-int Baan::getSnelheidsLimiet() const {
+double Baan::getSnelheidsLimiet() const {
     return snelheidsLimiet;
 }
 

@@ -5,10 +5,12 @@ CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o: ../Baan.cpp
 CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o: ../Baan.h
 
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../Baan.h
+CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../NullPointer.h
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../System.cpp
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../System.h
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../Voertuig.h
 
+CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o: ../NullPointer.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o: ../Voertuig.cpp
 CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o: ../Voertuig.h
 
