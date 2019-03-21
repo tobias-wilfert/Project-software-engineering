@@ -32,7 +32,7 @@ void System::simpeleUitvoer() const {
     }
     for(unsigned int i = 0; i<Voertuigen->size(); i++){
         std::cout << "\nVoertuig: " << Voertuigen->at(i)->getType() << " (" << Voertuigen->at(i)->getNummerPlaat() << ")"<< std::endl;
-        std::cout << "\t-> baan: " << Voertuigen->at(i)->getBaan() << std::endl;
+        std::cout << "\t-> baan: " << Voertuigen->at(i)->getBaan()<< std::endl;
         std::cout << "\t-> positie: " << Voertuigen->at(i)->getPositie() << " m" << std::endl;
         std::cout << "\t-> snelheid: " << Voertuigen->at(i)->getSnelheid() << " km/h" << std::endl;
     }
@@ -89,5 +89,89 @@ void System::organizeVehicles() {
             Voertuigen->at(i)->setNextVoertuig(tempNextVoertuig);
         }
     }
+}
+
+void System::beginSimulation(int iterations) {
+    organizeVehicles();
+    initializeVehicleBaanObject();
+    initializeBaanVerbindingObjects();
+    for(int i = 0; i < iterations; i++){
+        for(unsigned int j = 0; j < Voertuigen->size(); j ++){
+            Voertuigen->at(j)->updatePosition();
+        }
+        //remove to be deleted vehicles
+        filterVehicles();
+
+    }
+}
+
+void System::initializeVehicleBaanObject() {
+    for(unsigned int i = 0; i < Voertuigen->size(); i++){
+        bool found = false;
+        std::string currentVehicleWay = Voertuigen->at(i)->getBaan();
+        for(unsigned int j = 0; j < Banen->size(); j++){
+            if(currentVehicleWay == Banen->at(j)->getNaam()){
+                Voertuigen->at(i)->setBaanObject(Banen->at(j));
+                found = true;
+            }
+        }
+        if(!found){
+            for(unsigned int j = 0; j < WegenNetwerk->size(); j++){
+                if(currentVehicleWay == WegenNetwerk->at(j)->getNaam()){
+                    Voertuigen->at(i)->setBaanObject(WegenNetwerk->at(j));
+                }
+            }
+        }
+    }
+}
+
+void System::initializeBaanVerbindingObjects() {
+    for(unsigned int i = 0; i < WegenNetwerk->size(); i++){
+        bool found = false;
+        std::string currentWay = WegenNetwerk->at(i)->getVerbinding();
+        for(unsigned int j = 0; j < Banen->size(); j++){
+            if(currentWay == Banen->at(j)->getNaam()){
+                WegenNetwerk->at(i)->setVerbindingObject(Banen->at(j));
+                found = true;
+            }
+        }
+        if(!found){
+            for(unsigned int j = 0; j < WegenNetwerk->size(); j++){
+                if(currentWay == WegenNetwerk->at(j)->getNaam()){
+                    WegenNetwerk->at(i)->setVerbindingObject(WegenNetwerk->at(j));
+                }
+            }
+
+        }
+    }
+
+}
+
+void System::filterVehicles() {
+    std::vector<Voertuig*>* tempVoertuigen = new std::vector<Voertuig*>;
+    if(Voertuigen->size() > 0){
+        for(unsigned int i = 0; i < Voertuigen->size(); i++){
+            if(!Voertuigen->at(i)->isDeleteObject()){//if vehicle is not to be deleted then place this to a vector
+                tempVoertuigen->push_back(Voertuigen->at(i));
+            }
+        }
+        for(unsigned long j = Voertuigen->size()-1; j > 0; j--){
+            if(Voertuigen->at(j)->isDeleteObject()){
+                delete Voertuigen->at(j);
+            }
+        }
+        delete Voertuigen;
+        Voertuigen = tempVoertuigen;
+    }
+
+}
+
+void System::automaticSimulation() {
+    while(Voertuigen->size()>0){
+        beginSimulation();
+        std::cout << "\n \n \n #######################################################################" << std::endl;
+        simpeleUitvoer();
+    }
+
 }
 

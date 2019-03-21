@@ -6,6 +6,8 @@
 #define VERKEERSSIMULATIE_BAAN_H
 
 #include <string>
+#include "NullPointer.h"
+
 
 class Baan {
 private:
@@ -13,10 +15,17 @@ private:
     double snelheidsLimiet;
     std::string naam;
     std::string verbinding;
+    Baan* verbindingObject;
 public:
     Baan();
 
+    virtual ~Baan();
+
     const std::string &getNaam() const;
+
+    const std::string &getVerbinding() const;
+
+    void setVerbinding(const std::string &verbinding);
 
     void setNaam(const std::string &naam);
 
@@ -28,9 +37,9 @@ public:
 
     void setSnelheidsLimiet(int snelheidsLimiet);
 
-    const std::string &getVerbinding() const;
+    Baan *getVerbindingObject() const;
 
-    void setVerbinding(const std::string &verbinding);
+    void setVerbindingObject(Baan *verbinding);
 };
 
 

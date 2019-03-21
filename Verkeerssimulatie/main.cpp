@@ -14,6 +14,12 @@ int main() {
     system.setVoertuigen(parser.getVoertuigen());
     system.simpeleUitvoer();
     system.organizeVehicles();
+    std::cout << "\n \n \n #######################################################################" << std::endl;
+
+    //system.beginSimulation(500);
+    //system.simpeleUitvoer();
+    system.automaticSimulation();
+
     std::cout << "The program executed till here without crashing." << std::endl;
     return 0;
 }

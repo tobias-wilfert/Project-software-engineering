@@ -70,6 +70,8 @@ void XmlParser::parseFile() {
 
         if (is_equal(rootElement->Value(),"VOERTUIG")) {
             Voertuig *voertuig = new Voertuig();
+            voertuig->setLengte(3.0);
+            voertuig->setDeleteObject(false);
 
             // Loop over all child elements of rootElement
             for (TiXmlElement *childOfRootElement = rootElement->FirstChildElement();
@@ -113,6 +115,7 @@ void XmlParser::parseFile() {
                 } else if (elementValue == "positie") {
                     try {
                         voertuig->setPositie(stoi(elementText));
+                        voertuig->setOldPositie(stoi(elementText));
                     }
                     catch (const char* &error) {
                         std::cerr << elementText << " can't be converted to a number." << std::endl;

@@ -18,7 +18,7 @@ private:
     std::vector<Baan*>* Banen;
     std::vector<Baan*>* WegenNetwerk;
     std::vector<Voertuig*>* Voertuigen;
-    std::map<std::string ,std::vector<Voertuig*>*> organizedVehicles;
+    //std::map<std::string ,std::vector<Voertuig*>*> organizedVehicles;
 public:
     std::vector<Baan *> *getBanen() const;
 
@@ -37,8 +37,15 @@ public:
     void simulate(unsigned int elapsedTime = 1);
 
     void organizeVehicles();
-    void beginSimulation();
 
+    void initializeVehicleBaanObject();
+    void beginSimulation(int iterations = 1);
+
+    void initializeBaanVerbindingObjects();
+
+    void filterVehicles(); //removes invalid vehicles (vehicles with position out of bounds)
+
+    void automaticSimulation();
 };
 
 

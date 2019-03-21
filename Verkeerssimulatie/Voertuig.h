@@ -6,24 +6,43 @@
 #define VERKEERSSIMULATIE_VOERTUIG_H
 
 #include <string>
-#include "NullPointer.h"
+#include <vector>
+#include "Baan.h"
 
 class Voertuig {
 private:
+    double lengte;
+    double oldPositie;
     double positie;
     double snelheid;
     std::string baan;
     std::string type;
     std::string nummerPlaat;
     Voertuig* nextVoertuig;
+    Baan* baanObject;
+    bool deleteObject;
+
+
 public:
-    Voertuig(const std::string &type, const std::string &nummerPlaat, const std::string &baan, double positie,
+    Baan *getBaanObject() const;
+
+    void setBaanObject(Baan *baanObject);
+
+    bool isDeleteObject() const;
+
+    void setLengte(double lengte);
+
+    void setDeleteObject(bool deleteObject);
+
+    Voertuig(const std::string &type, const std::string &nummerPlaat, std::string baan, double positie,
              double snelheid);
     Voertuig();
 
-    void setNextVoertuig(Voertuig *nextVoertuig);
-    void setPreviousVoertuig(Voertuig *previousVoertuig);
+    const std::string &getBaan() const;
 
+    void setBaan(const std::string &baan);
+
+    void setNextVoertuig(Voertuig *nextVoertuig);
 
     const std::string &getType() const;
 
@@ -34,9 +53,7 @@ public:
 
     void setNummerPlaat(const std::string &nummerPlaat);
 
-    const std::string &getBaan() const;
 
-    void setBaan(const std::string &baan);
 
     double getPositie() const;
 
@@ -46,8 +63,15 @@ public:
 
     void setSnelheid(int snelheid);
 
+    double getLengte() const;
+
+    double getOldPositie() const;
+
+    void setOldPositie(double oldPositie);
 
     void updatePosition();
+
+    virtual ~Voertuig();
 
 };
 
