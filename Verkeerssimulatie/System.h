@@ -1,15 +1,16 @@
-//
-// Created by Tobias Wilfert on 2019-03-06.
-//
+//============================================================================
+// Name        : System.h
+// Author      : John Castillo & Tobias Wilfert
+// Version     : 1.0
+// Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
+// Description : Verkeerssimulatie in C++
+//============================================================================
 
 #ifndef VERKEERSSIMULATIE_SYSTEM_H
 #define VERKEERSSIMULATIE_SYSTEM_H
 
 #include <vector>
-#include <string>
 #include <iostream>
-#include <map>
-
 #include "Baan.h"
 #include "Voertuig.h"
 
@@ -18,8 +19,11 @@ private:
     std::vector<Baan*>* Banen;
     std::vector<Baan*>* WegenNetwerk;
     std::vector<Voertuig*>* Voertuigen;
-    //std::map<std::string ,std::vector<Voertuig*>*> organizedVehicles;
+
 public:
+
+    System(std::vector<Baan *> *Banen, std::vector<Baan *> *WegenNetwerk, std::vector<Voertuig *> *Voertuigen);
+
     std::vector<Baan *> *getBanen() const;
 
     std::vector<Baan *> *getWegenNetwerk() const;

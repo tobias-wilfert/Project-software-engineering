@@ -1,6 +1,10 @@
-//
-// Created by yanok on 28/02/2019.
-//
+//============================================================================
+// Name        : Voertuig.cpp
+// Author      : John Castillo & Tobias Wilfert
+// Version     : 1.0
+// Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
+// Description : Verkeerssimulatie in C++
+//============================================================================
 
 #include "Voertuig.h"
 
@@ -8,9 +12,9 @@ Voertuig::Voertuig(const std::string &type, const std::string &nummerPlaat, std:
                    double snelheid):
 
         lengte(3.0), oldPositie(positie), positie(positie), snelheid(snelheid), baan(baan), type (type),
-        nummerPlaat(nummerPlaat), nextVoertuig(nullptr98), baanObject(nullptr98), deleteObject(false){}
+        nummerPlaat(nummerPlaat), nextVoertuig(0), baanObject(0), deleteObject(false){}
 
-Voertuig::Voertuig(){};
+Voertuig::Voertuig(): nextVoertuig(0), deleteObject(false){}
 
 const std::string &Voertuig::getType() const {
     return type;
@@ -62,7 +66,7 @@ void Voertuig::updatePosition() {
     dIdeal = 0;
     dActual = 0;
     //calculate dIdeal
-    if(nextVoertuig != nullptr98){
+    if(nextVoertuig != 0){
         dIdeal = (0.75) * snelheid + nextVoertuig->getLengte() + 2;
     //calculate dActual
         dActual = nextVoertuig->getOldPositie() - nextVoertuig->getLengte() - positie;
@@ -70,7 +74,7 @@ void Voertuig::updatePosition() {
 
     //calculate acceleration
     versnelling = 0.5*(dActual - dIdeal);
-    if(nextVoertuig == nullptr98){
+    if(nextVoertuig == 0){
         versnelling = 2.0;
     }
     // if a out of bounds is then take maximum of minimum bound
@@ -93,7 +97,7 @@ void Voertuig::updatePosition() {
     positie  = snelheid + positie;
 
     if(positie > baanObject->getLengte()){
-        if(baanObject->getVerbindingObject() != nullptr98){
+        if(baanObject->getVerbindingObject() != 0){
             positie = positie - baanObject->getLengte();
             baanObject = baanObject->getVerbindingObject();
             baan = baanObject->getNaam();

@@ -1,11 +1,15 @@
-//
-// Created by yanok on 28/02/2019.
-//
+//============================================================================
+// Name        : Baan.cpp
+// Author      : John Castillo & Tobias Wilfert
+// Version     : 1.0
+// Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
+// Description : Verkeerssimulatie in C++
+//============================================================================
 
 #include "Baan.h"
 
 Baan::Baan() {
-    verbindingObject = nullptr98;
+    verbindingObject = 0;
 }
 
 const std::string &Baan::getNaam() const {

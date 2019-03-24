@@ -1,22 +1,20 @@
-//
-// Created by student on 25.02.19.
-//
+//============================================================================
+// Name        : XmlParser.h
+// Author      : John Castillo & Tobias Wilfert
+// Version     : 1.0
+// Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
+// Description : Verkeerssimulatie in C++
+//============================================================================
 
 #ifndef DESKTOP_XMLPARSER_H
 #define DESKTOP_XMLPARSER_H
 
-#include <set>
-#include <vector>
-#include <string>
 #include <sstream>
 #include <iostream>
 #include <algorithm>
-
 #include "Baan.h"
 #include "tinyxml.h"
 #include "Voertuig.h"
-#include "NullPointer.h"
-
 
 class XmlParser {
 private:

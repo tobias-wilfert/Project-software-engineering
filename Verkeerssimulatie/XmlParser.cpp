@@ -1,6 +1,10 @@
-//
-// Created by student on 25.02.19.
-//
+//============================================================================
+// Name        : XmlParser.cpp
+// Author      : John Castillo & Tobias Wilfert
+// Version     : 1.0
+// Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
+// Description : Verkeerssimulatie in C++
+//============================================================================
 
 #include <cstring>
 #include "XmlParser.h"
@@ -70,8 +74,9 @@ void XmlParser::parseFile() {
 
         if (is_equal(rootElement->Value(),"VOERTUIG")) {
             Voertuig *voertuig = new Voertuig();
+            // Set defaults
             voertuig->setLengte(3.0);
-            voertuig->setDeleteObject(false);
+
 
             // Loop over all child elements of rootElement
             for (TiXmlElement *childOfRootElement = rootElement->FirstChildElement();

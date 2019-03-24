@@ -1,11 +1,14 @@
-//
-// Created by yanok on 28/02/2019.
-//
+//============================================================================
+// Name        : Voertuig.h
+// Author      : John Castillo & Tobias Wilfert
+// Version     : 1.0
+// Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
+// Description : Verkeerssimulatie in C++
+//============================================================================
 
 #ifndef VERKEERSSIMULATIE_VOERTUIG_H
 #define VERKEERSSIMULATIE_VOERTUIG_H
 
-#include <string>
 #include <vector>
 #include "Baan.h"
 

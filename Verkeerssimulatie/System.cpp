@@ -1,6 +1,10 @@
-//
-// Created by Tobias Wilfert on 2019-03-06.
-//
+//============================================================================
+// Name        : System.cpp
+// Author      : John Castillo & Tobias Wilfert
+// Version     : 1.0
+// Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
+// Description : Verkeerssimulatie in C++
+//============================================================================
 
 #include "System.h"
 
@@ -167,11 +171,15 @@ void System::filterVehicles() {
 }
 
 void System::automaticSimulation() {
+
     while(Voertuigen->size()>0){
         beginSimulation();
-        std::cout << "\n \n \n #######################################################################" << std::endl;
+        std::cout << "\n " << std::endl;
+        std::cout << "+-----------------------------------------------------+" << std::endl;
         simpeleUitvoer();
     }
-
 }
+
+System::System(std::vector<Baan *> *Banen, std::vector<Baan *> *WegenNetwerk, std::vector<Voertuig *> *Voertuigen)
+        : Banen(Banen), WegenNetwerk(WegenNetwerk), Voertuigen(Voertuigen) {}
 
