@@ -14,24 +14,34 @@
 class Voertuig {
 private:
 
+    /// The length of the Vehicle (3m per default)
     double fLengte;
 
+    /// The position of the Vehicle on a Baan in m from the start
     double fPositie;
 
+    /// Speed of the Vehicle in km/h
     double fSnelheid;
 
+    /// Ths old Position of the Vehicle before the last time interval
     double fOldPositie;
 
+    /// The name of the Baan the Vehicle is on
     std::string fBaan;
 
+    /// The Type of the Vehicle
     std::string fType;
 
+    /// The number Plate of the Vehicle used as unique ID
     std::string fNummerPlaat;
 
+    /// A pointer to the Baan the Vehicle is currently on
     Baan* fBaanObject;
 
+    /// A pointer to the Vehicle in front of this Vehicle
     Voertuig* fNextVoertuig;
 
+    /// Boolean value that is true if the vehicle should be deleted
     bool fDeleteObject;
 
 public:
@@ -80,8 +90,11 @@ public:
 
     void setDeleteObject(bool deleteObject);
 
-    // Method's (that aren't getters or setters)
-
+    /**
+     * This method updates the position of the the Vehicle as well as speed and acceleration
+     * @pre A valid Vehicle
+     * @post A Vehicle with updated position, speed and acceleration
+     */
     void updatePosition();
 
 };

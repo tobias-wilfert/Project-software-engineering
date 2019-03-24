@@ -32,7 +32,7 @@ void Baan::setNaam(const std::string &naam) {
     Baan::fNaam = naam;
 }
 
-const double &Baan::getSnelheidsLimiet() const {
+const int &Baan::getSnelheidsLimiet() const {
     return fSnelheidsLimiet;
 }
 

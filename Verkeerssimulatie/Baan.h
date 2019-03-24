@@ -14,17 +14,23 @@
 class Baan {
 private:
 
+    /// Length of the Baan in meters
     double fLengte;
 
-    double fSnelheidsLimiet;
+    /// The speed Limit of the Baan in km/h represented as an integer
+    int fSnelheidsLimiet;
 
+    /// The Name of the Baan represented as a string
     std::string fNaam;
 
+    /// The Name of the Baan that this Baan has a Verbinding with
     std::string fVerbinding;
 
+    /// A pointer to the instance of Baan that this Instance has a Verbining with
     Baan* fVerbindingObject;
 
 public:
+
     Baan();
 
     virtual ~Baan();
@@ -37,7 +43,7 @@ public:
 
     void setNaam(const std::string &naam);
 
-    const double &getSnelheidsLimiet() const;
+    const int &getSnelheidsLimiet() const;
 
     void setSnelheidsLimiet(const int &snelheidsLimiet);
 
