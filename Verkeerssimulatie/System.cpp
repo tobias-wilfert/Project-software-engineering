@@ -37,7 +37,7 @@ void System::setVoertuigen(std::vector<Voertuig *> *Voertuigen) {
 
 void System::organizeVehicles() {
     for(unsigned int i = 0; i<fVoertuigen->size(); i++){
-        Voertuig* tempNextVoertuig;
+        Voertuig* tempNextVoertuig = 0;
         bool isFirst = true;
         for(unsigned int j = 0; j<fVoertuigen->size(); j++){
             if(j == i){
@@ -56,9 +56,7 @@ void System::organizeVehicles() {
                 }
             }
         }
-        if(!isFirst){ //alleen setten als tempNextVoertuig bestaat
-            fVoertuigen->at(i)->setNextVoertuig(tempNextVoertuig);
-        }
+        fVoertuigen->at(i)->setNextVoertuig(tempNextVoertuig);
     }
 }
 
@@ -106,12 +104,14 @@ void System::initializeBaanVerbindingObjects() {
 
 void System::filterVehicles() {
     std::vector<Voertuig*>* tempVoertuigen = new std::vector<Voertuig*>;
+
     if(fVoertuigen->size() > 0){
         for(unsigned int i = 0; i < fVoertuigen->size(); i++){
             if(!fVoertuigen->at(i)->isDeleteObject()){//if vehicle is not to be deleted then place this to a vector
                 tempVoertuigen->push_back(fVoertuigen->at(i));
             }
         }
+        // Needs adjustment
         for(unsigned long j = fVoertuigen->size()-1; j > 0; j--){
             if(fVoertuigen->at(j)->isDeleteObject()){
                 delete fVoertuigen->at(j);
@@ -120,7 +120,6 @@ void System::filterVehicles() {
         delete fVoertuigen;
         fVoertuigen = tempVoertuigen;
     }
-
 }
 
 void System::simpeleUitvoer() const {
@@ -157,7 +156,6 @@ void System::simulate(unsigned int iterations) {
 
     }
 }
-
 
 void System::automaticSimulation() {
 

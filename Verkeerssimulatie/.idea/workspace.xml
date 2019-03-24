@@ -33,7 +33,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97f6ac4c-9f6e-424c-94a1-4321ba53fd38" name="Default" comment="Replaced Nullpointer with O and added Header Comments to all files.">
-      <change afterPath="$PROJECT_DIR$/DesignByContract.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ADT_Stack/Node.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ADT_Stack/Stack.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Algemene DFA/.idea/vcs.xml" beforeDir="false" />
@@ -146,26 +145,14 @@
       <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/workingDirectory/Wegen_en_voertuigen.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/workingDirectory/Wegennetwerk.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baan.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baan.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baan.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/System.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/System.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System.h" beforeDir="false" afterPath="$PROJECT_DIR$/System.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Voertuig.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Voertuig.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Voertuig.h" beforeDir="false" afterPath="$PROJECT_DIR$/Voertuig.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlParser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/XmlParser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlParser.h" beforeDir="false" afterPath="$PROJECT_DIR$/XmlParser.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie_debug" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie_debug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/Wegen_en_voertuigen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Wegen_en_voertuigen.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../University/Composite_datatypes/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../University/Lanceer_de_schildpad/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../University/class/main.py" beforeDir="false" />
@@ -194,7 +181,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -202,6 +189,63 @@
               <folding>
                 <element signature="e#417#436#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/System.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+              <folding>
+                <element signature="e#488#505#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/System.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1819">
+              <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voertuig.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workingDirectory/Wegen_en_voertuigen.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="379">
+              <caret line="32" column="11" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="32" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -243,18 +287,18 @@
       <list>
         <option value="$PROJECT_DIR$/ongebruikteCode.h" />
         <option value="$PROJECT_DIR$/workingDirectory/Wegennetwerk.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Wegen_en_voertuigen.xml" />
         <option value="$PROJECT_DIR$/NullPointer.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/DesignByContract.h" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Baan.cpp" />
         <option value="$PROJECT_DIR$/Baan.h" />
-        <option value="$PROJECT_DIR$/Voertuig.h" />
-        <option value="$PROJECT_DIR$/Voertuig.cpp" />
         <option value="$PROJECT_DIR$/XmlParser.cpp" />
         <option value="$PROJECT_DIR$/XmlParser.h" />
         <option value="$PROJECT_DIR$/System.h" />
+        <option value="$PROJECT_DIR$/workingDirectory/Wegen_en_voertuigen.xml" />
+        <option value="$PROJECT_DIR$/Voertuig.h" />
+        <option value="$PROJECT_DIR$/Voertuig.cpp" />
         <option value="$PROJECT_DIR$/System.cpp" />
       </list>
     </option>
@@ -276,6 +320,11 @@
             <path>
               <item name="Verkeerssimulatie" type="b2602c69:ProjectViewProjectNode" />
               <item name="Verkeerssimulatie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Verkeerssimulatie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Verkeerssimulatie" type="462c0819:PsiDirectoryNode" />
+              <item name="workingDirectory" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -366,7 +415,7 @@
       <workItem from="1553435390766" duration="724000" />
       <workItem from="1553440307143" duration="1705000" />
       <workItem from="1553442118360" duration="114000" />
-      <workItem from="1553442500247" duration="5344000" />
+      <workItem from="1553442500247" duration="9560000" />
     </task>
     <task id="LOCAL-00001" summary="Replaced Nullpointer with O and added Header Comments to all files.">
       <created>1553442896535</created>
@@ -375,23 +424,30 @@
       <option name="project" value="LOCAL" />
       <updated>1553442896536</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Renamed all Variabels according to the coding conventions and organinzed&#10;all header files">
+      <created>1553448151308</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553448151308</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66771000" />
+    <option name="totallyTimeSpent" value="70987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23263328" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23263328" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28219178" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38219178" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28219178" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37123287" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -441,8 +497,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Replaced Nullpointer with O and added Header Comments to all files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Replaced Nullpointer with O and added Header Comments to all files." />
+    <MESSAGE value="Renamed all Variabels according to the coding conventions and organinzed&#10;all header files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed all Variabels according to the coding conventions and organinzed&#10;all header files" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/System.cpp</url>
+          <line>163</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__string" />
@@ -456,24 +525,10 @@
     <entry file="file://$PROJECT_DIR$/tinystr.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinystr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2125">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tinyxml.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7769">
           <caret line="463" selection-start-line="463" selection-end-line="463" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinyxml.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7582">
-          <caret line="486" selection-start-line="486" selection-end-line="486" />
         </state>
       </provider>
     </entry>
@@ -482,13 +537,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tinyxmlparser.cpp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Wegen_en_voertuigen.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../workingDirectory/Wegen_en_voertuigen.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -539,20 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="146" column="1" selection-start-line="146" selection-start-column="1" selection-end-line="146" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/XmlParser.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -560,16 +594,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Voertuig.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/XmlParser.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="314">
           <caret line="42" selection-start-line="42" selection-end-line="43" selection-end-column="42" />
           <folding>
             <element signature="e#477#494#0" expanded="true" />
@@ -577,20 +604,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System.cpp">
+    <entry file="file://$PROJECT_DIR$/tinystr.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="159" selection-start-line="159" selection-end-line="159" />
+        <state relative-caret-position="2125">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System.h">
+    <entry file="file://$PROJECT_DIR$/tinyxml.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="56" column="31" lean-forward="true" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
-          <folding>
-            <element signature="e#488#505#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="486" selection-start-line="486" selection-end-line="486" />
         </state>
       </provider>
     </entry>
@@ -601,6 +625,51 @@
           <folding>
             <element signature="e#417#436#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+          <folding>
+            <element signature="e#488#505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Wegen_en_voertuigen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="32" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="82" column="1" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voertuig.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="74" column="14" selection-start-line="74" selection-start-column="14" selection-end-line="74" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1819">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
         </state>
       </provider>
     </entry>

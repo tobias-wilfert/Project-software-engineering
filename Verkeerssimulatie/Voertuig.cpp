@@ -78,6 +78,10 @@ void Voertuig::setBaanObject(Baan *baanObject) {
     Voertuig::fBaanObject = baanObject;
 }
 
+Voertuig *Voertuig::getFNextVoertuig() const {
+    return fNextVoertuig;
+}
+
 void Voertuig::setNextVoertuig(Voertuig *nextVoertuig) {
     Voertuig::fNextVoertuig = nextVoertuig;
 }
@@ -92,56 +96,51 @@ void Voertuig::setDeleteObject(bool deleteObject) {
 
 
 void Voertuig::updatePosition() {
-    double dIdeal;
-    double dActual;
-    double versnelling;
+    double dIdeal = 0;
+    double dActual = 0;
+    double versnelling = 2.0; // Default value
 
+    // Because we don't loop over the cars in an ordered fashion it can be that the car in front already moved
+    // So we calculate the position of all cars with the old position of the previous car
     fOldPositie = fPositie;
 
-    dIdeal = 0;
-    dActual = 0;
-    //calculate dIdeal
-    if(fNextVoertuig != 0){
+    // If the next voertuig exists
+    if (fNextVoertuig != 0) {
+        //calculate delta ideal
         dIdeal = (0.75) * fSnelheid + fNextVoertuig->getLengte() + 2;
-    //calculate dActual
+        //calculate dActual
         dActual = fNextVoertuig->getOldPositie() - fNextVoertuig->getLengte() - fPositie;
+        //Calculate the acceleration
+        versnelling = 0.5 * (dActual - dIdeal);
     }
 
-    //calculate acceleration
-    versnelling = 0.5*(dActual - dIdeal);
-    if(fNextVoertuig == 0){
-        versnelling = 2.0;
-    }
-    // if a out of bounds is then take maximum of minimum bound
-    if(versnelling > 2){
+    // If the acceleration is out of bounds take maximum or minimum value
+    if (versnelling > 2) {
         versnelling = 2;
-    }
-    else if(versnelling < -8){
+    } else if (versnelling < -8) {
         versnelling = -8;
     }
 
-    //calculate speed
-    //TODO: Consider the speed limit of the baan the car is driving on
+    // Calculate the speed
     fSnelheid = versnelling + fSnelheid;
-    if(fSnelheid > 150){
-        fSnelheid = 150.0;
-    }
-    else if(fSnelheid < 0){
+
+    if (fSnelheid > fBaanObject->getSnelheidsLimiet()) {
+        fSnelheid = fBaanObject->getSnelheidsLimiet();
+    } else if (fSnelheid < 0) {
         fSnelheid = 0;
     }
-    //calculate  position
-    fPositie  = fSnelheid + fPositie;
 
-    if(fPositie > fBaanObject->getLengte()){
-        if(fBaanObject->getVerbindingObject() != 0){
+    //Calculate the position
+    fPositie = fSnelheid + fPositie;
+
+    if (fPositie > fBaanObject->getLengte()) {
+        if (fBaanObject->getVerbindingObject() != 0) {
             fPositie = fPositie - fBaanObject->getLengte();
             fBaanObject = fBaanObject->getVerbindingObject();
             fBaan = fBaanObject->getNaam();
-        }
-        else{
-            // Delete voertuig from vector (after the iteration)
+        } else {
+            // Delete voertuig from vector (after the iteration) as it still is needed for the other calulations
             fDeleteObject = true;
         }
     }
-
 }

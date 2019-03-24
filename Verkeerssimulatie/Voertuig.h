@@ -72,6 +72,8 @@ public:
 
     void setBaanObject(Baan *baanObject);
 
+    Voertuig *getFNextVoertuig() const;
+
     void setNextVoertuig(Voertuig *nextVoertuig);
 
     bool isDeleteObject() const;
