@@ -16,9 +16,12 @@
 
 class System {
 private:
-    std::vector<Baan*>* Banen;
-    std::vector<Baan*>* WegenNetwerk;
-    std::vector<Voertuig*>* Voertuigen;
+
+    std::vector<Baan*>* fBanen;
+
+    std::vector<Baan*>* fWegenNetwerk;
+
+    std::vector<Voertuig*>* fVoertuigen;
 
 public:
 
@@ -26,28 +29,30 @@ public:
 
     std::vector<Baan *> *getBanen() const;
 
-    std::vector<Baan *> *getWegenNetwerk() const;
-
-    std::vector<Voertuig *> *getVoertuigen() const;
-
-    void simpeleUitvoer() const;
-
     void setBanen(std::vector<Baan *> *Banen);
+
+    std::vector<Baan *> *getWegenNetwerk() const;
 
     void setWegenNetwerk(std::vector<Baan *> *WegenNetwerk);
 
+    std::vector<Voertuig *> *getVoertuigen() const;
+
     void setVoertuigen(std::vector<Voertuig *> *Voertuigen);
 
-    void simulate(unsigned int elapsedTime = 1);
+    // Method's that aren't getters and setters
+    // TODO: Check which need to be public
 
     void organizeVehicles();
 
     void initializeVehicleBaanObject();
-    void beginSimulation(int iterations = 1);
 
     void initializeBaanVerbindingObjects();
 
     void filterVehicles(); //removes invalid vehicles (vehicles with position out of bounds)
+
+    void simpeleUitvoer() const;
+
+    void simulate(unsigned int iterations = 1);
 
     void automaticSimulation();
 };

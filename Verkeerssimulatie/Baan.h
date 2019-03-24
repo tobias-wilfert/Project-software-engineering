@@ -14,34 +14,36 @@
 class Baan {
 private:
 
-    double lengte;
-    double snelheidsLimiet;
+    double fLengte;
 
-    std::string naam;
-    std::string verbinding;
+    double fSnelheidsLimiet;
 
-    Baan* verbindingObject;
+    std::string fNaam;
+
+    std::string fVerbinding;
+
+    Baan* fVerbindingObject;
 
 public:
     Baan();
 
     virtual ~Baan();
 
+    const double &getLengte() const;
+
+    void setLengte(const double &lengte);
+
     const std::string &getNaam() const;
+
+    void setNaam(const std::string &naam);
+
+    const double &getSnelheidsLimiet() const;
+
+    void setSnelheidsLimiet(const int &snelheidsLimiet);
 
     const std::string &getVerbinding() const;
 
     void setVerbinding(const std::string &verbinding);
-
-    void setNaam(const std::string &naam);
-
-    double getLengte() const;
-
-    void setLengte(int lengte);
-
-    double getSnelheidsLimiet() const;
-
-    void setSnelheidsLimiet(int snelheidsLimiet);
 
     Baan *getVerbindingObject() const;
 

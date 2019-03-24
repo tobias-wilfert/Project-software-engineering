@@ -9,10 +9,10 @@
 #include <cstring>
 #include "XmlParser.h"
 
-XmlParser::XmlParser(const char* nameOfFile): fileName(nameOfFile) {
-    voertuigen = new  std::vector<Voertuig*>;
-    banen = new  std::vector<Baan*>;
-    wegenNetwerk = new  std::vector<Baan*>;
+XmlParser::XmlParser(const char* nameOfFile): fkFileName(nameOfFile) {
+    fVoertuigen = new  std::vector<Voertuig*>;
+    fBanen = new  std::vector<Baan*>;
+    fWegenNetwerk = new  std::vector<Baan*>;
     // If file can't be read stop the program
     try {
         isReadable();
@@ -27,37 +27,16 @@ XmlParser::XmlParser(const char* nameOfFile): fileName(nameOfFile) {
 
 }
 
-bool XmlParser::isReadable(){
-    /**
-     * @pre This instance of XmlParser was initialized properly
-     * @post Will throw an error if the file 'XmlParser.fileName' has xml formatting
-     *       errors that are so severe that the file can't be reed by the tinyxmlparser.
-     *       Before throwing the error  it will print debugging info.
-     * @throw FormattingError
-     * @return True if file can be read without problems
-     */
-
-    if(!document.LoadFile(fileName)) {
-        std::cerr << document.ErrorDesc() << std::endl;
-        std::cerr << "Error in document row: "<< document.ErrorRow() << std::endl;
-        throw "FormattingError";
-
-    }
-    if(document.FirstChildElement() == NULL) { //if root == NULL
-        std::cerr << "Failed to load file: No root element." << std::endl;
-        document.Clear();
-        return "FormattingError";
-
-    }
-    return true;
+std::vector<Baan *> *XmlParser::getBanen() const {
+    return fBanen;
 }
 
-std::string XmlParser::checkFileType() {
-    /**
-     * @pre This instance of XmlParser was initialized properly, XmlParser.document is readable
-     * @return Returns the type of XmlParser.document
-     */
-    return "Wegennetwerk of Wegen en voertuigen";
+std::vector<Baan *> *XmlParser::getWegenNetwerk() const {
+    return fWegenNetwerk;
+}
+
+std::vector<Voertuig *> *XmlParser::getVoertuigen() const {
+    return fVoertuigen;
 }
 
 void XmlParser::parseFile() {
@@ -67,7 +46,7 @@ void XmlParser::parseFile() {
      */
 
     // Define the root of the file
-    TiXmlElement* root = document.FirstChildElement();
+    TiXmlElement* root = fDocument.FirstChildElement();
 
     // Loop over all elements in the most outer scope
     for (TiXmlElement* rootElement = root; rootElement != NULL; rootElement = rootElement->NextSiblingElement()) {
@@ -137,7 +116,7 @@ void XmlParser::parseFile() {
                 }
             }
             // Add the new instance of 'voertuig' to 'voertuigen'
-            voertuigen->push_back(voertuig);
+            fVoertuigen->push_back(voertuig);
         }
 
         if (is_equal(rootElement->Value(),"BAAN")) {
@@ -204,18 +183,41 @@ void XmlParser::parseFile() {
             }
 
             if (isWegenNetwerk) {
-                wegenNetwerk->push_back(baan);
+                fWegenNetwerk->push_back(baan);
             } else {
-                banen->push_back(baan);
+                fBanen->push_back(baan);
             }
         }
     }
 
     // Close file
-    document.Clear();
+    fDocument.Clear();
 }
 
+bool XmlParser::isReadable(){
+    /**
+     * @pre This instance of XmlParser was initialized properly
+     * @post Will throw an error if the file 'XmlParser.fileName' has xml formatting
+     *       errors that are so severe that the file can't be reed by the tinyxmlparser.
+     *       Before throwing the error  it will print debugging info.
+     * @throw FormattingError
+     * @return True if file can be read without problems
+     */
 
+    if(!fDocument.LoadFile(fkFileName)) {
+        std::cerr << fDocument.ErrorDesc() << std::endl;
+        std::cerr << "Error in document row: "<< fDocument.ErrorRow() << std::endl;
+        throw "FormattingError";
+
+    }
+    if(fDocument.FirstChildElement() == NULL) { //if root == NULL
+        std::cerr << "Failed to load file: No root element." << std::endl;
+        fDocument.Clear();
+        return "FormattingError";
+
+    }
+    return true;
+}
 
 int XmlParser::stoi(std::string &string) const {
     /**
@@ -256,16 +258,4 @@ bool XmlParser::is_equal(const char *cc1, const char *cc2) const {
      * @return True if cc1 and cc2 are equal on the length of cc1 + 1 else False
      */
     return 0 == std::strncmp(cc1, cc2, std::strlen(cc1)+1);
-}
-
-std::vector<Voertuig *> *XmlParser::getVoertuigen() const {
-    return voertuigen;
-}
-
-std::vector<Baan *> *XmlParser::getBanen() const {
-    return banen;
-}
-
-std::vector<Baan *> *XmlParser::getWegenNetwerk() const {
-    return wegenNetwerk;
 }

@@ -8,73 +8,108 @@
 
 #include "Voertuig.h"
 
-Voertuig::Voertuig(const std::string &type, const std::string &nummerPlaat, std::string baan, double positie,
-                   double snelheid):
+Voertuig::Voertuig(): fNextVoertuig(0), fDeleteObject(false){}
 
-        lengte(3.0), oldPositie(positie), positie(positie), snelheid(snelheid), baan(baan), type (type),
-        nummerPlaat(nummerPlaat), nextVoertuig(0), baanObject(0), deleteObject(false){}
+Voertuig::~Voertuig() {
 
-Voertuig::Voertuig(): nextVoertuig(0), deleteObject(false){}
-
-const std::string &Voertuig::getType() const {
-    return type;
 }
 
-void Voertuig::setType(const std::string &type) {
-    Voertuig::type = type;
+double Voertuig::getLengte() const {
+    return fLengte;
 }
 
-const std::string &Voertuig::getNummerPlaat() const {
-    return nummerPlaat;
+void Voertuig::setLengte(double lengte) {
+    Voertuig::fLengte = lengte;
 }
-
-void Voertuig::setNummerPlaat(const std::string &nummerPlaat) {
-    Voertuig::nummerPlaat = nummerPlaat;
-}
-
 
 double Voertuig::getPositie() const {
-    return positie;
+    return fPositie;
 }
 
 void Voertuig::setPositie(int positie) {
-    Voertuig::positie = positie;
+    Voertuig::fPositie = positie;
 }
 
 double Voertuig::getSnelheid() const {
-    return snelheid;
+    return fSnelheid;
 }
 
 void Voertuig::setSnelheid(int snelheid) {
-    Voertuig::snelheid = snelheid;
+    Voertuig::fSnelheid = snelheid;
 }
 
+double Voertuig::getOldPositie() const {
+    return fOldPositie;
+}
 
+void Voertuig::setOldPositie(double oldPositie) {
+    Voertuig::fOldPositie = oldPositie;
+}
 
+const std::string &Voertuig::getBaan() const {
+    return fBaan;
+}
+
+void Voertuig::setBaan(const std::string &baan) {
+    Voertuig::fBaan = baan;
+}
+
+const std::string &Voertuig::getType() const {
+    return fType;
+}
+
+void Voertuig::setType(const std::string &type) {
+    Voertuig::fType = type;
+}
+
+const std::string &Voertuig::getNummerPlaat() const {
+    return fNummerPlaat;
+}
+
+void Voertuig::setNummerPlaat(const std::string &nummerPlaat) {
+    Voertuig::fNummerPlaat = nummerPlaat;
+}
+
+Baan *Voertuig::getBaanObject() const {
+    return fBaanObject;
+}
+
+void Voertuig::setBaanObject(Baan *baanObject) {
+    Voertuig::fBaanObject = baanObject;
+}
 
 void Voertuig::setNextVoertuig(Voertuig *nextVoertuig) {
-    Voertuig::nextVoertuig = nextVoertuig;
+    Voertuig::fNextVoertuig = nextVoertuig;
 }
+
+bool Voertuig::isDeleteObject() const {
+    return fDeleteObject;
+}
+
+void Voertuig::setDeleteObject(bool deleteObject) {
+    Voertuig::fDeleteObject = deleteObject;
+}
+
 
 void Voertuig::updatePosition() {
     double dIdeal;
     double dActual;
     double versnelling;
 
-    oldPositie = positie;
+    fOldPositie = fPositie;
 
     dIdeal = 0;
     dActual = 0;
     //calculate dIdeal
-    if(nextVoertuig != 0){
-        dIdeal = (0.75) * snelheid + nextVoertuig->getLengte() + 2;
+    if(fNextVoertuig != 0){
+        dIdeal = (0.75) * fSnelheid + fNextVoertuig->getLengte() + 2;
     //calculate dActual
-        dActual = nextVoertuig->getOldPositie() - nextVoertuig->getLengte() - positie;
+        dActual = fNextVoertuig->getOldPositie() - fNextVoertuig->getLengte() - fPositie;
     }
 
     //calculate acceleration
     versnelling = 0.5*(dActual - dIdeal);
-    if(nextVoertuig == 0){
+    if(fNextVoertuig == 0){
         versnelling = 2.0;
     }
     // if a out of bounds is then take maximum of minimum bound
@@ -86,71 +121,27 @@ void Voertuig::updatePosition() {
     }
 
     //calculate speed
-    snelheid = versnelling + snelheid;
-    if(snelheid > 150){
-        snelheid = 150.0;
+    //TODO: Consider the speed limit of the baan the car is driving on
+    fSnelheid = versnelling + fSnelheid;
+    if(fSnelheid > 150){
+        fSnelheid = 150.0;
     }
-    else if(snelheid < 0){
-        snelheid = 0;
+    else if(fSnelheid < 0){
+        fSnelheid = 0;
     }
     //calculate  position
-    positie  = snelheid + positie;
+    fPositie  = fSnelheid + fPositie;
 
-    if(positie > baanObject->getLengte()){
-        if(baanObject->getVerbindingObject() != 0){
-            positie = positie - baanObject->getLengte();
-            baanObject = baanObject->getVerbindingObject();
-            baan = baanObject->getNaam();
+    if(fPositie > fBaanObject->getLengte()){
+        if(fBaanObject->getVerbindingObject() != 0){
+            fPositie = fPositie - fBaanObject->getLengte();
+            fBaanObject = fBaanObject->getVerbindingObject();
+            fBaan = fBaanObject->getNaam();
         }
         else{
             // Delete voertuig from vector (after the iteration)
-            deleteObject = true;
+            fDeleteObject = true;
         }
     }
 
 }
-
-double Voertuig::getLengte() const {
-    return lengte;
-}
-
-double Voertuig::getOldPositie() const {
-    return oldPositie;
-}
-
-void Voertuig::setOldPositie(double oldPositie) {
-    Voertuig::oldPositie = oldPositie;
-}
-
-const std::string &Voertuig::getBaan() const {
-    return baan;
-}
-
-void Voertuig::setBaan(const std::string &baan) {
-    Voertuig::baan = baan;
-}
-
-Baan *Voertuig::getBaanObject() const {
-    return baanObject;
-}
-
-void Voertuig::setBaanObject(Baan *baanObject) {
-    Voertuig::baanObject = baanObject;
-}
-
-Voertuig::~Voertuig() {
-
-}
-
-bool Voertuig::isDeleteObject() const {
-    return deleteObject;
-}
-
-void Voertuig::setLengte(double lengte) {
-    Voertuig::lengte = lengte;
-}
-
-void Voertuig::setDeleteObject(bool deleteObject) {
-    Voertuig::deleteObject = deleteObject;
-}
-

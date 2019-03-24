@@ -9,50 +9,49 @@
 #include "Baan.h"
 
 Baan::Baan() {
-    verbindingObject = 0;
-}
-
-const std::string &Baan::getNaam() const {
-    return naam;
-}
-
-void Baan::setNaam(const std::string &naam) {
-    Baan::naam = naam;
-}
-
-double Baan::getLengte() const {
-    return lengte;
-}
-
-void Baan::setLengte(int lengte) {
-    Baan::lengte = lengte;
-}
-
-double Baan::getSnelheidsLimiet() const {
-    return snelheidsLimiet;
-}
-
-void Baan::setSnelheidsLimiet(int snelheidsLimiet) {
-    Baan::snelheidsLimiet = snelheidsLimiet;
-}
-
-Baan *Baan::getVerbindingObject() const {
-    return verbindingObject;
-}
-
-void Baan::setVerbindingObject(Baan *verbinding) {
-    Baan::verbindingObject = verbinding;
+    fVerbindingObject = 0;
 }
 
 Baan::~Baan() {
 
 }
 
+const double &Baan::getLengte() const {
+    return fLengte;
+}
+
+void Baan::setLengte(const double &lengte) {
+    Baan::fLengte = lengte;
+}
+
+const std::string &Baan::getNaam() const {
+    return fNaam;
+}
+
+void Baan::setNaam(const std::string &naam) {
+    Baan::fNaam = naam;
+}
+
+const double &Baan::getSnelheidsLimiet() const {
+    return fSnelheidsLimiet;
+}
+
+void Baan::setSnelheidsLimiet(const int &snelheidsLimiet) {
+    Baan::fSnelheidsLimiet = snelheidsLimiet;
+}
+
 const std::string &Baan::getVerbinding() const {
-    return verbinding;
+    return fVerbinding;
 }
 
 void Baan::setVerbinding(const std::string &verbinding) {
-    Baan::verbinding = verbinding;
+    Baan::fVerbinding = verbinding;
 }
 
+Baan *Baan::getVerbindingObject() const {
+    return fVerbindingObject;
+}
+
+void Baan::setVerbindingObject(Baan *verbinding) {
+    Baan::fVerbindingObject = verbinding;
+}

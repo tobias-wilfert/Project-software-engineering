@@ -12,9 +12,9 @@
 int main() {
 
     // The name of the file that will serve as input
-    const char* fileName =  "Wegen_en_voertuigen.xml";
+    const char* kFileName =  "Wegen_en_voertuigen.xml";
     // Parse the file
-    XmlParser parser = XmlParser(fileName);
+    XmlParser parser = XmlParser(kFileName);
     // Initialize the system
     System system = System(parser.getBanen(),parser.getWegenNetwerk(),parser.getVoertuigen());
     // Start the simulation

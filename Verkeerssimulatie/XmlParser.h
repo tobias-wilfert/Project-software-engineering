@@ -9,6 +9,7 @@
 #ifndef DESKTOP_XMLPARSER_H
 #define DESKTOP_XMLPARSER_H
 
+#include <vector>
 #include <sstream>
 #include <iostream>
 #include <algorithm>
@@ -18,34 +19,39 @@
 
 class XmlParser {
 private:
-    const char* fileName;
-    TiXmlDocument document;
-    std::string typeOfFile;
-    std::vector<Voertuig*>* voertuigen;
-    std::vector<Baan*>* banen;
-    std::vector<Baan*>* wegenNetwerk;
+
+    const char* fkFileName;
+
+    TiXmlDocument fDocument;
+
+    std::vector<Baan*>* fBanen;
+
+    std::vector<Baan*>* fWegenNetwerk;
+
+    std::vector<Voertuig*>* fVoertuigen;
 
 public:
 
     XmlParser(const char* nameOfFile);
 
-    bool isReadable();
+    std::vector<Baan *> *getBanen() const;
 
-    std::string checkFileType();
+    std::vector<Baan *> *getWegenNetwerk() const;
+
+    std::vector<Voertuig *> *getVoertuigen() const;
+
+    // Method's that aren't getters and setters
+    // TODO: Check which need to be public
 
     void parseFile();
+
+    bool isReadable();
 
     int stoi(std::string &string) const;
 
     bool is_digits(const std::string &string) const;
 
     bool is_equal(const char* cc1, const char* cc2) const;
-
-    std::vector<Voertuig *> *getVoertuigen() const;
-
-    std::vector<Baan *> *getBanen() const;
-
-    std::vector<Baan *> *getWegenNetwerk() const;
 
 };
 

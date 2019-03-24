@@ -9,54 +9,40 @@
 #ifndef VERKEERSSIMULATIE_VOERTUIG_H
 #define VERKEERSSIMULATIE_VOERTUIG_H
 
-#include <vector>
 #include "Baan.h"
 
 class Voertuig {
 private:
-    double lengte;
-    double oldPositie;
-    double positie;
-    double snelheid;
-    std::string baan;
-    std::string type;
-    std::string nummerPlaat;
-    Voertuig* nextVoertuig;
-    Baan* baanObject;
-    bool deleteObject;
 
+    double fLengte;
+
+    double fPositie;
+
+    double fSnelheid;
+
+    double fOldPositie;
+
+    std::string fBaan;
+
+    std::string fType;
+
+    std::string fNummerPlaat;
+
+    Baan* fBaanObject;
+
+    Voertuig* fNextVoertuig;
+
+    bool fDeleteObject;
 
 public:
-    Baan *getBaanObject() const;
 
-    void setBaanObject(Baan *baanObject);
-
-    bool isDeleteObject() const;
-
-    void setLengte(double lengte);
-
-    void setDeleteObject(bool deleteObject);
-
-    Voertuig(const std::string &type, const std::string &nummerPlaat, std::string baan, double positie,
-             double snelheid);
     Voertuig();
 
-    const std::string &getBaan() const;
+    virtual ~Voertuig();
 
-    void setBaan(const std::string &baan);
+    double getLengte() const;
 
-    void setNextVoertuig(Voertuig *nextVoertuig);
-
-    const std::string &getType() const;
-
-
-    void setType(const std::string &type);
-
-    const std::string &getNummerPlaat() const;
-
-    void setNummerPlaat(const std::string &nummerPlaat);
-
-
+    void setLengte(double lengte);
 
     double getPositie() const;
 
@@ -66,15 +52,35 @@ public:
 
     void setSnelheid(int snelheid);
 
-    double getLengte() const;
-
     double getOldPositie() const;
 
     void setOldPositie(double oldPositie);
 
-    void updatePosition();
+    const std::string &getBaan() const;
 
-    virtual ~Voertuig();
+    void setBaan(const std::string &baan);
+
+    const std::string &getType() const;
+
+    void setType(const std::string &type);
+
+    const std::string &getNummerPlaat() const;
+
+    void setNummerPlaat(const std::string &nummerPlaat);
+
+    Baan *getBaanObject() const;
+
+    void setBaanObject(Baan *baanObject);
+
+    void setNextVoertuig(Voertuig *nextVoertuig);
+
+    bool isDeleteObject() const;
+
+    void setDeleteObject(bool deleteObject);
+
+    // Method's (that aren't getters or setters)
+
+    void updatePosition();
 
 };
 
