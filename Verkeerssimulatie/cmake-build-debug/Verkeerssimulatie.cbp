@@ -127,54 +127,69 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/DesignByContract.h">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/VerkeerssimulatieTest.cpp">
 			<Option target="Verkeerssimulatie_debug"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/main.cpp">
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinystr.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinystr.h">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxml.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxml.h">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxmlerror.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxmlparser.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/CMakeLists.txt">

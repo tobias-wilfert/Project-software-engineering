@@ -102,6 +102,7 @@ public:
     //-----------------------------------------
 
     bool properlyInitialized();
+
 };
 
 

@@ -142,6 +142,7 @@ Baan.o: Baan.cpp.o
 
 # target to build an object file
 Baan.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/Baan.cpp.o
 .PHONY : Baan.cpp.o
 
@@ -151,6 +152,7 @@ Baan.i: Baan.cpp.i
 
 # target to preprocess a source file
 Baan.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.i
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/Baan.cpp.i
 .PHONY : Baan.cpp.i
 
@@ -160,6 +162,7 @@ Baan.s: Baan.cpp.s
 
 # target to generate assembly for a file
 Baan.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.s
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/Baan.cpp.s
 .PHONY : Baan.cpp.s
 
@@ -169,6 +172,7 @@ System.o: System.cpp.o
 
 # target to build an object file
 System.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/System.cpp.o
 .PHONY : System.cpp.o
 
@@ -178,6 +182,7 @@ System.i: System.cpp.i
 
 # target to preprocess a source file
 System.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.i
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/System.cpp.i
 .PHONY : System.cpp.i
 
@@ -187,6 +192,7 @@ System.s: System.cpp.s
 
 # target to generate assembly for a file
 System.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.s
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/System.cpp.s
 .PHONY : System.cpp.s
 
@@ -223,6 +229,7 @@ Voertuig.o: Voertuig.cpp.o
 
 # target to build an object file
 Voertuig.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.o
 .PHONY : Voertuig.cpp.o
 
@@ -232,6 +239,7 @@ Voertuig.i: Voertuig.cpp.i
 
 # target to preprocess a source file
 Voertuig.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.i
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.i
 .PHONY : Voertuig.cpp.i
 
@@ -241,6 +249,7 @@ Voertuig.s: Voertuig.cpp.s
 
 # target to generate assembly for a file
 Voertuig.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.s
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.s
 .PHONY : Voertuig.cpp.s
 
@@ -250,6 +259,7 @@ XmlParser.o: XmlParser.cpp.o
 
 # target to build an object file
 XmlParser.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o
 .PHONY : XmlParser.cpp.o
 
@@ -259,6 +269,7 @@ XmlParser.i: XmlParser.cpp.i
 
 # target to preprocess a source file
 XmlParser.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.i
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.i
 .PHONY : XmlParser.cpp.i
 
@@ -268,6 +279,7 @@ XmlParser.s: XmlParser.cpp.s
 
 # target to generate assembly for a file
 XmlParser.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.s
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.s
 .PHONY : XmlParser.cpp.s
 
@@ -304,6 +316,7 @@ tinystr.o: tinystr.cpp.o
 
 # target to build an object file
 tinystr.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/tinystr.cpp.o
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/tinystr.cpp.o
 .PHONY : tinystr.cpp.o
 
@@ -313,6 +326,7 @@ tinystr.i: tinystr.cpp.i
 
 # target to preprocess a source file
 tinystr.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/tinystr.cpp.i
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/tinystr.cpp.i
 .PHONY : tinystr.cpp.i
 
@@ -322,6 +336,7 @@ tinystr.s: tinystr.cpp.s
 
 # target to generate assembly for a file
 tinystr.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/tinystr.cpp.s
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/tinystr.cpp.s
 .PHONY : tinystr.cpp.s
 
@@ -331,6 +346,7 @@ tinyxml.o: tinyxml.cpp.o
 
 # target to build an object file
 tinyxml.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/tinyxml.cpp.o
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/tinyxml.cpp.o
 .PHONY : tinyxml.cpp.o
 
@@ -340,6 +356,7 @@ tinyxml.i: tinyxml.cpp.i
 
 # target to preprocess a source file
 tinyxml.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/tinyxml.cpp.i
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/tinyxml.cpp.i
 .PHONY : tinyxml.cpp.i
 
@@ -349,6 +366,7 @@ tinyxml.s: tinyxml.cpp.s
 
 # target to generate assembly for a file
 tinyxml.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/tinyxml.cpp.s
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/tinyxml.cpp.s
 .PHONY : tinyxml.cpp.s
 
@@ -358,6 +376,7 @@ tinyxmlerror.o: tinyxmlerror.cpp.o
 
 # target to build an object file
 tinyxmlerror.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlerror.cpp.o
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/tinyxmlerror.cpp.o
 .PHONY : tinyxmlerror.cpp.o
 
@@ -367,6 +386,7 @@ tinyxmlerror.i: tinyxmlerror.cpp.i
 
 # target to preprocess a source file
 tinyxmlerror.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlerror.cpp.i
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/tinyxmlerror.cpp.i
 .PHONY : tinyxmlerror.cpp.i
 
@@ -376,6 +396,7 @@ tinyxmlerror.s: tinyxmlerror.cpp.s
 
 # target to generate assembly for a file
 tinyxmlerror.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlerror.cpp.s
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/tinyxmlerror.cpp.s
 .PHONY : tinyxmlerror.cpp.s
 
@@ -385,6 +406,7 @@ tinyxmlparser.o: tinyxmlparser.cpp.o
 
 # target to build an object file
 tinyxmlparser.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlparser.cpp.o
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/tinyxmlparser.cpp.o
 .PHONY : tinyxmlparser.cpp.o
 
@@ -394,6 +416,7 @@ tinyxmlparser.i: tinyxmlparser.cpp.i
 
 # target to preprocess a source file
 tinyxmlparser.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlparser.cpp.i
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/tinyxmlparser.cpp.i
 .PHONY : tinyxmlparser.cpp.i
 
@@ -403,6 +426,7 @@ tinyxmlparser.s: tinyxmlparser.cpp.s
 
 # target to generate assembly for a file
 tinyxmlparser.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlparser.cpp.s
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/tinyxmlparser.cpp.s
 .PHONY : tinyxmlparser.cpp.s
 

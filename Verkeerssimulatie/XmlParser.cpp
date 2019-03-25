@@ -10,6 +10,9 @@
 #include "XmlParser.h"
 
 XmlParser::XmlParser(const char* nameOfFile): fkFileName(nameOfFile) {
+
+    _initCheck = this;
+
     fVoertuigen = new  std::vector<Voertuig*>;
     fBanen = new  std::vector<Baan*>;
     fWegenNetwerk = new  std::vector<Baan*>;

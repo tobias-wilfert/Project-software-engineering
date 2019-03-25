@@ -146,7 +146,7 @@ void System::simulate(unsigned int iterations) {
     organizeVehicles();
     initializeVehicleBaanObject();
     initializeBaanVerbindingObjects();
-    for(int i = 0; i < iterations; i++){
+    for(unsigned int i = 0; i < iterations; i++){
         for(unsigned int j = 0; j < fVoertuigen->size(); j ++){
             fVoertuigen->at(j)->updatePosition();
         }

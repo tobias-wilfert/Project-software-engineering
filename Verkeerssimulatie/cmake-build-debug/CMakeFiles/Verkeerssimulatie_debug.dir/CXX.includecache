@@ -250,25 +250,11 @@ acxx_demangle.h
 string
 -
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
-vector
--
-iostream
--
-Baan.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
-Voertuig.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
-
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/VerkeerssimulatieTest.cpp
 iostream
 -
-fstream
--
 gtest/gtest.h
 -
-System.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
 XmlParser.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 
