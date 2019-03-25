@@ -47,7 +47,7 @@ TEST_F(TicTactToeTest, DefaultConstructor) {
 // Tests the default constructor.
 TEST_F(TicTactToeTest, SpecialConstructor) {
 
-    XmlParser parser("");
+    XmlParser parser("Wegennetwerk.xml");
     EXPECT_TRUE((parser.properlyInitialized()));
 }
 

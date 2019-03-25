@@ -3,17 +3,21 @@
 
 CMakeFiles/Verkeerssimulatie.dir/Baan.cpp.o: ../Baan.cpp
 CMakeFiles/Verkeerssimulatie.dir/Baan.cpp.o: ../Baan.h
+CMakeFiles/Verkeerssimulatie.dir/Baan.cpp.o: ../DesignByContract.h
 
 CMakeFiles/Verkeerssimulatie.dir/System.cpp.o: ../Baan.h
+CMakeFiles/Verkeerssimulatie.dir/System.cpp.o: ../DesignByContract.h
 CMakeFiles/Verkeerssimulatie.dir/System.cpp.o: ../System.cpp
 CMakeFiles/Verkeerssimulatie.dir/System.cpp.o: ../System.h
 CMakeFiles/Verkeerssimulatie.dir/System.cpp.o: ../Voertuig.h
 
 CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.o: ../Baan.h
+CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.o: ../DesignByContract.h
 CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.o: ../Voertuig.cpp
 CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.o: ../Voertuig.h
 
 CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o: ../Baan.h
+CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o: ../DesignByContract.h
 CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o: ../Voertuig.h
 CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o: ../XmlParser.cpp
 CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o: ../XmlParser.h
@@ -21,6 +25,7 @@ CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o: ../tinystr.h
 CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o: ../tinyxml.h
 
 CMakeFiles/Verkeerssimulatie.dir/main.cpp.o: ../Baan.h
+CMakeFiles/Verkeerssimulatie.dir/main.cpp.o: ../DesignByContract.h
 CMakeFiles/Verkeerssimulatie.dir/main.cpp.o: ../System.h
 CMakeFiles/Verkeerssimulatie.dir/main.cpp.o: ../Voertuig.h
 CMakeFiles/Verkeerssimulatie.dir/main.cpp.o: ../XmlParser.h

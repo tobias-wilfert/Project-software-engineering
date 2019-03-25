@@ -6,12 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.cpp
-Baan.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
-
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
 string
+-
+DesignByContract.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/DesignByContract.h
+
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/DesignByContract.h
+assert.h
 -
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.cpp
@@ -35,6 +37,8 @@ Voertuig.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 Baan.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
+DesignByContract.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/DesignByContract.h
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp
 cstring
@@ -64,25 +68,11 @@ System.h
 XmlParser.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinystr.cpp
-tinystr.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinystr.h
-
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinystr.h
 assert.h
 -
 string.h
 -
-
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxml.cpp
-ctype.h
--
-sstream
--
-iostream
--
-tinyxml.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxml.h
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxml.h
 ctype.h
@@ -103,18 +93,4 @@ sstream
 -
 tinystr.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinystr.h
-
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxmlerror.cpp
-tinyxml.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxml.h
-
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxmlparser.cpp
-ctype.h
--
-stddef.h
--
-tinyxml.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxml.h
-windows.h
--
 
