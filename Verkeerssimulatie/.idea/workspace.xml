@@ -33,12 +33,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f6ac4c-9f6e-424c-94a1-4321ba53fd38" name="Default" comment="Baan/Voertuigen REQUIRE and ENSURE">
+    <list default="true" id="97f6ac4c-9f6e-424c-94a1-4321ba53fd38" name="Default" comment="Finished all REQUIRE and ENSURE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/System.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System.h" beforeDir="false" afterPath="$PROJECT_DIR$/System.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlParser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/XmlParser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlParser.h" beforeDir="false" afterPath="$PROJECT_DIR$/XmlParser.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/System.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/System.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o" afterDir="false" />
@@ -54,74 +50,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="30" column="71" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Voertuig.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1851">
-              <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
-              <folding>
-                <element signature="e#494#511#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XmlParser.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="108" column="7" selection-start-line="108" selection-start-column="7" selection-end-line="108" selection-end-column="7" />
-              <folding>
-                <element signature="e#477#494#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XmlParser.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="33" column="95" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="95" />
-              <folding>
-                <element signature="e#422#440#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/System.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="125" column="98" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="98" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/System.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-882">
-              <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
-              <folding>
-                <element signature="e#488#505#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -319,7 +248,7 @@
       <workItem from="1553515597204" duration="1177000" />
       <workItem from="1553517119560" duration="3275000" />
       <workItem from="1553525927141" duration="4839000" />
-      <workItem from="1553542576289" duration="5763000" />
+      <workItem from="1553542576289" duration="5858000" />
     </task>
     <task id="LOCAL-00001" summary="Replaced Nullpointer with O and added Header Comments to all files.">
       <created>1553442896535</created>
@@ -370,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553546841607</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finished all REQUIRE and ENSURE">
+      <created>1553549526119</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553549526119</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -406,13 +342,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93554000" />
+    <option name="totallyTimeSpent" value="93649000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25928918" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25928918" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -515,7 +450,8 @@
     <MESSAGE value="First Test Written" />
     <MESSAGE value="First Working Test" />
     <MESSAGE value="Baan/Voertuigen REQUIRE and ENSURE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Baan/Voertuigen REQUIRE and ENSURE" />
+    <MESSAGE value="Finished all REQUIRE and ENSURE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished all REQUIRE and ENSURE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -660,6 +596,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="30" column="71" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/XmlParser.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
@@ -667,6 +610,13 @@
           <folding>
             <element signature="e#422#440#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="125" column="98" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="98" />
         </state>
       </provider>
     </entry>
@@ -680,13 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="30" column="71" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/XmlParser.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1836">
@@ -694,13 +637,6 @@
           <folding>
             <element signature="e#477#494#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="125" column="98" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="98" />
         </state>
       </provider>
     </entry>
