@@ -39,6 +39,8 @@ private:
     * Parses a file
     * @pre This instance of XmlParser was initialized properly, XmlParser.document is readable
     * @post The file was parsed and the information is from the file is now available to the programme
+    \n REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling parseFile");
+    \n REQUIRE(isReadable(), "File to parse must be parse-able");
     */
     void parseFile();
 
@@ -50,6 +52,7 @@ private:
      *       Before throwing the error  it will print debugging info.
      * @throw FormattingError
      * @return True if file can be read without problems
+     \n REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling isReadable");
      */
     bool isReadable();
 
@@ -61,6 +64,7 @@ private:
      *       the integer of string will be returned else an error will be thrown
      * @throw ConversionFailed if string can't be converted to integer
      * @return An integer that consist of the same digits as string
+     \n REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling stoi");
      */
     int stoi(std::string &string) const;
 
@@ -71,6 +75,7 @@ private:
      * @pre None
      * @post None
      * @return True if string the string contains only digets else False
+     \n REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling is_digits");
      */
     bool is_digits(const std::string &string) const;
 
@@ -81,6 +86,7 @@ private:
      * @pre None
      * @pre None
      * @return True if cc1 and cc2 are equal on the length of cc1 + 1 else False
+     \n REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling is_equal");
      */
     bool is_equal(const char* cc1, const char* cc2) const;
 
@@ -89,19 +95,31 @@ private:
 
 public:
 
+    /**
+    \n ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
+     */
     XmlParser(const char* nameOfFile);
 
+    /**
+    \n REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling getBanen");
+     */
     std::vector<Baan *> *getBanen() const;
 
+    /**
+    \n REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling getWegenNetwerk");
+     */
     std::vector<Baan *> *getWegenNetwerk() const;
 
+    /**
+    \n REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling getVoertuigen");
+    */
     std::vector<Voertuig *> *getVoertuigen() const;
 
     //-----------------------------------------
     ///auxiliary routines (private use)
     //-----------------------------------------
 
-    bool properlyInitialized();
+    bool properlyInitialized() const;
 
 };
 

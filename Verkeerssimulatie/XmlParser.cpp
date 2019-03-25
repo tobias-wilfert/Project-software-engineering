@@ -27,22 +27,27 @@ XmlParser::XmlParser(const char* nameOfFile): fkFileName(nameOfFile) {
 
     // Parse the file
     parseFile();
-
+    ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
 }
 
 std::vector<Baan *> *XmlParser::getBanen() const {
+    REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling getBanen");
     return fBanen;
 }
 
 std::vector<Baan *> *XmlParser::getWegenNetwerk() const {
+    REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling getWegenNetwerk");
     return fWegenNetwerk;
 }
 
 std::vector<Voertuig *> *XmlParser::getVoertuigen() const {
+    REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling getVoertuigen");
     return fVoertuigen;
 }
 
 void XmlParser::parseFile() {
+    REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling parseFile");
+    REQUIRE(isReadable(), "File to parse must be parse-able");
 
     // Define the root of the file
     TiXmlElement* root = fDocument.FirstChildElement();
@@ -194,6 +199,8 @@ void XmlParser::parseFile() {
 }
 
 bool XmlParser::isReadable(){
+    REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling isReadable");
+
     if(!fDocument.LoadFile(fkFileName)) {
         std::cerr << fDocument.ErrorDesc() << std::endl;
         std::cerr << "Error in document row: "<< fDocument.ErrorRow() << std::endl;
@@ -210,6 +217,8 @@ bool XmlParser::isReadable(){
 }
 
 int XmlParser::stoi(std::string &string) const {
+    REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling stoi");
+
     int integer;
     if (is_digits(string)) {
         std::istringstream(string) >> integer;
@@ -220,13 +229,15 @@ int XmlParser::stoi(std::string &string) const {
 }
 
 bool XmlParser::is_digits(const std::string &string) const {
+    REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling is_digits");
     return string.find_first_not_of("0123456789") == std::string::npos;
 }
 
 bool XmlParser::is_equal(const char *cc1, const char *cc2) const {
+    REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling is_equal");
     return 0 == std::strncmp(cc1, cc2, std::strlen(cc1)+1);
 }
 
-bool XmlParser::properlyInitialized() {
+bool XmlParser::properlyInitialized() const{
     return _initCheck == this;
 }

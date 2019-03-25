@@ -9,33 +9,48 @@
 #include "System.h"
 
 System::System(std::vector<Baan *> *Banen, std::vector<Baan *> *WegenNetwerk, std::vector<Voertuig *> *Voertuigen)
-        : fBanen(Banen), fWegenNetwerk(WegenNetwerk), fVoertuigen(Voertuigen) {}
+        : fBanen(Banen), fWegenNetwerk(WegenNetwerk), fVoertuigen(Voertuigen) {
+    _initCheck = this;
+
+    ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
+}
 
 std::vector<Baan *> *System::getBanen() const {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling getBanen");
     return fBanen;
 }
 
 void System::setBanen(std::vector<Baan *> *Banen) {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling setBanen");
     System::fBanen = Banen;
+    ENSURE(getBanen() == fBanen, "setBanen post condition failure");
 }
 
 std::vector<Baan *> *System::getWegenNetwerk() const {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling getWegenNetwerk");
     return fWegenNetwerk;
 }
 
 void System::setWegenNetwerk(std::vector<Baan *> *WegenNetwerk) {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling setWegenNetwerk");
     System::fWegenNetwerk = WegenNetwerk;
+    ENSURE(getWegenNetwerk() == fWegenNetwerk, "setWegenNetwerk post condition failure");
 }
 
 std::vector<Voertuig *> *System::getVoertuigen() const {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling getVoertuigen");
     return fVoertuigen;
 }
 
 void System::setVoertuigen(std::vector<Voertuig *> *Voertuigen) {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling setVoertuigen");
     System::fVoertuigen = Voertuigen;
+    ENSURE(getVoertuigen() == fVoertuigen, "setVoertuigen post condition failure");
 }
 
 void System::organizeVehicles() {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling organizeVehicles");
+
     for(unsigned int i = 0; i<fVoertuigen->size(); i++){
         Voertuig* tempNextVoertuig = 0;
         bool isFirst = true;
@@ -61,6 +76,8 @@ void System::organizeVehicles() {
 }
 
 void System::initializeVehicleBaanObject() {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling initializeVehicleBaanObject");
+
     for(unsigned int i = 0; i < fVoertuigen->size(); i++){
         bool found = false;
         std::string currentVehicleWay = fVoertuigen->at(i)->getBaan();
@@ -81,6 +98,9 @@ void System::initializeVehicleBaanObject() {
 }
 
 void System::initializeBaanVerbindingObjects() {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling initializeBaanVerbindingObjects");
+
+
     for(unsigned int i = 0; i < fWegenNetwerk->size(); i++){
         bool found = false;
         std::string currentWay = fWegenNetwerk->at(i)->getVerbinding();
@@ -103,6 +123,8 @@ void System::initializeBaanVerbindingObjects() {
 }
 
 void System::filterVehicles() {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling filterVehicles");
+
     std::vector<Voertuig*>* tempVoertuigen = new std::vector<Voertuig*>;
 
     if(fVoertuigen->size() > 0){
@@ -122,6 +144,8 @@ void System::filterVehicles() {
 }
 
 void System::simpeleUitvoer() const {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling simpeleUitvoer");
+
     for(unsigned int i = 0; i<fBanen->size(); i++){
         std::cout << "\nBaan: " << fBanen->at(i)->getNaam() << std::endl;
         std::cout << "\t-> snelheidslimiet: " << fBanen->at(i)->getSnelheidsLimiet() << " km/h" << std::endl;
@@ -143,6 +167,9 @@ void System::simpeleUitvoer() const {
 }
 
 void System::simulate(unsigned int iterations) {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling simulate");
+    REQUIRE(iterations >= 0, "Iterations must be a positive integer");
+
     organizeVehicles();
     initializeVehicleBaanObject();
     initializeBaanVerbindingObjects();
@@ -152,16 +179,19 @@ void System::simulate(unsigned int iterations) {
         }
         //remove to be deleted vehicles
         filterVehicles();
-
     }
 }
 
 void System::automaticSimulation() {
-
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
     while(fVoertuigen->size()>0){
         simulate();
         std::cout << "\n " << std::endl;
         std::cout << "+-----------------------------------------------------+" << std::endl;
         simpeleUitvoer();
     }
+}
+
+bool System::properlyInitialized() const{
+    return _initCheck == this;
 }
