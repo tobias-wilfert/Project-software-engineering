@@ -33,156 +33,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97f6ac4c-9f6e-424c-94a1-4321ba53fd38" name="Default" comment="Replaced Nullpointer with O and added Header Comments to all files.">
-      <change beforePath="$PROJECT_DIR$/../../ADT_Stack/Node.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ADT_Stack/Stack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algemene DFA/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Class/Veelterm.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Class/Veelterm.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cpp_Fundamentals/paper.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Cpp_Fundamentals/paper.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../NFA/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Assets/coding-conventions.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Assets/specificatie1.0.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Niet-functionele vereisten.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/.idea/Verkeerssimulatie.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/.idea/dictionaries/tobiaswilfert.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/Baan.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/Baan.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/System.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/System.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/Voertuig.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/Voertuig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/XmlParser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/XmlParser.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinystr.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinyxml.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlerror.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlparser.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/Desktop.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/Verkeerssimulatie.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/Verkeerssimulatie_debug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/Verkeerssimulatie_debug.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/gtest-death-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/gtest-message.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/gtest-param-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/gtest-param-test.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/gtest-printers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/gtest-spi.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/gtest-test-part.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/gtest-typed-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/gtest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/gtest_pred_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/gtest_prod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/internal/gtest-death-test-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/internal/gtest-filepath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/internal/gtest-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/internal/gtest-linked_ptr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/internal/gtest-param-util-generated.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/internal/gtest-param-util-generated.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/internal/gtest-param-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/internal/gtest-port.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/internal/gtest-string.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/internal/gtest-tuple.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/internal/gtest-tuple.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/internal/gtest-type-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/include/gtest/internal/gtest-type-util.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/lib/libgtest.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/gtest/lib/libgtest_main.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/tinystr.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/tinystr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/tinyxml.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/tinyxml.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/tinyxmlerror.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/tinyxmlparser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/workingDirectory/Wegen_en_voertuigen.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/Verkeerssimulatie/workingDirectory/Wegennetwerk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/workingDirectory/Wegen_en_voertuigen.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-446648609df6c9711c8b3463b49c3e0320a73996/workingDirectory/Wegennetwerk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/VerkeerssimulatieTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/VerkeerssimulatieTest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../University/Composite_datatypes/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../University/Lanceer_de_schildpad/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../University/TA/Algemene_DFA/cmake-build-debug/dfa.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../University/class/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../University/money_monry_money/Onderzoek.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../University/money_monry_money/betaal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../University/money_monry_money/betaal_optimaal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../University/money_monry_money/betaal_uit_kassa.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../University/money_monry_money/print_munten.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../WebsiteGenerator/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../binaire_boom/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../mastermind/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../mastermind/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../snakes/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../studenten-2/Person.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../studenten-2/Person.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/vcs.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="97f6ac4c-9f6e-424c-94a1-4321ba53fd38" name="Default" comment="First Working Test" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -226,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/VerkeerssimulatieTest.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="188">
+              <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
               <folding>
                 <element signature="e#430#449#0" expanded="true" />
                 <element signature="e#493#517#0" expanded="true" />
@@ -480,7 +331,7 @@
       <workItem from="1553510990920" duration="3275000" />
       <workItem from="1553515401472" duration="130000" />
       <workItem from="1553515597204" duration="1177000" />
-      <workItem from="1553517119560" duration="490000" />
+      <workItem from="1553517119560" duration="683000" />
     </task>
     <task id="LOCAL-00001" summary="Replaced Nullpointer with O and added Header Comments to all files.">
       <created>1553442896535</created>
@@ -517,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553515701762</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="First Working Test">
+      <created>1553517645542</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553517645542</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -553,7 +411,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80167000" />
+    <option name="totallyTimeSpent" value="80360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -564,7 +422,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28219178" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28219178" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.360274" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -573,7 +431,7 @@
       <window_info anchor="bottom" id="TeamCity" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="11" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32465753" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -660,7 +518,8 @@
     <MESSAGE value="Fixed bug that would cause traffic Jam as Pointers were not propely&#10;dereferenced causing cars to stop at the end of the Baan and not vanish." />
     <MESSAGE value="Added Doxygen Documentation to all .H files for all non getters/setters" />
     <MESSAGE value="First Test Written" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Test Written" />
+    <MESSAGE value="First Working Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Working Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -855,8 +714,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/VerkeerssimulatieTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="188">
+          <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
           <folding>
             <element signature="e#430#449#0" expanded="true" />
             <element signature="e#493#517#0" expanded="true" />
