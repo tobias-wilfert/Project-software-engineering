@@ -111,7 +111,6 @@ void System::filterVehicles() {
                 tempVoertuigen->push_back(fVoertuigen->at(i));
             }
         }
-        // Needs adjustment
         for(unsigned long j = fVoertuigen->size()-1; j > 0; j--){
             if(fVoertuigen->at(j)->isDeleteObject()){
                 delete fVoertuigen->at(j);

@@ -9,6 +9,33 @@ CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../System.cpp
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../System.h
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../Voertuig.h
 
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/gtest-death-test.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/gtest-message.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/gtest-param-test.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/gtest-printers.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/gtest-test-part.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/gtest-typed-test.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/gtest.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/gtest_pred_impl.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/gtest_prod.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/internal/gtest-filepath.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/internal/gtest-internal.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/internal/gtest-linked_ptr.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/internal/gtest-param-util-generated.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/internal/gtest-param-util.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/internal/gtest-port.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/internal/gtest-string.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/internal/gtest-tuple.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/internal/gtest-type-util.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../Baan.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../System.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../VerkeerssimulatieTest.cpp
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../Voertuig.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../XmlParser.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../tinystr.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../tinyxml.h
+
 CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o: ../Baan.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o: ../Voertuig.cpp
 CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o: ../Voertuig.h

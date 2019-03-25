@@ -10,10 +10,6 @@
 string
 -
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.cpp
-System.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
-
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
 vector
 -
@@ -24,19 +20,9 @@ Baan.h
 Voertuig.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp
-Voertuig.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
-
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 Baan.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
-
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp
-cstring
--
-XmlParser.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 vector

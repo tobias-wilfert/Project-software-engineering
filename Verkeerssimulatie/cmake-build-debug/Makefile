@@ -177,6 +177,33 @@ System.cpp.s:
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.s
 .PHONY : System.cpp.s
 
+VerkeerssimulatieTest.o: VerkeerssimulatieTest.cpp.o
+
+.PHONY : VerkeerssimulatieTest.o
+
+# target to build an object file
+VerkeerssimulatieTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o
+.PHONY : VerkeerssimulatieTest.cpp.o
+
+VerkeerssimulatieTest.i: VerkeerssimulatieTest.cpp.i
+
+.PHONY : VerkeerssimulatieTest.i
+
+# target to preprocess a source file
+VerkeerssimulatieTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.i
+.PHONY : VerkeerssimulatieTest.cpp.i
+
+VerkeerssimulatieTest.s: VerkeerssimulatieTest.cpp.s
+
+.PHONY : VerkeerssimulatieTest.s
+
+# target to generate assembly for a file
+VerkeerssimulatieTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.s
+.PHONY : VerkeerssimulatieTest.cpp.s
+
 Voertuig.o: Voertuig.cpp.o
 
 .PHONY : Voertuig.o
@@ -381,6 +408,9 @@ help:
 	@echo "... System.o"
 	@echo "... System.i"
 	@echo "... System.s"
+	@echo "... VerkeerssimulatieTest.o"
+	@echo "... VerkeerssimulatieTest.i"
+	@echo "... VerkeerssimulatieTest.s"
 	@echo "... Voertuig.o"
 	@echo "... Voertuig.i"
 	@echo "... Voertuig.s"

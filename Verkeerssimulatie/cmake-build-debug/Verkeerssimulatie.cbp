@@ -97,6 +97,9 @@
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h">
 			<Option target="Verkeerssimulatie_debug"/>
 		</Unit>
+		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/VerkeerssimulatieTest.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
+		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp">
 			<Option target="Verkeerssimulatie_debug"/>
 		</Unit>

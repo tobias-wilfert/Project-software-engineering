@@ -223,3 +223,7 @@ bool XmlParser::is_digits(const std::string &string) const {
 bool XmlParser::is_equal(const char *cc1, const char *cc2) const {
     return 0 == std::strncmp(cc1, cc2, std::strlen(cc1)+1);
 }
+
+bool XmlParser::properlyInitialized() {
+    return _initCheck == this;
+}

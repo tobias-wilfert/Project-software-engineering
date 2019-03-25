@@ -9,6 +9,33 @@ CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o
  /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.cpp
  /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
  /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o
+ ../gtest/include/gtest/gtest-death-test.h
+ ../gtest/include/gtest/gtest-message.h
+ ../gtest/include/gtest/gtest-param-test.h
+ ../gtest/include/gtest/gtest-printers.h
+ ../gtest/include/gtest/gtest-test-part.h
+ ../gtest/include/gtest/gtest-typed-test.h
+ ../gtest/include/gtest/gtest.h
+ ../gtest/include/gtest/gtest_pred_impl.h
+ ../gtest/include/gtest/gtest_prod.h
+ ../gtest/include/gtest/internal/gtest-death-test-internal.h
+ ../gtest/include/gtest/internal/gtest-filepath.h
+ ../gtest/include/gtest/internal/gtest-internal.h
+ ../gtest/include/gtest/internal/gtest-linked_ptr.h
+ ../gtest/include/gtest/internal/gtest-param-util-generated.h
+ ../gtest/include/gtest/internal/gtest-param-util.h
+ ../gtest/include/gtest/internal/gtest-port.h
+ ../gtest/include/gtest/internal/gtest-string.h
+ ../gtest/include/gtest/internal/gtest-tuple.h
+ ../gtest/include/gtest/internal/gtest-type-util.h
+ /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
+ /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
+ /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/VerkeerssimulatieTest.cpp
+ /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
+ /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
+ /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinystr.h
+ /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxml.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o
  /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
  /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp

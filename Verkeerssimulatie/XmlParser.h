@@ -84,6 +84,9 @@ private:
      */
     bool is_equal(const char* cc1, const char* cc2) const;
 
+    ///Use pointer to myself to verify whether I am properly initialized
+    XmlParser * _initCheck;
+
 public:
 
     XmlParser(const char* nameOfFile);
@@ -94,6 +97,11 @@ public:
 
     std::vector<Voertuig *> *getVoertuigen() const;
 
+    //-----------------------------------------
+    ///auxiliary routines (private use)
+    //-----------------------------------------
+
+    bool properlyInitialized();
 };
 
 

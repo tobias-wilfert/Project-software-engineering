@@ -27,7 +27,7 @@ private:
     std::vector<Voertuig*>* fVoertuigen;
 
     /**
-     * This method iterates over all Vehicles in the system letting everyone know
+     * Iterates over all Vehicles in the system letting everyone know
      * which the vehicle in front of them is.
      * @pre Voertuigen with NextVoertuig equal to 0
      * @post Voertuigen with fNextVoertuig a pointer to the Voertuig infront of them
@@ -35,7 +35,7 @@ private:
     void organizeVehicles();
 
     /**
-     * This method iterates over all Vehicles in the system letting everyone know
+     * Iterates over all Vehicles in the system letting everyone know
      * which instance of Baan they are currently on.
      * @pre Voertuigen that only know the name of the Baan they are on
      * @post Voertuigen that have a pointer to the Baan they are on
@@ -43,7 +43,7 @@ private:
     void initializeVehicleBaanObject();
 
     /**
-     *  This method iterates over all Wegen Netwerken in the system letting everyone
+     *  Iterates over all Wegen Netwerken in the system letting everyone
      *  know which instance of Baan they have a Verbinding with
      *  @pre Wegen Netwerken that only know the name of the Baan they have a verbinding with
      *  @post Wegen Netwerken that have a pointer to the Baan they have a verbinding with
@@ -74,14 +74,14 @@ public:
     void setVoertuigen(std::vector<Voertuig *> *Voertuigen);
 
     /**
-     * This outputs a Simple Texted Based Representation of how the System looks
+     * Outputs a Simple Texted Based Representation of how the System looks
      * @pre A Valid system
      * @post A Texted Based Representation of the System is printed to the Terminal
      */
     void simpeleUitvoer() const;
 
     /**
-     * This method Simulates #iterations amount of time intervals in the system,
+     * Simulates #iterations amount of time intervals in the system,
      * adjusting position, speed and acceleration of all vehicles based the optimal traffic flow formula
      * @pre A Valid system
      * @post Vehicles have adjusted speed, position and acceleration
@@ -90,12 +90,13 @@ public:
     void simulate(unsigned int iterations = 1);
 
     /**
-     * This method calls simulate() till all Vehicles in the system are gone.
+     * Calls simulate() till all Vehicles in the system are gone.
      * After each call of simulate() it also calls simpeleUitvoer() to show the current state of the system
      * @pre A Valid system
      * @post A system with no Vehicles in it
      */
     void automaticSimulation();
+
 };
 
 
