@@ -266,14 +266,14 @@ Baan.h
 Voertuig.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/VerkeerssimulatieTest.cpp
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/XmlParserTest.cpp
 iostream
 -
 gtest/gtest.h
 -
-XmlParser.h
+../XmlParser.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
-System.h
+../System.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h

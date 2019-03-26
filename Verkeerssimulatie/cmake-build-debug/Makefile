@@ -196,6 +196,63 @@ System.cpp.s:
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/System.cpp.s
 .PHONY : System.cpp.s
 
+Tests/BaanTest.o: Tests/BaanTest.cpp.o
+
+.PHONY : Tests/BaanTest.o
+
+# target to build an object file
+Tests/BaanTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/Tests/BaanTest.cpp.o
+.PHONY : Tests/BaanTest.cpp.o
+
+Tests/BaanTest.i: Tests/BaanTest.cpp.i
+
+.PHONY : Tests/BaanTest.i
+
+# target to preprocess a source file
+Tests/BaanTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.i
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/Tests/BaanTest.cpp.i
+.PHONY : Tests/BaanTest.cpp.i
+
+Tests/BaanTest.s: Tests/BaanTest.cpp.s
+
+.PHONY : Tests/BaanTest.s
+
+# target to generate assembly for a file
+Tests/BaanTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.s
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/Tests/BaanTest.cpp.s
+.PHONY : Tests/BaanTest.cpp.s
+
+Tests/XmlParserTest.o: Tests/XmlParserTest.cpp.o
+
+.PHONY : Tests/XmlParserTest.o
+
+# target to build an object file
+Tests/XmlParserTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.o
+.PHONY : Tests/XmlParserTest.cpp.o
+
+Tests/XmlParserTest.i: Tests/XmlParserTest.cpp.i
+
+.PHONY : Tests/XmlParserTest.i
+
+# target to preprocess a source file
+Tests/XmlParserTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.i
+.PHONY : Tests/XmlParserTest.cpp.i
+
+Tests/XmlParserTest.s: Tests/XmlParserTest.cpp.s
+
+.PHONY : Tests/XmlParserTest.s
+
+# target to generate assembly for a file
+Tests/XmlParserTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.s
+.PHONY : Tests/XmlParserTest.cpp.s
+
 VerkeerssimulatieTest.o: VerkeerssimulatieTest.cpp.o
 
 .PHONY : VerkeerssimulatieTest.o
@@ -309,33 +366,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-testHeaderFiles/BaanTest.o: testHeaderFiles/BaanTest.cpp.o
-
-.PHONY : testHeaderFiles/BaanTest.o
-
-# target to build an object file
-testHeaderFiles/BaanTest.cpp.o:
-	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/testHeaderFiles/BaanTest.cpp.o
-.PHONY : testHeaderFiles/BaanTest.cpp.o
-
-testHeaderFiles/BaanTest.i: testHeaderFiles/BaanTest.cpp.i
-
-.PHONY : testHeaderFiles/BaanTest.i
-
-# target to preprocess a source file
-testHeaderFiles/BaanTest.cpp.i:
-	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/testHeaderFiles/BaanTest.cpp.i
-.PHONY : testHeaderFiles/BaanTest.cpp.i
-
-testHeaderFiles/BaanTest.s: testHeaderFiles/BaanTest.cpp.s
-
-.PHONY : testHeaderFiles/BaanTest.s
-
-# target to generate assembly for a file
-testHeaderFiles/BaanTest.cpp.s:
-	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/testHeaderFiles/BaanTest.cpp.s
-.PHONY : testHeaderFiles/BaanTest.cpp.s
 
 tinystr.o: tinystr.cpp.o
 
@@ -473,6 +503,12 @@ help:
 	@echo "... System.o"
 	@echo "... System.i"
 	@echo "... System.s"
+	@echo "... Tests/BaanTest.o"
+	@echo "... Tests/BaanTest.i"
+	@echo "... Tests/BaanTest.s"
+	@echo "... Tests/XmlParserTest.o"
+	@echo "... Tests/XmlParserTest.i"
+	@echo "... Tests/XmlParserTest.s"
 	@echo "... VerkeerssimulatieTest.o"
 	@echo "... VerkeerssimulatieTest.i"
 	@echo "... VerkeerssimulatieTest.s"
@@ -485,9 +521,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... testHeaderFiles/BaanTest.o"
-	@echo "... testHeaderFiles/BaanTest.i"
-	@echo "... testHeaderFiles/BaanTest.s"
 	@echo "... tinystr.o"
 	@echo "... tinystr.i"
 	@echo "... tinystr.s"

@@ -146,6 +146,13 @@
 			<Option target="Verkeerssimulatie_debug"/>
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
+		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/BaanTest.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
+			<Option target="Verkeerssimulatie"/>
+		</Unit>
+		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/XmlParserTest.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
+		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/VerkeerssimulatieTest.cpp">
 			<Option target="Verkeerssimulatie_debug"/>
 		</Unit>
@@ -166,9 +173,6 @@
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/main.cpp">
-			<Option target="Verkeerssimulatie"/>
-		</Unit>
-		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/testHeaderFiles/BaanTest.cpp">
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinystr.cpp">
@@ -193,9 +197,6 @@
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/tinyxmlparser.cpp">
 			<Option target="Verkeerssimulatie_debug"/>
-			<Option target="Verkeerssimulatie"/>
-		</Unit>
-		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/workingDirectory/DuplicateBanen4Banen2Duplicaten.xml">
 			<Option target="Verkeerssimulatie"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/CMakeLists.txt">
