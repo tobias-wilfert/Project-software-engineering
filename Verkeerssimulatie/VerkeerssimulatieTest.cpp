@@ -34,9 +34,13 @@ protected:
 
     // Declares the variables your tests want to use.
 public:
+    //TODO: May not work seems fish
     XmlParser parser2 = XmlParser("OneWegenNetwerk.xml");
     System systemTest = System(parser2.getBanen(),parser2.getWegenNetwerk(),parser2.getVoertuigen());
+    XmlParser parser1 = XmlParser("OneWegenNetwerk.xml");
+    XmlParser parser  = XmlParser("GetterAndSetterTester.xml");
 };
+
 
 // Tests the default constructor.
 TEST_F(VerkeerssimulatieTest, DefaultConstructor) {
@@ -45,54 +49,51 @@ TEST_F(VerkeerssimulatieTest, DefaultConstructor) {
 
     EXPECT_TRUE((parser.properlyInitialized()));
     EXPECT_TRUE((parser.getBanen()->size() > 0));
-
     EXPECT_TRUE((parser.getVoertuigen()->size() > 0));
     EXPECT_TRUE((parser.getWegenNetwerk()->size() >= 0));
 }
 
 // Can't work with non existing file
 TEST_F(VerkeerssimulatieTest, ConstructorWithNoneFile) {
-    //EXPECT_DEATH(XmlParser parser(""),"");
-    EXPECT_EXIT(XmlParser parser(""), ::testing::ExitedWithCode(1), "");
+    EXPECT_DEATH(XmlParser parser(""),"");
+    //EXPECT_EXIT(XmlParser parser(""), ::testing::ExitedWithCode(1), "");
 
 }
 
 // Can't work with non XML File
 TEST_F(VerkeerssimulatieTest, ConstructorWithNonXMLFile) {
-    //EXPECT_DEATH(XmlParser parser("File.txt"),"");
-    EXPECT_EXIT(XmlParser parser("File.xml"), ::testing::ExitedWithCode(1), "");
+    EXPECT_DEATH(XmlParser parser("File.txt"),"");
+    //EXPECT_EXIT(XmlParser parser("File.xml"), ::testing::ExitedWithCode(1), "");
 
 }
 
 // Can't work with empty XML File
 TEST_F(VerkeerssimulatieTest, ConstructorWithEmptyXMLFile) {
-    //EXPECT_DEATH(XmlParser parser("Empty.xml"),"");
-    EXPECT_EXIT(XmlParser parser("Empty.xml"), ::testing::ExitedWithCode(1), "");
+    EXPECT_DEATH(XmlParser parser("Empty.xml"),"");
+    //EXPECT_EXIT(XmlParser parser("Empty.xml"), ::testing::ExitedWithCode(1), "");
 
 }
 
 // Can't work with wrongly XML File
 TEST_F(VerkeerssimulatieTest, ConstructorWithWronglyXMLFile) {
-    //EXPECT_DEATH(XmlParser parser("Wrong.xml"),"");
-
-    EXPECT_EXIT(XmlParser parser("Wrong.xml"), ::testing::ExitedWithCode(1), "");
+    EXPECT_DEATH(XmlParser parser("Wrong.xml"),"");
+    //EXPECT_EXIT(XmlParser parser("Wrong.xml"), ::testing::ExitedWithCode(1), "");
 }
 
 
 //////////////////////  BAAN TEST BEGINS HERE  /////////////////////////////////
 //test xml file with duplicate Banen objects
 TEST_F(VerkeerssimulatieTest, VierBanenVierDuplicaten){
-    XmlParser parser("DuplicateBanen4Banen4Duplicaten.xml");
-    EXPECT_EQ(parser.getBanen()->size(), 1);
+    XmlParser parser4("DuplicateBanen4Banen4Duplicaten.xml");
+    EXPECT_EQ(parser4.getBanen()->size(), 1);
 }
 
 TEST_F(VerkeerssimulatieTest, VierBanenTweeDuplicaten){
-    XmlParser parser("DuplicateBanen4Banen2Duplicaten.xml");
-    EXPECT_EQ(parser.getBanen()->size(), 2);
+    XmlParser parser4("DuplicateBanen4Banen2Duplicaten.xml");
+    EXPECT_EQ(parser4.getBanen()->size(), 2);
 }
 
 //test getters and setters of Banen + randgevallen
-XmlParser parser("GetterAndSetterTester.xml");
 TEST_F(VerkeerssimulatieTest, BanenGetNaam){
     EXPECT_EQ(parser.getBanen()->at(0)->getNaam(), "E20");
 }
@@ -130,7 +131,8 @@ TEST_F(VerkeerssimulatieTest, BanenSetSnelheidsLimietRandgeval1){
 TEST_F(VerkeerssimulatieTest, BanenGetVerbindingWithoutVerbinding){
     EXPECT_EQ(parser.getBanen()->at(0)->getVerbinding(), "");
 }
-XmlParser parser1("OneWegenNetwerk.xml");
+
+
 TEST_F(VerkeerssimulatieTest, BanenGetVerbindingWithVerbinding){
     EXPECT_EQ(parser1.getWegenNetwerk()->at(0)->getVerbinding(), "E20");
 }
@@ -141,6 +143,7 @@ TEST_F(VerkeerssimulatieTest, BanenSetVerbinding){
 TEST_F(VerkeerssimulatieTest, BanenSetVerbindingRandGeval){
     EXPECT_DEATH(parser1.getWegenNetwerk()->at(0)->setVerbinding(""), "");
 }
+
 /*
 XmlParser parser2("OneWegenNetwerk.xml");
 System systemTest = System(parser2.getBanen(),parser2.getWegenNetwerk(),parser2.getVoertuigen());
