@@ -119,8 +119,17 @@ void XmlParser::parseFile() {
 
                 }
             }
-            // Add the new instance of 'voertuig' to 'voertuigen'
-            fVoertuigen->push_back(voertuig);
+            //check if baan nog niet bestaat
+            bool geldigVoertuigObject = true;
+            for(unsigned int i = 0; i < fVoertuigen->size(); i++){
+                if(fVoertuigen->at(i)->getNummerPlaat() == voertuig->getNummerPlaat()){
+                    geldigVoertuigObject = false;
+                }
+            }
+            if(geldigVoertuigObject){
+                // Add the new instance of 'voertuig' to 'voertuigen'
+                fVoertuigen->push_back(voertuig);
+            }
         }
 
         if (is_equal(rootElement->Value(),"BAAN")) {
@@ -185,11 +194,29 @@ void XmlParser::parseFile() {
                     baan->setVerbinding(elementText);
                 }
             }
-
+            bool geldigObject = true;
             if (isWegenNetwerk) {
-                fWegenNetwerk->push_back(baan);
+                //check if wegenNetwerk nog niet bestaat
+                for(unsigned int i = 0; i < fWegenNetwerk->size(); i++){
+                    if(fWegenNetwerk->at(i)->getNaam() == baan->getNaam()){
+                        geldigObject = false;
+                    }
+                }
+                if(geldigObject){
+                    // Add the new instance of 'wegenNetwerk' to 'wegenNetwerken'
+                    fWegenNetwerk->push_back(baan);
+                }
             } else {
-                fBanen->push_back(baan);
+                //check if Baan nog niet bestaat
+                for(unsigned int i = 0; i < fBanen->size(); i++){
+                    if(fBanen->at(i)->getNaam() == baan->getNaam()){
+                        geldigObject = false;
+                    }
+                }
+                if(geldigObject){
+                    // Add the new instance of 'Baan' to 'Banen'
+                    fBanen->push_back(baan);
+                }
             }
         }
     }

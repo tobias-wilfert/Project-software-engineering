@@ -79,7 +79,7 @@ const std::string &Baan::getVerbinding() const {
 void Baan::setVerbinding(const std::string &verbinding) {
     REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setVerbinding");
 
-    REQUIRE(fVerbinding != "", "setVerbinding() precondition failure");
+    REQUIRE(verbinding != "", "setVerbinding() precondition failure");
     Baan::fVerbinding = verbinding;
     ENSURE(getVerbinding() == fVerbinding, "setVerbinding() postcondition failure");
 }

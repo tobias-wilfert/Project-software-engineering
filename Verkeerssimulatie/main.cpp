@@ -12,7 +12,14 @@
 int main() {
 
     // The name of the file that will serve as input
-    const char* kFileName =  "Wegen_en_voertuigen.xml";
+    const char* kFileName =  "Traffic_Jam.xml";
+    //const char* kFileName =  "Friday_Night.xml";
+    //const char* kFileName =  "Holiday.xml";
+    //const char* kFileName =  "Monday_Morning.xml";
+    //const char* kFileName =  "Wednesday_Night.xml";
+    //const char* kFileName =  "Wegen_en_voertuigen.xml";
+    //const char* kFileName =  "Wegennetwerk.xml";
+
     // Parse the file
     XmlParser parser = XmlParser(kFileName);
     // Initialize the system

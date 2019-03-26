@@ -3,8 +3,10 @@
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o: ../Baan.cpp
 CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o: ../Baan.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o: ../DesignByContract.h
 
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../Baan.h
+CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../DesignByContract.h
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../System.cpp
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../System.h
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../Voertuig.h
@@ -29,6 +31,8 @@ CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/inc
 CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/internal/gtest-tuple.h
 CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/internal/gtest-type-util.h
 CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../Baan.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../DesignByContract.h
+CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../System.h
 CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../VerkeerssimulatieTest.cpp
 CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../Voertuig.h
 CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../XmlParser.h
@@ -36,10 +40,12 @@ CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../tinystr.h
 CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o: ../tinyxml.h
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o: ../Baan.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o: ../DesignByContract.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o: ../Voertuig.cpp
 CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o: ../Voertuig.h
 
 CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o: ../Baan.h
+CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o: ../DesignByContract.h
 CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o: ../Voertuig.h
 CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o: ../XmlParser.cpp
 CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o: ../XmlParser.h

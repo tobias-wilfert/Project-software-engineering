@@ -10,9 +10,12 @@
 #include <gtest/gtest.h>
 
 #include "XmlParser.h"
+#include "System.h"
 
-class TicTactToeTest: public ::testing::Test {
+class VerkeerssimulatieTest: public ::testing::Test {
 protected:
+    friend class XmlParser;
+    friend class System;
     // You should make the members protected s.t. they can be
     // accessed from sub-classes.
 
@@ -33,7 +36,7 @@ protected:
 };
 
 // Tests the default constructor.
-TEST_F(TicTactToeTest, DefaultConstructor) {
+TEST_F(VerkeerssimulatieTest, DefaultConstructor) {
 
     XmlParser parser("Wegen_en_voertuigen.xml");
 
@@ -44,11 +47,24 @@ TEST_F(TicTactToeTest, DefaultConstructor) {
     EXPECT_TRUE((parser.getWegenNetwerk()->size() >= 0));
 }
 
-// Tests the default constructor.
-TEST_F(TicTactToeTest, SpecialConstructor) {
+// Can't work with non existing file
+TEST_F(VerkeerssimulatieTest, ConstructorWithNoneFile) {
+    EXPECT_DEATH(XmlParser parser(""),"");
+}
 
-    XmlParser parser("Wegennetwerk.xml");
-    EXPECT_TRUE((parser.properlyInitialized()));
+// Can't work with non XML File
+TEST_F(VerkeerssimulatieTest, ConstructorWithNonXMLFile) {
+    EXPECT_DEATH(XmlParser parser("File.txt"),"");
+}
+
+// Can't work with empty XML File
+TEST_F(VerkeerssimulatieTest, ConstructorWithEmptyXMLFile) {
+    EXPECT_DEATH(XmlParser parser("Empty.xml"),"");
+}
+
+// Can't work with wrongly XML File
+TEST_F(VerkeerssimulatieTest, ConstructorWithWronglyXMLFile) {
+    EXPECT_DEATH(XmlParser parser("Wrong.xml"),"");
 }
 
 
