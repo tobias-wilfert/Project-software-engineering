@@ -12,10 +12,10 @@ include_directories(gtest/include)
 link_directories(gtest/lib)
 
 # Set source files for RELEASE target
-set(RELEASE_SOURCE_FILES main.cpp tinystr.cpp tinystr.h tinyxml.cpp tinyxml.h tinyxmlerror.cpp tinyxmlparser.cpp XmlParser.cpp XmlParser.h Voertuig.cpp Voertuig.h Baan.cpp Baan.h System.cpp System.h DesignByContract.h)
+set(RELEASE_SOURCE_FILES main.cpp tinystr.cpp tinystr.h tinyxml.cpp tinyxml.h tinyxmlerror.cpp tinyxmlparser.cpp XmlParser.cpp XmlParser.h Voertuig.cpp Voertuig.h Baan.cpp Baan.h System.cpp System.h DesignByContract.h testHeaderFiles/BaanTest.cpp workingDirectory/DuplicateBanen4Banen2Duplicaten.xml)
 
 # Set source files for DEBUG target
-set(DEBUG_SOURCE_FILES VerkeerssimulatieTest.cpp tinystr.cpp tinystr.h tinyxml.cpp tinyxml.h tinyxmlerror.cpp tinyxmlparser.cpp XmlParser.cpp XmlParser.h Voertuig.cpp Voertuig.h Baan.cpp Baan.h System.cpp System.h DesignByContract.h)
+set(DEBUG_SOURCE_FILES VerkeerssimulatieTest.cpp tinystr.cpp tinystr.h tinyxml.cpp tinyxml.h tinyxmlerror.cpp tinyxmlparser.cpp XmlParser.cpp XmlParser.h Voertuig.cpp Voertuig.h Baan.cpp Baan.h System.cpp System.h DesignByContract.h )
 
 # Create RELEASE target
 add_executable(Verkeerssimulatie ${RELEASE_SOURCE_FILES})

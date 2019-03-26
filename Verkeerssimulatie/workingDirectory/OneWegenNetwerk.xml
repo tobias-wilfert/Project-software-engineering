@@ -1,0 +1,11 @@
+<BAAN>
+    <naam>E20</naam>
+    <snelheidslimiet>100</snelheidslimiet>
+    <lengte>1000</lengte>
+</BAAN>
+<BAAN>
+<naam>E19</naam>
+<snelheidslimiet>110</snelheidslimiet>
+<lengte>2000</lengte>
+<verbinding>E20</verbinding>
+</BAAN>

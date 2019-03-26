@@ -116,7 +116,6 @@ void System::initializeBaanVerbindingObjects() {
                     fWegenNetwerk->at(i)->setVerbindingObject(fWegenNetwerk->at(j));
                 }
             }
-
         }
     }
 
