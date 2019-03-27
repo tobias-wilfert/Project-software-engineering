@@ -203,7 +203,6 @@ Tests/BaanTest.o: Tests/BaanTest.cpp.o
 # target to build an object file
 Tests/BaanTest.cpp.o:
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o
-	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/Tests/BaanTest.cpp.o
 .PHONY : Tests/BaanTest.cpp.o
 
 Tests/BaanTest.i: Tests/BaanTest.cpp.i
@@ -213,7 +212,6 @@ Tests/BaanTest.i: Tests/BaanTest.cpp.i
 # target to preprocess a source file
 Tests/BaanTest.cpp.i:
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.i
-	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/Tests/BaanTest.cpp.i
 .PHONY : Tests/BaanTest.cpp.i
 
 Tests/BaanTest.s: Tests/BaanTest.cpp.s
@@ -223,8 +221,88 @@ Tests/BaanTest.s: Tests/BaanTest.cpp.s
 # target to generate assembly for a file
 Tests/BaanTest.cpp.s:
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.s
-	$(MAKE) -f CMakeFiles/Verkeerssimulatie.dir/build.make CMakeFiles/Verkeerssimulatie.dir/Tests/BaanTest.cpp.s
 .PHONY : Tests/BaanTest.cpp.s
+
+Tests/SystemDebug.o: Tests/SystemDebug.cpp.o
+
+.PHONY : Tests/SystemDebug.o
+
+# target to build an object file
+Tests/SystemDebug.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemDebug.cpp.o
+.PHONY : Tests/SystemDebug.cpp.o
+
+Tests/SystemDebug.i: Tests/SystemDebug.cpp.i
+
+.PHONY : Tests/SystemDebug.i
+
+# target to preprocess a source file
+Tests/SystemDebug.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemDebug.cpp.i
+.PHONY : Tests/SystemDebug.cpp.i
+
+Tests/SystemDebug.s: Tests/SystemDebug.cpp.s
+
+.PHONY : Tests/SystemDebug.s
+
+# target to generate assembly for a file
+Tests/SystemDebug.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemDebug.cpp.s
+.PHONY : Tests/SystemDebug.cpp.s
+
+Tests/SystemTest.o: Tests/SystemTest.cpp.o
+
+.PHONY : Tests/SystemTest.o
+
+# target to build an object file
+Tests/SystemTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o
+.PHONY : Tests/SystemTest.cpp.o
+
+Tests/SystemTest.i: Tests/SystemTest.cpp.i
+
+.PHONY : Tests/SystemTest.i
+
+# target to preprocess a source file
+Tests/SystemTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.i
+.PHONY : Tests/SystemTest.cpp.i
+
+Tests/SystemTest.s: Tests/SystemTest.cpp.s
+
+.PHONY : Tests/SystemTest.s
+
+# target to generate assembly for a file
+Tests/SystemTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.s
+.PHONY : Tests/SystemTest.cpp.s
+
+Tests/VoertuigTest.o: Tests/VoertuigTest.cpp.o
+
+.PHONY : Tests/VoertuigTest.o
+
+# target to build an object file
+Tests/VoertuigTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.o
+.PHONY : Tests/VoertuigTest.cpp.o
+
+Tests/VoertuigTest.i: Tests/VoertuigTest.cpp.i
+
+.PHONY : Tests/VoertuigTest.i
+
+# target to preprocess a source file
+Tests/VoertuigTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.i
+.PHONY : Tests/VoertuigTest.cpp.i
+
+Tests/VoertuigTest.s: Tests/VoertuigTest.cpp.s
+
+.PHONY : Tests/VoertuigTest.s
+
+# target to generate assembly for a file
+Tests/VoertuigTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.s
+.PHONY : Tests/VoertuigTest.cpp.s
 
 Tests/XmlParserTest.o: Tests/XmlParserTest.cpp.o
 
@@ -506,6 +584,15 @@ help:
 	@echo "... Tests/BaanTest.o"
 	@echo "... Tests/BaanTest.i"
 	@echo "... Tests/BaanTest.s"
+	@echo "... Tests/SystemDebug.o"
+	@echo "... Tests/SystemDebug.i"
+	@echo "... Tests/SystemDebug.s"
+	@echo "... Tests/SystemTest.o"
+	@echo "... Tests/SystemTest.i"
+	@echo "... Tests/SystemTest.s"
+	@echo "... Tests/VoertuigTest.o"
+	@echo "... Tests/VoertuigTest.i"
+	@echo "... Tests/VoertuigTest.s"
 	@echo "... Tests/XmlParserTest.o"
 	@echo "... Tests/XmlParserTest.i"
 	@echo "... Tests/XmlParserTest.s"

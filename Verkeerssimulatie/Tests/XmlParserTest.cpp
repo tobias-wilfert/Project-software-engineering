@@ -9,13 +9,13 @@
 #include <iostream>
 #include <gtest/gtest.h>
 
-#include "../XmlParser.h"
 #include "../System.h"
+#include "../XmlParser.h"
 
 class XmlParserTest: public ::testing::Test {
 protected:
-    friend class XmlParser;
     friend class System;
+    friend class XmlParser;
     // You should make the members protected s.t. they can be
     // accessed from sub-classes.
 
@@ -34,6 +34,8 @@ protected:
     // Declares the variables your tests want to use.
 
 };
+
+/// Check Parser Parsing File
 
 // Tests the default constructor.
 TEST_F(XmlParserTest, DefaultConstructor) {
@@ -70,3 +72,4 @@ TEST_F(XmlParserTest, ConstructorWithWronglyXMLFile) {
     //EXPECT_EXIT(XmlParser parser("Wrong.xml"), ::testing::ExitedWithCode(1), "");
 }
 
+/// Check Help functions

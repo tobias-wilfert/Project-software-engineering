@@ -155,7 +155,7 @@ public:
     /**
     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFNextVoertuig");
      */
-    Voertuig *getFNextVoertuig() const;
+    Voertuig *getNextVoertuig() const;
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setNextVoertuig");
@@ -191,6 +191,8 @@ public:
     //-----------------------------------------
 
     bool properlyInitialized() const;
+
+    void set_initCheck(Voertuig *_initCheck);
 
 };
 

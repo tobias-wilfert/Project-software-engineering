@@ -148,7 +148,18 @@
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/BaanTest.cpp">
 			<Option target="Verkeerssimulatie_debug"/>
-			<Option target="Verkeerssimulatie"/>
+		</Unit>
+		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/SystemDebug.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
+		</Unit>
+		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/SystemDebug.h">
+			<Option target="Verkeerssimulatie_debug"/>
+		</Unit>
+		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/SystemTest.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
+		</Unit>
+		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VoertuigTest.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
 		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/XmlParserTest.cpp">
 			<Option target="Verkeerssimulatie_debug"/>

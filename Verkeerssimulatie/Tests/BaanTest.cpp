@@ -9,13 +9,13 @@
 #include <iostream>
 #include <gtest/gtest.h>
 
+#include "SystemDebug.h"
 #include "../XmlParser.h"
-#include "../System.h"
 
 class BaanTest: public ::testing::Test {
 protected:
+    friend class SystemDebug;
     friend class XmlParser;
-    friend class System;
     // You should make the members protected s.t. they can be
     // accessed from sub-classes.
 
@@ -36,8 +36,6 @@ public:
     //TODO: May not work seems fish
     XmlParser parser  = XmlParser("GetterAndSetterTester.xml");
     XmlParser parser1 = XmlParser("OneWegenNetwerk.xml");
-    XmlParser parser2 = XmlParser("OneWegenNetwerk.xml");
-    System systemTest = System(parser2.getBanen(),parser2.getWegenNetwerk(),parser2.getVoertuigen());
 };
 
 
@@ -92,7 +90,6 @@ TEST_F(BaanTest, BanenGetVerbindingWithoutVerbinding){
     EXPECT_EQ(parser.getBanen()->at(0)->getVerbinding(), "");
 }
 
-
 TEST_F(BaanTest, BanenGetVerbindingWithVerbinding){
     EXPECT_EQ(parser1.getWegenNetwerk()->at(0)->getVerbinding(), "E20");
 }
@@ -104,10 +101,9 @@ TEST_F(BaanTest, BanenSetVerbindingRandGeval){
     EXPECT_DEATH(parser1.getWegenNetwerk()->at(0)->setVerbinding(""), "");
 }
 
-/*
-XmlParser parser2("OneWegenNetwerk.xml");
-System systemTest = System(parser2.getBanen(),parser2.getWegenNetwerk(),parser2.getVoertuigen());
-TEST_F(VerkeerssimulatieTest, BanenGetVerbindingObject){
-
+TEST_F(BaanTest, BanenGetVerbindingObject){
+    XmlParser parser2("OneWegenNetwerk.xml");
+    SystemDebug systemTest(parser2.getBanen(),parser2.getWegenNetwerk(),parser2.getVoertuigen());
+    systemTest.initializeBaanVerbindingObjects();
     EXPECT_EQ(systemTest.getWegenNetwerk()->at(0)->getVerbindingObject(), systemTest.getBanen()->at(0));
-}*/
+}

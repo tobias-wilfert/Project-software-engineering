@@ -114,15 +114,15 @@ void Voertuig::setBaanObject(Baan *baanObject) {
     ENSURE(getBaanObject() == fBaanObject, "setBaanObject post condition failure");
 }
 
-Voertuig *Voertuig::getFNextVoertuig() const {
-    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFNextVoertuig");
+Voertuig *Voertuig::getNextVoertuig() const {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getNextVoertuig");
     return fNextVoertuig;
 }
 
 void Voertuig::setNextVoertuig(Voertuig *nextVoertuig) {
     REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setNextVoertuig");
     Voertuig::fNextVoertuig = nextVoertuig;
-    ENSURE(getFNextVoertuig() == fNextVoertuig, "setNextVoertuig post condition failure");
+    ENSURE(getNextVoertuig() == fNextVoertuig, "setNextVoertuig post condition failure");
 }
 
 bool Voertuig::isDeleteObject() const {
@@ -195,4 +195,8 @@ void Voertuig::updatePosition() {
 
 bool Voertuig::properlyInitialized() const{
     return _initCheck == this;
+}
+
+void Voertuig::set_initCheck(Voertuig *_initCheck) {
+    Voertuig::_initCheck = _initCheck;
 }

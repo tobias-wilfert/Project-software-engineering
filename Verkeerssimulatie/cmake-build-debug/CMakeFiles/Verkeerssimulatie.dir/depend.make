@@ -33,8 +33,6 @@ CMakeFiles/Verkeerssimulatie.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Verkeerssimulatie.dir/main.cpp.o: ../tinystr.h
 CMakeFiles/Verkeerssimulatie.dir/main.cpp.o: ../tinyxml.h
 
-CMakeFiles/Verkeerssimulatie.dir/testHeaderFiles/BaanTest.cpp.o: ../testHeaderFiles/BaanTest.cpp
-
 CMakeFiles/Verkeerssimulatie.dir/tinystr.cpp.o: ../tinystr.cpp
 CMakeFiles/Verkeerssimulatie.dir/tinystr.cpp.o: ../tinystr.h
 

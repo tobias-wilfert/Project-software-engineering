@@ -6,11 +6,7 @@
 // Description : Verkeerssimulatie in C++
 //============================================================================
 
-#include <iostream>
 #include <gtest/gtest.h>
-
-#include "System.h"
-#include "XmlParser.h"
 
 int main(int argc, char **argv) {
     ::testing::FLAGS_gtest_death_test_style = "threadsafe";
