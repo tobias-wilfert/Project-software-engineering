@@ -256,35 +256,25 @@ DesignByContract.h
 assert.h
 -
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/SystemDebug.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
 vector
 -
 iostream
 -
-../Baan.h
+Baan.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
-../Voertuig.h
+Voertuig.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/SystemTest.cpp
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/XmlParserTest.cpp
 iostream
 -
 gtest/gtest.h
 -
-SystemDebug.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/SystemDebug.h
+../System.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
 ../XmlParser.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
-
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VoertuigTest.cpp
-iostream
--
-gtest/gtest.h
--
-../Baan.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
-../Voertuig.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 Baan.h
