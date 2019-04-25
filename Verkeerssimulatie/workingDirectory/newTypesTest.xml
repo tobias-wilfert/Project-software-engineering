@@ -1,0 +1,14 @@
+<VOERTUIG>
+    <type>MOTORFIETS</type>
+    <nummerplaat>1NXE881</nummerplaat>
+    <baan>E19</baan>
+    <positie>10</positie>
+    <snelheid>0</snelheid>
+</VOERTUIG>
+<VOERTUIG>
+<type>BUS</type>
+<nummerplaat>1LML935</nummerplaat>
+<baan>Middelheimlaan</baan>
+<positie>0</positie>
+<snelheid>0</snelheid>
+</VOERTUIG>

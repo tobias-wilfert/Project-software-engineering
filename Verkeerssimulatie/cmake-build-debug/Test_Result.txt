@@ -9,7 +9,7 @@ Baan: E19
 Voertuig: AUTO (1THK180)
 	-> baan: E19
 	-> positie: 10 m
-	-> snelheid: 4.65832e-310 km/h
+	-> snelheid: 0 km/h
 
 Voertuig: AUTO (651BUF)
 	-> baan: E19
@@ -24,7 +24,7 @@ Voertuig: AUTO (651BUFF)
 Voertuig: AUTO (651BUFFF)
 	-> baan: E19
 	-> positie: 1990 m
-	-> snelheid: 4.65832e-310 km/h
+	-> snelheid: 0 km/h
 
  
 +-----------------------------------------------------+

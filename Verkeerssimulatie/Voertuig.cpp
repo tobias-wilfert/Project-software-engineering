@@ -170,7 +170,7 @@ void Voertuig::updatePosition() {
 
     double dIdeal = 0;
     double dActual = 0;
-    fVersnelling = 2.0; // Default value
+    fVersnelling = fMaxVersnelling; // Default value
 
     // Because we don't loop over the cars in an ordered fashion it can be that the car in front already moved
     // So we calculate the position of all cars with the old position of the previous car
@@ -187,16 +187,16 @@ void Voertuig::updatePosition() {
     }
 
     // If the acceleration is out of bounds take maximum or minimum value
-    if (fVersnelling > 2) {
-        fVersnelling = 2;
-    } else if (fVersnelling < -8) {
-        fVersnelling = -8;
+    if (fVersnelling > fMaxVersnelling) {
+        fVersnelling = fMaxVersnelling;
+    } else if (fVersnelling < fMinVersnelling) {
+        fVersnelling = fMinVersnelling;
     }
 
     ENSURE(fPositie <= fBaanObject->getLengte(), "updatePosition post condition failure");
     ENSURE(fSnelheid <= fBaanObject->getSnelheidsLimiet(), "updatePosition post condition failure");
-    ENSURE(fVersnelling <= 2, "updatePosition post condition failure");
-    ENSURE(fVersnelling >= -8, "updatePosition post condition failure");
+    ENSURE(fVersnelling <= fMaxVersnelling, "updatePosition post condition failure");
+    ENSURE(fVersnelling >= fMinVersnelling, "updatePosition post condition failure");
 }
 
 bool Voertuig::properlyInitialized() const{
@@ -205,4 +205,36 @@ bool Voertuig::properlyInitialized() const{
 
 void Voertuig::set_initCheck(Voertuig *_initCheck) {
     Voertuig::_initCheck = _initCheck;
+}
+
+double Voertuig::getFMaxSnelheid() const {
+    return fMaxSnelheid;
+}
+
+void Voertuig::setFMaxSnelheid(double fMaxSnelheid) {
+    Voertuig::fMaxSnelheid = fMaxSnelheid;
+}
+
+double Voertuig::getFMaxVersnelling() const {
+    return fMaxVersnelling;
+}
+
+void Voertuig::setFMaxVersnelling(double fMaxVersnelling) {
+    Voertuig::fMaxVersnelling = fMaxVersnelling;
+}
+
+double Voertuig::getFMinVersnelling() const {
+    return fMinVersnelling;
+}
+
+void Voertuig::setFMinVersnelling(double fMinVersnelling) {
+    Voertuig::fMinVersnelling = fMinVersnelling;
+}
+
+double Voertuig::getFVersnelling() const {
+    return fVersnelling;
+}
+
+void Voertuig::setFVersnelling(double fVersnelling) {
+    Voertuig::fVersnelling = fVersnelling;
 }

@@ -51,6 +51,34 @@ private:
     ///Use pointer to myself to verify whether I am properly initialized
     Voertuig * _initCheck;
 
+    ///maximum speed the vehicle can achieve
+    double fMaxSnelheid;
+
+    ///maximum accelerationthe vehicle can achieve
+    double fMaxVersnelling;
+
+public:
+    double getFVersnelling() const;
+
+    void setFVersnelling(double fVersnelling);
+
+public:
+    double getFMaxSnelheid() const;
+
+    void setFMaxSnelheid(double fMaxSnelheid);
+
+    double getFMaxVersnelling() const;
+
+    void setFMaxVersnelling(double fMaxVersnelling);
+
+    double getFMinVersnelling() const;
+
+    void setFMinVersnelling(double fMinVersnelling);
+
+private:
+///minimum acceleration the vehicle can achieve
+    double fMinVersnelling;
+
 public:
 
     /**
@@ -188,6 +216,18 @@ public:
      \n ENSURE(versnelling >= -8, "updatePosition post condition failure");
      */
     void updatePosition();
+
+
+
+
+
+
+
+
+
+
+
+
 
     //-----------------------------------------
     ///auxiliary routines (private use)

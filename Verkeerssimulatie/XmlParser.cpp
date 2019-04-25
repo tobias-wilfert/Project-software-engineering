@@ -57,10 +57,7 @@ void XmlParser::parseFile() {
 
         if (is_equal(rootElement->Value(),"VOERTUIG")) {
             Voertuig *voertuig = new Voertuig();
-            // Set defaults
-            voertuig->setLengte(3.0);
-
-
+            voertuig->setFVersnelling(0);
             // Loop over all child elements of rootElement
             for (TiXmlElement *childOfRootElement = rootElement->FirstChildElement();
                  childOfRootElement != NULL; childOfRootElement = childOfRootElement->NextSiblingElement()) {
@@ -92,6 +89,30 @@ void XmlParser::parseFile() {
                 // Check the value of element Value
                 if (elementValue == "type") {
                     voertuig->setType(elementText);
+                    if(elementText == "MOTORFIETS"){
+                        voertuig->setLengte(1);
+                        voertuig->setFMaxSnelheid(180);
+                        voertuig->setFMaxVersnelling(4);
+                        voertuig->setFMinVersnelling(-10);
+                    }
+                    else if(elementText == "AUTO"){
+                        voertuig->setLengte(3);
+                        voertuig->setFMaxSnelheid(150);
+                        voertuig->setFMaxVersnelling(2);
+                        voertuig->setFMinVersnelling(-8);
+                    }
+                    else if(elementText == "BUS"){
+                        voertuig->setLengte(10);
+                        voertuig->setFMaxSnelheid(70);
+                        voertuig->setFMaxVersnelling(1);
+                        voertuig->setFMinVersnelling(-7);
+                    }
+                    else if(elementText == "VRACHTWAGEN"){
+                        voertuig->setLengte(15);
+                        voertuig->setFMaxSnelheid(90);
+                        voertuig->setFMaxVersnelling(1);
+                        voertuig->setFMinVersnelling(-6);
+                    }
 
                 } else if (elementValue == "nummerplaat") {
                     voertuig->setNummerPlaat(elementText);
