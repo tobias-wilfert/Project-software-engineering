@@ -9,13 +9,12 @@
 #include <iostream>
 #include <gtest/gtest.h>
 
-#include "SystemDebug.h"
+#include "../System.h"
 #include "../XmlParser.h"
 
 class BaanTest: public ::testing::Test {
 protected:
-    friend class SystemDebug;
-    friend class XmlParser;
+
     // You should make the members protected s.t. they can be
     // accessed from sub-classes.
 
@@ -102,7 +101,7 @@ TEST_F(BaanTest, BanenSetVerbindingRandGeval){
 
 TEST_F(BaanTest, BanenGetVerbindingObject){
     XmlParser parser2("OneWegenNetwerk.xml");
-    SystemDebug systemTest(parser2.getBanen(),parser2.getWegenNetwerk(),parser2.getVoertuigen());
+    System systemTest(parser2.getBanen(),parser2.getWegenNetwerk(),parser2.getVoertuigen());
     systemTest.initializeBaanVerbindingObjects();
     EXPECT_EQ(systemTest.getWegenNetwerk()->at(0)->getVerbindingObject(), systemTest.getBanen()->at(0));
 }

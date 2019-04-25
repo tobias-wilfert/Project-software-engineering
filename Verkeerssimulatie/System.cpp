@@ -142,25 +142,25 @@ void System::filterVehicles() {
     }
 }
 
-void System::simpeleUitvoer() const {
+void System::simpeleUitvoer(std::string& output) const {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling simpeleUitvoer");
 
     for(unsigned int i = 0; i<fBanen->size(); i++){
-        std::cout << "\nBaan: " << fBanen->at(i)->getNaam() << std::endl;
-        std::cout << "\t-> snelheidslimiet: " << fBanen->at(i)->getSnelheidsLimiet() << " km/h" << std::endl;
-        std::cout << "\t-> lengte: " << fBanen->at(i)->getLengte() << " m" << std::endl;
+        output += ("\nBaan: " + fBanen->at(i)->getNaam() + "\n");
+        output += ("\t-> snelheidslimiet: " + std::to_string(fBanen->at(i)->getSnelheidsLimiet()) + " km/h" + "\n");
+        output += ("\t-> lengte: " + std::to_string(fBanen->at(i)->getLengte()) + " m" + "\n");
     }
     for(unsigned int i = 0; i<fWegenNetwerk->size(); i++){
-        std::cout << "\nBaan: " << fWegenNetwerk->at(i)->getNaam() << std::endl;
-        std::cout << "\t-> snelheidslimiet: " << fWegenNetwerk->at(i)->getSnelheidsLimiet() << " km/h" << std::endl;
-        std::cout << "\t-> lengte: " << fWegenNetwerk->at(i)->getLengte() << " m" << std::endl;
-        std::cout << "\t-> verbinding: " << fWegenNetwerk->at(i)->getVerbinding() << std::endl << std::endl;
+        output += ("\nBaan: " + fWegenNetwerk->at(i)->getNaam() + "\n");
+        output += ("\t-> snelheidslimiet: " + std::to_string(fWegenNetwerk->at(i)->getSnelheidsLimiet()) + " km/h" + "\n");
+        output += ("\t-> lengte: " + std::to_string(fWegenNetwerk->at(i)->getLengte()) + " m" + "\n");
+        output += ("\t-> verbinding: " + fWegenNetwerk->at(i)->getVerbinding() + "\n\n");
     }
     for(unsigned int i = 0; i<fVoertuigen->size(); i++){
-        std::cout << "\nVoertuig: " << fVoertuigen->at(i)->getType() << " (" << fVoertuigen->at(i)->getNummerPlaat() << ")"<< std::endl;
-        std::cout << "\t-> baan: " << fVoertuigen->at(i)->getBaan()<< std::endl;
-        std::cout << "\t-> positie: " << fVoertuigen->at(i)->getPositie() << " m" << std::endl;
-        std::cout << "\t-> snelheid: " << fVoertuigen->at(i)->getSnelheid() << " km/h" << std::endl;
+        output += ("\nVoertuig: " + fVoertuigen->at(i)->getType() + " (" + fVoertuigen->at(i)->getNummerPlaat() + ")" + "\n");
+        output += ("\t-> baan: " + fVoertuigen->at(i)->getBaan() + "\n");
+        output += ("\t-> positie: " + std::to_string(fVoertuigen->at(i)->getPositie()) + " m" + "\n");
+        output += ("\t-> snelheid: " + std::to_string(fVoertuigen->at(i)->getSnelheid()) + " km/h" + "\n");
     }
 
 }
@@ -181,13 +181,14 @@ void System::simulate(unsigned int iterations) {
     }
 }
 
-void System::automaticSimulation() {
+void System::automaticSimulation(std::string& output) {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
     while(fVoertuigen->size()>0){
         simulate();
-        std::cout << "\n " << std::endl;
-        std::cout << "+-----------------------------------------------------+" << std::endl;
-        simpeleUitvoer();
+
+        output += "\n \n";
+        output += "+-----------------------------------------------------+\n";
+        simpeleUitvoer(output);
     }
 }
 

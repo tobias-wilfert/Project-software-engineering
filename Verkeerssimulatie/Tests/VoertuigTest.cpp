@@ -287,6 +287,7 @@ TEST_F(VoertuigTest, GetDeleteObjectWorking){
 
 TEST_F(VoertuigTest, UpdatePositionEnsureMaxSpeed){
 
+    voertuig1.setNextVoertuig(0);
     Baan* baan = new Baan();
     baan->setSnelheidsLimiet(120);
     baan->setLengte(1000);
@@ -298,7 +299,7 @@ TEST_F(VoertuigTest, UpdatePositionEnsureMaxSpeed){
     voertuig1.setPositie(10);
 
     voertuig1.updatePosition();
-    EXPECT_EQ(voertuig1.getSnelheid(),112);
+    EXPECT_EQ(voertuig1.getSnelheid(),120);
 }
 
 

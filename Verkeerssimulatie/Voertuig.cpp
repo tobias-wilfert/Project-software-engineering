@@ -137,7 +137,37 @@ void Voertuig::setDeleteObject(bool deleteObject) {
 }
 
 void Voertuig::updatePosition() {
+
+    //TODO: Change this, to be in the correct order
+    // Maybe make extra sub classes
+
     REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling updatePosition");
+
+    //Calculate the position
+    fPositie = fSnelheid + fPositie;
+
+    if (fPositie > fBaanObject->getLengte()) {
+        if (fBaanObject->getVerbindingObject() != 0) {
+            fPositie = fPositie - fBaanObject->getLengte();
+            fBaanObject = fBaanObject->getVerbindingObject();
+            fBaan = fBaanObject->getNaam();
+        } else {
+            // Delete voertuig from vector (after the iteration) as it still is needed for the other calulations
+            fPositie = 0;
+            fDeleteObject = true;
+        }
+    }
+
+    // Calculate the speed
+    fSnelheid = fVersnelling + fSnelheid;
+
+    if (fSnelheid > fBaanObject->getSnelheidsLimiet()) {
+        fSnelheid = fBaanObject->getSnelheidsLimiet();
+    } else if (fSnelheid < 0) {
+        fSnelheid = 0;
+    }
+
+
     double dIdeal = 0;
     double dActual = 0;
     double versnelling = 2.0; // Default value
@@ -153,38 +183,14 @@ void Voertuig::updatePosition() {
         //calculate dActual
         dActual = fNextVoertuig->getOldPositie() - fNextVoertuig->getLengte() - fPositie;
         //Calculate the acceleration
-        versnelling = 0.5 * (dActual - dIdeal);
+        fVersnelling = 0.5 * (dActual - dIdeal);
     }
 
     // If the acceleration is out of bounds take maximum or minimum value
-    if (versnelling > 2) {
-        versnelling = 2;
-    } else if (versnelling < -8) {
-        versnelling = -8;
-    }
-
-    // Calculate the speed
-    fSnelheid = versnelling + fSnelheid;
-
-    if (fSnelheid > fBaanObject->getSnelheidsLimiet()) {
-        fSnelheid = fBaanObject->getSnelheidsLimiet();
-    } else if (fSnelheid < 0) {
-        fSnelheid = 0;
-    }
-
-    //Calculate the position
-    fPositie = fSnelheid + fPositie;
-
-    if (fPositie > fBaanObject->getLengte()) {
-        if (fBaanObject->getVerbindingObject() != 0) {
-            fPositie = fPositie - fBaanObject->getLengte();
-            fBaanObject = fBaanObject->getVerbindingObject();
-            fBaan = fBaanObject->getNaam();
-        } else {
-            // Delete voertuig from vector (after the iteration) as it still is needed for the other calulations
-            fPositie = 0;
-            fDeleteObject = true;
-        }
+    if (fVersnelling > 2) {
+        fVersnelling = 2;
+    } else if (fVersnelling < -8) {
+        fVersnelling = -8;
     }
 
     ENSURE(fPositie <= fBaanObject->getLengte(), "updatePosition post condition failure");

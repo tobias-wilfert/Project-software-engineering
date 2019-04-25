@@ -9,13 +9,11 @@
 #include <iostream>
 #include <gtest/gtest.h>
 
-#include "SystemDebug.h"
+#include "../System.h"
 #include "../XmlParser.h"
 
 class SystemTest: public ::testing::Test {
 protected:
-    friend class SystemDebug;
-    friend class XmlParser;
     // You should make the members protected s.t. they can be
     // accessed from sub-classes.
 
@@ -39,7 +37,7 @@ protected:
 
 TEST_F(SystemTest, organizeVehicles){
     XmlParser parser3("SYSTEMorganizeVehiclesTest.xml");
-    SystemDebug s(parser3.getBanen(), parser3.getWegenNetwerk(), parser3.getVoertuigen());
+    System s(parser3.getBanen(), parser3.getWegenNetwerk(), parser3.getVoertuigen());
     Voertuig *nullpointer = NULL;  //nullpointer van Object Voertuig
     EXPECT_EQ(s.getVoertuigen()->at(0)->getNextVoertuig(), nullpointer);
     EXPECT_EQ(s.getVoertuigen()->at(1)->getNextVoertuig(), nullpointer);
@@ -62,7 +60,7 @@ TEST_F(SystemTest, organizeVehicles){
 
 TEST_F(SystemTest, initializeVehicleBaanObject){
     XmlParser parser4("SYSTEMinitializeVehicleBaanObjectTest.xml");
-    SystemDebug s1(parser4.getBanen(), parser4.getWegenNetwerk(), parser4.getVoertuigen());
+    System s1(parser4.getBanen(), parser4.getWegenNetwerk(), parser4.getVoertuigen());
     Baan *nullpointer = NULL;
     EXPECT_EQ(s1.getVoertuigen()->at(0)->getBaanObject(), nullpointer);
     EXPECT_EQ(s1.getVoertuigen()->at(1)->getBaanObject(), nullpointer);
@@ -76,7 +74,7 @@ TEST_F(SystemTest, initializeVehicleBaanObject){
 }
 
 XmlParser parser5("SYSTEMinitializeBaanVerbindingObjectsTest.xml");
-SystemDebug s = SystemDebug(parser5.getBanen(), parser5.getWegenNetwerk(), parser5.getVoertuigen());
+System s = System(parser5.getBanen(), parser5.getWegenNetwerk(), parser5.getVoertuigen());
 
 TEST_F(SystemTest, initializeBaanVerbindingObjects){
     Baan *nullpointer = NULL;
@@ -97,7 +95,7 @@ TEST_F(SystemTest, initializeBaanVerbindingObjects){
 }
 
 XmlParser parser6("SYSTEMfilterVehiclesTest.xml");
-SystemDebug s1(parser6.getBanen(), parser6.getWegenNetwerk(), parser6.getVoertuigen());
+System s1(parser6.getBanen(), parser6.getWegenNetwerk(), parser6.getVoertuigen());
 TEST_F(SystemTest, filterVehicles){
     unsigned int x = 4;
     EXPECT_EQ(s1.getVoertuigen()->size(), x);
@@ -126,7 +124,7 @@ TEST_F(SystemTest, filterVehicles){
 }
 
 XmlParser parser7("SYSTEMgetBanenEnWegenNetwerkTest.xml");
-SystemDebug s2(parser7.getBanen(), parser7.getWegenNetwerk(), parser7.getVoertuigen());
+System s2(parser7.getBanen(), parser7.getWegenNetwerk(), parser7.getVoertuigen());
 TEST_F(SystemTest, getBanen){
     unsigned int x = 4;
     EXPECT_EQ(s2.getBanen()->size(), x);
@@ -148,7 +146,7 @@ TEST_F(SystemTest, getWegenNetwerk){
 
 
 XmlParser parser8("SYSTEMsimulateTest.xml");
-SystemDebug s3(parser8.getBanen(), parser8.getWegenNetwerk(), parser8.getVoertuigen());
+System s3(parser8.getBanen(), parser8.getWegenNetwerk(), parser8.getVoertuigen());
 TEST_F(SystemTest, simulate){
     EXPECT_EQ(s3.getVoertuigen()->at(0)->getSnelheid(), 0);
     EXPECT_EQ(s3.getVoertuigen()->at(1)->getSnelheid(), 0);
@@ -204,12 +202,22 @@ TEST_F(SystemTest, simulate){
     EXPECT_EQ(s3.getVoertuigen()->size(), x);
 }
 XmlParser parser9("SYSTEMsimulateTest.xml");
-SystemDebug s4(parser9.getBanen(), parser9.getWegenNetwerk(), parser9.getVoertuigen());
+System s4(parser9.getBanen(), parser9.getWegenNetwerk(), parser9.getVoertuigen());
 TEST_F(SystemTest, automaticSimulation){
     unsigned int x = 4;
     EXPECT_EQ(s4.getVoertuigen()->size(), x);
 
-    s4.automaticSimulation();
+    //TODO: Change this
+    std::string output;
+    s4.automaticSimulation(output);
+
+    // Write to file
+    std::ofstream myfile;
+    myfile.open ("Test_Result.txt");
+    myfile << output;
+    myfile.close();
+
+
     x = 0;
     EXPECT_EQ(s4.getVoertuigen()->size(), x);
 }

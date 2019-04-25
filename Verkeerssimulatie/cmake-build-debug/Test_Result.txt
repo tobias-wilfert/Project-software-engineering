@@ -1,0 +1,1060 @@
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 10.000000 m
+	-> snelheid: 0.000000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1.000000 m
+	-> snelheid: 1.000000 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 17.000000 m
+	-> snelheid: 2.000000 km/h
+
+Voertuig: AUTO (651BUFFF)
+	-> baan: E19
+	-> positie: 1992.000000 m
+	-> snelheid: 2.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 10.000000 m
+	-> snelheid: 0.000000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 2.125000 m
+	-> snelheid: 1.125000 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 21.000000 m
+	-> snelheid: 4.000000 km/h
+
+Voertuig: AUTO (651BUFFF)
+	-> baan: E19
+	-> positie: 1996.000000 m
+	-> snelheid: 4.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 10.000000 m
+	-> snelheid: 0.000000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 2.765625 m
+	-> snelheid: 0.640625 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 27.000000 m
+	-> snelheid: 6.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 11.500000 m
+	-> snelheid: 1.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 2.783203 m
+	-> snelheid: 0.017578 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 35.000000 m
+	-> snelheid: 8.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 15.000000 m
+	-> snelheid: 3.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 3.152588 m
+	-> snelheid: 0.369385 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 45.000000 m
+	-> snelheid: 10.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 20.500000 m
+	-> snelheid: 5.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 5.307159 m
+	-> snelheid: 2.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 57.000000 m
+	-> snelheid: 12.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 28.000000 m
+	-> snelheid: 7.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 9.461731 m
+	-> snelheid: 4.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 71.000000 m
+	-> snelheid: 14.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 37.500000 m
+	-> snelheid: 9.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 15.616302 m
+	-> snelheid: 6.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 87.000000 m
+	-> snelheid: 16.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 49.000000 m
+	-> snelheid: 11.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 23.770874 m
+	-> snelheid: 8.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 105.000000 m
+	-> snelheid: 18.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 62.500000 m
+	-> snelheid: 13.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 33.925446 m
+	-> snelheid: 10.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 125.000000 m
+	-> snelheid: 20.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 78.000000 m
+	-> snelheid: 15.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 46.080017 m
+	-> snelheid: 12.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 147.000000 m
+	-> snelheid: 22.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 95.500000 m
+	-> snelheid: 17.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 60.234589 m
+	-> snelheid: 14.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 171.000000 m
+	-> snelheid: 24.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 115.000000 m
+	-> snelheid: 19.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 76.389160 m
+	-> snelheid: 16.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 197.000000 m
+	-> snelheid: 26.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 136.500000 m
+	-> snelheid: 21.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 94.543732 m
+	-> snelheid: 18.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 225.000000 m
+	-> snelheid: 28.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 160.000000 m
+	-> snelheid: 23.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 114.698303 m
+	-> snelheid: 20.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 255.000000 m
+	-> snelheid: 30.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 185.500000 m
+	-> snelheid: 25.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 136.852875 m
+	-> snelheid: 22.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 287.000000 m
+	-> snelheid: 32.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 213.000000 m
+	-> snelheid: 27.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 161.007446 m
+	-> snelheid: 24.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 321.000000 m
+	-> snelheid: 34.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 242.500000 m
+	-> snelheid: 29.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 187.162018 m
+	-> snelheid: 26.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 357.000000 m
+	-> snelheid: 36.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 274.000000 m
+	-> snelheid: 31.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 215.316589 m
+	-> snelheid: 28.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 395.000000 m
+	-> snelheid: 38.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 307.500000 m
+	-> snelheid: 33.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 245.471161 m
+	-> snelheid: 30.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 435.000000 m
+	-> snelheid: 40.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 343.000000 m
+	-> snelheid: 35.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 277.625732 m
+	-> snelheid: 32.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 477.000000 m
+	-> snelheid: 42.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 380.500000 m
+	-> snelheid: 37.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 311.780304 m
+	-> snelheid: 34.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 521.000000 m
+	-> snelheid: 44.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 420.000000 m
+	-> snelheid: 39.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 347.934875 m
+	-> snelheid: 36.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 567.000000 m
+	-> snelheid: 46.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 461.500000 m
+	-> snelheid: 41.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 386.089447 m
+	-> snelheid: 38.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 615.000000 m
+	-> snelheid: 48.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 505.000000 m
+	-> snelheid: 43.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 426.244019 m
+	-> snelheid: 40.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 665.000000 m
+	-> snelheid: 50.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 550.500000 m
+	-> snelheid: 45.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 468.398590 m
+	-> snelheid: 42.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 717.000000 m
+	-> snelheid: 52.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 598.000000 m
+	-> snelheid: 47.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 512.553162 m
+	-> snelheid: 44.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 771.000000 m
+	-> snelheid: 54.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 647.500000 m
+	-> snelheid: 49.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 558.707733 m
+	-> snelheid: 46.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 827.000000 m
+	-> snelheid: 56.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 699.000000 m
+	-> snelheid: 51.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 606.862305 m
+	-> snelheid: 48.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 885.000000 m
+	-> snelheid: 58.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 752.500000 m
+	-> snelheid: 53.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 657.016876 m
+	-> snelheid: 50.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 945.000000 m
+	-> snelheid: 60.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 808.000000 m
+	-> snelheid: 55.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 709.171448 m
+	-> snelheid: 52.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1007.000000 m
+	-> snelheid: 62.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 865.500000 m
+	-> snelheid: 57.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 763.326019 m
+	-> snelheid: 54.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1071.000000 m
+	-> snelheid: 64.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 925.000000 m
+	-> snelheid: 59.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 819.480591 m
+	-> snelheid: 56.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1137.000000 m
+	-> snelheid: 66.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 986.500000 m
+	-> snelheid: 61.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 877.635162 m
+	-> snelheid: 58.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1205.000000 m
+	-> snelheid: 68.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1050.000000 m
+	-> snelheid: 63.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 937.789734 m
+	-> snelheid: 60.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1275.000000 m
+	-> snelheid: 70.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1115.500000 m
+	-> snelheid: 65.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 999.944305 m
+	-> snelheid: 62.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1347.000000 m
+	-> snelheid: 72.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1183.000000 m
+	-> snelheid: 67.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1064.098877 m
+	-> snelheid: 64.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1421.000000 m
+	-> snelheid: 74.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1252.500000 m
+	-> snelheid: 69.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1130.253448 m
+	-> snelheid: 66.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1497.000000 m
+	-> snelheid: 76.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1324.000000 m
+	-> snelheid: 71.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1198.408020 m
+	-> snelheid: 68.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1575.000000 m
+	-> snelheid: 78.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1397.500000 m
+	-> snelheid: 73.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1268.562592 m
+	-> snelheid: 70.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1655.000000 m
+	-> snelheid: 80.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1473.000000 m
+	-> snelheid: 75.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1340.717163 m
+	-> snelheid: 72.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1737.000000 m
+	-> snelheid: 82.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1550.500000 m
+	-> snelheid: 77.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1414.871735 m
+	-> snelheid: 74.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1821.000000 m
+	-> snelheid: 84.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1630.000000 m
+	-> snelheid: 79.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1491.026306 m
+	-> snelheid: 76.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1907.000000 m
+	-> snelheid: 86.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1711.500000 m
+	-> snelheid: 81.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1569.180878 m
+	-> snelheid: 78.154572 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1995.000000 m
+	-> snelheid: 88.000000 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1795.000000 m
+	-> snelheid: 83.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1649.335449 m
+	-> snelheid: 80.154572 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1880.500000 m
+	-> snelheid: 85.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1731.490021 m
+	-> snelheid: 82.154572 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1968.000000 m
+	-> snelheid: 87.500000 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1815.644592 m
+	-> snelheid: 84.154572 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1901.799164 m
+	-> snelheid: 86.154572 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1989.953735 m
+	-> snelheid: 88.154572 km/h
+
+ 
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000.000000 m

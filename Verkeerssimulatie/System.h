@@ -10,12 +10,17 @@
 #define VERKEERSSIMULATIE_SYSTEM_H
 
 #include <vector>
+#include <fstream>
 #include <iostream>
+
 #include "Baan.h"
 #include "Voertuig.h"
 
 class System {
 private:
+
+    friend class BaanTest;
+    friend class SystemTest;
 
     /// Pointer to a vector of pointers to all Instances of Banen in the System
     std::vector<Baan*>* fBanen;
@@ -25,41 +30,6 @@ private:
 
     /// Pointer to a vector of pointers to all Instances of Voertuigen in the System
     std::vector<Voertuig*>* fVoertuigen;
-
-    /**
-     * Iterates over all Vehicles in the system letting everyone know
-     * which the vehicle in front of them is.
-     * @pre Voertuigen with NextVoertuig equal to 0
-     * @post Voertuigen with fNextVoertuig a pointer to the Voertuig infront of them
-    \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling organizeVehicles");
-     */
-    void organizeVehicles();
-
-    /**
-     * Iterates over all Vehicles in the system letting everyone know
-     * which instance of Baan they are currently on.
-     * @pre Voertuigen that only know the name of the Baan they are on
-     * @post Voertuigen that have a pointer to the Baan they are on
-    \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling initializeVehicleBaanObject");
-     */
-    void initializeVehicleBaanObject();
-
-    /**
-     *  Iterates over all Wegen Netwerken in the system letting everyone
-     *  know which instance of Baan they have a Verbinding with
-     *  @pre Wegen Netwerken that only know the name of the Baan they have a verbinding with
-     *  @post Wegen Netwerken that have a pointer to the Baan they have a verbinding with
-    \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling initializeBaanVerbindingObjects");
-     */
-    void initializeBaanVerbindingObjects();
-
-    /**
-     *  Delete all vehicles from the system that isDeleteObject() true
-     *  @pre Vehicles with isDeleteObject() true and Vehicles with isDeleteObject() false
-     *  @post Vehicles with isDeleteObject() false
-    \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling filterVehicles");
-     */
-    void filterVehicles();
 
     ///Use pointer to myself to verify whether I am properly initialized
     System * _initCheck;
@@ -110,7 +80,7 @@ public:
      * @post A Texted Based Representation of the System is printed to the Terminal
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling simpeleUitvoer");
      */
-    void simpeleUitvoer() const;
+    void simpeleUitvoer(std::string& output) const;
 
     /**
      * Simulates #iterations amount of time intervals in the system,
@@ -130,14 +100,49 @@ public:
      * @post A system with no Vehicles in it
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
      */
-    void automaticSimulation();
+     // TODO: Change to ofstream as return
+    void automaticSimulation(std::string& output);
+
+    /**
+     *  Iterates over all Wegen Netwerken in the system letting everyone
+     *  know which instance of Baan they have a Verbinding with
+     *  @pre Wegen Netwerken that only know the name of the Baan they have a verbinding with
+     *  @post Wegen Netwerken that have a pointer to the Baan they have a verbinding with
+    \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling initializeBaanVerbindingObjects");
+     */
+    void initializeBaanVerbindingObjects();
+
+    /**
+     * Iterates over all Vehicles in the system letting everyone know
+     * which the vehicle in front of them is.
+     * @pre Voertuigen with NextVoertuig equal to 0
+     * @post Voertuigen with fNextVoertuig a pointer to the Voertuig infront of them
+    \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling organizeVehicles");
+     */
+    void organizeVehicles();
+
+    /**
+     * Iterates over all Vehicles in the system letting everyone know
+     * which instance of Baan they are currently on.
+     * @pre Voertuigen that only know the name of the Baan they are on
+     * @post Voertuigen that have a pointer to the Baan they are on
+    \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling initializeVehicleBaanObject");
+     */
+    void initializeVehicleBaanObject();
+
+    /**
+     *  Delete all vehicles from the system that isDeleteObject() true
+     *  @pre Vehicles with isDeleteObject() true and Vehicles with isDeleteObject() false
+     *  @post Vehicles with isDeleteObject() false
+    \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling filterVehicles");
+     */
+    void filterVehicles();
 
     //-----------------------------------------
     ///auxiliary routines (private use)
     //-----------------------------------------
 
     bool properlyInitialized() const;
-
 
 };
 

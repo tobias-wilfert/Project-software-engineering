@@ -27,6 +27,9 @@ private:
     /// Ths old Position of the Vehicle before the last time interval
     double fOldPositie;
 
+    /// The acceleration of the vehicle
+    double fVersnelling;
+
     /// The name of the Baan the Vehicle is on
     std::string fBaan;
 

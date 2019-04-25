@@ -32,18 +32,12 @@ CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o: ../gtest/include/gt
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o: ../gtest/include/gtest/internal/gtest-type-util.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o: ../Baan.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o: ../DesignByContract.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o: ../System.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o: ../Tests/BaanTest.cpp
-CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o: ../Tests/SystemDebug.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o: ../Voertuig.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o: ../XmlParser.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o: ../tinystr.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o: ../tinyxml.h
-
-CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemDebug.cpp.o: ../Baan.h
-CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemDebug.cpp.o: ../DesignByContract.h
-CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemDebug.cpp.o: ../Tests/SystemDebug.cpp
-CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemDebug.cpp.o: ../Tests/SystemDebug.h
-CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemDebug.cpp.o: ../Voertuig.h
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o: ../gtest/include/gtest/gtest-death-test.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o: ../gtest/include/gtest/gtest-message.h
@@ -66,7 +60,7 @@ CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o: ../gtest/include/
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o: ../gtest/include/gtest/internal/gtest-type-util.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o: ../Baan.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o: ../DesignByContract.h
-CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o: ../Tests/SystemDebug.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o: ../System.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o: ../Tests/SystemTest.cpp
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o: ../Voertuig.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o: ../XmlParser.h

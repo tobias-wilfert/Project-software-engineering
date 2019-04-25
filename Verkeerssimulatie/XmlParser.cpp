@@ -89,7 +89,6 @@ void XmlParser::parseFile() {
                     }
                 }
 
-                // TODO: Catch all inconsititentiess
                 // Check the value of element Value
                 if (elementValue == "type") {
                     voertuig->setType(elementText);
