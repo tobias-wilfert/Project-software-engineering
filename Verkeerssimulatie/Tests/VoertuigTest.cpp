@@ -52,7 +52,7 @@ TEST_F(VoertuigTest, DefaultConstructor) {
 
 TEST_F(VoertuigTest, CheckProperlyInitialized){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_FALSE(voertuig.properlyInitialized());
 }
 
@@ -61,122 +61,122 @@ TEST_F(VoertuigTest, CheckProperlyInitialized){
 /// REQUIRE TESTS Getters
 TEST_F(VoertuigTest, GetLengteRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.getLengte(),"");
 }
 
 TEST_F(VoertuigTest, GetPositieRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.getPositie(),"");
 }
 
 TEST_F(VoertuigTest, GetSnelheidRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.getSnelheid(),"");
 }
 
 TEST_F(VoertuigTest, GetOldPositieRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.getOldPositie(),"");
 }
 
 TEST_F(VoertuigTest, GetBaanRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.getBaan(),"");
 }
 
 TEST_F(VoertuigTest, GetTypeRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.getType(),"");
 }
 
 TEST_F(VoertuigTest, GetNummerPlaatRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.getNummerPlaat(),"");
 }
 
 TEST_F(VoertuigTest, GetBaanObjectRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.getBaanObject(),"");
 }
 
 TEST_F(VoertuigTest, GetNextVoertuigRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.getNextVoertuig(),"");
 }
 
 TEST_F(VoertuigTest, IsDeleteObjectRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.isDeleteObject(),"");
 }
 
 /// REQUIRE TESTS Setters
 TEST_F(VoertuigTest, SetLengteRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.setLengte(10),"");
 }
 
 TEST_F(VoertuigTest, SetPositieRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.setPositie(10),"");
 }
 
 TEST_F(VoertuigTest, SetSnelheidRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.setSnelheid(10),"");
 }
 
 TEST_F(VoertuigTest, SetOldPositieRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.setOldPositie(10),"");
 }
 
 TEST_F(VoertuigTest, SetBaanRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.setBaan("A10"),"");
 }
 
 TEST_F(VoertuigTest, SetTypeRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.setType("Auto"),"");
 }
 
 TEST_F(VoertuigTest, SetNummerPlaatRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.setNummerPlaat("123-ABC-456"),"");
 }
 
 TEST_F(VoertuigTest, SetBaanObjectRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.setBaanObject(0),"");
 }
 
 TEST_F(VoertuigTest, SetNextVoertuigRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.setNextVoertuig(0),"");
 }
 
 TEST_F(VoertuigTest, SetDeleteObjectRequire){
 
-    voertuig.set_initCheck(nullptr);
+    voertuig.set_initCheck(NULL);
     EXPECT_DEATH(voertuig.setDeleteObject(true),"");
 }
 
@@ -298,7 +298,7 @@ TEST_F(VoertuigTest, UpdatePositionEnsureMaxSpeed){
     voertuig1.setPositie(10);
 
     voertuig1.updatePosition();
-    EXPECT_EQ(voertuig1.getSnelheid(),120);
+    EXPECT_EQ(voertuig1.getSnelheid(),112);
 }
 
 
@@ -320,6 +320,6 @@ TEST_F(VoertuigTest, UpdatePositionEnsureMaxPosition){
 
 TEST_F(VoertuigTest, UpdatePositionRequire){
 
-    voertuig1.set_initCheck(nullptr);
+    voertuig1.set_initCheck(NULL);
     EXPECT_DEATH(voertuig1.updatePosition(),"");
 }

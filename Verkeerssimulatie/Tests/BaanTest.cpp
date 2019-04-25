@@ -37,15 +37,17 @@ protected:
 
 XmlParser parser = XmlParser("GetterAndSetterTester.xml");
 XmlParser parser1 = XmlParser("OneWegenNetwerk.xml");
+unsigned int x = 1;
 
 TEST_F(BaanTest, VierBanenVierDuplicaten){
     XmlParser parser4("DuplicateBanen4Banen4Duplicaten.xml");
-    EXPECT_EQ(parser4.getBanen()->size(), 1);
+    EXPECT_EQ(parser4.getBanen()->size(), x);
 }
 
 TEST_F(BaanTest, VierBanenTweeDuplicaten){
     XmlParser parser4("DuplicateBanen4Banen2Duplicaten.xml");
-    EXPECT_EQ(parser4.getBanen()->size(), 2);
+    x = 2;
+    EXPECT_EQ(parser4.getBanen()->size(), x);
 }
 
 //test getters and setters of Banen + randgevallen

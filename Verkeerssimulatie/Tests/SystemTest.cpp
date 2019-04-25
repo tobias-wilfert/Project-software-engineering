@@ -99,31 +99,37 @@ TEST_F(SystemTest, initializeBaanVerbindingObjects){
 XmlParser parser6("SYSTEMfilterVehiclesTest.xml");
 SystemDebug s1(parser6.getBanen(), parser6.getWegenNetwerk(), parser6.getVoertuigen());
 TEST_F(SystemTest, filterVehicles){
-    EXPECT_EQ(s1.getVoertuigen()->size(), 4);
+    unsigned int x = 4;
+    EXPECT_EQ(s1.getVoertuigen()->size(), x);
     s1.getVoertuigen()->at(0)->setDeleteObject(true);
 
     s1.filterVehicles();
-    EXPECT_EQ(s1.getVoertuigen()->size(), 3);
+    x = 3;
+    EXPECT_EQ(s1.getVoertuigen()->size(), x);
     s1.getVoertuigen()->at(0)->setDeleteObject(true);
 
     s1.filterVehicles();
-    EXPECT_EQ(s1.getVoertuigen()->size(), 2);
+    x = 2;
+    EXPECT_EQ(s1.getVoertuigen()->size(), x);
     s1.getVoertuigen()->at(0)->setDeleteObject(true);
 
     s1.filterVehicles();
-    EXPECT_EQ(s1.getVoertuigen()->size(), 1);
+    x = 1;
+    EXPECT_EQ(s1.getVoertuigen()->size(), x);
 
     s1.getVoertuigen()->at(0)->setDeleteObject(true);
 
     s1.filterVehicles();
-    EXPECT_EQ(s1.getVoertuigen()->size(), 0);
+    x = 0;
+    EXPECT_EQ(s1.getVoertuigen()->size(), x);
 
 }
 
 XmlParser parser7("SYSTEMgetBanenEnWegenNetwerkTest.xml");
 SystemDebug s2(parser7.getBanen(), parser7.getWegenNetwerk(), parser7.getVoertuigen());
 TEST_F(SystemTest, getBanen){
-    EXPECT_EQ(s2.getBanen()->size(), 4);
+    unsigned int x = 4;
+    EXPECT_EQ(s2.getBanen()->size(), x);
     EXPECT_EQ(s2.getBanen()->at(0)->getNaam(), "E10");
     EXPECT_EQ(s2.getBanen()->at(1)->getNaam(), "E20");
     EXPECT_EQ(s2.getBanen()->at(2)->getNaam(), "E30");
@@ -131,7 +137,8 @@ TEST_F(SystemTest, getBanen){
 }
 
 TEST_F(SystemTest, getWegenNetwerk){
-    EXPECT_EQ(s2.getWegenNetwerk()->size(), 5);
+    unsigned int x = 5;
+    EXPECT_EQ(s2.getWegenNetwerk()->size(), x);
     EXPECT_EQ(s2.getWegenNetwerk()->at(0)->getNaam(), "E60");
     EXPECT_EQ(s2.getWegenNetwerk()->at(1)->getNaam(), "E70");
     EXPECT_EQ(s2.getWegenNetwerk()->at(2)->getNaam(), "E80");
@@ -177,26 +184,32 @@ TEST_F(SystemTest, simulate){
     EXPECT_EQ(s3.getVoertuigen()->at(2)->getPositie(), 21);
     EXPECT_EQ(s3.getVoertuigen()->at(3)->getPositie(), 1996);
 
-    EXPECT_EQ(s3.getVoertuigen()->size(), 4);
+    unsigned int x = 4;
+    EXPECT_EQ(s3.getVoertuigen()->size(), x);
 
     s3.simulate();
-
-    EXPECT_EQ(s3.getVoertuigen()->size(), 3);
+    x = 3;
+    EXPECT_EQ(s3.getVoertuigen()->size(), x);
 
     s3.simulate(43);
-    EXPECT_EQ(s3.getVoertuigen()->size(), 2);
+    x = 2;
+    EXPECT_EQ(s3.getVoertuigen()->size(), x);
 
     s3.simulate(3);
-    EXPECT_EQ(s3.getVoertuigen()->size(), 1);
+    x = 1;
+    EXPECT_EQ(s3.getVoertuigen()->size(), x);
 
     s3.simulate(4);
-    EXPECT_EQ(s3.getVoertuigen()->size(), 0);
+    x = 0;
+    EXPECT_EQ(s3.getVoertuigen()->size(), x);
 }
 XmlParser parser9("SYSTEMsimulateTest.xml");
 SystemDebug s4(parser9.getBanen(), parser9.getWegenNetwerk(), parser9.getVoertuigen());
 TEST_F(SystemTest, automaticSimulation){
-    EXPECT_EQ(s4.getVoertuigen()->size(), 4);
+    unsigned int x = 4;
+    EXPECT_EQ(s4.getVoertuigen()->size(), x);
 
     s4.automaticSimulation();
-    EXPECT_EQ(s4.getVoertuigen()->size(), 0);
+    x = 0;
+    EXPECT_EQ(s4.getVoertuigen()->size(), x);
 }
