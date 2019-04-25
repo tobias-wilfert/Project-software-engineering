@@ -7,6 +7,16 @@
 //============================================================================
 
 #include "System.h"
+#include <string>
+#include <sstream>
+
+template <typename T>
+std::string ToString(T val)
+{
+    std::stringstream stream;
+    stream << val;
+    return stream.str();
+}
 
 System::System(std::vector<Baan *> *Banen, std::vector<Baan *> *WegenNetwerk, std::vector<Voertuig *> *Voertuigen)
         : fBanen(Banen), fWegenNetwerk(WegenNetwerk), fVoertuigen(Voertuigen) {
@@ -142,25 +152,26 @@ void System::filterVehicles() {
     }
 }
 
+
 void System::simpeleUitvoer(std::string& output) const {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling simpeleUitvoer");
 
     for(unsigned int i = 0; i<fBanen->size(); i++){
         output += ("\nBaan: " + fBanen->at(i)->getNaam() + "\n");
-        output += ("\t-> snelheidslimiet: " + std::to_string(fBanen->at(i)->getSnelheidsLimiet()) + " km/h" + "\n");
-        output += ("\t-> lengte: " + std::to_string(fBanen->at(i)->getLengte()) + " m" + "\n");
+        output += ("\t-> snelheidslimiet: " + ToString(fBanen->at(i)->getSnelheidsLimiet()) + " km/h" + "\n");
+        output += ("\t-> lengte: " + ToString(fBanen->at(i)->getLengte()) + " m" + "\n");
     }
     for(unsigned int i = 0; i<fWegenNetwerk->size(); i++){
         output += ("\nBaan: " + fWegenNetwerk->at(i)->getNaam() + "\n");
-        output += ("\t-> snelheidslimiet: " + std::to_string(fWegenNetwerk->at(i)->getSnelheidsLimiet()) + " km/h" + "\n");
-        output += ("\t-> lengte: " + std::to_string(fWegenNetwerk->at(i)->getLengte()) + " m" + "\n");
+        output += ("\t-> snelheidslimiet: " + ToString(fWegenNetwerk->at(i)->getSnelheidsLimiet()) + " km/h" + "\n");
+        output += ("\t-> lengte: " + ToString(fWegenNetwerk->at(i)->getLengte()) + " m" + "\n");
         output += ("\t-> verbinding: " + fWegenNetwerk->at(i)->getVerbinding() + "\n\n");
     }
     for(unsigned int i = 0; i<fVoertuigen->size(); i++){
         output += ("\nVoertuig: " + fVoertuigen->at(i)->getType() + " (" + fVoertuigen->at(i)->getNummerPlaat() + ")" + "\n");
         output += ("\t-> baan: " + fVoertuigen->at(i)->getBaan() + "\n");
-        output += ("\t-> positie: " + std::to_string(fVoertuigen->at(i)->getPositie()) + " m" + "\n");
-        output += ("\t-> snelheid: " + std::to_string(fVoertuigen->at(i)->getSnelheid()) + " km/h" + "\n");
+        output += ("\t-> positie: " + ToString(fVoertuigen->at(i)->getPositie()) + " m" + "\n");
+        output += ("\t-> snelheid: " + ToString(fVoertuigen->at(i)->getSnelheid()) + " km/h" + "\n");
     }
 
 }

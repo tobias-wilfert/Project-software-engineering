@@ -170,7 +170,7 @@ void Voertuig::updatePosition() {
 
     double dIdeal = 0;
     double dActual = 0;
-    double versnelling = 2.0; // Default value
+    fVersnelling = 2.0; // Default value
 
     // Because we don't loop over the cars in an ordered fashion it can be that the car in front already moved
     // So we calculate the position of all cars with the old position of the previous car
@@ -195,8 +195,8 @@ void Voertuig::updatePosition() {
 
     ENSURE(fPositie <= fBaanObject->getLengte(), "updatePosition post condition failure");
     ENSURE(fSnelheid <= fBaanObject->getSnelheidsLimiet(), "updatePosition post condition failure");
-    ENSURE(versnelling <= 2, "updatePosition post condition failure");
-    ENSURE(versnelling >= -8, "updatePosition post condition failure");
+    ENSURE(fVersnelling <= 2, "updatePosition post condition failure");
+    ENSURE(fVersnelling >= -8, "updatePosition post condition failure");
 }
 
 bool Voertuig::properlyInitialized() const{
