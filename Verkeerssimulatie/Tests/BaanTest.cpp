@@ -1,4 +1,4 @@
-//============================================================================
+#include "../XmlParser.h"//============================================================================
 // Name        : BaanTest.cpp
 // Author      : John Castillo & Tobias Wilfert
 // Version     : 1.0
@@ -22,25 +22,22 @@ protected:
     // virtual void SetUp() will be called before each test is run.  You
     // should define it if you need to initialize the variables.
     // Otherwise, this can be skipped.
-    virtual void SetUp() {
-    }
+    virtual void SetUp() {}
 
     // virtual void TearDown() will be called after each test is run.
     // You should define it if there is cleanup work to do.  Otherwise,
     // you don't have to provide it.
     virtual void TearDown() {
     }
-
-    // Declares the variables your tests want to use.
-public:
-    //TODO: May not work seems fish
-    XmlParser parser  = XmlParser("GetterAndSetterTester.xml");
-    XmlParser parser1 = XmlParser("OneWegenNetwerk.xml");
 };
 
 
 //////////////////////  BAAN TEST BEGINS HERE  /////////////////////////////////
 //test xml file with duplicate Banen objects
+
+XmlParser parser = XmlParser("GetterAndSetterTester.xml");
+XmlParser parser1 = XmlParser("OneWegenNetwerk.xml");
+
 TEST_F(BaanTest, VierBanenVierDuplicaten){
     XmlParser parser4("DuplicateBanen4Banen4Duplicaten.xml");
     EXPECT_EQ(parser4.getBanen()->size(), 1);
