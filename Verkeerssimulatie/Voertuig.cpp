@@ -6,10 +6,11 @@
 // Description : Verkeerssimulatie in C++
 //============================================================================
 
+#include <iostream>
 #include "Voertuig.h"
 
 Voertuig::Voertuig(): fLengte(0), fPositie(0), fSnelheid(-1), fOldPositie(0), fBaan(""), fType(""), fNummerPlaat(""),
-fBaanObject(0), fNextVoertuig(0), fDeleteObject(false){
+fBaanObject(0), fNextVoertuig(0), fDeleteObject(false), fRijstrook(0), fCurrentZone(NULL){
 
     _initCheck = this;
     ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
@@ -137,15 +138,17 @@ void Voertuig::setDeleteObject(bool deleteObject) {
 }
 
 void Voertuig::updatePosition() {
-
-    //TODO: Change this, to be in the correct order
+//TODO: Change this, to be in the correct order
     // Maybe make extra sub classes
 
     REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling updatePosition");
 
-    //Calculate the position
+    //Calculate the next position
     fPositie = fSnelheid + fPositie;
-
+    if(fSnelheid == 35){
+        std::cout << "hello world" << std::endl;
+    }
+    //check if position is out of bounds
     if (fPositie > fBaanObject->getLengte()) {
         if (fBaanObject->getVerbindingObject() != 0) {
             fPositie = fPositie - fBaanObject->getLengte();
@@ -157,14 +160,32 @@ void Voertuig::updatePosition() {
             fDeleteObject = true;
         }
     }
+    bool changedZone = false;
+
+    //check if in range of a traffic signal(verkeersteken), if true then adjust accordingly
+    //first loop over all the traffic signals to find the current zone
+    for(unsigned int i = 0; i < fBaanObject->getFVerkeerstekens().size(); i++){
+        Verkeersteken* tempNaam = fBaanObject->getFVerkeerstekens().at(i);
+        if(tempNaam->getFPositie() <= fPositie && fPositie< tempNaam->getFEndPositie() && tempNaam->getFType() == "ZONE"){
+            if (fCurrentZone != tempNaam){
+                changedZone = true;
+            }
+            fCurrentZone = tempNaam;
+            break;
+        }
+    }
+    //the current zone is the zone in which our new position is in (newPos > zone) and is the closest of all zones
 
     // Calculate the speed
     fSnelheid = fVersnelling + fSnelheid;
 
-    if (fSnelheid > fBaanObject->getSnelheidsLimiet()) {
+    // Double adjust
+    if (fSnelheid > fBaanObject->getSnelheidsLimiet() && fCurrentZone == NULL) {
         fSnelheid = fBaanObject->getSnelheidsLimiet();
     } else if (fSnelheid < 0) {
         fSnelheid = 0;
+    } else if(fCurrentZone != NULL and fSnelheid > fCurrentZone->getFSnelheidslimiet() and fVersnelling > 0 and !changedZone ){
+        fSnelheid = fCurrentZone->getFSnelheidslimiet();
     }
 
 
@@ -186,6 +207,41 @@ void Voertuig::updatePosition() {
         fVersnelling = 0.5 * (dActual - dIdeal);
     }
 
+
+    double deceleration = 0;
+    // Consider change of speed
+    if(fCurrentZone != NULL  and fCurrentZone->getFSnelheidslimiet() < fSnelheid){
+        // We need to break
+
+        // Check if we  need to break with max speed
+        if (fSnelheid+fMinVersnelling >= fCurrentZone->getFSnelheidslimiet()){
+            deceleration = fMinVersnelling;
+        }else{
+            deceleration = (fCurrentZone->getFSnelheidslimiet()-fSnelheid);
+        }
+    }
+
+    // Also check normal speed
+    if (fCurrentZone == NULL and fSnelheid > fBaanObject->getSnelheidsLimiet()){
+        // Check if we  need to break with max speed
+        if (fSnelheid-fMinVersnelling >=fBaanObject->getSnelheidsLimiet() ){
+            deceleration = fMinVersnelling;
+        }else{
+            deceleration = (fBaanObject->getSnelheidsLimiet()-fSnelheid);
+        }
+    }
+
+    // check snelheidslimiet van baan
+    if (fSnelheid == fBaanObject->getSnelheidsLimiet()){
+        fVersnelling = 0;
+    }
+
+    if (deceleration < fVersnelling and deceleration != 0){
+        fVersnelling = deceleration;
+    }
+
+
+
     // If the acceleration is out of bounds take maximum or minimum value
     if (fVersnelling > fMaxVersnelling) {
         fVersnelling = fMaxVersnelling;
@@ -193,8 +249,11 @@ void Voertuig::updatePosition() {
         fVersnelling = fMinVersnelling;
     }
 
+
     ENSURE(fPositie <= fBaanObject->getLengte(), "updatePosition post condition failure");
-    ENSURE(fSnelheid <= fBaanObject->getSnelheidsLimiet(), "updatePosition post condition failure");
+    if(fCurrentZone == NULL){
+        ENSURE(fSnelheid <= fBaanObject->getSnelheidsLimiet(), "updatePosition post condition failure");
+    }
     ENSURE(fVersnelling <= fMaxVersnelling, "updatePosition post condition failure");
     ENSURE(fVersnelling >= fMinVersnelling, "updatePosition post condition failure");
 }
@@ -218,7 +277,6 @@ void Voertuig::setFMaxSnelheid(double fMaxSnelheid) {
 double Voertuig::getFMaxVersnelling() const {
     return fMaxVersnelling;
 }
-
 void Voertuig::setFMaxVersnelling(double fMaxVersnelling) {
     Voertuig::fMaxVersnelling = fMaxVersnelling;
 }
@@ -237,4 +295,28 @@ double Voertuig::getFVersnelling() const {
 
 void Voertuig::setFVersnelling(double fVersnelling) {
     Voertuig::fVersnelling = fVersnelling;
+}
+
+int Voertuig::getFRijstrook() const {
+    return fRijstrook;
+}
+
+void Voertuig::setFRijstrook(int fRijstrook) {
+    Voertuig::fRijstrook = fRijstrook;
+}
+
+const std::vector<Verkeersteken *> &Voertuig::getFPassedVerkeerstekens() const {
+    return fPassedVerkeerstekens;
+}
+
+void Voertuig::addFPassedVerkeerstekens(Verkeersteken * fPassedVerkeerstekens) {
+    Voertuig::fPassedVerkeerstekens.push_back(fPassedVerkeerstekens);
+}
+
+Verkeersteken *Voertuig::getFCurrentZone() const {
+    return fCurrentZone;
+}
+
+void Voertuig::setFCurrentZone(Verkeersteken *fCurrentZone) {
+    Voertuig::fCurrentZone = fCurrentZone;
 }

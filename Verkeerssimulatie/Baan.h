@@ -11,7 +11,8 @@
 
 #include <string>
 #include "DesignByContract.h"
-
+#include "Verkeersteken.h"
+#include <vector>
 class Baan {
 private:
 
@@ -31,6 +32,16 @@ private:
     Baan* fVerbindingObject;
 
     Baan * _initCheck;
+
+    /// A collection of road regulations
+    std::vector<Verkeersteken*> fVerkeerstekens;
+
+    int fRijstroken;
+public:
+    int getFRijstroken() const;
+
+    void setFRijstroken(int fRijstroken);
+
 
 public:
     /**
@@ -106,6 +117,17 @@ public:
 
     bool properlyInitialized() const;
 
+
+    const std::vector<Verkeersteken *> &getFVerkeerstekens() const;
+
+
+    void addFVerkeersteken(Verkeersteken* verkeersteken);
+
+    void sortVerkeersteken();
+
+    bool isSorted();
+
+    void assignZoneLimit();
 };
 
 

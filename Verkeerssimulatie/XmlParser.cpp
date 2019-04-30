@@ -212,6 +212,13 @@ void XmlParser::parseFile() {
                 } else if (elementValue == "verbinding") {
                     isWegenNetwerk = true;
                     baan->setVerbinding(elementText);
+                } else if (elementValue == "rijstroken"){
+                    try {
+                        baan->setFRijstroken(stoi(elementText));
+                    }
+                    catch (const char* &error) {
+                        std::cerr << elementText << " can't be converted to a number." << std::endl;
+                    }
                 }
             }
             bool geldigObject = true;
@@ -236,6 +243,93 @@ void XmlParser::parseFile() {
                 if(geldigObject){
                     // Add the new instance of 'Baan' to 'Banen'
                     fBanen->push_back(baan);
+                }
+            }
+        }
+
+        //lees verkeersteken
+        //een baan gaat een vector van type "verkeersteken" hebben genaamd: "verkeerstekens"
+        // dit kan van type "ZONE" en "BUSHALTE" zijn
+
+        ///Todo: vraag, kunnen wij ervanuit gaan dat de baan altijd eerst gegeven wordt voor de verkeersteken?
+        ///evt. oplossing, skip if baan niet bestaat
+
+        if (is_equal(rootElement->Value(),"VERKEERSTEKEN")) {
+            // Loop over all child elements of rootElement
+            Verkeersteken* verkeersteken = new Verkeersteken;
+            for (TiXmlElement *childOfRootElement = rootElement->FirstChildElement();
+                 childOfRootElement != NULL; childOfRootElement = childOfRootElement->NextSiblingElement()) {
+                // Get the value and text of the element
+                std::string elementText;
+                std::string elementValue;
+                try {
+                    if (childOfRootElement->GetText() != NULL) {
+                        elementText = childOfRootElement->GetText();
+                    } else {
+                        throw "InvalidText";
+                    }
+
+                    if (childOfRootElement->Value() != NULL) {
+                        elementValue = childOfRootElement->Value();
+                    } else {
+                        throw "InvalidValue";
+                    }
+                }
+                catch (const char* &error) {
+                    if (is_equal(error, "InvalidValue")) {
+                        std::cerr << childOfRootElement << "->Value() is NULL." << std::endl;
+                    } else if (is_equal(error, "InvalidText")) {
+                        std::cerr << childOfRootElement->Value() << " tag is NULL." << std::endl;
+                    }
+                }
+                //we'll split the parsing in two: parsing a BUSHALTE and parsing a ZONE
+                // Check the value of element Value
+                // type, baan, positie, sneleheidslimiet
+                if (elementValue == "type") {
+                    if(elementText == "BUSHALTE"){
+                        verkeersteken->setFType("BUSHALTE");
+                    }
+                    else if(elementText == "ZONE"){
+                        verkeersteken->setFType("ZONE");
+                    }
+                } else if (elementValue == "snelheidslimiet") {
+                    try {
+                        verkeersteken->setFSnelheidslimiet(stoi(elementText));
+                    }
+                    catch (const char* &error) {
+                        std::cerr << elementText << " can't be converted to a number." << std::endl;
+                    }
+                } else if (elementValue == "baan") {
+                    bool foundBaan = false;
+                    //check if baan already exists, otherwise just skip
+                    for(unsigned int i = 0; i < fBanen->size(); i++ ){
+                        if(fBanen->at(i)->getNaam() == elementText){
+                            foundBaan = true;
+                        }
+                    }
+                    for(unsigned int j = 0; j < fWegenNetwerk->size(); j++ ){
+                        if(fWegenNetwerk->at(j)->getNaam() == elementText){
+                            foundBaan = true;
+                        }
+                    }
+                    if(!foundBaan){
+                        break; //end this loop and move to the next set of values
+                    }
+                    //if the baan is found then make sure to add this element to baan
+                    verkeersteken->setFBaan(elementText);
+                } else if (elementValue == "positie") {
+                    verkeersteken->setFPositie(stoi(elementText));
+                }
+            }
+            //now add the variable to the Baan's "fVerkeerstekens"
+            for(unsigned int i = 0; i < fBanen->size(); i++ ){
+                if(fBanen->at(i)->getNaam() == verkeersteken->getFBaan()){
+                    fBanen->at(i)->addFVerkeersteken(verkeersteken);
+                }
+            }
+            for(unsigned int j = 0; j < fWegenNetwerk->size(); j++ ){
+                if(fWegenNetwerk->at(j)->getNaam() == verkeersteken->getFBaan()){
+                    fWegenNetwerk->at(j)->addFVerkeersteken(verkeersteken);
                 }
             }
         }

@@ -9,6 +9,7 @@
 #include "System.h"
 #include <string>
 #include <sstream>
+#include <algorithm>
 
 template <typename T>
 std::string ToString(T val)
@@ -17,6 +18,8 @@ std::string ToString(T val)
     stream << val;
     return stream.str();
 }
+
+
 
 System::System(std::vector<Baan *> *Banen, std::vector<Baan *> *WegenNetwerk, std::vector<Voertuig *> *Voertuigen)
         : fBanen(Banen), fWegenNetwerk(WegenNetwerk), fVoertuigen(Voertuigen) {
@@ -194,10 +197,13 @@ void System::simulate(unsigned int iterations) {
 
 void System::automaticSimulation(std::string& output) {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
+    for(unsigned int i = 0; i < fBanen->size(); i++){
+        fBanen->at(i)->sortVerkeersteken();
+        fBanen->at(i)->assignZoneLimit();
+    }
     while(fVoertuigen->size()>0){
         simulate();
 
-        output += "\n \n";
         output += "+-----------------------------------------------------+\n";
         simpeleUitvoer(output);
     }

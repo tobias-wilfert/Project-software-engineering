@@ -8,6 +8,7 @@
 
 #include "System.h"
 #include "XmlParser.h"
+#include "Verkeersteken.h"
 
 int main(int argc, char** argv) {
 
@@ -19,14 +20,18 @@ int main(int argc, char** argv) {
     //const char* kFileName =  "Wednesday_Night.xml";
     //const char* kFileName =  "Wegen_en_voertuigen.xml";
     //const char* kFileName =  "Wegennetwerk.xml";
-    const char* kFileName = argv[1];
+    //const char* kFileName = argv[1];
 
+    std::string output;
+
+    const char* kFileName = "verkeersTekenVB.xml";
     // Parse the file
     XmlParser parser = XmlParser(kFileName);
     // Initialize the system
     System system = System(parser.getBanen(),parser.getWegenNetwerk(),parser.getVoertuigen());
     // Start the simulation
-    system.automaticSimulation();
-
+    system.getBanen()->at(0)->getFVerkeerstekens().at(1)->getFSnelheidslimiet();
+    system.automaticSimulation(output);
+    std::cout << output;
     return 0;
 }

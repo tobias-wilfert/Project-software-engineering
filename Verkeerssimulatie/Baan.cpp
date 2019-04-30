@@ -103,3 +103,71 @@ void Baan::setVerbindingObject(Baan *verbinding) {
 bool Baan::properlyInitialized() const{
     return _initCheck == this;
 }
+
+const std::vector<Verkeersteken *> &Baan::getFVerkeerstekens() const {
+    return fVerkeerstekens;
+}
+void Baan::addFVerkeersteken(Verkeersteken* verkeersteken) {
+    Baan::fVerkeerstekens.push_back(verkeersteken);
+}
+
+int Baan::getFRijstroken() const {
+    return fRijstroken;
+}
+
+void Baan::setFRijstroken(int fRijstroken) {
+    Baan::fRijstroken = fRijstroken;
+}
+
+void Baan::sortVerkeersteken() {
+    while(!isSorted()){
+        for(unsigned int i = 0; i < fVerkeerstekens.size(); i++){
+            if(i == fVerkeerstekens.size()-1){
+                break; //necessary so we don't get errors later by taking the next sign
+            }
+            Verkeersteken* temp = fVerkeerstekens.at(i);
+            if(fVerkeerstekens.at(i)->getFPositie() > fVerkeerstekens.at(i+1)->getFPositie()){
+                fVerkeerstekens.at(i) = fVerkeerstekens.at(i+1);
+                fVerkeerstekens.at(i+1) = temp;
+            }
+        }
+    }
+
+}
+
+bool Baan::isSorted() {
+    for(unsigned int i = 0; i < fVerkeerstekens.size(); i++){
+        Verkeersteken* currentSign = fVerkeerstekens.at(i);
+        Verkeersteken* nextSign = NULL;
+        if(i == fVerkeerstekens.size()-1){
+            break;
+        }
+        else{
+            nextSign = fVerkeerstekens.at(i+1);
+        }
+        //compare
+        if(currentSign->getFPositie()>nextSign->getFPositie()){
+            return false;
+        }
+    }
+    return true;
+
+}
+
+void Baan::assignZoneLimit() {
+    Verkeersteken* currentZone = NULL;
+    for(unsigned int i = 0; i < fVerkeerstekens.size(); i++){
+        if(fVerkeerstekens.at(i)->getFType() == "ZONE" && currentZone == NULL){
+            currentZone = fVerkeerstekens.at(i);
+        }
+        //if zone and is not same as current zone then this will be the end of the current zone
+        if(fVerkeerstekens.at(i)->getFType() == "ZONE" && currentZone != fVerkeerstekens.at(i)){
+            currentZone->setFEndPositie(fVerkeerstekens.at(i)->getFPositie());
+            currentZone = fVerkeerstekens.at(i);
+        }
+        if(i == fVerkeerstekens.size()-1){ //als laatste zone is. eindigt het tot op't einde van de baan
+            currentZone->setFEndPositie(fLengte);
+        }
+    }
+}
+

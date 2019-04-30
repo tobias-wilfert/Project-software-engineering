@@ -31,6 +31,8 @@ protected:
 };
 
 
+
+
 //////////////////////  BAAN TEST BEGINS HERE  /////////////////////////////////
 //test xml file with duplicate Banen objects
 

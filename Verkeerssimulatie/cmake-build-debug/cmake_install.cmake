@@ -1,4 +1,4 @@
-# Install script for directory: /home/reed/Desktop/2eFase/Project-software-engineering/Verkeerssimulatie
+# Install script for directory: /home/student/Desktop/30_04_2019/Project-software-engineering/Verkeerssimulatie
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/reed/Desktop/2eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/student/Desktop/30_04_2019/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

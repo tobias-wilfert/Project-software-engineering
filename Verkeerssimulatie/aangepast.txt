@@ -1,0 +1,34 @@
+nieuwe class "verkeersteken" gemaakt
+in class "Baan" nieuwe attribute "vector<Verkeersteken> fVerkeerstekens" toegevoegd
+in class Baan nieuwe functies get + set verkeerstekens gemaakt
+
+changes were mostly made in xmlParser
+
+
+planning: wegen met meerdere rijstroken inlezen
+x  1.attribute "rijstroken" aan class Baan toevoegen
+x  2.Elke komende auto op laatste rijstrook(dus van renks naar rechts gevuld)
+
+ik stel voor eerst 2:uitvoer eerst te skippen
+en 3.3-3.6 te doen
+
+als wij meerdere rijstroken willen implementeren
+dan moeten wij ook 3.7 doen
+
+
+__________________
+30 april
+
+added new variable "passed Zones to Verhicles
+    -this is especially handy to track which bustops-zones-stoplights have been passed
+
+added new function to System, arrangeVerkeerstekens
+this will arrange the traffic signals from
+lowest position to highest position
+
+added new variable endPosition to Verkeersteken
+    this will only be used by Zone for us to be able to
+    tell when the zone ends
+added new function to System, assignZoneLimit
+this function
+

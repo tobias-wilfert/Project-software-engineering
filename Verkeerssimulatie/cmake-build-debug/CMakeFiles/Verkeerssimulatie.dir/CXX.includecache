@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/student/Desktop/30_04_2019/Project-software-engineering/Verkeerssimulatie/Baan.h
+string
+-
+DesignByContract.h
+/home/student/Desktop/30_04_2019/Project-software-engineering/Verkeerssimulatie/DesignByContract.h
+Verkeersteken.h
+/home/student/Desktop/30_04_2019/Project-software-engineering/Verkeerssimulatie/Verkeersteken.h
+vector
+-
+
+/home/student/Desktop/30_04_2019/Project-software-engineering/Verkeerssimulatie/DesignByContract.h
+assert.h
+-
+
+/home/student/Desktop/30_04_2019/Project-software-engineering/Verkeerssimulatie/Verkeersteken.h
+string
+-
+
+/home/student/Desktop/30_04_2019/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp
+iostream
+-
+Voertuig.h
+/home/student/Desktop/30_04_2019/Project-software-engineering/Verkeerssimulatie/Voertuig.h
+
+/home/student/Desktop/30_04_2019/Project-software-engineering/Verkeerssimulatie/Voertuig.h
+Baan.h
+/home/student/Desktop/30_04_2019/Project-software-engineering/Verkeerssimulatie/Baan.h
+DesignByContract.h
+/home/student/Desktop/30_04_2019/Project-software-engineering/Verkeerssimulatie/DesignByContract.h
+

@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.o"
   "CMakeFiles/Verkeerssimulatie.dir/Baan.cpp.o"
   "CMakeFiles/Verkeerssimulatie.dir/System.cpp.o"
+  "CMakeFiles/Verkeerssimulatie.dir/Verkeersteken.cpp.o"
   "Verkeerssimulatie.pdb"
   "Verkeerssimulatie"
 )

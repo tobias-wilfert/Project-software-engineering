@@ -144,6 +144,7 @@ public:
 
     bool properlyInitialized() const;
 
+    bool isSorted();
 };
 
 

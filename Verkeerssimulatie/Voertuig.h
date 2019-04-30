@@ -57,12 +57,32 @@ private:
     ///maximum accelerationthe vehicle can achieve
     double fMaxVersnelling;
 
+    int fRijstrook;
+
+    std::vector<Verkeersteken*> fPassedVerkeerstekens;
+
+    ///minimum acceleration the vehicle can achieve
+    double fMinVersnelling;
+
+    Verkeersteken* fCurrentZone;
 public:
+    Verkeersteken *getFCurrentZone() const;
+
+    void setFCurrentZone(Verkeersteken *fCurrentZone);
+
+public:
+    const std::vector<Verkeersteken *> &getFPassedVerkeerstekens() const;
+
+    void addFPassedVerkeerstekens(Verkeersteken *fPassedVerkeerstekens);
+
+    int getFRijstrook() const;
+
+    void setFRijstrook(int fRijstrook);
+
     double getFVersnelling() const;
 
     void setFVersnelling(double fVersnelling);
 
-public:
     double getFMaxSnelheid() const;
 
     void setFMaxSnelheid(double fMaxSnelheid);
@@ -74,12 +94,6 @@ public:
     double getFMinVersnelling() const;
 
     void setFMinVersnelling(double fMinVersnelling);
-
-private:
-///minimum acceleration the vehicle can achieve
-    double fMinVersnelling;
-
-public:
 
     /**
     \n ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
