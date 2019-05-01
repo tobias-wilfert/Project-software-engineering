@@ -37,9 +37,9 @@ const std::string &Verkeersteken::getFType() const {
 void Verkeersteken::setFType(const std::string &type) {
     REQUIRE(this->properlyInitialized(), "Verkeersteken wasn't initialized when calling setFType");
 
-    ENSURE(type == "BUSHALTE" or type == "ZONE" or type == "VERKEERSLICHT","setFType post condition failure" );
+    ENSURE(type == "BUSHALTE" or type == "ZONE" or type == "VERKEERSLICHT","setFType pre condition failure" );
     Verkeersteken::fType = type;
-    ENSURE(getFType() == type, "setFType pre condition failure");
+    ENSURE(getFType() == type, "setFType post condition failure");
 }
 
 unsigned int Verkeersteken::getFPositie() const {
@@ -51,9 +51,9 @@ unsigned int Verkeersteken::getFPositie() const {
 void Verkeersteken::setFPositie(unsigned int positie) {
     REQUIRE(this->properlyInitialized(), "Verkeersteken wasn't initialized when calling setFPositie");
 
-    ENSURE( positie >= 0, "setFPositie post condition failure");
+    ENSURE( positie >= 0, "setFPositie pre condition failure");
     Verkeersteken::fPositie = positie;
-    ENSURE(getFPositie() == positie, "setFPositie pre condition failure");
+    ENSURE(getFPositie() == positie, "setFPositie post condition failure");
 }
 
 int Verkeersteken::getFSnelheidslimiet() const {
@@ -64,7 +64,7 @@ int Verkeersteken::getFSnelheidslimiet() const {
 void Verkeersteken::setFSnelheidslimiet(int snelheidslimiet) {
     REQUIRE(this->properlyInitialized(), "Verkeersteken wasn't initialized when calling setFSnelheidslimiet");
 
-    ENSURE( fSnelheidslimiet >= 0, "setFSnelheidslimiet post condition failure");
+    ENSURE( fSnelheidslimiet >= 0, "setFSnelheidslimiet pre condition failure");
     Verkeersteken::fSnelheidslimiet = snelheidslimiet;
     ENSURE(getFSnelheidslimiet() == fSnelheidslimiet, "setFSnelheidslimiet post condition failure");
 }
@@ -77,7 +77,7 @@ unsigned int Verkeersteken::getFEndPositie() const {
 void Verkeersteken::setFEndPositie(unsigned int fEndPositie) {
     REQUIRE(this->properlyInitialized(), "Verkeersteken wasn't initialized when calling setFEndPositie");
 
-    ENSURE(fEndPositie >= 0,"setFEndPositie post condition failure" );
+    ENSURE(fEndPositie >= 0,"setFEndPositie pre condition failure" );
     Verkeersteken::fEndPositie = fEndPositie;
     ENSURE(getFEndPositie() == fEndPositie,"setFSnelheidslimiet post condition failure");
 }

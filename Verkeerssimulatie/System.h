@@ -16,6 +16,14 @@
 #include "Baan.h"
 #include "Voertuig.h"
 
+// File compare
+// Source: https://stackoverflow.com/a/37575457/8076979
+#include <fstream>
+#include <iterator>
+#include <string>
+#include <algorithm>
+
+
 class System {
 private:
 
@@ -143,6 +151,8 @@ public:
     //-----------------------------------------
 
     bool properlyInitialized() const;
+
+    bool compareFiles(const std::string& p1, const std::string& p2);
 
 };
 

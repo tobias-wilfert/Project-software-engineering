@@ -37,7 +37,7 @@ set(DEBUG_SOURCE_FILES
         System.cpp
         System.h
         Verkeersteken.cpp
-        Verkeersteken.h)
+        Verkeersteken.h Tests/VerkeerstekenTest.cpp)
 
 # Create RELEASE target
 add_executable(Verkeerssimulatie ${RELEASE_SOURCE_FILES})

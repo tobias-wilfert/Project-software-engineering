@@ -324,3 +324,39 @@ TEST_F(VoertuigTest, UpdatePositionRequire){
     voertuig1.set_initCheck(NULL);
     EXPECT_DEATH(voertuig1.updatePosition(),"");
 }
+
+TEST_F(VoertuigTest, setFCurrentZone){
+
+    voertuig.set_initCheck(&voertuig);
+    Verkeersteken* v = new Verkeersteken();
+    voertuig.setFCurrentZone(v);
+    EXPECT_TRUE(voertuig.getFCurrentZone() == v);
+}
+
+TEST_F(VoertuigTest, addFPassedVerkeerstekens){
+    Verkeersteken* v = new Verkeersteken();
+    voertuig.addFPassedVerkeerstekens(v);
+    EXPECT_TRUE(voertuig.getFPassedVerkeerstekens().back() == v);
+}
+
+TEST_F(VoertuigTest,setFVersnelling){
+    voertuig.setFVersnelling(5);
+    EXPECT_TRUE(voertuig.getFVersnelling() == 5);
+}
+
+TEST_F(VoertuigTest,setFMaxVersnelling){
+    EXPECT_DEATH(voertuig.setFMaxSnelheid(-10),"");
+}
+
+TEST_F(VoertuigTest,setFMinVersnelling){
+    EXPECT_DEATH(voertuig.setFMinVersnelling(10),"");
+}
+
+TEST_F(VoertuigTest,setFRijstrook_pre){
+    EXPECT_DEATH(voertuig.setFRijstrook(-1),"");
+}
+
+TEST_F(VoertuigTest,setFRijstrook_post){
+    voertuig.setFRijstrook(4);
+    EXPECT_TRUE(voertuig.getFRijstrook()==4);
+}

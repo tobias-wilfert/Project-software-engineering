@@ -246,10 +246,6 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.cpp
-Baan.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
-
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
 string
 -
@@ -311,6 +307,14 @@ Baan.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
 Voertuig.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
+fstream
+-
+iterator
+-
+string
+-
+algorithm
+-
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/BaanTest.cpp
 iostream
@@ -351,10 +355,6 @@ gtest/gtest.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
 ../XmlParser.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
-
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Verkeersteken.cpp
-Verkeersteken.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Verkeersteken.h
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Verkeersteken.h
 string

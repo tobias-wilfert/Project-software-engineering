@@ -13,8 +13,11 @@
 
 #include "DesignByContract.h"
 
+
 class Verkeersteken {
 private:
+
+    friend class VerkeerstekenTest;
 
     /// Name of the Baan the Verkeersteken is on
     std::string fBaan;
@@ -48,7 +51,7 @@ public:
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Verkeersteken wasn't initialized when calling setFBaan");
-    \n ENSURE(getFBaan() == baa, "setFType pre condition failure");
+    \n ENSURE(getFBaan() == baan, "setFType pre condition failure");
      */
     void setFBaan(const std::string &fBaan);
 

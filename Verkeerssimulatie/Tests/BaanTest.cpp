@@ -32,7 +32,6 @@ protected:
 
 
 
-
 //////////////////////  BAAN TEST BEGINS HERE  /////////////////////////////////
 //test xml file with duplicate Banen objects
 
@@ -106,4 +105,28 @@ TEST_F(BaanTest, BanenGetVerbindingObject){
     System systemTest(parser2.getBanen(),parser2.getWegenNetwerk(),parser2.getVoertuigen());
     systemTest.initializeBaanVerbindingObjects();
     EXPECT_EQ(systemTest.getWegenNetwerk()->at(0)->getVerbindingObject(), systemTest.getBanen()->at(0));
+}
+
+/// NEW FUNCTIONS
+
+Baan b = Baan();
+
+TEST_F(BaanTest, Baan_setFRijstroken_precondition){
+    EXPECT_DEATH(b.setFRijstroken(-10),"");
+}
+
+TEST_F(BaanTest, Baan_setFRijstroken_postcondition){
+    b.setFRijstroken(10);
+    EXPECT_TRUE(10 == b.getFRijstroken());
+}
+
+TEST_F(BaanTest,addFVerkeersteken_precondition){
+    Verkeersteken* v = NULL;
+    EXPECT_DEATH(b.addFVerkeersteken(v),"");
+}
+
+TEST_F(BaanTest,addFVerkeersteken_postcondition){
+    Verkeersteken* v = new Verkeersteken();
+    b.addFVerkeersteken(v);
+    EXPECT_TRUE(v == b.getFVerkeerstekens().back());
 }

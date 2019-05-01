@@ -179,6 +179,9 @@
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerssimulatieTest.cpp">
 			<Option target="Verkeerssimulatie_debug"/>
 		</Unit>
+		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerstekenTest.cpp">
+			<Option target="Verkeerssimulatie_debug"/>
+		</Unit>
 		<Unit filename="/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VoertuigTest.cpp">
 			<Option target="Verkeerssimulatie_debug"/>
 		</Unit>

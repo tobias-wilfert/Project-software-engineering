@@ -206,8 +206,6 @@ public:
      */
     void updatePosition();
 
-    // TODO: Make test for these newly added functions
-
     /**
     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFCurrentZone");
      */

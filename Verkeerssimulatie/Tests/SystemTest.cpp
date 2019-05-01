@@ -155,14 +155,116 @@ TEST_F(SystemTest, automaticSimulation){
     std::string output;
     s3.automaticSimulation(output);
 
+    x = 0;
+    EXPECT_EQ(s3.getVoertuigen()->size(), x);
+}
+
+/////////////////////////////////Test output of entire sysytem////////////////////////////////////////////////////
+
+TEST_F(SystemTest, entireSysytem_Traffic_Jam){
+    XmlParser parser("Traffic_Jam.xml");
+    System s(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+
+    // Write the output to a file to comapare them later
+    std::string output;
+    s.automaticSimulation(output);
+
     // Write to file
     std::ofstream myfile;
     myfile.open ("Test_Result.txt");
     myfile << output;
     myfile.close();
 
-    x = 0;
-    EXPECT_EQ(s3.getVoertuigen()->size(), x);
+    // Check the output
+    EXPECT_TRUE(s.compareFiles("Test_Result.txt","Traffic_Jam.txt"));
 }
 
-//TODO: Add more tests like this one
+TEST_F(SystemTest, entireSysytem_Friday_Night){
+    XmlParser parser("Friday_Night.xml");
+    System s(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+
+    // Write the output to a file to comapare them later
+    std::string output;
+    s.automaticSimulation(output);
+
+    // Write to file
+    std::ofstream myfile;
+    myfile.open ("Test_Result.txt");
+    myfile << output;
+    myfile.close();
+
+    // Check the output
+    EXPECT_TRUE(s.compareFiles("Test_Result.txt","Friday_Night.txt"));
+}
+
+TEST_F(SystemTest, entireSysytem_Holiday){
+    XmlParser parser("Holiday.xml");
+    System s(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+
+    // Write the output to a file to comapare them later
+    std::string output;
+    s.automaticSimulation(output);
+
+    // Write to file
+    std::ofstream myfile;
+    myfile.open ("Test_Result.txt");
+    myfile << output;
+    myfile.close();
+
+    // Check the output
+    EXPECT_TRUE(s.compareFiles("Test_Result.txt","Holiday.txt"));
+}
+
+TEST_F(SystemTest, entireSysytem_Monday_Morning){
+    XmlParser parser("Monday_Morning.xml");
+    System s(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+
+    // Write the output to a file to comapare them later
+    std::string output;
+    s.automaticSimulation(output);
+
+    // Write to file
+    std::ofstream myfile;
+    myfile.open ("Test_Result.txt");
+    myfile << output;
+    myfile.close();
+
+    // Check the output
+    EXPECT_TRUE(s.compareFiles("Test_Result.txt","Monday_Morning.txt"));
+}
+
+TEST_F(SystemTest, entireSysytem_Wednesday_Night){
+    XmlParser parser("Wednesday_Night.xml");
+    System s(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+
+    // Write the output to a file to comapare them later
+    std::string output;
+    s.automaticSimulation(output);
+
+    // Write to file
+    std::ofstream myfile;
+    myfile.open ("Test_Result.txt");
+    myfile << output;
+    myfile.close();
+
+    // Check the output
+    EXPECT_TRUE(s.compareFiles("Test_Result.txt","Wednesday_Night.txt"));
+}
+
+TEST_F(SystemTest, entireSysytem_Wegen_en_voertuigen){
+    XmlParser parser("Wegen_en_voertuigen.xml");
+    System s(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+
+    // Write the output to a file to comapare them later
+    std::string output;
+    s.automaticSimulation(output);
+
+    // Write to file
+    std::ofstream myfile;
+    myfile.open ("Test_Result.txt");
+    myfile << output;
+    myfile.close();
+
+    // Check the output
+    EXPECT_TRUE(s.compareFiles("Test_Result.txt","Wegen_en_voertuigen.txt"));
+}

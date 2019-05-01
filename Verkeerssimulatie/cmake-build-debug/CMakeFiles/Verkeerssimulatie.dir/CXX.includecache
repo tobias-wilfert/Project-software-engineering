@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.cpp
-Baan.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
-
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
 string
 -
@@ -50,16 +46,6 @@ sstream
 tinystr.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinystr.h
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.cpp
-System.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
-string
--
-sstream
--
-algorithm
--
-
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
 vector
 -
@@ -71,10 +57,14 @@ Baan.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
 Voertuig.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
-
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Verkeersteken.cpp
-Verkeersteken.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Verkeersteken.h
+fstream
+-
+iterator
+-
+string
+-
+algorithm
+-
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Verkeersteken.h
 string
@@ -82,23 +72,11 @@ string
 DesignByContract.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/DesignByContract.h
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp
-iostream
--
-Voertuig.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
-
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 Baan.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
 DesignByContract.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/DesignByContract.h
-
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp
-cstring
--
-XmlParser.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 vector
@@ -123,12 +101,4 @@ XmlParser.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 Verkeersteken.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Verkeersteken.h
-fstream
--
-iterator
--
-string
--
-algorithm
--
 

@@ -107,6 +107,30 @@ CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.o: ../gte
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.o: ../gtest/include/gtest/internal/gtest-type-util.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.o: ../Tests/VerkeerssimulatieTest.cpp
 
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/gtest-death-test.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/gtest-message.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/gtest-param-test.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/gtest-printers.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/gtest-test-part.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/gtest-typed-test.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/gtest.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/gtest_pred_impl.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/gtest_prod.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/internal/gtest-death-test-internal.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/internal/gtest-filepath.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/internal/gtest-internal.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/internal/gtest-linked_ptr.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/internal/gtest-param-util-generated.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/internal/gtest-param-util.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/internal/gtest-port.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/internal/gtest-string.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/internal/gtest-tuple.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../gtest/include/gtest/internal/gtest-type-util.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../Baan.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../DesignByContract.h
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../Tests/VerkeerstekenTest.cpp
+CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../Verkeersteken.h
+
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.o: ../gtest/include/gtest/gtest-death-test.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.o: ../gtest/include/gtest/gtest-message.h
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.o: ../gtest/include/gtest/gtest-param-test.h

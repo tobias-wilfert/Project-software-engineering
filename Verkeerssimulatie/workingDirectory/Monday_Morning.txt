@@ -1,0 +1,3887 @@
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 10 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 20 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 30 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 10 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 20 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 30 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 10 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 20 m
+	-> snelheid: 0 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 10 m
+	-> snelheid: 1 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 20 m
+	-> snelheid: 1 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 30 m
+	-> snelheid: 2 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 10 m
+	-> snelheid: 1 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 20 m
+	-> snelheid: 1 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 30 m
+	-> snelheid: 2 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 10 m
+	-> snelheid: 1 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 20 m
+	-> snelheid: 2 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 11 m
+	-> snelheid: 1.625 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 21 m
+	-> snelheid: 1.625 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 32 m
+	-> snelheid: 4 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 11 m
+	-> snelheid: 1.625 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 21 m
+	-> snelheid: 1.625 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 32 m
+	-> snelheid: 4 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 11 m
+	-> snelheid: 1.625 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 22 m
+	-> snelheid: 4 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 12.625 m
+	-> snelheid: 1.51562 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 22.625 m
+	-> snelheid: 1.51562 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 36 m
+	-> snelheid: 6 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 12.625 m
+	-> snelheid: 1.51562 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 22.625 m
+	-> snelheid: 1.51562 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 36 m
+	-> snelheid: 6 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 12.625 m
+	-> snelheid: 1.51562 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 26 m
+	-> snelheid: 6 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 14.1406 m
+	-> snelheid: 1.13477 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 24.1406 m
+	-> snelheid: 1.63477 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 42 m
+	-> snelheid: 8 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 14.1406 m
+	-> snelheid: 1.13477 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 24.1406 m
+	-> snelheid: 1.63477 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 42 m
+	-> snelheid: 8 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 14.1406 m
+	-> snelheid: 1.63477 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 32 m
+	-> snelheid: 8 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 15.2754 m
+	-> snelheid: 0.951416 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 25.7754 m
+	-> snelheid: 2.95142 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 50 m
+	-> snelheid: 10 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 15.2754 m
+	-> snelheid: 0.951416 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 25.7754 m
+	-> snelheid: 2.95142 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 50 m
+	-> snelheid: 10 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 15.7754 m
+	-> snelheid: 2.95142 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 40 m
+	-> snelheid: 10 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 16.2268 m
+	-> snelheid: 1.02725 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 28.7268 m
+	-> snelheid: 4.95142 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 60 m
+	-> snelheid: 12 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 16.2268 m
+	-> snelheid: 1.02725 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 28.7268 m
+	-> snelheid: 4.95142 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 60 m
+	-> snelheid: 12 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 18.7268 m
+	-> snelheid: 4.95142 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 50 m
+	-> snelheid: 12 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 17.2541 m
+	-> snelheid: 1.41632 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 33.6782 m
+	-> snelheid: 6.95142 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 72 m
+	-> snelheid: 14 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 17.2541 m
+	-> snelheid: 1.41632 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 33.6782 m
+	-> snelheid: 6.95142 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 72 m
+	-> snelheid: 14 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 23.6782 m
+	-> snelheid: 6.95142 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 62 m
+	-> snelheid: 14 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 18.6704 m
+	-> snelheid: 2.62158 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 40.6296 m
+	-> snelheid: 8.95142 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 86 m
+	-> snelheid: 16 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 18.6704 m
+	-> snelheid: 2.62158 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 40.6296 m
+	-> snelheid: 8.95142 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 86 m
+	-> snelheid: 16 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 30.6296 m
+	-> snelheid: 8.95142 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 76 m
+	-> snelheid: 16 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 21.292 m
+	-> snelheid: 4.62158 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 49.5811 m
+	-> snelheid: 10.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 102 m
+	-> snelheid: 18 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 21.292 m
+	-> snelheid: 4.62158 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 49.5811 m
+	-> snelheid: 10.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 102 m
+	-> snelheid: 18 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 39.5811 m
+	-> snelheid: 10.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 92 m
+	-> snelheid: 18 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 25.9135 m
+	-> snelheid: 6.62158 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 60.5325 m
+	-> snelheid: 12.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 120 m
+	-> snelheid: 20 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 25.9135 m
+	-> snelheid: 6.62158 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 60.5325 m
+	-> snelheid: 12.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 120 m
+	-> snelheid: 20 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 50.5325 m
+	-> snelheid: 12.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 110 m
+	-> snelheid: 20 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 32.5351 m
+	-> snelheid: 8.62158 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 73.4839 m
+	-> snelheid: 14.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 140 m
+	-> snelheid: 22 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 32.5351 m
+	-> snelheid: 8.62158 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 73.4839 m
+	-> snelheid: 14.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 140 m
+	-> snelheid: 22 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 63.4839 m
+	-> snelheid: 14.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 130 m
+	-> snelheid: 22 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 41.1567 m
+	-> snelheid: 10.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 88.4353 m
+	-> snelheid: 16.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 162 m
+	-> snelheid: 24 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 41.1567 m
+	-> snelheid: 10.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 88.4353 m
+	-> snelheid: 16.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 162 m
+	-> snelheid: 24 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 78.4353 m
+	-> snelheid: 16.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 152 m
+	-> snelheid: 24 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 51.7783 m
+	-> snelheid: 12.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 105.387 m
+	-> snelheid: 18.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 186 m
+	-> snelheid: 26 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 51.7783 m
+	-> snelheid: 12.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 105.387 m
+	-> snelheid: 18.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 186 m
+	-> snelheid: 26 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 95.3867 m
+	-> snelheid: 18.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 176 m
+	-> snelheid: 26 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 64.3998 m
+	-> snelheid: 14.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 124.338 m
+	-> snelheid: 20.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 212 m
+	-> snelheid: 28 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 64.3998 m
+	-> snelheid: 14.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 124.338 m
+	-> snelheid: 20.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 212 m
+	-> snelheid: 28 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 114.338 m
+	-> snelheid: 20.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 202 m
+	-> snelheid: 28 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 79.0214 m
+	-> snelheid: 16.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 145.29 m
+	-> snelheid: 22.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 240 m
+	-> snelheid: 30 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 79.0214 m
+	-> snelheid: 16.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 145.29 m
+	-> snelheid: 22.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 240 m
+	-> snelheid: 30 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 135.29 m
+	-> snelheid: 22.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 230 m
+	-> snelheid: 30 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 95.643 m
+	-> snelheid: 18.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 168.241 m
+	-> snelheid: 24.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 270 m
+	-> snelheid: 32 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 95.643 m
+	-> snelheid: 18.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 168.241 m
+	-> snelheid: 24.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 270 m
+	-> snelheid: 32 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 158.241 m
+	-> snelheid: 24.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 260 m
+	-> snelheid: 32 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 114.265 m
+	-> snelheid: 20.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 193.192 m
+	-> snelheid: 26.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 302 m
+	-> snelheid: 34 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 114.265 m
+	-> snelheid: 20.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 193.192 m
+	-> snelheid: 26.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 302 m
+	-> snelheid: 34 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 183.192 m
+	-> snelheid: 26.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 292 m
+	-> snelheid: 34 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 134.886 m
+	-> snelheid: 22.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 220.144 m
+	-> snelheid: 28.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 336 m
+	-> snelheid: 36 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 134.886 m
+	-> snelheid: 22.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 220.144 m
+	-> snelheid: 28.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 336 m
+	-> snelheid: 36 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 210.144 m
+	-> snelheid: 28.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 326 m
+	-> snelheid: 36 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 157.508 m
+	-> snelheid: 24.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 249.095 m
+	-> snelheid: 30.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 372 m
+	-> snelheid: 38 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 157.508 m
+	-> snelheid: 24.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 249.095 m
+	-> snelheid: 30.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 372 m
+	-> snelheid: 38 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 239.095 m
+	-> snelheid: 30.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 362 m
+	-> snelheid: 38 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 182.129 m
+	-> snelheid: 26.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 280.047 m
+	-> snelheid: 32.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 410 m
+	-> snelheid: 40 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 182.129 m
+	-> snelheid: 26.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 280.047 m
+	-> snelheid: 32.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 410 m
+	-> snelheid: 40 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 270.047 m
+	-> snelheid: 32.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 400 m
+	-> snelheid: 40 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 208.751 m
+	-> snelheid: 28.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 312.998 m
+	-> snelheid: 34.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 450 m
+	-> snelheid: 42 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 208.751 m
+	-> snelheid: 28.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 312.998 m
+	-> snelheid: 34.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 450 m
+	-> snelheid: 42 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 302.998 m
+	-> snelheid: 34.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 440 m
+	-> snelheid: 42 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 237.372 m
+	-> snelheid: 30.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 347.949 m
+	-> snelheid: 36.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 492 m
+	-> snelheid: 44 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 237.372 m
+	-> snelheid: 30.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 347.949 m
+	-> snelheid: 36.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 492 m
+	-> snelheid: 44 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 337.949 m
+	-> snelheid: 36.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 482 m
+	-> snelheid: 44 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 267.994 m
+	-> snelheid: 32.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 384.901 m
+	-> snelheid: 38.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 536 m
+	-> snelheid: 46 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 267.994 m
+	-> snelheid: 32.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 384.901 m
+	-> snelheid: 38.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 536 m
+	-> snelheid: 46 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 374.901 m
+	-> snelheid: 38.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 526 m
+	-> snelheid: 46 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 300.616 m
+	-> snelheid: 34.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 423.852 m
+	-> snelheid: 40.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 582 m
+	-> snelheid: 48 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 300.616 m
+	-> snelheid: 34.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 423.852 m
+	-> snelheid: 40.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 582 m
+	-> snelheid: 48 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 413.852 m
+	-> snelheid: 40.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 572 m
+	-> snelheid: 48 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 335.237 m
+	-> snelheid: 36.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 464.804 m
+	-> snelheid: 42.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 630 m
+	-> snelheid: 50 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 335.237 m
+	-> snelheid: 36.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 464.804 m
+	-> snelheid: 42.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 630 m
+	-> snelheid: 50 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 454.804 m
+	-> snelheid: 42.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 620 m
+	-> snelheid: 50 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 371.859 m
+	-> snelheid: 38.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 507.755 m
+	-> snelheid: 44.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 680 m
+	-> snelheid: 52 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 371.859 m
+	-> snelheid: 38.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 507.755 m
+	-> snelheid: 44.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 680 m
+	-> snelheid: 52 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 497.755 m
+	-> snelheid: 44.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 670 m
+	-> snelheid: 52 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 410.48 m
+	-> snelheid: 40.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 552.707 m
+	-> snelheid: 46.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 732 m
+	-> snelheid: 54 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 410.48 m
+	-> snelheid: 40.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 552.707 m
+	-> snelheid: 46.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 732 m
+	-> snelheid: 54 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 542.707 m
+	-> snelheid: 46.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 722 m
+	-> snelheid: 54 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 451.102 m
+	-> snelheid: 42.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 599.658 m
+	-> snelheid: 48.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 786 m
+	-> snelheid: 56 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 451.102 m
+	-> snelheid: 42.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 599.658 m
+	-> snelheid: 48.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 786 m
+	-> snelheid: 56 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 589.658 m
+	-> snelheid: 48.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 776 m
+	-> snelheid: 56 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 493.723 m
+	-> snelheid: 44.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 648.609 m
+	-> snelheid: 50.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 842 m
+	-> snelheid: 58 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 493.723 m
+	-> snelheid: 44.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 648.609 m
+	-> snelheid: 50.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 842 m
+	-> snelheid: 58 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 638.609 m
+	-> snelheid: 50.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 832 m
+	-> snelheid: 58 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 538.345 m
+	-> snelheid: 46.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 699.561 m
+	-> snelheid: 52.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 900 m
+	-> snelheid: 60 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 538.345 m
+	-> snelheid: 46.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 699.561 m
+	-> snelheid: 52.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 900 m
+	-> snelheid: 60 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 689.561 m
+	-> snelheid: 52.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 890 m
+	-> snelheid: 60 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 584.967 m
+	-> snelheid: 48.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 752.512 m
+	-> snelheid: 54.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 960 m
+	-> snelheid: 62 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 584.967 m
+	-> snelheid: 48.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 752.512 m
+	-> snelheid: 54.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: R1
+	-> positie: 960 m
+	-> snelheid: 62 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 742.512 m
+	-> snelheid: 54.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 950 m
+	-> snelheid: 62 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 633.588 m
+	-> snelheid: 50.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 807.464 m
+	-> snelheid: 56.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 1022 m
+	-> snelheid: 64 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 633.588 m
+	-> snelheid: 50.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 807.464 m
+	-> snelheid: 56.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 22 m
+	-> snelheid: 64 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 797.464 m
+	-> snelheid: 56.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 1012 m
+	-> snelheid: 64 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 684.21 m
+	-> snelheid: 52.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 864.415 m
+	-> snelheid: 58.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 1086 m
+	-> snelheid: 66 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 684.21 m
+	-> snelheid: 52.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 864.415 m
+	-> snelheid: 58.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 86 m
+	-> snelheid: 66 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 854.415 m
+	-> snelheid: 58.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 1076 m
+	-> snelheid: 66 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 736.831 m
+	-> snelheid: 54.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 923.366 m
+	-> snelheid: 60.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 1152 m
+	-> snelheid: 68 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 736.831 m
+	-> snelheid: 54.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 923.366 m
+	-> snelheid: 60.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 152 m
+	-> snelheid: 68 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 913.366 m
+	-> snelheid: 60.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 1142 m
+	-> snelheid: 68 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 791.453 m
+	-> snelheid: 56.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 984.318 m
+	-> snelheid: 62.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 1220 m
+	-> snelheid: 70 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 791.453 m
+	-> snelheid: 56.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: R1
+	-> positie: 984.318 m
+	-> snelheid: 62.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 220 m
+	-> snelheid: 70 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 974.318 m
+	-> snelheid: 62.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 1210 m
+	-> snelheid: 70 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 848.075 m
+	-> snelheid: 58.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 1047.27 m
+	-> snelheid: 64.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 1290 m
+	-> snelheid: 72 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 848.075 m
+	-> snelheid: 58.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 47.2693 m
+	-> snelheid: 64.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 290 m
+	-> snelheid: 72 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 1037.27 m
+	-> snelheid: 64.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 1280 m
+	-> snelheid: 72 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 906.696 m
+	-> snelheid: 60.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 1112.22 m
+	-> snelheid: 66.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 1362 m
+	-> snelheid: 74 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 906.696 m
+	-> snelheid: 60.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 112.221 m
+	-> snelheid: 66.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 362 m
+	-> snelheid: 74 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 1102.22 m
+	-> snelheid: 66.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 1352 m
+	-> snelheid: 74 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 967.318 m
+	-> snelheid: 62.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 1179.17 m
+	-> snelheid: 68.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 1436 m
+	-> snelheid: 76 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: R1
+	-> positie: 967.318 m
+	-> snelheid: 62.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 179.172 m
+	-> snelheid: 68.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 436 m
+	-> snelheid: 76 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 1169.17 m
+	-> snelheid: 68.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 1426 m
+	-> snelheid: 76 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 1029.94 m
+	-> snelheid: 64.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 1248.12 m
+	-> snelheid: 70.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 1512 m
+	-> snelheid: 78 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 29.9393 m
+	-> snelheid: 64.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 248.124 m
+	-> snelheid: 70.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 512 m
+	-> snelheid: 78 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 1238.12 m
+	-> snelheid: 70.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 1502 m
+	-> snelheid: 78 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 1094.56 m
+	-> snelheid: 66.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 1319.07 m
+	-> snelheid: 72.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 1590 m
+	-> snelheid: 80 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 94.5608 m
+	-> snelheid: 66.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 319.075 m
+	-> snelheid: 72.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 590 m
+	-> snelheid: 80 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 1309.07 m
+	-> snelheid: 72.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 1580 m
+	-> snelheid: 80 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 1161.18 m
+	-> snelheid: 68.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 1392.03 m
+	-> snelheid: 74.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 1670 m
+	-> snelheid: 82 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 161.182 m
+	-> snelheid: 68.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 392.026 m
+	-> snelheid: 74.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 670 m
+	-> snelheid: 82 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 1382.03 m
+	-> snelheid: 74.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 1660 m
+	-> snelheid: 82 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 1229.8 m
+	-> snelheid: 70.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 1466.98 m
+	-> snelheid: 76.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 1752 m
+	-> snelheid: 84 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 229.804 m
+	-> snelheid: 70.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 466.978 m
+	-> snelheid: 76.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 752 m
+	-> snelheid: 84 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 1456.98 m
+	-> snelheid: 76.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 1742 m
+	-> snelheid: 84 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 1300.43 m
+	-> snelheid: 72.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 1543.93 m
+	-> snelheid: 78.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 1836 m
+	-> snelheid: 86 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 300.426 m
+	-> snelheid: 72.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 543.929 m
+	-> snelheid: 78.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 836 m
+	-> snelheid: 86 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 1533.93 m
+	-> snelheid: 78.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 1826 m
+	-> snelheid: 86 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 1373.05 m
+	-> snelheid: 74.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 1622.88 m
+	-> snelheid: 80.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: E19
+	-> positie: 1922 m
+	-> snelheid: 88 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 373.047 m
+	-> snelheid: 74.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 622.881 m
+	-> snelheid: 80.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 922 m
+	-> snelheid: 88 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 1612.88 m
+	-> snelheid: 80.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 1912 m
+	-> snelheid: 88 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 1447.67 m
+	-> snelheid: 76.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 1703.83 m
+	-> snelheid: 82.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: R1
+	-> positie: 10 m
+	-> snelheid: 90 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 447.669 m
+	-> snelheid: 76.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 703.832 m
+	-> snelheid: 82.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 1010 m
+	-> snelheid: 90 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 1693.83 m
+	-> snelheid: 82.9514 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan: A12
+	-> positie: 2000 m
+	-> snelheid: 90 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 1524.29 m
+	-> snelheid: 78.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 1786.78 m
+	-> snelheid: 84.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: R1
+	-> positie: 100 m
+	-> snelheid: 92 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 524.29 m
+	-> snelheid: 78.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 786.783 m
+	-> snelheid: 84.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 1100 m
+	-> snelheid: 92 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 1776.78 m
+	-> snelheid: 84.9514 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 1602.91 m
+	-> snelheid: 80.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 1871.73 m
+	-> snelheid: 86.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: R1
+	-> positie: 192 m
+	-> snelheid: 94 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 602.912 m
+	-> snelheid: 80.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 871.735 m
+	-> snelheid: 86.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 1192 m
+	-> snelheid: 94 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 1861.73 m
+	-> snelheid: 86.9514 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 1683.53 m
+	-> snelheid: 82.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: E19
+	-> positie: 1958.69 m
+	-> snelheid: 88.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: R1
+	-> positie: 286 m
+	-> snelheid: 96 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 683.533 m
+	-> snelheid: 82.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 958.686 m
+	-> snelheid: 88.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 1286 m
+	-> snelheid: 96 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan: A12
+	-> positie: 1948.69 m
+	-> snelheid: 88.9514 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 1766.16 m
+	-> snelheid: 84.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: R1
+	-> positie: 47.6377 m
+	-> snelheid: 90.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: R1
+	-> positie: 382 m
+	-> snelheid: 98 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 766.155 m
+	-> snelheid: 84.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 1047.64 m
+	-> snelheid: 90.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 1382 m
+	-> snelheid: 98 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 1850.78 m
+	-> snelheid: 86.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: R1
+	-> positie: 138.589 m
+	-> snelheid: 92.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: R1
+	-> positie: 480 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 850.777 m
+	-> snelheid: 86.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 1138.59 m
+	-> snelheid: 92.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 1480 m
+	-> snelheid: 100 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: E19
+	-> positie: 1937.4 m
+	-> snelheid: 88.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: R1
+	-> positie: 231.541 m
+	-> snelheid: 94.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: R1
+	-> positie: 580 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 937.398 m
+	-> snelheid: 88.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 1231.54 m
+	-> snelheid: 94.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 1580 m
+	-> snelheid: 102 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: R1
+	-> positie: 26.0198 m
+	-> snelheid: 90.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: R1
+	-> positie: 326.492 m
+	-> snelheid: 96.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: R1
+	-> positie: 680 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 1026.02 m
+	-> snelheid: 90.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 1326.49 m
+	-> snelheid: 96.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 1682 m
+	-> snelheid: 104 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: R1
+	-> positie: 116.641 m
+	-> snelheid: 92.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: R1
+	-> positie: 423.443 m
+	-> snelheid: 98.9514 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: R1
+	-> positie: 780 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 1116.64 m
+	-> snelheid: 92.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 1423.44 m
+	-> snelheid: 98.9514 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 1786 m
+	-> snelheid: 106 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: R1
+	-> positie: 209.263 m
+	-> snelheid: 94.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: R1
+	-> positie: 522.395 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: R1
+	-> positie: 880 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 1209.26 m
+	-> snelheid: 94.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 1522.39 m
+	-> snelheid: 100.951 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 1892 m
+	-> snelheid: 108 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: R1
+	-> positie: 303.884 m
+	-> snelheid: 96.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: R1
+	-> positie: 622.395 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: R1
+	-> positie: 980 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 1303.88 m
+	-> snelheid: 96.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 1623.35 m
+	-> snelheid: 102.951 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan: A12
+	-> positie: 2000 m
+	-> snelheid: 110 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: R1
+	-> positie: 400.506 m
+	-> snelheid: 98.6216 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: R1
+	-> positie: 722.395 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 80 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 1400.51 m
+	-> snelheid: 98.6216 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 1726.3 m
+	-> snelheid: 104.951 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: R1
+	-> positie: 499.128 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: R1
+	-> positie: 822.395 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 180 m
+	-> snelheid: 102 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 1499.13 m
+	-> snelheid: 100.622 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 1831.25 m
+	-> snelheid: 106.951 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: R1
+	-> positie: 599.128 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: R1
+	-> positie: 922.395 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 282 m
+	-> snelheid: 104 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 1599.75 m
+	-> snelheid: 102.622 km/h
+
+Voertuig: AUTO (1ABC012)
+	-> baan: A12
+	-> positie: 1938.2 m
+	-> snelheid: 108.951 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: R1
+	-> positie: 699.128 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 22.3948 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 386 m
+	-> snelheid: 106 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 1702.37 m
+	-> snelheid: 104.622 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: R1
+	-> positie: 799.128 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 122.395 m
+	-> snelheid: 102 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 492 m
+	-> snelheid: 108 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 1806.99 m
+	-> snelheid: 106.622 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: R1
+	-> positie: 899.128 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 224.395 m
+	-> snelheid: 104 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 600 m
+	-> snelheid: 110 km/h
+
+Voertuig: AUTO (1ABC011)
+	-> baan: A12
+	-> positie: 1913.61 m
+	-> snelheid: 108.622 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: R1
+	-> positie: 999.128 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 328.395 m
+	-> snelheid: 106 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 710 m
+	-> snelheid: 112 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 99.1276 m
+	-> snelheid: 100 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 434.395 m
+	-> snelheid: 108 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 822 m
+	-> snelheid: 114 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 199.128 m
+	-> snelheid: 102 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 542.395 m
+	-> snelheid: 110 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 936 m
+	-> snelheid: 116 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 301.128 m
+	-> snelheid: 104 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 652.395 m
+	-> snelheid: 112 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 1052 m
+	-> snelheid: 118 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 405.128 m
+	-> snelheid: 106 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 764.395 m
+	-> snelheid: 114 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 1170 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 511.128 m
+	-> snelheid: 108 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 878.395 m
+	-> snelheid: 116 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 1290 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 619.128 m
+	-> snelheid: 110 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 994.395 m
+	-> snelheid: 118 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 1410 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 729.128 m
+	-> snelheid: 112 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 1112.39 m
+	-> snelheid: 120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 1530 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 841.128 m
+	-> snelheid: 114 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 1232.39 m
+	-> snelheid: 120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 1650 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 955.128 m
+	-> snelheid: 116 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 1352.39 m
+	-> snelheid: 120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 1770 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 1071.13 m
+	-> snelheid: 118 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 1472.39 m
+	-> snelheid: 120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan: A12
+	-> positie: 1890 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 1189.13 m
+	-> snelheid: 120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 1592.39 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 1309.13 m
+	-> snelheid: 120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 1712.39 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 1429.13 m
+	-> snelheid: 120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 1832.39 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 1549.13 m
+	-> snelheid: 120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan: A12
+	-> positie: 1952.39 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 1669.13 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 1789.13 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan: A12
+	-> positie: 1909.13 m
+	-> snelheid: 120 km/h
++-----------------------------------------------------+
+
+Baan: A12
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+
+Baan: E19
+	-> snelheidslimiet: 120 km/h
+	-> lengte: 2000 m
+	-> verbinding: R1
+
+
+Baan: R1
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 1000 m
+	-> verbinding: A12
+

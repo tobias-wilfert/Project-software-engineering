@@ -110,8 +110,6 @@ public:
     */
     void setVerbindingObject(Baan *verbinding);
 
-    //TODO: ADD Test for this newly added
-
     /**
     \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling getFRijstroken()");
     */

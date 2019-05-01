@@ -397,6 +397,33 @@ Tests/VerkeerssimulatieTest.cpp.s:
 	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.s
 .PHONY : Tests/VerkeerssimulatieTest.cpp.s
 
+Tests/VerkeerstekenTest.o: Tests/VerkeerstekenTest.cpp.o
+
+.PHONY : Tests/VerkeerstekenTest.o
+
+# target to build an object file
+Tests/VerkeerstekenTest.cpp.o:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o
+.PHONY : Tests/VerkeerstekenTest.cpp.o
+
+Tests/VerkeerstekenTest.i: Tests/VerkeerstekenTest.cpp.i
+
+.PHONY : Tests/VerkeerstekenTest.i
+
+# target to preprocess a source file
+Tests/VerkeerstekenTest.cpp.i:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.i
+.PHONY : Tests/VerkeerstekenTest.cpp.i
+
+Tests/VerkeerstekenTest.s: Tests/VerkeerstekenTest.cpp.s
+
+.PHONY : Tests/VerkeerstekenTest.s
+
+# target to generate assembly for a file
+Tests/VerkeerstekenTest.cpp.s:
+	$(MAKE) -f CMakeFiles/Verkeerssimulatie_debug.dir/build.make CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.s
+.PHONY : Tests/VerkeerstekenTest.cpp.s
+
 Tests/VoertuigTest.o: Tests/VoertuigTest.cpp.o
 
 .PHONY : Tests/VoertuigTest.o
@@ -605,6 +632,9 @@ help:
 	@echo "... Tests/VerkeerssimulatieTest.o"
 	@echo "... Tests/VerkeerssimulatieTest.i"
 	@echo "... Tests/VerkeerssimulatieTest.s"
+	@echo "... Tests/VerkeerstekenTest.o"
+	@echo "... Tests/VerkeerstekenTest.i"
+	@echo "... Tests/VerkeerstekenTest.s"
 	@echo "... Tests/VoertuigTest.o"
 	@echo "... Tests/VoertuigTest.i"
 	@echo "... Tests/VoertuigTest.s"
