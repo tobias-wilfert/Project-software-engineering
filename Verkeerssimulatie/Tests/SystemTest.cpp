@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : SystemTest.cpp
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 1.0
+// Version     : 2.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -144,74 +144,16 @@ TEST_F(SystemTest, getWegenNetwerk){
     EXPECT_EQ(s2.getWegenNetwerk()->at(4)->getNaam(), "E100");
 }
 
-
 XmlParser parser8("SYSTEMsimulateTest.xml");
 System s3(parser8.getBanen(), parser8.getWegenNetwerk(), parser8.getVoertuigen());
-/*
-TEST_F(SystemTest, simulate){
-    EXPECT_EQ(s3.getVoertuigen()->at(0)->getSnelheid(), 0);
-    EXPECT_EQ(s3.getVoertuigen()->at(1)->getSnelheid(), 0);
-    EXPECT_EQ(s3.getVoertuigen()->at(2)->getSnelheid(), 0);
-    EXPECT_EQ(s3.getVoertuigen()->at(3)->getSnelheid(), 0);
 
-    EXPECT_EQ(s3.getVoertuigen()->at(0)->getPositie(), 10);
-    EXPECT_EQ(s3.getVoertuigen()->at(1)->getPositie(), 0);
-    EXPECT_EQ(s3.getVoertuigen()->at(2)->getPositie(), 15);
-    EXPECT_EQ(s3.getVoertuigen()->at(3)->getPositie(), 1990);
-
-    s3.simulate();
-
-    EXPECT_EQ(s3.getVoertuigen()->at(0)->getSnelheid(), 0);
-    EXPECT_EQ(s3.getVoertuigen()->at(1)->getSnelheid(), 1);
-    EXPECT_EQ(s3.getVoertuigen()->at(2)->getSnelheid(), 2);
-    EXPECT_EQ(s3.getVoertuigen()->at(3)->getSnelheid(), 2);
-
-    EXPECT_EQ(s3.getVoertuigen()->at(0)->getPositie(), 10);
-    EXPECT_EQ(s3.getVoertuigen()->at(1)->getPositie(), 1);
-    EXPECT_EQ(s3.getVoertuigen()->at(2)->getPositie(), 17);
-    EXPECT_EQ(s3.getVoertuigen()->at(3)->getPositie(), 1992);
-
-    s3.simulate();
-
-    EXPECT_EQ(s3.getVoertuigen()->at(0)->getSnelheid(), 0);
-    EXPECT_EQ(s3.getVoertuigen()->at(1)->getSnelheid(), 1.125);
-    EXPECT_EQ(s3.getVoertuigen()->at(2)->getSnelheid(), 4);
-    EXPECT_EQ(s3.getVoertuigen()->at(3)->getSnelheid(), 4);
-
-    EXPECT_EQ(s3.getVoertuigen()->at(0)->getPositie(), 10);
-    EXPECT_EQ(s3.getVoertuigen()->at(1)->getPositie(), 2.125);
-    EXPECT_EQ(s3.getVoertuigen()->at(2)->getPositie(), 21);
-    EXPECT_EQ(s3.getVoertuigen()->at(3)->getPositie(), 1996);
-
-    unsigned int x = 4;
-    EXPECT_EQ(s3.getVoertuigen()->size(), x);
-
-    s3.simulate();
-    x = 3;
-    EXPECT_EQ(s3.getVoertuigen()->size(), x);
-
-    s3.simulate(43);
-    x = 2;
-    EXPECT_EQ(s3.getVoertuigen()->size(), x);
-
-    s3.simulate(3);
-    x = 1;
-    EXPECT_EQ(s3.getVoertuigen()->size(), x);
-
-    s3.simulate(4);
-    x = 0;
-    EXPECT_EQ(s3.getVoertuigen()->size(), x);
-}
- */
-XmlParser parser9("SYSTEMsimulateTest.xml");
-System s4(parser9.getBanen(), parser9.getWegenNetwerk(), parser9.getVoertuigen());
 TEST_F(SystemTest, automaticSimulation){
-    unsigned int x = 4;
-    EXPECT_EQ(s4.getVoertuigen()->size(), x);
+    unsigned int x = 6;
+    EXPECT_EQ(s3.getVoertuigen()->size(), x);
 
-    //TODO: Change this
+    // Write the output to a file to comapare them later
     std::string output;
-    s4.automaticSimulation(output);
+    s3.automaticSimulation(output);
 
     // Write to file
     std::ofstream myfile;
@@ -219,7 +161,8 @@ TEST_F(SystemTest, automaticSimulation){
     myfile << output;
     myfile.close();
 
-
     x = 0;
-    EXPECT_EQ(s4.getVoertuigen()->size(), x);
+    EXPECT_EQ(s3.getVoertuigen()->size(), x);
 }
+
+//TODO: Add more tests like this one

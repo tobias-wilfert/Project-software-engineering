@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Verkeerssimulatie.dir/main.cpp.o"
-  "CMakeFiles/Verkeerssimulatie.dir/tinystr.cpp.o"
-  "CMakeFiles/Verkeerssimulatie.dir/tinyxml.cpp.o"
-  "CMakeFiles/Verkeerssimulatie.dir/tinyxmlerror.cpp.o"
-  "CMakeFiles/Verkeerssimulatie.dir/tinyxmlparser.cpp.o"
+  "CMakeFiles/Verkeerssimulatie.dir/Parser/tinystr.cpp.o"
+  "CMakeFiles/Verkeerssimulatie.dir/Parser/tinyxml.cpp.o"
+  "CMakeFiles/Verkeerssimulatie.dir/Parser/tinyxmlerror.cpp.o"
+  "CMakeFiles/Verkeerssimulatie.dir/Parser/tinyxmlparser.cpp.o"
   "CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o"
   "CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.o"
   "CMakeFiles/Verkeerssimulatie.dir/Baan.cpp.o"

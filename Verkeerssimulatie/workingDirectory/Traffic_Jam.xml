@@ -12,6 +12,7 @@
     <positie>100</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1DEF002</nummerplaat>
@@ -19,6 +20,7 @@
     <positie>105</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1DEF003</nummerplaat>
@@ -26,6 +28,7 @@
     <positie>110</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1DEF004</nummerplaat>

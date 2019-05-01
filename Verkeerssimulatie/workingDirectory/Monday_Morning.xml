@@ -4,17 +4,20 @@
     <lengte>2000</lengte>
     <verbinding>R1</verbinding>
 </BAAN>
+
 <BAAN>
     <naam>R1</naam>
     <snelheidslimiet>100</snelheidslimiet>
     <lengte>1000</lengte>
     <verbinding>A12</verbinding>
 </BAAN>
+
 <BAAN>
     <naam>A12</naam>
     <snelheidslimiet>120</snelheidslimiet>
     <lengte>2000</lengte>
 </BAAN>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC001</nummerplaat>
@@ -22,6 +25,7 @@
     <positie>10</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC002</nummerplaat>
@@ -29,6 +33,7 @@
     <positie>20</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC003</nummerplaat>
@@ -36,6 +41,7 @@
     <positie>30</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC011</nummerplaat>
@@ -43,6 +49,7 @@
     <positie>10</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC012</nummerplaat>
@@ -50,6 +57,7 @@
     <positie>20</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC103</nummerplaat>
@@ -57,6 +65,7 @@
     <positie>30</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC101</nummerplaat>
@@ -64,6 +73,7 @@
     <positie>10</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC102</nummerplaat>
@@ -71,6 +81,7 @@
     <positie>20</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC103</nummerplaat>

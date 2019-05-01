@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : XmlParser.cpp
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 1.0
+// Version     : 2.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================

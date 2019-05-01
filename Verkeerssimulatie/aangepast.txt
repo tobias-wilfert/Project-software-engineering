@@ -15,9 +15,24 @@ en 3.3-3.6 te doen
 als wij meerdere rijstroken willen implementeren
 dan moeten wij ook 3.7 doen
 
+__________________
+25 April: 6 uur
+
+-> Solved the issues brought up during the first evaluation.
+    -> Fixed the Test Classes and their friends
+    -> Rearranged calculations to factor in latency of the driver
+    -> Added possibilities to output to fie to also test the system as an entire
+-> Made a plan of attack
+-> Implemented Different kinds of vehicles and the simulation
+    -> Adjusted Parser
+    -> Adjusted voertuig ( update position and added private data members)
 
 __________________
-30 april
+29 April: 3 uur
+
+-> Started with the  implementation of Zones -> Ended with a first draft
+__________________
+30 april: 6 uur
 
 added new variable "passed Zones to Verhicles
     -this is especially handy to track which bustops-zones-stoplights have been passed

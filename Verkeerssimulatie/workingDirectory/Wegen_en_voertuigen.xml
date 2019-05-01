@@ -3,6 +3,7 @@
     <snelheidslimiet>100</snelheidslimiet>
     <lengte>2000</lengte>
 </BAAN>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1THK180</nummerplaat>
@@ -10,6 +11,7 @@
     <positie>10</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>651BUF</nummerplaat>
@@ -17,6 +19,7 @@
     <positie>0</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>651BUFF</nummerplaat>
@@ -24,6 +27,7 @@
     <positie>15</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>651BUFFF</nummerplaat>

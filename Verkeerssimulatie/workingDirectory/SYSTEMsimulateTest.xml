@@ -3,45 +3,51 @@
     <snelheidslimiet>100</snelheidslimiet>
     <lengte>2000</lengte>
 </BAAN>
+
 <VOERTUIG>
-<type>AUTO</type>
-<nummerplaat>1THK180</nummerplaat>
-<baan>E19</baan>
-<positie>10</positie>
-<snelheid>0</snelheid>
+    <type>AUTO</type>
+    <nummerplaat>1THK180</nummerplaat>
+    <baan>E19</baan>
+    <positie>10</positie>
+    <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
-<type>AUTO</type>
-<nummerplaat>651BUF</nummerplaat>
-<baan>E19</baan>
-<positie>0</positie>
-<snelheid>0</snelheid>
+    <type>AUTO</type>
+    <nummerplaat>651BUF</nummerplaat>
+    <baan>E19</baan>
+    <positie>0</positie>
+    <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
-<type>AUTO</type>
-<nummerplaat>651BUFF</nummerplaat>
-<baan>E19</baan>
-<positie>15</positie>
-<snelheid>0</snelheid>
+    <type>AUTO</type>
+    <nummerplaat>651BUFF</nummerplaat>
+    <baan>E19</baan>
+    <positie>15</positie>
+    <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
-<type>AUTO</type>
-<nummerplaat>651BUFFF</nummerplaat>
-<baan>E19</baan>
-<positie>1990</positie>
-<snelheid>0</snelheid>
+    <type>AUTO</type>
+    <nummerplaat>651BUFFF</nummerplaat>
+    <baan>E19</baan>
+    <positie>1990</positie>
+    <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
-<type>MOTORFIETS</type>
-<nummerplaat>1NXE881</nummerplaat>
-<baan>E19</baan>
-<positie>70</positie>
-<snelheid>0</snelheid>
+    <type>MOTORFIETS</type>
+    <nummerplaat>1NXE881</nummerplaat>
+    <baan>E19</baan>
+    <positie>70</positie>
+    <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
-<type>BUS</type>
-<nummerplaat>1LML935</nummerplaat>
-<baan>E19</baan>
-<positie>50</positie>
-<snelheid>0</snelheid>
+    <type>BUS</type>
+    <nummerplaat>1LML935</nummerplaat>
+    <baan>E19</baan>
+    <positie>50</positie>
+    <snelheid>0</snelheid>
 </VOERTUIG>

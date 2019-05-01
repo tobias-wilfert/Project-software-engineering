@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : System.h
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 1.0
+// Version     : 2.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -19,6 +19,7 @@
 class System {
 private:
 
+    // Make friends for tests
     friend class BaanTest;
     friend class SystemTest;
 
@@ -100,7 +101,6 @@ public:
      * @post A system with no Vehicles in it
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
      */
-     // TODO: Change to ofstream as return
     void automaticSimulation(std::string& output);
 
     /**
@@ -144,7 +144,6 @@ public:
 
     bool properlyInitialized() const;
 
-    bool isSorted();
 };
 
 

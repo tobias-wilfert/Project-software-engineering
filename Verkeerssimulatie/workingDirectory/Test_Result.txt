@@ -1,0 +1,2100 @@
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 10 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 0 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 15 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUFFF)
+	-> baan: E19
+	-> positie: 1990 m
+	-> snelheid: 0 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 70 m
+	-> snelheid: 0 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 50 m
+	-> snelheid: 0 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 10 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 0 m
+	-> snelheid: 1 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 15 m
+	-> snelheid: 2 km/h
+
+Voertuig: AUTO (651BUFFF)
+	-> baan: E19
+	-> positie: 1990 m
+	-> snelheid: 2 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 70 m
+	-> snelheid: 4 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 50 m
+	-> snelheid: 1 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 10 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1 m
+	-> snelheid: 1.625 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 17 m
+	-> snelheid: 4 km/h
+
+Voertuig: AUTO (651BUFFF)
+	-> baan: E19
+	-> positie: 1992 m
+	-> snelheid: 4 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 74 m
+	-> snelheid: 8 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 51 m
+	-> snelheid: 2 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 10 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 2.625 m
+	-> snelheid: 1.51562 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 21 m
+	-> snelheid: 6 km/h
+
+Voertuig: AUTO (651BUFFF)
+	-> baan: E19
+	-> positie: 1996 m
+	-> snelheid: 6 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 82 m
+	-> snelheid: 12 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 53 m
+	-> snelheid: 3 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 10 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 4.14062 m
+	-> snelheid: 0.634766 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 27 m
+	-> snelheid: 7.75 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 94 m
+	-> snelheid: 16 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 56 m
+	-> snelheid: 4 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 10 m
+	-> snelheid: 1.5 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 4.77539 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 34.75 m
+	-> snelheid: 6.84375 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 110 m
+	-> snelheid: 6 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 60 m
+	-> snelheid: 5 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 11.5 m
+	-> snelheid: 3.5 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 4.77539 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 41.5938 m
+	-> snelheid: 3.90234 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 116 m
+	-> snelheid: 10 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 65 m
+	-> snelheid: 6 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 15 m
+	-> snelheid: 5.5 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 4.77539 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 45.4961 m
+	-> snelheid: 0.64209 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 126 m
+	-> snelheid: 14 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 71 m
+	-> snelheid: 7 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 20.5 m
+	-> snelheid: 7.5 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 4.77539 m
+	-> snelheid: 1.1123 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 46.1382 m
+	-> snelheid: 0 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 140 m
+	-> snelheid: 18 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 78 m
+	-> snelheid: 8 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 28 m
+	-> snelheid: 9.5 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 5.8877 m
+	-> snelheid: 3.1123 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 46.1382 m
+	-> snelheid: 1.43091 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 158 m
+	-> snelheid: 22 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 86 m
+	-> snelheid: 9 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 37.5 m
+	-> snelheid: 11.0066 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 9 m
+	-> snelheid: 5.1123 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 47.5691 m
+	-> snelheid: 3.43091 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 180 m
+	-> snelheid: 26 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 95 m
+	-> snelheid: 10 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 48.5066 m
+	-> snelheid: 7.19821 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 14.1123 m
+	-> snelheid: 7.1123 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 51 m
+	-> snelheid: 5.43091 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 206 m
+	-> snelheid: 30 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 105 m
+	-> snelheid: 11 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 55.7048 m
+	-> snelheid: 0.0301323 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 21.2246 m
+	-> snelheid: 9.1123 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 56.4309 m
+	-> snelheid: 7.43091 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 236 m
+	-> snelheid: 34 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 116 m
+	-> snelheid: 12 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 55.7349 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 30.3369 m
+	-> snelheid: 11.1123 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 63.8618 m
+	-> snelheid: 9.43091 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 270 m
+	-> snelheid: 38 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 128 m
+	-> snelheid: 13 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 55.7349 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 41.4492 m
+	-> snelheid: 13.1123 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 73.2927 m
+	-> snelheid: 11.4309 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 308 m
+	-> snelheid: 42 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 141 m
+	-> snelheid: 14 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 55.7349 m
+	-> snelheid: 0.0634403 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 54.5615 m
+	-> snelheid: 11.338 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 84.7236 m
+	-> snelheid: 13.4309 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 350 m
+	-> snelheid: 46 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 155 m
+	-> snelheid: 15 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 55.7984 m
+	-> snelheid: 2.06344 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 65.8996 m
+	-> snelheid: 3.67299 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 98.1545 m
+	-> snelheid: 15.4309 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 396 m
+	-> snelheid: 50 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 170 m
+	-> snelheid: 16 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 57.8618 m
+	-> snelheid: 4.06344 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 69.5726 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 113.585 m
+	-> snelheid: 17.4309 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 446 m
+	-> snelheid: 54 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 186 m
+	-> snelheid: 17 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 61.9253 m
+	-> snelheid: 2.55853 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 69.5726 m
+	-> snelheid: 2 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 131.016 m
+	-> snelheid: 19.4309 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 500 m
+	-> snelheid: 58 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 203 m
+	-> snelheid: 18 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 64.4838 m
+	-> snelheid: 1.42273 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 71.5726 m
+	-> snelheid: 4 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 150.447 m
+	-> snelheid: 21.4309 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 558 m
+	-> snelheid: 62 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 221 m
+	-> snelheid: 19 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 65.9065 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 75.5726 m
+	-> snelheid: 6 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 171.878 m
+	-> snelheid: 23.4309 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 620 m
+	-> snelheid: 66 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 240 m
+	-> snelheid: 20 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 65.9065 m
+	-> snelheid: 0 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 81.5726 m
+	-> snelheid: 8 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 195.309 m
+	-> snelheid: 25.4309 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 686 m
+	-> snelheid: 70 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 260 m
+	-> snelheid: 21 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 65.9065 m
+	-> snelheid: 0.833021 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 89.5726 m
+	-> snelheid: 10 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 220.74 m
+	-> snelheid: 27.2398 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 756 m
+	-> snelheid: 74 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 281 m
+	-> snelheid: 22 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 66.7395 m
+	-> snelheid: 2.83302 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 99.5726 m
+	-> snelheid: 12 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 247.98 m
+	-> snelheid: 25.6549 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 830 m
+	-> snelheid: 78 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 303 m
+	-> snelheid: 23 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 69.5726 m
+	-> snelheid: 4.83302 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 111.573 m
+	-> snelheid: 14 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 273.635 m
+	-> snelheid: 21.5444 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 908 m
+	-> snelheid: 82 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 326 m
+	-> snelheid: 24 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 74.4056 m
+	-> snelheid: 6.83302 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 125.573 m
+	-> snelheid: 16 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 295.179 m
+	-> snelheid: 17.1479 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 990 m
+	-> snelheid: 86 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 350 m
+	-> snelheid: 25 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 81.2386 m
+	-> snelheid: 8.83302 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 141.573 m
+	-> snelheid: 18 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 312.327 m
+	-> snelheid: 15.1279 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 1076 m
+	-> snelheid: 90 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 375 m
+	-> snelheid: 26 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 90.0716 m
+	-> snelheid: 10.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 159.573 m
+	-> snelheid: 20 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 327.455 m
+	-> snelheid: 17.1279 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 1166 m
+	-> snelheid: 94 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 401 m
+	-> snelheid: 27 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 100.905 m
+	-> snelheid: 12.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 179.573 m
+	-> snelheid: 22 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 344.583 m
+	-> snelheid: 19.1279 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 1260 m
+	-> snelheid: 98 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 428 m
+	-> snelheid: 28 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 113.738 m
+	-> snelheid: 14.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 201.573 m
+	-> snelheid: 24 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 363.711 m
+	-> snelheid: 21.1279 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 1358 m
+	-> snelheid: 100 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 456 m
+	-> snelheid: 29 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 128.571 m
+	-> snelheid: 16.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 225.573 m
+	-> snelheid: 26 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 384.839 m
+	-> snelheid: 23.1279 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 1458 m
+	-> snelheid: 100 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 485 m
+	-> snelheid: 30 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 145.404 m
+	-> snelheid: 18.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 251.573 m
+	-> snelheid: 28 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 407.967 m
+	-> snelheid: 25.1279 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 1558 m
+	-> snelheid: 100 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 515 m
+	-> snelheid: 31 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 164.237 m
+	-> snelheid: 20.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 279.573 m
+	-> snelheid: 30 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 433.095 m
+	-> snelheid: 27.1279 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 1658 m
+	-> snelheid: 100 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 546 m
+	-> snelheid: 32 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 185.07 m
+	-> snelheid: 22.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 309.573 m
+	-> snelheid: 32 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 460.223 m
+	-> snelheid: 29.1279 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 1758 m
+	-> snelheid: 100 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 578 m
+	-> snelheid: 33 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 207.903 m
+	-> snelheid: 24.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 341.573 m
+	-> snelheid: 34 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 489.351 m
+	-> snelheid: 31.1279 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 1858 m
+	-> snelheid: 100 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 611 m
+	-> snelheid: 34 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 232.736 m
+	-> snelheid: 26.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 375.573 m
+	-> snelheid: 36 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 520.478 m
+	-> snelheid: 33.1279 km/h
+
+Voertuig: MOTORFIETS (1NXE881)
+	-> baan: E19
+	-> positie: 1958 m
+	-> snelheid: 100 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 645 m
+	-> snelheid: 35 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 259.569 m
+	-> snelheid: 28.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 411.573 m
+	-> snelheid: 38 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 553.606 m
+	-> snelheid: 35.1279 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 680 m
+	-> snelheid: 36 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 288.402 m
+	-> snelheid: 30.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 449.573 m
+	-> snelheid: 40 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 588.734 m
+	-> snelheid: 37.1279 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 716 m
+	-> snelheid: 29 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 319.235 m
+	-> snelheid: 32.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 489.573 m
+	-> snelheid: 42 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 625.862 m
+	-> snelheid: 39.1279 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 745 m
+	-> snelheid: 30 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 352.068 m
+	-> snelheid: 34.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 531.573 m
+	-> snelheid: 44 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 664.99 m
+	-> snelheid: 41.1279 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 775 m
+	-> snelheid: 31 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 386.901 m
+	-> snelheid: 36.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 575.573 m
+	-> snelheid: 46 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 706.118 m
+	-> snelheid: 43.1279 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 806 m
+	-> snelheid: 32 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 423.734 m
+	-> snelheid: 38.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 621.573 m
+	-> snelheid: 48 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 749.246 m
+	-> snelheid: 45.1279 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 838 m
+	-> snelheid: 33 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 462.567 m
+	-> snelheid: 40.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 669.573 m
+	-> snelheid: 50 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 794.374 m
+	-> snelheid: 45.5819 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 871 m
+	-> snelheid: 34 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 503.4 m
+	-> snelheid: 42.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 719.573 m
+	-> snelheid: 52 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 839.956 m
+	-> snelheid: 39.3017 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 905 m
+	-> snelheid: 35 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 546.233 m
+	-> snelheid: 44.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 771.573 m
+	-> snelheid: 54 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 879.258 m
+	-> snelheid: 31.3017 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 940 m
+	-> snelheid: 36 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 591.066 m
+	-> snelheid: 46.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 825.573 m
+	-> snelheid: 56 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 910.559 m
+	-> snelheid: 23.3017 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 976 m
+	-> snelheid: 37 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 637.899 m
+	-> snelheid: 48.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 881.573 m
+	-> snelheid: 57.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 933.861 m
+	-> snelheid: 18.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1013 m
+	-> snelheid: 38 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 686.732 m
+	-> snelheid: 50.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 939.415 m
+	-> snelheid: 49.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 952.145 m
+	-> snelheid: 20.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1051 m
+	-> snelheid: 39 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 737.565 m
+	-> snelheid: 52.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 989.258 m
+	-> snelheid: 41.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 972.429 m
+	-> snelheid: 22.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1090 m
+	-> snelheid: 40 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 790.398 m
+	-> snelheid: 54.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1031.1 m
+	-> snelheid: 33.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 994.713 m
+	-> snelheid: 24.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1130 m
+	-> snelheid: 41 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 845.231 m
+	-> snelheid: 56.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1064.94 m
+	-> snelheid: 35.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1019 m
+	-> snelheid: 26.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1171 m
+	-> snelheid: 42 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 902.064 m
+	-> snelheid: 58.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1100.79 m
+	-> snelheid: 37.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1045.28 m
+	-> snelheid: 28.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1213 m
+	-> snelheid: 43 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 960.897 m
+	-> snelheid: 60.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1138.63 m
+	-> snelheid: 39.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1073.56 m
+	-> snelheid: 30.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1256 m
+	-> snelheid: 44 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1021.73 m
+	-> snelheid: 62.833 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1178.47 m
+	-> snelheid: 41.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1103.85 m
+	-> snelheid: 32.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1300 m
+	-> snelheid: 45 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1084.56 m
+	-> snelheid: 61.1877 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1220.31 m
+	-> snelheid: 43.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1136.13 m
+	-> snelheid: 34.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1345 m
+	-> snelheid: 46 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1145.75 m
+	-> snelheid: 53.1877 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1264.16 m
+	-> snelheid: 45.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1170.42 m
+	-> snelheid: 36.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1391 m
+	-> snelheid: 47 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1198.94 m
+	-> snelheid: 45.1877 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1310 m
+	-> snelheid: 47.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1206.7 m
+	-> snelheid: 38.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1438 m
+	-> snelheid: 48 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1244.13 m
+	-> snelheid: 37.1877 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1357.84 m
+	-> snelheid: 49.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1244.98 m
+	-> snelheid: 40.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1486 m
+	-> snelheid: 49 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1281.31 m
+	-> snelheid: 29.1877 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1407.68 m
+	-> snelheid: 51.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1285.27 m
+	-> snelheid: 42.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1535 m
+	-> snelheid: 50 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1310.5 m
+	-> snelheid: 21.1877 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1459.53 m
+	-> snelheid: 53.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1327.55 m
+	-> snelheid: 44.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1585 m
+	-> snelheid: 51 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1331.69 m
+	-> snelheid: 13.1877 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1513.37 m
+	-> snelheid: 55.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1371.84 m
+	-> snelheid: 46.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1636 m
+	-> snelheid: 52 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1344.88 m
+	-> snelheid: 5.18772 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1569.21 m
+	-> snelheid: 57.8425 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1418.12 m
+	-> snelheid: 48.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1688 m
+	-> snelheid: 53 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1350.06 m
+	-> snelheid: 7.18772 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1627.05 m
+	-> snelheid: 58.5463 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1466.4 m
+	-> snelheid: 50.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1741 m
+	-> snelheid: 54 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1357.25 m
+	-> snelheid: 9.18772 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1685.6 m
+	-> snelheid: 56.0649 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1516.69 m
+	-> snelheid: 52.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1795 m
+	-> snelheid: 55 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1366.44 m
+	-> snelheid: 11.1877 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1741.66 m
+	-> snelheid: 51.7408 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1568.97 m
+	-> snelheid: 54.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1850 m
+	-> snelheid: 56 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1377.63 m
+	-> snelheid: 13.1877 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1793.41 m
+	-> snelheid: 48.0059 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1623.25 m
+	-> snelheid: 56.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1906 m
+	-> snelheid: 57 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1390.82 m
+	-> snelheid: 15.1877 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1841.41 m
+	-> snelheid: 47.3011 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1679.54 m
+	-> snelheid: 58.2839 km/h
+
+Voertuig: BUS (1LML935)
+	-> baan: E19
+	-> positie: 1963 m
+	-> snelheid: 58 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1406 m
+	-> snelheid: 17.1877 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1888.71 m
+	-> snelheid: 49.3011 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1737.82 m
+	-> snelheid: 60.2839 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1423.19 m
+	-> snelheid: 19.1877 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1938.01 m
+	-> snelheid: 51.3011 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1798.11 m
+	-> snelheid: 62.2839 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1442.38 m
+	-> snelheid: 21.1877 km/h
+
+Voertuig: AUTO (651BUF)
+	-> baan: E19
+	-> positie: 1989.31 m
+	-> snelheid: 53.3011 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1860.39 m
+	-> snelheid: 64.2839 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1463.57 m
+	-> snelheid: 23.1877 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1924.67 m
+	-> snelheid: 66.2839 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1486.75 m
+	-> snelheid: 25.1877 km/h
+
+Voertuig: AUTO (651BUFF)
+	-> baan: E19
+	-> positie: 1990.96 m
+	-> snelheid: 58.2839 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1511.94 m
+	-> snelheid: 27.1877 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1539.13 m
+	-> snelheid: 29.1877 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1568.32 m
+	-> snelheid: 31.1877 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1599.51 m
+	-> snelheid: 33.1877 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1632.69 m
+	-> snelheid: 35.1877 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1667.88 m
+	-> snelheid: 37.1877 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1705.07 m
+	-> snelheid: 39.1877 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1744.26 m
+	-> snelheid: 41.1877 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1785.44 m
+	-> snelheid: 43.1877 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1828.63 m
+	-> snelheid: 45.1877 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1873.82 m
+	-> snelheid: 47.1877 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1921.01 m
+	-> snelheid: 49.1877 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m
+
+Voertuig: AUTO (1THK180)
+	-> baan: E19
+	-> positie: 1970.19 m
+	-> snelheid: 51.1877 km/h
++-----------------------------------------------------+
+
+Baan: E19
+	-> snelheidslimiet: 100 km/h
+	-> lengte: 2000 m

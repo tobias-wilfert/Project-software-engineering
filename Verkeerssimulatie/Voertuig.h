@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : Voertuig.h
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 1.0
+// Version     : 2.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -48,52 +48,28 @@ private:
     /// Boolean value that is true if the vehicle should be deleted
     bool fDeleteObject;
 
-    ///Use pointer to myself to verify whether I am properly initialized
+    /// Use pointer to myself to verify whether I am properly initialized
     Voertuig * _initCheck;
 
-    ///maximum speed the vehicle can achieve
+    /// Maximum speed the vehicle can achieve
     double fMaxSnelheid;
 
-    ///maximum accelerationthe vehicle can achieve
+    /// Maximum accelerationthe vehicle can achieve
     double fMaxVersnelling;
 
-    int fRijstrook;
-
-    std::vector<Verkeersteken*> fPassedVerkeerstekens;
-
-    ///minimum acceleration the vehicle can achieve
+    /// Minimum acceleration the vehicle can achieve
     double fMinVersnelling;
 
+    /// The Lane the Vehicle is currently on (with 0 being the most right)
+    int fRijstrook;
+
+    /// A List of all Traffic items the Vehicle has passed
+    std::vector<Verkeersteken*> fPassedVerkeerstekens;
+
+    /// Pointer to the zone the Vehicle is currently in
     Verkeersteken* fCurrentZone;
-public:
-    Verkeersteken *getFCurrentZone() const;
-
-    void setFCurrentZone(Verkeersteken *fCurrentZone);
 
 public:
-    const std::vector<Verkeersteken *> &getFPassedVerkeerstekens() const;
-
-    void addFPassedVerkeerstekens(Verkeersteken *fPassedVerkeerstekens);
-
-    int getFRijstrook() const;
-
-    void setFRijstrook(int fRijstrook);
-
-    double getFVersnelling() const;
-
-    void setFVersnelling(double fVersnelling);
-
-    double getFMaxSnelheid() const;
-
-    void setFMaxSnelheid(double fMaxSnelheid);
-
-    double getFMaxVersnelling() const;
-
-    void setFMaxVersnelling(double fMaxVersnelling);
-
-    double getFMinVersnelling() const;
-
-    void setFMinVersnelling(double fMinVersnelling);
 
     /**
     \n ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
@@ -225,23 +201,80 @@ public:
      * @post A Vehicle with updated position, speed and acceleration
      \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling updatePosition");
      \n ENSURE(fPositie <= fBaanObject->getLengte(), "updatePosition post condition failure");
-     \n ENSURE(fSnelheid <= fBaanObject->getSnelheidsLimiet(), "updatePosition post condition failure");
-     \n ENSURE(versnelling <= 2, "updatePosition post condition failure");
-     \n ENSURE(versnelling >= -8, "updatePosition post condition failure");
+     \n ENSURE(versnelling <= fMaxVersnelling, "updatePosition post condition failure");
+     \n ENSURE(versnelling >= fMinVernsellign, "updatePosition post condition failure");
      */
     void updatePosition();
 
+    // TODO: Make test for these newly added functions
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFCurrentZone");
+     */
+    Verkeersteken *getFCurrentZone() const;
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFCurrentZone");
+    \n ENSURE(getFCurrentZone() == fCurrentZone, "setFCurrentZone post condition failure");
+     */
+    void setFCurrentZone(Verkeersteken *fCurrentZone);
+
+    /**
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFPassedVerkeerstekens");
+     */
+    const std::vector<Verkeersteken *> &getFPassedVerkeerstekens() const;
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling addFPassedVerkeerstekens");
+    \n ENSURE(fPassedVerkeerstekens != NULL, "addFPassedVerkeerstekens pre condition failure");
+    \n ENSURE(getFPassedVerkeerstekens().back() == fPassedVerkeerstekens, "addFPassedVerkeerstekens post condition failure");
+     */
+    void addFPassedVerkeerstekens(Verkeersteken *fPassedVerkeerstekens);
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFVersnelling");
+     */
+    double getFVersnelling() const;
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFVersnelling");
+    \n ENSURE(getFVersnelling() == fVersnelling, "setFVersnelling post condition failure");
+     */
+    void setFVersnelling(double fVersnelling);
 
 
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFMaxSnelheid");
+    \n ENSURE(fMaxSnelheid >= 0, "setFMaxSnelheid pre condition failure" );
+    \n ENSURE(fMaxSnelheid == Voertuig::fMaxSnelheid, "setFMaxSnelheid post condition failure" );
+     */
+    void setFMaxSnelheid(double fMaxSnelheid);
 
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFMaxVersnelling");
+    \n ENSURE(fMaxSnelheid >= 0, "setFMaxVersnelling pre condition failure" );
+    \n ENSURE(fMaxVersnelling == Voertuig::fMaxVersnelling, "setFMaxSnelheid post condition failure" );
+     */
+    void setFMaxVersnelling(double fMaxVersnelling);
 
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFMinVersnelling");
+    \n NSURE(fMaxSnelheid <= 0, "setFMinVersnelling pre condition failure" );
+    \n ENSURE(Voertuig::fMinVersnelling == fMinVersnelling, "setFMinVersnelling post condition failure" );
+     */
+    void setFMinVersnelling(double fMinVersnelling);
 
+    /*
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFRijstrook");
+     */
+    int getFRijstrook() const;
 
-
-
-
-
-
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFRijstrook");
+    \n ENSURE(fRijstrook >= 0, "setFRijstrook pre condition failure");
+    \n ENSURE(getFRijstrook() == fRijstrook, "setFRijstrook post condition failure");
+     */
+    void setFRijstrook(int fRijstrook);
 
     //-----------------------------------------
     ///auxiliary routines (private use)

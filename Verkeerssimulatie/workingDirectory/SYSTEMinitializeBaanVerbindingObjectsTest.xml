@@ -4,7 +4,6 @@
     <lengte>2000</lengte>
 </BAAN>
 
-
 <BAAN>
     <naam>E10</naam>
     <snelheidslimiet>100</snelheidslimiet>
@@ -13,29 +12,29 @@
 </BAAN>
 
 <BAAN>
-<naam>E20</naam>
-<snelheidslimiet>100</snelheidslimiet>
-<lengte>2000</lengte>
-<verbinding>E10</verbinding>
+    <naam>E20</naam>
+    <snelheidslimiet>100</snelheidslimiet>
+    <lengte>2000</lengte>
+    <verbinding>E10</verbinding>
 </BAAN>
 
 <BAAN>
-<naam>E30</naam>
-<snelheidslimiet>100</snelheidslimiet>
-<lengte>2000</lengte>
-<verbinding>E50</verbinding>
+    <naam>E30</naam>
+    <snelheidslimiet>100</snelheidslimiet>
+    <lengte>2000</lengte>
+    <verbinding>E50</verbinding>
 </BAAN>
 
 <BAAN>
-<naam>E40</naam>
-<snelheidslimiet>100</snelheidslimiet>
-<lengte>2000</lengte>
-<verbinding>E20</verbinding>
+    <naam>E40</naam>
+    <snelheidslimiet>100</snelheidslimiet>
+    <lengte>2000</lengte>
+    <verbinding>E20</verbinding>
 </BAAN>
 
 <BAAN>
-<naam>E50</naam>
-<snelheidslimiet>100</snelheidslimiet>
-<lengte>2000</lengte>
-<verbinding>E30</verbinding>
+    <naam>E50</naam>
+    <snelheidslimiet>100</snelheidslimiet>
+    <lengte>2000</lengte>
+    <verbinding>E30</verbinding>
 </BAAN>

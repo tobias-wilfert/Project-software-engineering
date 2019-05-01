@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : Baan.h
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 1.0
+// Version     : 2.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -10,9 +10,11 @@
 #define VERKEERSSIMULATIE_BAAN_H
 
 #include <string>
-#include "DesignByContract.h"
-#include "Verkeersteken.h"
 #include <vector>
+
+#include "Verkeersteken.h"
+#include "DesignByContract.h"
+
 class Baan {
 private:
 
@@ -31,17 +33,14 @@ private:
     /// A pointer to the instance of Baan that this Instance has a Verbining with
     Baan* fVerbindingObject;
 
+    ///Use pointer to myself to verify whether I am properly initialized
     Baan * _initCheck;
 
     /// A collection of road regulations
     std::vector<Verkeersteken*> fVerkeerstekens;
 
+    /// The number of Lanes a Baan has
     int fRijstroken;
-public:
-    int getFRijstroken() const;
-
-    void setFRijstroken(int fRijstroken);
-
 
 public:
     /**
@@ -107,9 +106,50 @@ public:
     /**
     \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setVerbindingObject()");
     \n REQUIRE(verbinding != NULL, "setVerbindingObject() precondition failure");
-    \n ENSURE(fVerbindingObject = getVerbindingObject(), "setVerbindingObject() postcondition failure");
+    \n ENSURE(fVerbindingObject == getVerbindingObject(), "setVerbindingObject() postcondition failure");
     */
     void setVerbindingObject(Baan *verbinding);
+
+    //TODO: ADD Test for this newly added
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling getFRijstroken()");
+    */
+    int getFRijstroken() const;
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setFRijstroken()");
+    \n REQUIRE(fRijstroken >= 1, "setFRijstroken() precondition failure");
+    \n ENSURE(fRijstroken == getFRijstroken(), "setFRijstroken() postcondition failure");
+     */
+    void setFRijstroken(int fRijstroken);
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling assignZoneLimit()");
+     */
+    void assignZoneLimit();
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling isSorted()");
+     */
+    bool isSorted();
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling sortVerkeersteken()");
+     */
+    void sortVerkeersteken();
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling addFVerkeersteken()");
+    \n REQUIRE(verkeersteken != NULL, "addFVerkeersteken() precondition failure");
+    \n ENSURE(getFVerkeerstekens().back() == verkeersteken, "addFVerkeersteken() postcondition failure" );
+     */
+    void addFVerkeersteken(Verkeersteken* verkeersteken);
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling getFVerkeerstekens()");
+     */
+    const std::vector<Verkeersteken *> &getFVerkeerstekens() const;
 
     //-----------------------------------------
     ///auxiliary routines (private use)
@@ -117,17 +157,6 @@ public:
 
     bool properlyInitialized() const;
 
-
-    const std::vector<Verkeersteken *> &getFVerkeerstekens() const;
-
-
-    void addFVerkeersteken(Verkeersteken* verkeersteken);
-
-    void sortVerkeersteken();
-
-    bool isSorted();
-
-    void assignZoneLimit();
 };
 
 

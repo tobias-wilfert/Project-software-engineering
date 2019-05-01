@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : XmlParser.h
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 1.0
+// Version     : 2.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -13,9 +13,10 @@
 #include <sstream>
 #include <iostream>
 #include <algorithm>
+
 #include "Baan.h"
-#include "tinyxml.h"
 #include "Voertuig.h"
+#include "Parser/tinyxml.h"
 
 class XmlParser {
 private:

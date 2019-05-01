@@ -3,16 +3,21 @@
     <snelheidslimiet>100</snelheidslimiet>
     <lengte>1000</lengte>
 </BAAN>
+
 <BAAN>
-<naam>E20</naam>
-<snelheidslimiet>110</snelheidslimiet>
-<lengte>2000</lengte>
-</BAAN><BAAN>
-<naam>E40</naam>
-<snelheidslimiet>120</snelheidslimiet>
-<lengte>3000</lengte>
-</BAAN><BAAN>
-<naam>E40</naam>
-<snelheidslimiet>130</snelheidslimiet>
-<lengte>4000</lengte>
+    <naam>E20</naam>
+    <snelheidslimiet>110</snelheidslimiet>
+    <lengte>2000</lengte>
+</BAAN>
+
+<BAAN>
+    <naam>E40</naam>
+    <snelheidslimiet>120</snelheidslimiet>
+    <lengte>3000</lengte>
+</BAAN>
+
+<BAAN>
+    <naam>E40</naam>
+    <snelheidslimiet>130</snelheidslimiet>
+    <lengte>4000</lengte>
 </BAAN>

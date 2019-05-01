@@ -4,11 +4,13 @@
     <lengte>2000</lengte>
     <verbinding>E313</verbinding>
 </BAAN>
+
 <BAAN>
     <naam>E313</naam>
     <snelheidslimiet>120</snelheidslimiet>
     <lengte>5000</lengte>
 </BAAN>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC001</nummerplaat>
@@ -16,6 +18,7 @@
     <positie>100</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC002</nummerplaat>
@@ -23,6 +26,7 @@
     <positie>200</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC101</nummerplaat>
@@ -30,6 +34,7 @@
     <positie>100</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC102</nummerplaat>

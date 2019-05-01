@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : Baan.cpp
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 1.0
+// Version     : 2.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -19,7 +19,6 @@ Baan::Baan() {
     fVerbindingObject = NULL;
 
     ENSURE(properlyInitialized(), "Constructor must end in properly initialized state");
-
 }
 
 Baan::~Baan() {
@@ -90,36 +89,71 @@ Baan *Baan::getVerbindingObject() const {
     return fVerbindingObject;
 }
 
-
 void Baan::setVerbindingObject(Baan *verbinding) {
     REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setVerbindingObject()");
 
     REQUIRE(verbinding != NULL, "setVerbindingObject() precondition failure");
     Baan::fVerbindingObject = verbinding;
-    ENSURE(fVerbindingObject = getVerbindingObject(), "setVerbindingObject() postcondition failure");
-}
-
-
-bool Baan::properlyInitialized() const{
-    return _initCheck == this;
-}
-
-const std::vector<Verkeersteken *> &Baan::getFVerkeerstekens() const {
-    return fVerkeerstekens;
-}
-void Baan::addFVerkeersteken(Verkeersteken* verkeersteken) {
-    Baan::fVerkeerstekens.push_back(verkeersteken);
+    ENSURE(fVerbindingObject == getVerbindingObject(), "setVerbindingObject() postcondition failure");
 }
 
 int Baan::getFRijstroken() const {
+    REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling getFRijstroken()");
+
     return fRijstroken;
 }
 
 void Baan::setFRijstroken(int fRijstroken) {
+    REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setFRijstroken()");
+
+    REQUIRE(fRijstroken >= 1, "setFRijstroken() precondition failure");
     Baan::fRijstroken = fRijstroken;
+    ENSURE(fRijstroken == getFRijstroken(), "setFRijstroken() postcondition failure");
+}
+
+void Baan::assignZoneLimit() {
+    REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling assignZoneLimit()");
+
+    Verkeersteken* currentZone = NULL;
+    for(unsigned int i = 0; i < fVerkeerstekens.size(); i++){
+        if(fVerkeerstekens.at(i)->getFType() == "ZONE" && currentZone == NULL){
+            currentZone = fVerkeerstekens.at(i);
+        }
+        // If zone and is not same as current zone then this will be the end of the current zone
+        if(fVerkeerstekens.at(i)->getFType() == "ZONE" && currentZone != fVerkeerstekens.at(i)){
+            currentZone->setFEndPositie(fVerkeerstekens.at(i)->getFPositie());
+            currentZone = fVerkeerstekens.at(i);
+        }
+        // Als laatste zone is. eindigt het tot op't einde van de baan
+        if(i == fVerkeerstekens.size()-1){
+            currentZone->setFEndPositie(fLengte);
+        }
+    }
+}
+
+bool Baan::isSorted() {
+    REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling isSorted()");
+
+    for(unsigned int i = 0; i < fVerkeerstekens.size(); i++){
+        Verkeersteken* currentSign = fVerkeerstekens.at(i);
+        Verkeersteken* nextSign = NULL;
+        if(i == fVerkeerstekens.size()-1){
+            break;
+        }
+        else{
+            nextSign = fVerkeerstekens.at(i+1);
+        }
+        // Compare
+        if(currentSign->getFPositie()>nextSign->getFPositie()){
+            return false;
+        }
+    }
+    return true;
 }
 
 void Baan::sortVerkeersteken() {
+    REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling sortVerkeersteken()");
+
     while(!isSorted()){
         for(unsigned int i = 0; i < fVerkeerstekens.size(); i++){
             if(i == fVerkeerstekens.size()-1){
@@ -132,42 +166,22 @@ void Baan::sortVerkeersteken() {
             }
         }
     }
-
 }
 
-bool Baan::isSorted() {
-    for(unsigned int i = 0; i < fVerkeerstekens.size(); i++){
-        Verkeersteken* currentSign = fVerkeerstekens.at(i);
-        Verkeersteken* nextSign = NULL;
-        if(i == fVerkeerstekens.size()-1){
-            break;
-        }
-        else{
-            nextSign = fVerkeerstekens.at(i+1);
-        }
-        //compare
-        if(currentSign->getFPositie()>nextSign->getFPositie()){
-            return false;
-        }
-    }
-    return true;
+void Baan::addFVerkeersteken(Verkeersteken* verkeersteken) {
+    REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling addFVerkeersteken()");
 
+    REQUIRE(verkeersteken != NULL, "addFVerkeersteken() precondition failure");
+    Baan::fVerkeerstekens.push_back(verkeersteken);
+    ENSURE(getFVerkeerstekens().back() == verkeersteken, "addFVerkeersteken() postcondition failure" );
 }
 
-void Baan::assignZoneLimit() {
-    Verkeersteken* currentZone = NULL;
-    for(unsigned int i = 0; i < fVerkeerstekens.size(); i++){
-        if(fVerkeerstekens.at(i)->getFType() == "ZONE" && currentZone == NULL){
-            currentZone = fVerkeerstekens.at(i);
-        }
-        //if zone and is not same as current zone then this will be the end of the current zone
-        if(fVerkeerstekens.at(i)->getFType() == "ZONE" && currentZone != fVerkeerstekens.at(i)){
-            currentZone->setFEndPositie(fVerkeerstekens.at(i)->getFPositie());
-            currentZone = fVerkeerstekens.at(i);
-        }
-        if(i == fVerkeerstekens.size()-1){ //als laatste zone is. eindigt het tot op't einde van de baan
-            currentZone->setFEndPositie(fLengte);
-        }
-    }
+const std::vector<Verkeersteken *> &Baan::getFVerkeerstekens() const {
+    REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling getFVerkeerstekens()");
+
+    return fVerkeerstekens;
 }
 
+bool Baan::properlyInitialized() const{
+    return _initCheck == this;
+}

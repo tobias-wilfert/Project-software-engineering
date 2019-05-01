@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : Voertuig.cpp
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 1.0
+// Version     : 2.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -138,16 +138,14 @@ void Voertuig::setDeleteObject(bool deleteObject) {
 }
 
 void Voertuig::updatePosition() {
-//TODO: Change this, to be in the correct order
+
     // Maybe make extra sub classes
 
     REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling updatePosition");
 
     //Calculate the next position
     fPositie = fSnelheid + fPositie;
-    if(fSnelheid == 35){
-        std::cout << "hello world" << std::endl;
-    }
+
     //check if position is out of bounds
     if (fPositie > fBaanObject->getLengte()) {
         if (fBaanObject->getVerbindingObject() != 0) {
@@ -258,65 +256,85 @@ void Voertuig::updatePosition() {
     ENSURE(fVersnelling >= fMinVersnelling, "updatePosition post condition failure");
 }
 
+Verkeersteken *Voertuig::getFCurrentZone() const {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFCurrentZone");
+    return fCurrentZone;
+}
+
+void Voertuig::setFCurrentZone(Verkeersteken *fCurrentZone) {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFCurrentZone");
+
+    Voertuig::fCurrentZone = fCurrentZone;
+    ENSURE(getFCurrentZone() == fCurrentZone, "setFCurrentZone post condition failure");
+}
+
+const std::vector<Verkeersteken *> &Voertuig::getFPassedVerkeerstekens() const {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFPassedVerkeerstekens");
+    return fPassedVerkeerstekens;
+}
+
+void Voertuig::addFPassedVerkeerstekens(Verkeersteken * fPassedVerkeerstekens) {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling addFPassedVerkeerstekens");
+
+    ENSURE(fPassedVerkeerstekens != NULL, "addFPassedVerkeerstekens pre condition failure");
+    Voertuig::fPassedVerkeerstekens.push_back(fPassedVerkeerstekens);
+    ENSURE(getFPassedVerkeerstekens().back() == fPassedVerkeerstekens, "addFPassedVerkeerstekens post condition failure");
+}
+
+double Voertuig::getFVersnelling() const {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFVersnelling");
+
+    return fVersnelling;
+}
+
+void Voertuig::setFVersnelling(double fVersnelling) {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFVersnelling");
+
+    Voertuig::fVersnelling = fVersnelling;
+    ENSURE(getFVersnelling() == fVersnelling, "setFVersnelling post condition failure");
+}
+
+void Voertuig::setFMaxSnelheid(double fMaxSnelheid) {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFMaxSnelheid");
+
+    ENSURE(fMaxSnelheid >= 0, "setFMaxSnelheid pre condition failure" );
+    Voertuig::fMaxSnelheid = fMaxSnelheid;
+    ENSURE(fMaxSnelheid == Voertuig::fMaxSnelheid, "setFMaxSnelheid post condition failure" );
+}
+
+void Voertuig::setFMaxVersnelling(double fMaxVersnelling) {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFMaxVersnelling");
+
+    ENSURE(fMaxSnelheid >= 0, "setFMaxVersnelling pre condition failure" );
+    Voertuig::fMaxVersnelling = fMaxVersnelling;
+    ENSURE(fMaxVersnelling == Voertuig::fMaxVersnelling, "setFMaxSnelheid post condition failure" );
+}
+
+void Voertuig::setFMinVersnelling(double fMinVersnelling) {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFMinVersnelling");
+
+    ENSURE(fMinVersnelling <= 0, "setFMinVersnelling pre condition failure" );
+    Voertuig::fMinVersnelling = fMinVersnelling;
+    ENSURE(Voertuig::fMinVersnelling == fMinVersnelling, "setFMinVersnelling post condition failure" );
+}
+
+int Voertuig::getFRijstrook() const {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFRijstrook");
+    return fRijstrook;
+}
+
+void Voertuig::setFRijstrook(int fRijstrook) {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFRijstrook");
+
+    ENSURE(fRijstrook >= 0, "setFRijstrook pre condition failure");
+    Voertuig::fRijstrook = fRijstrook;
+    ENSURE(getFRijstrook() == fRijstrook, "setFRijstrook post condition failure");
+}
+
 bool Voertuig::properlyInitialized() const{
     return _initCheck == this;
 }
 
 void Voertuig::set_initCheck(Voertuig *_initCheck) {
     Voertuig::_initCheck = _initCheck;
-}
-
-double Voertuig::getFMaxSnelheid() const {
-    return fMaxSnelheid;
-}
-
-void Voertuig::setFMaxSnelheid(double fMaxSnelheid) {
-    Voertuig::fMaxSnelheid = fMaxSnelheid;
-}
-
-double Voertuig::getFMaxVersnelling() const {
-    return fMaxVersnelling;
-}
-void Voertuig::setFMaxVersnelling(double fMaxVersnelling) {
-    Voertuig::fMaxVersnelling = fMaxVersnelling;
-}
-
-double Voertuig::getFMinVersnelling() const {
-    return fMinVersnelling;
-}
-
-void Voertuig::setFMinVersnelling(double fMinVersnelling) {
-    Voertuig::fMinVersnelling = fMinVersnelling;
-}
-
-double Voertuig::getFVersnelling() const {
-    return fVersnelling;
-}
-
-void Voertuig::setFVersnelling(double fVersnelling) {
-    Voertuig::fVersnelling = fVersnelling;
-}
-
-int Voertuig::getFRijstrook() const {
-    return fRijstrook;
-}
-
-void Voertuig::setFRijstrook(int fRijstrook) {
-    Voertuig::fRijstrook = fRijstrook;
-}
-
-const std::vector<Verkeersteken *> &Voertuig::getFPassedVerkeerstekens() const {
-    return fPassedVerkeerstekens;
-}
-
-void Voertuig::addFPassedVerkeerstekens(Verkeersteken * fPassedVerkeerstekens) {
-    Voertuig::fPassedVerkeerstekens.push_back(fPassedVerkeerstekens);
-}
-
-Verkeersteken *Voertuig::getFCurrentZone() const {
-    return fCurrentZone;
-}
-
-void Voertuig::setFCurrentZone(Verkeersteken *fCurrentZone) {
-    Voertuig::fCurrentZone = fCurrentZone;
 }

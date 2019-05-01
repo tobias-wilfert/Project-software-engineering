@@ -5,10 +5,11 @@
     <positie>10</positie>
     <snelheid>0</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
-<type>BUS</type>
-<nummerplaat>1LML935</nummerplaat>
-<baan>Middelheimlaan</baan>
-<positie>0</positie>
-<snelheid>0</snelheid>
+    <type>BUS</type>
+    <nummerplaat>1LML935</nummerplaat>
+    <baan>Middelheimlaan</baan>
+    <positie>0</positie>
+    <snelheid>0</snelheid>
 </VOERTUIG>

@@ -3,6 +3,7 @@
     <snelheidslimiet>100</snelheidslimiet>
     <lengte>2000</lengte>
 </BAAN>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1DEF001</nummerplaat>
@@ -10,6 +11,7 @@
     <positie>10</positie>
     <snelheid>100</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1DEF002</nummerplaat>
@@ -17,6 +19,7 @@
     <positie>200</positie>
     <snelheid>100</snelheid>
 </VOERTUIG>
+
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1DEF003</nummerplaat>
