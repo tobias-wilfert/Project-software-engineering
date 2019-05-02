@@ -315,6 +315,8 @@ string
 -
 algorithm
 -
+ostream
+-
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/BaanTest.cpp
 iostream
@@ -336,16 +338,6 @@ gtest/gtest.h
 ../XmlParser.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VoertuigTest.cpp
-iostream
--
-gtest/gtest.h
--
-../Baan.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
-../Voertuig.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
-
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/XmlParserTest.cpp
 iostream
 -
@@ -362,23 +354,11 @@ string
 DesignByContract.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/DesignByContract.h
 
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp
-iostream
--
-Voertuig.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
-
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 Baan.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
 DesignByContract.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/DesignByContract.h
-
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp
-cstring
--
-XmlParser.h
-/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 vector

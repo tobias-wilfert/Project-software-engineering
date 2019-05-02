@@ -22,6 +22,7 @@
 #include <iterator>
 #include <string>
 #include <algorithm>
+#include <ostream>
 
 
 class System {
