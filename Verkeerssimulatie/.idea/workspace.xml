@@ -34,556 +34,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97f6ac4c-9f6e-424c-94a1-4321ba53fd38" name="Default" comment="Cleaned Up all Tests">
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/.idea/Polymoprophisme.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/child.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/child.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Polymoprophisme.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Polymoprophisme.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Polymoprophisme.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Polymoprophisme.dir/child.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Polymoprophisme.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Polymoprophisme.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Polymoprophisme.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Polymoprophisme.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Polymoprophisme.dir/human.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Polymoprophisme.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Polymoprophisme.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Polymoprophisme.dir/person.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/Polymoprophisme.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/Polymoprophisme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/Polymoprophisme.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/human.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/human.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/person.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/person.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.." beforeDir="false" afterPath="$PROJECT_DIR$/.." afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Assets/coding-conventions.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Assets/specificatie1.0.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Niet-functionele vereisten.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Project-software-engineering" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Project-software-engineering.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/.idea/Verkeerssimulatie.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/.idea/dictionaries/tobiaswilfert.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/Baan.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/Baan.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/DesignByContract.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/System.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/System.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/Tests/BaanTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/Tests/SystemTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/Tests/VoertuigTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/Tests/XmlParserTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/VerkeerssimulatieTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/Voertuig.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/Voertuig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/XmlParser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/XmlParser.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/VerkeerssimulatieTest.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinystr.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinyxml.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlerror.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/tinyxmlparser.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Desktop.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/DuplicateBanen4Banen2Duplicaten.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/DuplicateBanen4Banen4Duplicaten.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Empty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/File.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Friday_Night.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/GetterAndSetterTester.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Holiday.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Monday_Morning.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/OneWegenNetwerk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/SYSTEMfilterVehiclesTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/SYSTEMgetBanenEnWegenNetwerkTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/SYSTEMinitializeBaanVerbindingObjectsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/SYSTEMinitializeVehicleBaanObjectTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/SYSTEMorganizeVehiclesTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/SYSTEMsimulateTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Test_Result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Traffic_Jam.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Verkeerssimulatie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Verkeerssimulatie.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/VerkeerssimulatieTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Verkeerssimulatie_debug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Verkeerssimulatie_debug.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Wednesday_Night.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Wegen_en_voertuigen.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Wegennetwerk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/Wrong.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/gtest-death-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/gtest-message.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/gtest-param-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/gtest-param-test.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/gtest-printers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/gtest-spi.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/gtest-test-part.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/gtest-typed-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/gtest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/gtest_pred_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/gtest_prod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/internal/gtest-death-test-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/internal/gtest-filepath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/internal/gtest-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/internal/gtest-linked_ptr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/internal/gtest-param-util-generated.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/internal/gtest-param-util-generated.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/internal/gtest-param-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/internal/gtest-port.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/internal/gtest-string.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/internal/gtest-tuple.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/internal/gtest-tuple.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/internal/gtest-type-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/include/gtest/internal/gtest-type-util.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/lib/libgtest.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest/lib/libgtest_main.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/gtest-death-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/gtest-message.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/gtest-param-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/gtest-param-test.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/gtest-printers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/gtest-spi.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/gtest-test-part.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/gtest-typed-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/gtest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/gtest_pred_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/gtest_prod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-death-test-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-filepath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-linked_ptr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-param-util-generated.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-param-util-generated.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-param-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-port.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-string.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-tuple.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-tuple.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-type-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-type-util.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/lib/libgtest.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_d/lib/libgtest_main.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/gtest-death-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/gtest-message.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/gtest-param-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/gtest-param-test.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/gtest-printers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/gtest-spi.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/gtest-test-part.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/gtest-typed-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/gtest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/gtest_pred_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/gtest_prod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-death-test-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-filepath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-linked_ptr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-param-util-generated.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-param-util-generated.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-param-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-port.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-string.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-tuple.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-tuple.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-type-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-type-util.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/lib/libgtest.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/gtest_unix/lib/libgtest_main.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/tinystr.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/tinystr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/tinyxml.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/tinyxml.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/tinyxmlerror.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/tinyxmlparser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/DuplicateBanen4Banen2Duplicaten.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/DuplicateBanen4Banen4Duplicaten.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/Empty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/File.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/Friday_Night.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/GetterAndSetterTester.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/Holiday.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/Monday_Morning.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/OneWegenNetwerk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/SYSTEMfilterVehiclesTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/SYSTEMgetBanenEnWegenNetwerkTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/SYSTEMinitializeBaanVerbindingObjectsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/SYSTEMinitializeVehicleBaanObjectTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/SYSTEMorganizeVehiclesTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/SYSTEMsimulateTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/Traffic_Jam.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/VerkeerssimulatieTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/Wednesday_Night.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/Wegen_en_voertuigen.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/Wegennetwerk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/Wrong.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/Verkeerssimulatie/workingDirectory/newTypesTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/workingDirectory/Wegen_en_voertuigen.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/workingDirectory/Wegennetwerk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baan.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baan.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baan.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/System.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/System.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System.h" beforeDir="false" afterPath="$PROJECT_DIR$/System.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/.idea/TFA.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/TFA.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/TFA.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/TransitionTable.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/TransitionTable.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/TFA.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/TFA.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/TFA.dir/TFA.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/TFA.dir/TransitionTable.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/TFA.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/TFA.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/TFA.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/TFA.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/TFA.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/TFA.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/TFA.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/TFA.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/TFA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/TFA.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TFA/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/.idea/Verkeerssimulatie.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/.idea/dictionaries/tobiaswilfert.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Baan.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Baan.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Bushalte.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Bushalte.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/DesignByContract.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/System.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/System.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Tests/BaanTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Tests/SystemTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Tests/VoertuigTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Tests/XmlParserTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/VerkeerssimulatieTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Verkeersteken.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Verkeersteken.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Voertuig.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Voertuig.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/XmlParser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/XmlParser.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Zone.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/Zone.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/aangepast.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Baan.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Bushalte.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/System.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Verkeersteken.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Zone.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/tinystr.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/tinyxml.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/tinyxmlerror.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/tinyxmlparser.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Desktop.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/DuplicateBanen4Banen2Duplicaten.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/DuplicateBanen4Banen4Duplicaten.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Empty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/File.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Friday_Night.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/GetterAndSetterTester.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Holiday.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Monday_Morning.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/OneWegenNetwerk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/SYSTEMfilterVehiclesTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/SYSTEMgetBanenEnWegenNetwerkTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/SYSTEMinitializeBaanVerbindingObjectsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/SYSTEMinitializeVehicleBaanObjectTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/SYSTEMorganizeVehiclesTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/SYSTEMsimulateTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Test_Result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Traffic_Jam.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Verkeerssimulatie" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Verkeerssimulatie.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/VerkeerssimulatieTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Verkeerssimulatie_debug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Verkeerssimulatie_debug.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Wednesday_Night.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Wegen_en_voertuigen.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Wegennetwerk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/Wrong.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/gtest-death-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/gtest-message.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/gtest-param-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/gtest-param-test.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/gtest-printers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/gtest-spi.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/gtest-test-part.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/gtest-typed-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/gtest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/gtest_pred_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/gtest_prod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/internal/gtest-death-test-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/internal/gtest-filepath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/internal/gtest-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/internal/gtest-linked_ptr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/internal/gtest-param-util-generated.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/internal/gtest-param-util-generated.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/internal/gtest-param-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/internal/gtest-port.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/internal/gtest-string.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/internal/gtest-tuple.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/internal/gtest-tuple.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/internal/gtest-type-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/include/gtest/internal/gtest-type-util.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/lib/libgtest.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest/lib/libgtest_main.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/gtest-death-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/gtest-message.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/gtest-param-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/gtest-param-test.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/gtest-printers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/gtest-spi.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/gtest-test-part.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/gtest-typed-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/gtest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/gtest_pred_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/gtest_prod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-death-test-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-filepath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-linked_ptr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-param-util-generated.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-param-util-generated.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-param-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-port.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-string.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-tuple.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-tuple.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-type-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/include/gtest/internal/gtest-type-util.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/lib/libgtest.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_d/lib/libgtest_main.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/gtest-death-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/gtest-message.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/gtest-param-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/gtest-param-test.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/gtest-printers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/gtest-spi.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/gtest-test-part.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/gtest-typed-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/gtest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/gtest_pred_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/gtest_prod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-death-test-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-filepath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-linked_ptr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-param-util-generated.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-param-util-generated.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-param-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-port.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-string.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-tuple.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-tuple.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-type-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/include/gtest/internal/gtest-type-util.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/lib/libgtest.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/gtest_unix/lib/libgtest_main.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/tinystr.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/tinystr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/tinyxml.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/tinyxml.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/tinyxmlerror.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/tinyxmlparser.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/DuplicateBanen4Banen2Duplicaten.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/DuplicateBanen4Banen4Duplicaten.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/Empty.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/File.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/Friday_Night.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/GetterAndSetterTester.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/Holiday.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/Monday_Morning.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/OneWegenNetwerk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/SYSTEMfilterVehiclesTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/SYSTEMgetBanenEnWegenNetwerkTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/SYSTEMinitializeBaanVerbindingObjectsTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/SYSTEMinitializeVehicleBaanObjectTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/SYSTEMorganizeVehiclesTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/SYSTEMsimulateTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/Traffic_Jam.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/VerkeerssimulatieTest.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/Wednesday_Night.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/Wegen_en_voertuigen.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/Wegennetwerk.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/Wrong.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/newTypesTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Verkeerssimulatie/workingDirectory/verkeersTekenVB.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../fase2-ta-2018-2019-cisse-pieter-olivier-tobias" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../specificatie2.1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../specificatie2.1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voertuig.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Voertuig.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voertuig.h" beforeDir="false" afterPath="$PROJECT_DIR$/Voertuig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aangepast.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aangepast.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Baan.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Parser/tinystr.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Parser/tinyxml.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Parser/tinyxmlerror.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Parser/tinyxmlparser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/System.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Verkeersteken.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -601,7 +117,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="330">
               <caret line="22" column="51" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="51" />
               <folding>
                 <element signature="e#417#436#0" expanded="true" />
@@ -613,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/System.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+            <state relative-caret-position="2370">
+              <caret line="158" selection-start-line="158" selection-end-line="158" />
               <folding>
                 <element signature="e#488#505#0" expanded="true" />
                 <element signature="e#659#677#0" expanded="true" />
@@ -623,13 +139,58 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/System.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="217" column="31" selection-start-line="217" selection-start-column="31" selection-end-line="217" selection-end-column="31" />
+            <state relative-caret-position="-2217">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
               <folding>
                 <element signature="e#419#438#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+              <folding>
+                <element signature="e#421#440#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baan.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="936">
+              <caret line="197" column="18" selection-start-line="197" selection-start-column="18" selection-end-line="197" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Baan.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="980">
+              <caret line="162" column="16" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="16" />
+              <folding>
+                <element signature="e#482#499#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Voertuig.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="904">
+              <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+              <folding>
+                <element signature="e#494#511#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -690,7 +251,6 @@
         <option value="$PROJECT_DIR$/Bushalte.cpp" />
         <option value="$PROJECT_DIR$/Bushalte.h" />
         <option value="$PROJECT_DIR$/cmake-build-debug/Test_Result.txt" />
-        <option value="$PROJECT_DIR$/aangepast.txt" />
         <option value="$PROJECT_DIR$/workingDirectory/VerkeerssimulatieTest.cpp" />
         <option value="$PROJECT_DIR$/Tests/VerkeerssimulatieTest.cpp" />
         <option value="$PROJECT_DIR$/workingDirectory/SYSTEMsimulateTest.xml" />
@@ -718,9 +278,7 @@
         <option value="$PROJECT_DIR$/Tests/XmlParserTest.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/DesignByContract.h" />
-        <option value="$PROJECT_DIR$/Baan.cpp" />
         <option value="$PROJECT_DIR$/XmlParser.h" />
-        <option value="$PROJECT_DIR$/Voertuig.cpp" />
         <option value="$PROJECT_DIR$/XmlParser.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Tests/SystemTest.cpp" />
@@ -729,18 +287,23 @@
         <option value="$PROJECT_DIR$/Verkeersteken.h" />
         <option value="$PROJECT_DIR$/Verkeersteken.cpp" />
         <option value="$PROJECT_DIR$/Tests/VerkeerstekenTest.cpp" />
-        <option value="$PROJECT_DIR$/Baan.h" />
         <option value="$PROJECT_DIR$/Tests/VoertuigTest.cpp" />
-        <option value="$PROJECT_DIR$/Voertuig.h" />
-        <option value="$PROJECT_DIR$/System.cpp" />
         <option value="$PROJECT_DIR$/System.h" />
+        <option value="$PROJECT_DIR$/aangepast.txt" />
+        <option value="$PROJECT_DIR$/System.cpp" />
+        <option value="$PROJECT_DIR$/Baan.cpp" />
+        <option value="$PROJECT_DIR$/Baan.h" />
+        <option value="$PROJECT_DIR$/Voertuig.cpp" />
+        <option value="$PROJECT_DIR$/Voertuig.h" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="27" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="721" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -748,17 +311,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Verkeerssimulatie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Verkeerssimulatie" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -779,12 +331,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Verkeerssimulatie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Verkeerssimulatie" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../2eFase/28_04PSE/Project-software-engineering/Verkeerssimulatie" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
@@ -810,7 +373,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Verkeerssimulatie_debug">
+  <component name="RunManager" selected="CMake Application.Build All">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -827,9 +390,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.Verkeerssimulatie" />
-      <item itemvalue="Application.Verkeerssimulatie_debug" />
+      <item itemvalue="CMake Application.Build All" />
+      <item itemvalue="CMake Application.Verkeerssimulatie" />
+      <item itemvalue="CMake Application.Verkeerssimulatie_debug" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -895,6 +458,7 @@
       <workItem from="1556736144003" duration="384000" />
       <workItem from="1556740613592" duration="4879000" />
       <workItem from="1556792156150" duration="134000" />
+      <workItem from="1557385869752" duration="14999000" />
     </task>
     <task id="LOCAL-00001" summary="Replaced Nullpointer with O and added Header Comments to all files.">
       <created>1553442896535</created>
@@ -1009,7 +573,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187751000" />
+    <option name="totallyTimeSpent" value="202750000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1021,10 +585,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="67" y="25" width="2493" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24798061" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1270944" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -1049,32 +613,6 @@
       <window_info anchor="right" id="LuaJ" order="4" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12035541" />
-      <window_info id="Structure" order="1" weight="0.24959612" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3283582" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.9152348" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.6609393" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32876712" />
-      <window_info anchor="bottom" id="CMake" order="8" weight="0.32876712" />
-      <window_info anchor="bottom" id="TeamCity" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32876712" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32876712" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.52806413" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
-      <window_info anchor="right" id="LuaJ" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1305,13 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aangepast.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/VerkeerssimulatieTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1332,29 +863,12 @@
     <entry file="file://$PROJECT_DIR$/Parser/tinystr.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Baan.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="182" column="1" selection-start-line="182" selection-start-column="1" selection-end-line="182" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/XmlParser.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="e#477#494#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
-          <folding>
-            <element signature="e#421#440#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1373,13 +887,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1553" selection-start-line="1553" selection-end-line="1553" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector" />
     <entry file="file://$PROJECT_DIR$/workingDirectory/Test_Result.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1433,16 +941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Baan.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="111" column="4" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="4" />
-          <folding>
-            <element signature="e#482#499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/VoertuigTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -1463,19 +961,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Voertuig.h">
+    <entry file="file://$PROJECT_DIR$/aangepast.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
-          <folding>
-            <element signature="e#494#511#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="570">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="330">
           <caret line="22" column="51" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="51" />
           <folding>
             <element signature="e#417#436#0" expanded="true" />
@@ -1485,8 +980,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/System.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
+        <state relative-caret-position="2370">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
           <folding>
             <element signature="e#488#505#0" expanded="true" />
             <element signature="e#659#677#0" expanded="true" />
@@ -1494,12 +989,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Baan.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="197" column="18" selection-start-line="197" selection-start-column="18" selection-end-line="197" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baan.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="162" column="16" selection-start-line="162" selection-start-column="16" selection-end-line="162" selection-end-column="16" />
+          <folding>
+            <element signature="e#482#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/System.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="217" column="31" selection-start-line="217" selection-start-column="31" selection-end-line="217" selection-end-column="31" />
+        <state relative-caret-position="-2217">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
           <folding>
             <element signature="e#419#438#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+          <folding>
+            <element signature="e#421#440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voertuig.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="904">
+          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+          <folding>
+            <element signature="e#494#511#0" expanded="true" />
           </folding>
         </state>
       </provider>

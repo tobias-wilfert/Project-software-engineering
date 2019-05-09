@@ -42,7 +42,12 @@ private:
     /// The number of Lanes a Baan has
     int fRijstroken;
 
+    /// Indicates if this baan has a bushalte
+    bool fContainsBushalte;
+
 public:
+
+    void setfContainsBushalte();
     /**
     \n ENSURE(properlyInitialized(), "Constructor must end in properly initialized state");
     */
@@ -154,6 +159,8 @@ public:
     //-----------------------------------------
 
     bool properlyInitialized() const;
+
+    const bool containsBushalte() const;
 
 };
 

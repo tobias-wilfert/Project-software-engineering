@@ -69,7 +69,12 @@ private:
     /// Pointer to the zone the Vehicle is currently in
     Verkeersteken* fCurrentZone;
 
+    Verkeersteken* fNextBushalte;
+
+    fCounter
 public:
+    void assignCurrentZone();
+    void findNextBushalte();
 
     /**
     \n ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");

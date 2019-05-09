@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/tobiaswilfert/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = /snap/clion/67/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = "/Users/tobiaswilfert/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/183.5429.37/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E remove -f
+RM = /snap/clion/67/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie
+CMAKE_SOURCE_DIR = /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug
+CMAKE_BINARY_DIR = /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Verkeerssimulatie_debug.dir/depend.make
@@ -59,198 +59,198 @@ include CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.o: ../Tests/VerkeerssimulatieTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerssimulatieTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerssimulatieTest.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerssimulatieTest.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerssimulatieTest.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerssimulatieTest.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerssimulatieTest.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerssimulatieTest.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.o: ../Tests/XmlParserTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/XmlParserTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/XmlParserTest.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/XmlParserTest.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/XmlParserTest.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/XmlParserTest.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/XmlParserTest.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.o: ../Tests/VoertuigTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VoertuigTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/VoertuigTest.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VoertuigTest.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/VoertuigTest.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VoertuigTest.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/VoertuigTest.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VoertuigTest.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o: ../Tests/SystemTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/SystemTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/SystemTest.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/SystemTest.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/SystemTest.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/SystemTest.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/SystemTest.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o: ../Tests/BaanTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/BaanTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/BaanTest.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/BaanTest.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/BaanTest.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/BaanTest.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/BaanTest.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.o: ../Parser/tinystr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinystr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Parser/tinystr.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinystr.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Parser/tinystr.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinystr.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Parser/tinystr.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinystr.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.o: ../Parser/tinyxml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinyxml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Parser/tinyxml.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinyxml.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Parser/tinyxml.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinyxml.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Parser/tinyxml.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxml.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.o: ../Parser/tinyxmlerror.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinyxmlerror.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Parser/tinyxmlerror.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinyxmlerror.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Parser/tinyxmlerror.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinyxmlerror.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Parser/tinyxmlerror.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlerror.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.o: ../Parser/tinyxmlparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinyxmlparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Parser/tinyxmlparser.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinyxmlparser.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Parser/tinyxmlparser.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinyxmlparser.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Parser/tinyxmlparser.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Parser/tinyxmlparser.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o: ../XmlParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o: ../Voertuig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o: ../Baan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Baan.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Baan.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Baan.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Baan.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o: ../System.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/System.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/System.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/System.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.o: ../Verkeersteken.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Verkeersteken.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Verkeersteken.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Verkeersteken.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Verkeersteken.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Verkeersteken.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Verkeersteken.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cpp.s
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: CMakeFiles/Verkeerssimulatie_debug.dir/flags.make
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o: ../Tests/VerkeerstekenTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o -c /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerstekenTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o -c /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerstekenTest.cpp
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerstekenTest.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerstekenTest.cpp > CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.i
 
 CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerstekenTest.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/Tests/VerkeerstekenTest.cpp -o CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.s
 
 # Object files for target Verkeerssimulatie_debug
 Verkeerssimulatie_debug_OBJECTS = \
@@ -290,7 +290,7 @@ Verkeerssimulatie_debug: CMakeFiles/Verkeerssimulatie_debug.dir/Verkeersteken.cp
 Verkeerssimulatie_debug: CMakeFiles/Verkeerssimulatie_debug.dir/Tests/VerkeerstekenTest.cpp.o
 Verkeerssimulatie_debug: CMakeFiles/Verkeerssimulatie_debug.dir/build.make
 Verkeerssimulatie_debug: CMakeFiles/Verkeerssimulatie_debug.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Verkeerssimulatie_debug"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable Verkeerssimulatie_debug"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Verkeerssimulatie_debug.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -303,6 +303,6 @@ CMakeFiles/Verkeerssimulatie_debug.dir/clean:
 .PHONY : CMakeFiles/Verkeerssimulatie_debug.dir/clean
 
 CMakeFiles/Verkeerssimulatie_debug.dir/depend:
-	cd /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug /home/reed/Desktop/3eFase/Project-software-engineering/Verkeerssimulatie/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Verkeerssimulatie_debug.dir/depend
 

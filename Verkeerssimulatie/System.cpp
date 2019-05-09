@@ -24,6 +24,10 @@ std::string ToString(T val)
 System::System(std::vector<Baan *> *Banen, std::vector<Baan *> *WegenNetwerk, std::vector<Voertuig *> *Voertuigen)
         : fBanen(Banen), fWegenNetwerk(WegenNetwerk), fVoertuigen(Voertuigen) {
     _initCheck = this;
+    //TODO ENSRURE
+    for(int j = 0; j < fBanen->size(); j++){
+        fBanen->at(j)->setfContainsBushalte();
+    }
 
     ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
 }
@@ -194,6 +198,7 @@ void System::simulate(unsigned int iterations) {
         filterVehicles();
     }
 }
+
 
 void System::automaticSimulation(std::string& output) {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");

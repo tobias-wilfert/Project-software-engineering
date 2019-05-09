@@ -47,3 +47,11 @@ added new variable endPosition to Verkeersteken
 added new function to System, assignZoneLimit
 this function
 
+_________________________________________________________________
+HULPFUNCTIES
+
+if(nextBushalte.getPosition < fCurrentPosition){
+    calculateNextBushalte()}
+
+if(currentPosition >= currentZone.end()){
+    calculateNextZone()}

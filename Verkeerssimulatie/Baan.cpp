@@ -17,6 +17,7 @@ Baan::Baan() {
     fNaam = "";
     fVerbinding = "";
     fVerbindingObject = NULL;
+    fContainsBushalte = false;
 
     ENSURE(properlyInitialized(), "Constructor must end in properly initialized state");
 }
@@ -184,4 +185,16 @@ const std::vector<Verkeersteken *> &Baan::getFVerkeerstekens() const {
 
 bool Baan::properlyInitialized() const{
     return _initCheck == this;
+}
+
+void Baan::setfContainsBushalte() {
+    for(int i = 0; i < fVerkeerstekens.size(); i++){
+        if(fVerkeerstekens.at(i)->getFType() == "BUSHALTE"){
+            fContainsBushalte = true;
+        }
+    }
+}
+
+const bool Baan::containsBushalte() const {
+    return fContainsBushalte;
 }
