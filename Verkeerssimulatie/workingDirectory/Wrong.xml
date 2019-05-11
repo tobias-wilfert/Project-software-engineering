@@ -1,14 +1,20 @@
 <BAAN>
     <naam>E19</naam>
-    <snelheidslimiet>100</snelheidslimiet>
+    <snelheidslimiet>1O0</snelheidslimiet>
     <lengte>2000</lengte>
     <verbinding>E313</verbinding>
-<BAAN>
+</BAAN>
 
 <VOERTUIG>
     <type>AUTO</type>
     <nummerplaat>1ABC001</nummerplaat>
     <baan>E19</baan>
-    <positie>100</positie>
-    <snelheid>0</snelheid>
+    <positie>1O0</positie>
+    <snelheid>O</snelheid>
 </VOERTUIG>
+
+<VERKEERSTEKEN>
+    <type>BUSHLTE</type>
+    <baan>E11</baan>
+    <positie>0</positie>
+</VERKEERSTEKEN>

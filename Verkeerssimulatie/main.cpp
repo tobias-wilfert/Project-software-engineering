@@ -6,13 +6,17 @@
 // Description : Verkeerssimulatie in C++
 //============================================================================
 
+#include <iostream>
+#include <fstream>
+
 #include "System.h"
 #include "XmlParser.h"
 #include "Verkeersteken.h"
 
 int main(int argc, char** argv) {
 
-    std::string output;
+    std::string simulationOutput;
+    std::string parserOutput;
 
     // The name of the file that will serve as input
     //const char* kFileName =  "Traffic_Jam.xml";
@@ -21,17 +25,23 @@ int main(int argc, char** argv) {
     //const char* kFileName =  "Monday_Morning.xml";
     //const char* kFileName =  "Wednesday_Night.xml";
     //const char* kFileName =  "Wegen_en_voertuigen.xml";
-    const char* kFileName = "verkeersTekenVB.xml";
+    const char* kFileName = "Wrong.xml";
     //const char* kFileName =  "Wegennetwerk.xml";
     //const char* kFileName = argv[1];
 
+
+    /// Print errors to file
+    // SOURCE: https://stackoverflow.com/a/50650024/8076979
+    // Determine file name
+    //std::ofstream out("Parser/Error.txt");
+    //std::cerr.rdbuf(out.rdbuf());
 
     // Parse the file
     XmlParser parser = XmlParser(kFileName);
     // Initialize the system
     System system = System(parser.getBanen(),parser.getWegenNetwerk(),parser.getVoertuigen());
     // Start the simulation
-    system.automaticSimulation(output);
+    system.automaticSimulation(simulationOutput);
 
     /*
     // Write to file
@@ -41,6 +51,6 @@ int main(int argc, char** argv) {
     myfile.close();
     */
 
-    std::cout << output;
+    std::cout << simulationOutput;
     return 0;
 }

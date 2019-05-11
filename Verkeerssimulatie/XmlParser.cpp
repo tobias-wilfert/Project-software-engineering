@@ -79,11 +79,16 @@ void XmlParser::parseFile() {
                     }
                 }
                 catch (const char* &error) {
+
+                    std::cerr << "Error on line: "<< childOfRootElement->Row() << std::endl;
+
                     if (is_equal(error, "InvalidValue")) {
-                        std::cerr << childOfRootElement << "->Value() is NULL." << std::endl;
+                        std::cerr << rootElement->Value() << " his " << childOfRootElement << "->Value() is NULL." << std::endl;
                     } else if (is_equal(error, "InvalidText")) {
-                        std::cerr << childOfRootElement->Value() << " tag is NULL." << std::endl;
+                        std::cerr << rootElement->Value() << " his " << childOfRootElement->Value() << " tag is NULL." << std::endl;
                     }
+                    //Add a new line to seperate different errors
+                    std::cerr << std::endl;
                 }
 
                 // Check the value of element Value
@@ -126,7 +131,11 @@ void XmlParser::parseFile() {
                         voertuig->setOldPositie(stoi(elementText));
                     }
                     catch (const char* &error) {
-                        std::cerr << elementText << " can't be converted to a number." << std::endl;
+                        std::cerr << "Error on line: " << childOfRootElement->Row() << std::endl;
+                        std::cerr << "Value of " << childOfRootElement->Value() << ": " << elementText << std::endl;
+                        std::cerr << "Can't be converted to a number." << std::endl;
+                        //Add a new line to seperate different errors
+                        std::cerr << std::endl;
                     }
 
                 } else if (elementValue == "snelheid") {
@@ -134,7 +143,11 @@ void XmlParser::parseFile() {
                         voertuig->setSnelheid(stoi(elementText));
                     }
                     catch (const char* &error) {
-                        std::cerr << elementText << " can't be converted to a number." << std::endl;
+                        std::cerr << "Error on line: " << childOfRootElement->Row() << std::endl;
+                        std::cerr << "Value of " << childOfRootElement->Value() << ": " << elementText << std::endl;
+                        std::cerr << "Can't be converted to a number." << std::endl;
+                        //Add a new line to seperate different errors
+                        std::cerr << std::endl;
                     }
 
                 }
@@ -180,11 +193,16 @@ void XmlParser::parseFile() {
                     }
                 }
                 catch (const char* &error) {
+
+                    std::cerr << "Error on line: "<< childOfRootElement->Row() << std::endl;
+
                     if (is_equal(error, "InvalidValue")) {
-                        std::cerr << childOfRootElement << "->Value() is NULL." << std::endl;
+                        std::cerr << rootElement->Value() << " his " << childOfRootElement << "->Value() is NULL." << std::endl;
                     } else if (is_equal(error, "InvalidText")) {
-                        std::cerr << childOfRootElement->Value() << " tag is NULL." << std::endl;
+                        std::cerr << rootElement->Value() << " his " << childOfRootElement->Value() << " tag is NULL." << std::endl;
                     }
+                    //Add a new line to seperate different errors
+                    std::cerr << std::endl;
                 }
 
 
@@ -197,7 +215,11 @@ void XmlParser::parseFile() {
                         baan->setSnelheidsLimiet(stoi(elementText));
                     }
                     catch (const char* &error) {
-                        std::cerr << elementText << " can't be converted to a number." << std::endl;
+                        std::cerr << "Error on line: " << childOfRootElement->Row() << std::endl;
+                        std::cerr << "Value of " << childOfRootElement->Value() << ": " << elementText << std::endl;
+                        std::cerr << "Can't be converted to a number." << std::endl;
+                        //Add a new line to seperate different errors
+                        std::cerr << std::endl;
                     }
 
 
@@ -206,7 +228,11 @@ void XmlParser::parseFile() {
                         baan->setLengte(stoi(elementText));
                     }
                     catch (const char* &error) {
-                        std::cerr << elementText << " can't be converted to a number." << std::endl;
+                        std::cerr << "Error on line: " << childOfRootElement->Row() << std::endl;
+                        std::cerr << "Value of " << childOfRootElement->Value() << ": " << elementText << std::endl;
+                        std::cerr << "Can't be converted to a number." << std::endl;
+                        //Add a new line to seperate different errors
+                        std::cerr << std::endl;
                     }
 
                 } else if (elementValue == "verbinding") {
@@ -217,7 +243,11 @@ void XmlParser::parseFile() {
                         baan->setFRijstroken(stoi(elementText));
                     }
                     catch (const char* &error) {
-                        std::cerr << elementText << " can't be converted to a number." << std::endl;
+                        std::cerr << "Error on line: " << childOfRootElement->Row() << std::endl;
+                        std::cerr << "Value of " << childOfRootElement->Value() << ": " << elementText << std::endl;
+                        std::cerr << "Can't be converted to a number." << std::endl;
+                        //Add a new line to seperate different errors
+                        std::cerr << std::endl;
                     }
                 }
             }
@@ -276,11 +306,17 @@ void XmlParser::parseFile() {
                     }
                 }
                 catch (const char* &error) {
+
+                    std::cerr << "Error on line: "<< childOfRootElement->Row() << std::endl;
+
                     if (is_equal(error, "InvalidValue")) {
-                        std::cerr << childOfRootElement << "->Value() is NULL." << std::endl;
+                        std::cerr << rootElement->Value() << " his " << childOfRootElement << "->Value() is NULL." << std::endl;
                     } else if (is_equal(error, "InvalidText")) {
-                        std::cerr << childOfRootElement->Value() << " tag is NULL." << std::endl;
+                        std::cerr << rootElement->Value() << " his " << childOfRootElement->Value() << " tag is NULL." << std::endl;
                     }
+                    //Add a new line to seperate different errors
+                    std::cerr << std::endl;
+
                 }
                 //we'll split the parsing in two: parsing a BUSHALTE and parsing a ZONE
                 // Check the value of element Value
@@ -291,13 +327,23 @@ void XmlParser::parseFile() {
                     }
                     else if(elementText == "ZONE"){
                         verkeersteken->setFType("ZONE");
+                    }else{
+                        std::cerr << "Error on line: " << childOfRootElement->Row() << std::endl;
+                        std::cerr << "Value of " << childOfRootElement->Value() << ": " << elementText << std::endl;
+                        std::cerr << "Must either be BUSHALTE or ZONE" << std::endl;
+                        //Add a new line to seperate different errors
+                        std::cerr << std::endl;
                     }
                 } else if (elementValue == "snelheidslimiet") {
                     try {
                         verkeersteken->setFSnelheidslimiet(stoi(elementText));
                     }
                     catch (const char* &error) {
-                        std::cerr << elementText << " can't be converted to a number." << std::endl;
+                        std::cerr << "Error on line: " << childOfRootElement->Row() << std::endl;
+                        std::cerr << "Value of " << childOfRootElement->Value() << ": " << elementText << std::endl;
+                        std::cerr << "Can't be converted to a number." << std::endl;
+                        //Add a new line to seperate different errors
+                        std::cerr << std::endl;
                     }
                 } else if (elementValue == "baan") {
                     bool foundBaan = false;
@@ -313,12 +359,28 @@ void XmlParser::parseFile() {
                         }
                     }
                     if(!foundBaan){
-                        break; //end this loop and move to the next set of values
+                        // TODO: John what the fuck is this here?
+                        //break; //end this loop and move to the next set of values
+
+                        std::cerr << "Error on line: " << childOfRootElement->Row() << std::endl;
+                        std::cerr << "Value of " << childOfRootElement->Value() << ": " << elementText << std::endl;
+                        std::cerr << "BAAN needs to declared before VERKEERSTEKEN" << std::endl;
+                        //Add a new line to seperate different errors
+                        std::cerr << std::endl;
                     }
                     //if the baan is found then make sure to add this element to baan
                     verkeersteken->setFBaan(elementText);
                 } else if (elementValue == "positie") {
-                    verkeersteken->setFPositie(stoi(elementText));
+                    try {
+                        verkeersteken->setFPositie(stoi(elementText));
+                    }
+                    catch (const char* &error) {
+                        std::cerr << "Error on line: " << childOfRootElement->Row() << std::endl;
+                        std::cerr << "Value of " << childOfRootElement->Value() << ": " << elementText << std::endl;
+                        std::cerr << "Can't be converted to a number." << std::endl;
+                        //Add a new line to seperate different errors
+                        std::cerr << std::endl;
+                    }
                 }
             }
             //now add the variable to the Baan's "fVerkeerstekens"
