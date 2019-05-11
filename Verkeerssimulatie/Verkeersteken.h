@@ -62,7 +62,7 @@ public:
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Verkeersteken wasn't initialized when calling setFType");
-    \n ENSURE(type == "BUSHALTE" or type == "ZONE" or type == "VERKEERSLICHT","setFType post condition failure" );
+    \n REQUIRE(type == "BUSHALTE" or type == "ZONE" or type == "VERKEERSLICHT","setFType post condition failure" );
     \n ENSURE(getFType() == type, "setFType pre condition failure");
      */
     void setFType(const std::string &fType);
@@ -74,7 +74,7 @@ public:
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Verkeersteken wasn't initialized when calling setFPositie");
-    \n ENSURE( positie >= 0, "setFPositie post condition failure");
+    \n REQUIRE( positie >= 0, "setFPositie post condition failure");
     \n ENSURE(getFPositie() == positie, "setFPositie pre condition failure");
      */
     void setFPositie(unsigned int fPositie);
@@ -86,7 +86,7 @@ public:
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Verkeersteken wasn't initialized when calling setFSnelheidslimiet");
-    \n ENSURE( fSnelheidslimiet >= 0, "setFSnelheidslimiet post condition failure");
+    \n REQUIRE( fSnelheidslimiet >= 0, "setFSnelheidslimiet post condition failure");
     \n ENSURE(getFSnelheidslimiet() == fSnelheidslimiet, "setFSnelheidslimiet post condition failure");
      */
     void setFSnelheidslimiet(int fSnelheidslimiet);
@@ -98,7 +98,7 @@ public:
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Verkeersteken wasn't initialized when calling setFEndPositie");
-    \n ENSURE(fEndPositie >= 0,"setFEndPositie post condition failure" );
+    \n REQUIRE(fEndPositie >= 0,"setFEndPositie post condition failure" );
     \n ENSURE(getFEndPositie() == fEndPositie,"setFSnelheidslimiet post condition failure");
      */
     void setFEndPositie(unsigned int fEndPositie);

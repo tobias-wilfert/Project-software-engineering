@@ -55,3 +55,8 @@ if(nextBushalte.getPosition < fCurrentPosition){
 
 if(currentPosition >= currentZone.end()){
     calculateNextZone()}
+
+--------------------------
+Changed: Ensures to requires(Brought up by the teacher)
+-> Ensure: Post condition
+-> Require: Pre condition

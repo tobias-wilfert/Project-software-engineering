@@ -71,7 +71,6 @@ private:
 
     Verkeersteken* fNextBushalte;
 
-    fCounter
 public:
     void assignCurrentZone();
     void findNextBushalte();
@@ -229,7 +228,7 @@ public:
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling addFPassedVerkeerstekens");
-    \n ENSURE(fPassedVerkeerstekens != NULL, "addFPassedVerkeerstekens pre condition failure");
+    \n REQUIRE(fPassedVerkeerstekens != NULL, "addFPassedVerkeerstekens pre condition failure");
     \n ENSURE(getFPassedVerkeerstekens().back() == fPassedVerkeerstekens, "addFPassedVerkeerstekens post condition failure");
      */
     void addFPassedVerkeerstekens(Verkeersteken *fPassedVerkeerstekens);
@@ -248,21 +247,21 @@ public:
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFMaxSnelheid");
-    \n ENSURE(fMaxSnelheid >= 0, "setFMaxSnelheid pre condition failure" );
+    \n REQUIRE(fMaxSnelheid >= 0, "setFMaxSnelheid pre condition failure" );
     \n ENSURE(fMaxSnelheid == Voertuig::fMaxSnelheid, "setFMaxSnelheid post condition failure" );
      */
     void setFMaxSnelheid(double fMaxSnelheid);
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFMaxVersnelling");
-    \n ENSURE(fMaxSnelheid >= 0, "setFMaxVersnelling pre condition failure" );
+    \n REQUIRE(fMaxSnelheid >= 0, "setFMaxVersnelling pre condition failure" );
     \n ENSURE(fMaxVersnelling == Voertuig::fMaxVersnelling, "setFMaxSnelheid post condition failure" );
      */
     void setFMaxVersnelling(double fMaxVersnelling);
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFMinVersnelling");
-    \n NSURE(fMaxSnelheid <= 0, "setFMinVersnelling pre condition failure" );
+    \n REQUIRE(fMaxSnelheid <= 0, "setFMinVersnelling pre condition failure" );
     \n ENSURE(Voertuig::fMinVersnelling == fMinVersnelling, "setFMinVersnelling post condition failure" );
      */
     void setFMinVersnelling(double fMinVersnelling);
@@ -274,7 +273,7 @@ public:
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFRijstrook");
-    \n ENSURE(fRijstrook >= 0, "setFRijstrook pre condition failure");
+    \n REQUIRE(fRijstrook >= 0, "setFRijstrook pre condition failure");
     \n ENSURE(getFRijstrook() == fRijstrook, "setFRijstrook post condition failure");
      */
     void setFRijstrook(int fRijstrook);

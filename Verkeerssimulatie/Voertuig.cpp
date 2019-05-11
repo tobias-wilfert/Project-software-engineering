@@ -224,7 +224,7 @@ const std::vector<Verkeersteken *> &Voertuig::getFPassedVerkeerstekens() const {
 void Voertuig::addFPassedVerkeerstekens(Verkeersteken * fPassedVerkeerstekens) {
     REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling addFPassedVerkeerstekens");
 
-    ENSURE(fPassedVerkeerstekens != NULL, "addFPassedVerkeerstekens pre condition failure");
+    REQUIRE(fPassedVerkeerstekens != NULL, "addFPassedVerkeerstekens pre condition failure");
     Voertuig::fPassedVerkeerstekens.push_back(fPassedVerkeerstekens);
     ENSURE(getFPassedVerkeerstekens().back() == fPassedVerkeerstekens, "addFPassedVerkeerstekens post condition failure");
 }
@@ -245,7 +245,7 @@ void Voertuig::setFVersnelling(double fVersnelling) {
 void Voertuig::setFMaxSnelheid(double fMaxSnelheid) {
     REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFMaxSnelheid");
 
-    ENSURE(fMaxSnelheid >= 0, "setFMaxSnelheid pre condition failure" );
+    REQUIRE(fMaxSnelheid >= 0, "setFMaxSnelheid pre condition failure" );
     Voertuig::fMaxSnelheid = fMaxSnelheid;
     ENSURE(fMaxSnelheid == Voertuig::fMaxSnelheid, "setFMaxSnelheid post condition failure" );
 }
@@ -253,7 +253,7 @@ void Voertuig::setFMaxSnelheid(double fMaxSnelheid) {
 void Voertuig::setFMaxVersnelling(double fMaxVersnelling) {
     REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFMaxVersnelling");
 
-    ENSURE(fMaxSnelheid >= 0, "setFMaxVersnelling pre condition failure" );
+    REQUIRE(fMaxSnelheid >= 0, "setFMaxVersnelling pre condition failure" );
     Voertuig::fMaxVersnelling = fMaxVersnelling;
     ENSURE(fMaxVersnelling == Voertuig::fMaxVersnelling, "setFMaxSnelheid post condition failure" );
 }
@@ -261,7 +261,7 @@ void Voertuig::setFMaxVersnelling(double fMaxVersnelling) {
 void Voertuig::setFMinVersnelling(double fMinVersnelling) {
     REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFMinVersnelling");
 
-    ENSURE(fMinVersnelling <= 0, "setFMinVersnelling pre condition failure" );
+    REQUIRE(fMinVersnelling <= 0, "setFMinVersnelling pre condition failure" );
     Voertuig::fMinVersnelling = fMinVersnelling;
     ENSURE(Voertuig::fMinVersnelling == fMinVersnelling, "setFMinVersnelling post condition failure" );
 }
@@ -274,7 +274,7 @@ int Voertuig::getFRijstrook() const {
 void Voertuig::setFRijstrook(int fRijstrook) {
     REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFRijstrook");
 
-    ENSURE(fRijstrook >= 0, "setFRijstrook pre condition failure");
+    REQUIRE(fRijstrook >= 0, "setFRijstrook pre condition failure");
     Voertuig::fRijstrook = fRijstrook;
     ENSURE(getFRijstrook() == fRijstrook, "setFRijstrook post condition failure");
 }
