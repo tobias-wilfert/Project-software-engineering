@@ -1,0 +1,4 @@
+Error on line: 12
+Value of snelheidslimiet: Slow
+Can't be converted to a number.
+

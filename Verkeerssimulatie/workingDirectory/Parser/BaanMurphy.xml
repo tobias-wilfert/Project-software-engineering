@@ -1,0 +1,13 @@
+<BAAN>
+    <naam></naam>
+    <snelheidslimiet></snelheidslimiet>
+    <lengte></lengte>
+    <verbinding></verbinding>
+</BAAN>
+
+<BAAN>
+    <naam></naam>
+    <snelheidslimiet>l00</snelheidslimiet>
+    <lengte>2O0O</lengte>
+    <verbinding></verbinding>
+</BAAN>

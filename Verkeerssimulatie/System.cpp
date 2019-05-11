@@ -219,6 +219,8 @@ bool System::properlyInitialized() const{
 }
 
 bool System::compareFiles(const std::string &p1, const std::string &p2) {
+    // File compare
+    // Source: https://stackoverflow.com/a/37575457/8076979
     std::ifstream f1(p1.c_str(), std::ifstream::binary|std::ifstream::ate);
     std::ifstream f2(p2.c_str(), std::ifstream::binary|std::ifstream::ate);
 

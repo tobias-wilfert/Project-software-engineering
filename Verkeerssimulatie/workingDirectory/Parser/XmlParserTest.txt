@@ -1,0 +1,97 @@
+Error on line: 2
+BAAN his naam tag is NULL.
+
+Error on line: 3
+BAAN his snelheidslimiet tag is NULL.
+
+Error on line: 4
+BAAN his lengte tag is NULL.
+
+Error on line: 5
+BAAN his verbinding tag is NULL.
+
+Error on line: 9
+BAAN his naam tag is NULL.
+
+Error on line: 10
+Value of snelheidslimiet: l00
+Can't be converted to a number.
+
+Error on line: 11
+Value of lengte: 2O0O
+Can't be converted to a number.
+
+Error on line: 12
+BAAN his verbinding tag is NULL.
+
+Error on line: 23
+VERKEERSTEKEN his type tag is NULL.
+
+Error on line: 24
+VERKEERSTEKEN his baan tag is NULL.
+
+Error on line: 25
+VERKEERSTEKEN his positie tag is NULL.
+
+Error on line: 26
+VERKEERSTEKEN his snelheidslimiet tag is NULL.
+
+Error on line: 30
+Value of type: Horse
+Must either be BUSHALTE or ZONE
+
+Error on line: 32
+Value of positie: over the rainbow
+Can't be converted to a number.
+
+Error on line: 33
+Value of snelheidslimiet: warp speed
+Can't be converted to a number.
+
+Error on line: 37
+Value of type: AUTO
+Must either be BUSHALTE or ZONE
+
+Error on line: 39
+Value of positie: -100
+Can't be converted to a number.
+
+Error on line: 40
+Value of snelheidslimiet: -100
+Can't be converted to a number.
+
+Error on line: 44
+VOERTUIG his type tag is NULL.
+
+Error on line: 45
+VOERTUIG his nummerplaat tag is NULL.
+
+Error on line: 46
+VOERTUIG his baan tag is NULL.
+
+Error on line: 47
+VOERTUIG his positie tag is NULL.
+
+Error on line: 48
+VOERTUIG his snelheid tag is NULL.
+
+Error on line: 52
+Value of type: Magic carpet
+Unknown type
+
+Error on line: 55
+Value of positie: -100
+Can't be converted to a number.
+
+Error on line: 56
+Value of snelheid: -100
+Can't be converted to a number.
+
+Error on line: 63
+Value of positie: Nowhere
+Can't be converted to a number.
+
+Error on line: 64
+Value of snelheid: Relative
+Can't be converted to a number.
+

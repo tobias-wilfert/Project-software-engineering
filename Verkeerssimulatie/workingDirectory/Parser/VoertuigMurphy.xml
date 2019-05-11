@@ -1,0 +1,23 @@
+<VOERTUIG>
+    <type></type>
+    <nummerplaat></nummerplaat>
+    <baan></baan>
+    <positie></positie>
+    <snelheid></snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>Magic carpet</type>
+    <nummerplaat>1ABC001</nummerplaat>
+    <baan>E19</baan>
+    <positie>-100</positie>
+    <snelheid>-100</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>1ABC001</nummerplaat>
+    <baan>E19</baan>
+    <positie>Nowhere</positie>
+    <snelheid>Relative</snelheid>
+</VOERTUIG>

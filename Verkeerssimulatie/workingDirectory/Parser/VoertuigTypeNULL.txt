@@ -1,0 +1,3 @@
+Error on line: 2
+VOERTUIG his type tag is NULL.
+

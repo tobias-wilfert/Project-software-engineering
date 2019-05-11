@@ -1,0 +1,35 @@
+Error on line: 2
+VOERTUIG his type tag is NULL.
+
+Error on line: 3
+VOERTUIG his nummerplaat tag is NULL.
+
+Error on line: 4
+VOERTUIG his baan tag is NULL.
+
+Error on line: 5
+VOERTUIG his positie tag is NULL.
+
+Error on line: 6
+VOERTUIG his snelheid tag is NULL.
+
+Error on line: 10
+Value of type: Magic carpet
+Unknown type
+
+Error on line: 13
+Value of positie: -100
+Can't be converted to a number.
+
+Error on line: 14
+Value of snelheid: -100
+Can't be converted to a number.
+
+Error on line: 21
+Value of positie: Nowhere
+Can't be converted to a number.
+
+Error on line: 22
+Value of snelheid: Relative
+Can't be converted to a number.
+

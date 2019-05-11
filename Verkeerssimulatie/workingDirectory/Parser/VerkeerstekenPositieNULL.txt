@@ -1,0 +1,3 @@
+Error on line: 11
+VERKEERSTEKEN his positie tag is NULL.
+

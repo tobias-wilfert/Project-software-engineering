@@ -1,0 +1,4 @@
+Error on line: 3
+Value of baan: Middelheimlaan
+BAAN needs to declared before VERKEERSTEKEN
+

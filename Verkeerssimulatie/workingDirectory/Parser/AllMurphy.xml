@@ -1,0 +1,65 @@
+<BAAN>
+    <naam></naam>
+    <snelheidslimiet></snelheidslimiet>
+    <lengte></lengte>
+    <verbinding></verbinding>
+</BAAN>
+
+<BAAN>
+    <naam></naam>
+    <snelheidslimiet>l00</snelheidslimiet>
+    <lengte>2O0O</lengte>
+    <verbinding></verbinding>
+</BAAN>
+
+<BAAN>
+    <naam>Middelheimlaan</naam>
+    <snelheidslimiet>50</snelheidslimiet>
+    <lengte>1500</lengte>
+    <rijstroken>3</rijstroken>
+</BAAN>
+
+<VERKEERSTEKEN>
+    <type></type>
+    <baan></baan>
+    <positie></positie>
+    <snelheidslimiet></snelheidslimiet>
+</VERKEERSTEKEN>
+
+<VERKEERSTEKEN>
+    <type>Horse</type>
+    <baan>Middelheimlaan</baan>
+    <positie>over the rainbow</positie>
+    <snelheidslimiet> warp speed</snelheidslimiet>
+</VERKEERSTEKEN>
+
+<VERKEERSTEKEN>
+    <type>AUTO</type>
+    <baan>Middelheimlaan</baan>
+    <positie>-100</positie>
+    <snelheidslimiet>-100</snelheidslimiet>
+</VERKEERSTEKEN>
+
+<VOERTUIG>
+    <type></type>
+    <nummerplaat></nummerplaat>
+    <baan></baan>
+    <positie></positie>
+    <snelheid></snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>Magic carpet</type>
+    <nummerplaat>1ABC001</nummerplaat>
+    <baan>E19</baan>
+    <positie>-100</positie>
+    <snelheid>-100</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>1ABC001</nummerplaat>
+    <baan>E19</baan>
+    <positie>Nowhere</positie>
+    <snelheid>Relative</snelheid>
+</VOERTUIG>

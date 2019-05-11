@@ -1,0 +1,3 @@
+Error on line: 9
+VERKEERSTEKEN his type tag is NULL.
+

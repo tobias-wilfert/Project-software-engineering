@@ -1,0 +1,4 @@
+Error on line: 6
+Value of snelheid: Ludicrous
+Can't be converted to a number.
+

@@ -1,0 +1,12 @@
+<BAAN>
+    <naam>Middelheimlaan</naam>
+    <snelheidslimiet>50</snelheidslimiet>
+    <lengte>1500</lengte>
+    <rijstroken>3</rijstroken>
+</BAAN>
+
+<VERKEERSTEKEN>
+    <type></type>
+    <baan>Middelheimlaan</baan>
+    <positie>250</positie>
+</VERKEERSTEKEN>

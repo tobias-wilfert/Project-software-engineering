@@ -1,0 +1,4 @@
+Error on line: 5
+Value of positie: -100
+Can't be converted to a number.
+

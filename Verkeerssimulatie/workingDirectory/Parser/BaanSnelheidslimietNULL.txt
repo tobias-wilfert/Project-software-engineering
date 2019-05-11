@@ -1,0 +1,3 @@
+Error on line: 3
+BAAN his snelheidslimiet tag is NULL.
+

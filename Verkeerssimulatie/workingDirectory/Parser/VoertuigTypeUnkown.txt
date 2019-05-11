@@ -1,0 +1,4 @@
+Error on line: 2
+Value of type: Magic carpet
+Unknown type
+

@@ -10,20 +10,15 @@
 #define VERKEERSSIMULATIE_SYSTEM_H
 
 #include <vector>
+#include <string>
+#include <ostream>
 #include <fstream>
 #include <iostream>
+#include <iterator>
+#include <algorithm>
 
 #include "Baan.h"
 #include "Voertuig.h"
-
-// File compare
-// Source: https://stackoverflow.com/a/37575457/8076979
-#include <fstream>
-#include <iterator>
-#include <string>
-#include <algorithm>
-#include <ostream>
-
 
 class System {
 private:

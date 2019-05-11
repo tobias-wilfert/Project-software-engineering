@@ -1,0 +1,4 @@
+Error on line: 11
+Value of positie: Nowhere
+Can't be converted to a number.
+

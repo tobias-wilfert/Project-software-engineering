@@ -1,0 +1,26 @@
+Error on line: 2
+BAAN his naam tag is NULL.
+
+Error on line: 3
+BAAN his snelheidslimiet tag is NULL.
+
+Error on line: 4
+BAAN his lengte tag is NULL.
+
+Error on line: 5
+BAAN his verbinding tag is NULL.
+
+Error on line: 9
+BAAN his naam tag is NULL.
+
+Error on line: 10
+Value of snelheidslimiet: l00
+Can't be converted to a number.
+
+Error on line: 11
+Value of lengte: 2O0O
+Can't be converted to a number.
+
+Error on line: 12
+BAAN his verbinding tag is NULL.
+

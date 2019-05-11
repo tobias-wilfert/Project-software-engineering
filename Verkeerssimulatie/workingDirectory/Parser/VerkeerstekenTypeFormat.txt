@@ -1,0 +1,4 @@
+Error on line: 9
+Value of type: POLICE
+Must either be BUSHALTE or ZONE
+

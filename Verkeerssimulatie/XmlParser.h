@@ -10,8 +10,11 @@
 #define DESKTOP_XMLPARSER_H
 
 #include <vector>
+#include <string>
+#include <fstream>
 #include <sstream>
 #include <iostream>
+#include <iterator>
 #include <algorithm>
 
 #include "Baan.h"
@@ -121,6 +124,8 @@ public:
     //-----------------------------------------
 
     bool properlyInitialized() const;
+
+    bool compareFiles(const std::string& p1, const std::string& p2);
 
 };
 

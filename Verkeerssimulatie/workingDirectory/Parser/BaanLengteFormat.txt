@@ -1,0 +1,4 @@
+Error on line: 4
+Value of lengte: FortyTwoThousand
+Can't be converted to a number.
+

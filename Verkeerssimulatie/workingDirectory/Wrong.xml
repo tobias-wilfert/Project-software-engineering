@@ -3,10 +3,10 @@
     <snelheidslimiet>1O0</snelheidslimiet>
     <lengte>2000</lengte>
     <verbinding>E313</verbinding>
-</BAAN>
+<BAAN>
 
 <VOERTUIG>
-    <type>AUTO</type>
+    <type>BOOM</type>
     <nummerplaat>1ABC001</nummerplaat>
     <baan>E19</baan>
     <positie>1O0</positie>

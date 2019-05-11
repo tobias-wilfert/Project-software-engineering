@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
     //const char* kFileName =  "Monday_Morning.xml";
     //const char* kFileName =  "Wednesday_Night.xml";
     //const char* kFileName =  "Wegen_en_voertuigen.xml";
-    const char* kFileName = "Wrong.xml";
+    const char* kFileName = "Parser/AllMurphy.xml";
     //const char* kFileName =  "Wegennetwerk.xml";
     //const char* kFileName = argv[1];
 
@@ -33,8 +33,8 @@ int main(int argc, char** argv) {
     /// Print errors to file
     // SOURCE: https://stackoverflow.com/a/50650024/8076979
     // Determine file name
-    //std::ofstream out("Parser/Error.txt");
-    //std::cerr.rdbuf(out.rdbuf());
+    std::ofstream out("Parser/AllMurphy.txt");
+    std::cerr.rdbuf(out.rdbuf());
 
     // Parse the file
     XmlParser parser = XmlParser(kFileName);

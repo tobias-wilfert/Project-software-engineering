@@ -1,0 +1,36 @@
+Error on line: 9
+VERKEERSTEKEN his type tag is NULL.
+
+Error on line: 10
+VERKEERSTEKEN his baan tag is NULL.
+
+Error on line: 11
+VERKEERSTEKEN his positie tag is NULL.
+
+Error on line: 12
+VERKEERSTEKEN his snelheidslimiet tag is NULL.
+
+Error on line: 16
+Value of type: Horse
+Must either be BUSHALTE or ZONE
+
+Error on line: 18
+Value of positie: over the rainbow
+Can't be converted to a number.
+
+Error on line: 19
+Value of snelheidslimiet: warp speed
+Can't be converted to a number.
+
+Error on line: 23
+Value of type: AUTO
+Must either be BUSHALTE or ZONE
+
+Error on line: 25
+Value of positie: -100
+Can't be converted to a number.
+
+Error on line: 26
+Value of snelheidslimiet: -100
+Can't be converted to a number.
+

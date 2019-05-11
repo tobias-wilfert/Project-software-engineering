@@ -1,0 +1,3 @@
+Error on line: 12
+VERKEERSTEKEN his snelheidslimiet tag is NULL.
+
