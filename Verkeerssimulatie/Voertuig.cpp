@@ -142,49 +142,53 @@ void Voertuig::updatePosition() {
     // TODO add preconditions
 
     // Check Type and call another function if it is a bus
+    if (fType == "BUS"){
+        updatePositionBus();
 
-    // 1. update Position(m) with speed (km/h)
-    fOldPositie = fPositie;
-    fPositie += convertKMHtoMS(fSnelheid);
+    }else{
+        // 1. update Position(m) with speed (km/h)
+        fOldPositie = fPositie;
+        fPositie += convertKMHtoMS(fSnelheid);
 
-    // 1.1. Check if new position is out of bound ban
-    if (fPositie >= fBaanObject->getLengte()){
-        // We are out of bounds
-        if(fBaanObject->getVerbindingObject() != NULL){
-            // There is a verbinding the car can go
-            // Update position
-            fPositie -= fBaanObject->getLengte();
+        // 1.1. Check if new position is out of bound ban
+        if (fPositie >= fBaanObject->getLengte()){
+            // We are out of bounds
+            if(fBaanObject->getVerbindingObject() != NULL){
+                // There is a verbinding the car can go
+                // Update position
+                fPositie -= fBaanObject->getLengte();
 
-            // If it was the last Vehicle on the Baan set last Vehilce NULL
-            if (fBaanObject->getfLastVoertuig() == this){
-                fBaanObject->setfLastVoertuig(NULL);
-            }
+                // If it was the last Vehicle on the Baan set last Vehilce NULL
+                if (fBaanObject->getfLastVoertuig() == this){
+                    fBaanObject->setfLastVoertuig(NULL);
+                }
 
-            // Update name and ban object
-            setBaan(getBaanObject()->getVerbinding());
-            setBaanObject(getBaanObject()->getVerbindingObject());
+                // Update name and ban object
+                setBaan(getBaanObject()->getVerbinding());
+                setBaanObject(getBaanObject()->getVerbindingObject());
 
-            // Set self as lat object on new baan
-            fBaanObject->setfLastVoertuig(this);
+                // Set self as lat object on new baan
+                fBaanObject->setfLastVoertuig(this);
 
-        }else{
+            }else{
 
-            // There is no verbinding the car can go to and should be deleted
-            fDeleteObject = true;
-            fPositie = 0;
+                // There is no verbinding the car can go to and should be deleted
+                fDeleteObject = true;
+                fPositie = 0;
 
-            // If it was the last Vehicle on the Baan set last Vehilce NULL
-            if (fBaanObject->getfLastVoertuig() == this){
-                fBaanObject->setfLastVoertuig(NULL);
+                // If it was the last Vehicle on the Baan set last Vehilce NULL
+                if (fBaanObject->getfLastVoertuig() == this){
+                    fBaanObject->setfLastVoertuig(NULL);
+                }
             }
         }
+
+        // 2. update the snelheid (km/h) with versnelling (m/s^2)
+        fSnelheid += convertMStoKMH(fVersnelling);
+
+        // 3. update the versnelling (m/s^2)
+        calculateVersnelling();
     }
-
-    // 2. update the snelheid (km/h) with versnelling (m/s^2)
-    fSnelheid += convertMStoKMH(fVersnelling);
-
-    // 3. update the versnelling (m/s^2)
-    calculateVersnelling();
 
     //TODO add post conditions
 }
@@ -311,7 +315,21 @@ float Voertuig::convertMStoKMH(float speed) {
 
 void Voertuig::calculateVersnelling() {
 
-    //TODO Add postcondition
+    // 1. Calculate ideal
+    float idealversnelling = idealVersnelling();
+
+    // 2. Calculate legal
+    float legalversnelling = legalVersnelling();
+
+    // 3. Check which is the smallest and take that one.
+    if (legalversnelling < idealversnelling) {
+        fVersnelling = legalversnelling;
+    } else {
+        fVersnelling = idealversnelling;
+    }
+}
+
+float Voertuig::idealVersnelling() {
 
     // 1. Calculate ideal
     // 1.1. Check if there is a vehicle infront on this baan
@@ -346,7 +364,10 @@ void Voertuig::calculateVersnelling() {
 
     }
 
-    float idealVersnelling = 0.5*(deltaActual-deltaIdeal);
+    return 0.5*(deltaActual-deltaIdeal);
+}
+
+float Voertuig::legalVersnelling() {
 
     // 2. Calculate legal
     // 2.1. Check if we are in a zone
@@ -394,14 +415,58 @@ void Voertuig::calculateVersnelling() {
         legalVersnelling = 0;
     }
 
-    // 3. Check which is the smallest and take that one.
-    if (legalVersnelling < idealVersnelling){
-        fVersnelling = legalVersnelling;
-    }else{
-        fVersnelling = idealVersnelling;
-    }
+    return legalVersnelling;
+}
+
+void Voertuig::updatePositionBus() {
+
+    //TODO Consider that a bus can below 0 speed because the calculation is not perfect
+    //Bus should not change versnelling once it comes to stop at a bus
+    //Bus needs to wait 30 seconds once it stoped
 
     /*
+    // 1. update Position(m) with speed (km/h)
+    fOldPositie = fPositie;
+    fPositie += convertKMHtoMS(fSnelheid);
+
+    // 1.1. Check if new position is out of bound ban
+    if (fPositie >= fBaanObject->getLengte()){
+        // We are out of bounds
+        if(fBaanObject->getVerbindingObject() != NULL){
+            // There is a verbinding the car can go
+            // Update position
+            fPositie -= fBaanObject->getLengte();
+
+            // If it was the last Vehicle on the Baan set last Vehilce NULL
+            if (fBaanObject->getfLastVoertuig() == this){
+                fBaanObject->setfLastVoertuig(NULL);
+            }
+
+            // Update name and ban object
+            setBaan(getBaanObject()->getVerbinding());
+            setBaanObject(getBaanObject()->getVerbindingObject());
+
+            // Set self as lat object on new baan
+            fBaanObject->setfLastVoertuig(this);
+
+        }else{
+
+            // There is no verbinding the car can go to and should be deleted
+            fDeleteObject = true;
+            fPositie = 0;
+
+            // If it was the last Vehicle on the Baan set last Vehilce NULL
+            if (fBaanObject->getfLastVoertuig() == this){
+                fBaanObject->setfLastVoertuig(NULL);
+            }
+        }
+    }
+
+    // 2. update the snelheid (km/h) with versnelling (m/s^2)
+    fSnelheid += convertMStoKMH(fVersnelling);
+
+    // 3. update the versnelling (m/s^2)
+    calculateVersnelling();
 
     // 3. IF bus Calculate Bushalte
     float stopVersnelling;
@@ -493,4 +558,41 @@ void Voertuig::calculateVersnelling() {
     //
 
      */
+
+}
+
+void Voertuig::calculateVersnellingBus() {
+
+    // 1. Calculate ideal
+    float idealversnelling = idealVersnelling();
+
+    // 2. Calculate legal
+    float legalversnelling = legalVersnelling();
+
+    // 3. IF bus Calculate Bushalte
+    float stopVersnelling;
+
+    if (fType == "BUS"){
+        // We need to check for bus stops
+
+        // 3.1. Find the Next bus stop
+        if(fBaanObject->containsBushalte() and fNextBushalte == NULL){
+            findNextBushalte();
+        }
+
+        // 3.2. Check if we need to break
+        if (fNextBushalte != NULL and (fNextBushalte->getFPositie()-fPositie < 1.5*fSnelheid)){
+            // We need to break
+
+            // 3.2.1. Calculate the breaking speed
+            // TODO: Add fetrues to a bus that are breaking speed
+
+        }else{
+            // We can go on without a problem
+            stopVersnelling = fMaxVersnelling;
+        }
+    }
+    
+    // 4. Check which is the smallest and take that one.
+
 }

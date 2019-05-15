@@ -295,6 +295,14 @@ public:
      */
     void calculateVersnelling();
 
+    float idealVersnelling();
+
+    float legalVersnelling();
+
+    void updatePositionBus();
+
+    void calculateVersnellingBus();
+
     //-----------------------------------------
     ///auxiliary routines (private use)
     //-----------------------------------------
