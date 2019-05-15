@@ -1,0 +1,20 @@
+<BAAN>
+    <naam>Middelheimlaan</naam>
+    <snelheidslimiet>50</snelheidslimiet>
+    <lengte>1500</lengte>
+    <rijstroken>3</rijstroken>
+</BAAN>
+
+<VERKEERSTEKEN>
+    <type>BUSHALTE</type>
+    <baan>Middelheimlaan</baan>
+    <positie>250</positie>
+</VERKEERSTEKEN>
+
+<VOERTUIG>
+    <type>BUS</type>
+    <nummerplaat>1LML935</nummerplaat>
+    <baan>Middelheimlaan</baan>
+    <positie>0</positie>
+    <snelheid>0</snelheid>
+</VOERTUIG>

@@ -11,7 +11,7 @@
 #include "Voertuig.h"
 
 Voertuig::Voertuig(): fLengte(0), fPositie(0), fSnelheid(-1), fOldPositie(0), fBaan(""), fType(""), fNummerPlaat(""),
-fBaanObject(0), fNextVoertuig(0), fDeleteObject(false), fRijstrook(0), fCurrentZone(NULL), fNextBushalte(NULL){
+fBaanObject(0), fNextVoertuig(0), fDeleteObject(false), fRijstrook(0), fCurrentZone(NULL), fNextBushalte(NULL), fPauseCounter(0) {
 
     _initCheck = this;
     ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
@@ -424,10 +424,21 @@ void Voertuig::updatePositionBus() {
     //Bus should not change versnelling once it comes to stop at a bus
     //Bus needs to wait 30 seconds once it stoped
 
-    /*
+
+
+
     // 1. update Position(m) with speed (km/h)
     fOldPositie = fPositie;
     fPositie += convertKMHtoMS(fSnelheid);
+
+    // 1.A Check if we stopt at a Bushate
+    if (fSnelheid == 0 and fNextBushalte != NULL and (fPositie >= fNextBushalte->getFPositie() and fPositie <= (fNextBushalte->getFPositie()+10))) {
+        // The Bus stopt at a Bushalte
+        fPauseCounter = 30;
+        // Set fNextBushalte to NUll
+        fNextBushalte = NULL;
+        // Not anymore preparing to stop
+    }
 
     // 1.1. Check if new position is out of bound ban
     if (fPositie >= fBaanObject->getLengte()){
@@ -462,103 +473,25 @@ void Voertuig::updatePositionBus() {
         }
     }
 
-    // 2. update the snelheid (km/h) with versnelling (m/s^2)
-    fSnelheid += convertMStoKMH(fVersnelling);
+    // Only Move if we are not stoping
+    if (fPauseCounter == 0){
 
-    // 3. update the versnelling (m/s^2)
-    calculateVersnelling();
 
-    // 3. IF bus Calculate Bushalte
-    float stopVersnelling;
+        // 2. update the snelheid (km/h) with versnelling (m/s^2)
+        fSnelheid += convertMStoKMH(fVersnelling);
 
-    if (fType == "BUS"){
-        // We need to check for bus stops
-
-        // 3.1. Find the Next bus stop
-        if(fBaanObject->containsBushalte() and fNextBushalte == NULL){
-            findNextBushalte();
+        // Set to 0 if we are under 0
+        if (fSnelheid < 0){
+            fSnelheid = 0;
         }
 
-        // 3.2. Check if we need to break
-        if (fNextBushalte != NULL and (fNextBushalte->getFPositie()-fPositie < 1.5*fSnelheid)){
-            // We need to break
+        // 3. update the versnelling (m/s^2)
+        calculateVersnellingBus();
 
-            // 3.2.1. Calculate the breaking speed
-            // TODO: Add fetrues to a bus that are breaking speed
-
-        }else{
-            // We can go on without a problem
-            stopVersnelling = fMaxVersnelling;
-        }
+    }else{
+        // Decrement the PauseCounter by one
+        fPauseCounter -= 1;
     }
-
-
-    //if type==BUS && nextBushalte == NULL{calculateNextBushalte()
-    if(fType == "BUS" && fBaanObject->containsBushalte() &&fNextBushalte == NULL){
-        //find nextbushalte
-        findNextBushalte();
-    }
-
-    //Bereken Positie()
-    fPositie = fPositie + fSnelheid;
-    //if nieuwepos buiten baan of baanVerbinding exists
-    if (fPositie > fBaanObject->getLengte()) {
-        if (fBaanObject->getVerbindingObject() != 0) {
-            fPositie = fPositie - fBaanObject->getLengte();
-            fBaanObject = fBaanObject->getVerbindingObject();
-            fBaan = fBaanObject->getNaam();
-        } else {
-            // Delete voertuig from vector (after the iteration) as it still is needed for the other calulations
-            fPositie = 0;
-            fDeleteObject = true;
-        }
-    }
-    //if current zone NULL or nieuwe positie groter dan current zone end; try to find current zone {findNextZone()}
-    //try to find the new zone if currentZone is NULL or we are past the currentZone
-    if (fCurrentZone == NULL or (fCurrentZone != NULL && fPositie > fCurrentZone->getFEndPositie())){
-        assignCurrentZone();
-    }
-
-    // if(bushalte != NULL){ // dus als type == BUS met BUSHALTE
-    if(fNextBushalte != NULL){
-        //als
-        double dIdeal = 2*((3/4)*fSnelheid + 2);
-        double verschil = fNextBushalte->getFPositie() -  fPositie;
-        double tempVertraging = -pow(fSnelheid, 2)/(verschil); //mss is de volgende positie pakken beter? dan remt jij harder
-
-        if(verschil <= dIdeal){
-            //calculate snelheid
-            fSnelheid = fSnelheid + fVersnelling;
-            //calculate deceleration
-            fVersnelling = tempVertraging;
-            if(tempVertraging < -7){
-                std::cerr << "BUS MET NUMMERPLAAT: "<< fNummerPlaat << " CAN'T BREAK IN TIME";
-            }
-        }
-            //    o-BUS-o |bushalte| o-BUS-o
-        else if(fNextBushalte->getFPositie() >= fPositie-10 && fNextBushalte->getFPositie() <= fPositie){
-            if(fSnelheid- tempVertraging <=0){
-                fSnelheid = 0;
-                fVersnelling = 0;
-            }
-        }
-        else{//anders als wij nog in goede afstand zitten
-
-        }
-
-    }
-    // }
-
-    //else if(currentZone == NULL){
-    // doe gewoon
-    // update speed
-    // update acceleration
-    //    }
-    // elseif(currentZone != NULL){
-    //
-
-     */
-
 }
 
 void Voertuig::calculateVersnellingBus() {
@@ -583,16 +516,28 @@ void Voertuig::calculateVersnellingBus() {
         // 3.2. Check if we need to break
         if (fNextBushalte != NULL and (fNextBushalte->getFPositie()-fPositie < 1.5*fSnelheid)){
             // We need to break
-
             // 3.2.1. Calculate the breaking speed
-            // TODO: Add fetrues to a bus that are breaking speed
+            stopVersnelling = -(convertKMHtoMS(fSnelheid)*convertKMHtoMS(fSnelheid))/(fNextBushalte->getFPositie()-fPositie);
 
         }else{
             // We can go on without a problem
             stopVersnelling = fMaxVersnelling;
         }
+    }else{
+        // NO need to stop drive through
+        stopVersnelling = 1000;
     }
-    
-    // 4. Check which is the smallest and take that one.
 
+    // 4. Check which is the smallest and take that one.
+    //TODO Can we always take the stopVersnelling if we are stoping?
+    if (stopVersnelling <= idealversnelling and stopVersnelling <= legalversnelling){
+        fVersnelling = stopVersnelling;
+    }else if (idealversnelling <= stopVersnelling and idealversnelling <= legalversnelling){
+        fVersnelling = idealversnelling;
+    }else{
+        fVersnelling = legalversnelling;
+    }
+
+    //ENSURE(fVersnelling >= fMinVersnelling, "calculateVersnellingBus post condition failure");
+    //ENSURE(fVersnelling <= fMaxVersnelling, "calculateVersnellingBus post condition failure");
 }

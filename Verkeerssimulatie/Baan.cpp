@@ -127,7 +127,8 @@ void Baan::assignZoneLimit() {
             currentZone = fVerkeerstekens.at(i);
         }
         // Als laatste zone is. eindigt het tot op't einde van de baan
-        if(i == fVerkeerstekens.size()-1){
+        if(i == fVerkeerstekens.size()-1 and currentZone != NULL){
+            //TODO John dit werkt niet als er geen Zones zijn
             currentZone->setFEndPositie(fLengte);
         }
     }

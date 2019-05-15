@@ -69,11 +69,13 @@ private:
     /// Pointer to the zone the Vehicle is currently in
     Verkeersteken* fCurrentZone;
 
+    /// Pointer to the Next Bushalte
     Verkeersteken* fNextBushalte;
 
+    /// If none 0 the this doesn't move
+    int fPauseCounter;
+
 public:
-    void assignCurrentZone();
-    void findNextBushalte();
 
     /**
     \n ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
@@ -294,6 +296,10 @@ public:
      * Calculates the new Versnelling based on multiple factors
      */
     void calculateVersnelling();
+
+    void assignCurrentZone();
+
+    void findNextBushalte();
 
     float idealVersnelling();
 
