@@ -69,7 +69,7 @@ void System::organizeVehicles() {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling organizeVehicles");
 
     for(unsigned int i = 0; i<fVoertuigen->size(); i++){
-        Voertuig* tempNextVoertuig = 0;
+        Voertuig* tempNextVoertuig = NULL;
         bool isFirst = true;
         for(unsigned int j = 0; j<fVoertuigen->size(); j++){
             if(j == i){
@@ -88,6 +88,18 @@ void System::organizeVehicles() {
                 }
             }
         }
+
+        // Set Last voertuig for ban
+        if (fVoertuigen->at(i)->getBaanObject()->getfLastVoertuig() == NULL){
+            // First one to be set
+            fVoertuigen->at(i)->getBaanObject()->setfLastVoertuig(fVoertuigen->at(i));
+        }else{
+            // Only change if smaller position
+            if (fVoertuigen->at(i)->getPositie() < fVoertuigen->at(i)->getBaanObject()->getfLastVoertuig()->getPositie()){
+                fVoertuigen->at(i)->getBaanObject()->setfLastVoertuig(fVoertuigen->at(i));
+            }
+        }
+
         fVoertuigen->at(i)->setNextVoertuig(tempNextVoertuig);
     }
 }
@@ -159,28 +171,27 @@ void System::filterVehicles() {
     }
 }
 
-
-void System::simpeleUitvoer(std::string& output) const {
+void System::simpeleUitvoer() const {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling simpeleUitvoer");
 
     for(unsigned int i = 0; i<fBanen->size(); i++){
-        output += ("\nBaan: " + fBanen->at(i)->getNaam() + "\n");
-        output += ("\t-> snelheidslimiet: " + ToString(fBanen->at(i)->getSnelheidsLimiet()) + " km/h" + "\n");
-        output += ("\t-> lengte: " + ToString(fBanen->at(i)->getLengte()) + " m" + "\n");
+        std::cout << "\n Baan: " << fBanen->at(i)->getNaam() << std::endl;
+        std::cout << "\t-> snelheidslimiet: " << fBanen->at(i)->getSnelheidsLimiet() << " km/h" << std::endl;
+        std::cout << "\t-> lengte: " << fBanen->at(i)->getLengte() << " m " << std::endl;
     }
     for(unsigned int i = 0; i<fWegenNetwerk->size(); i++){
-        output += ("\nBaan: " + fWegenNetwerk->at(i)->getNaam() + "\n");
-        output += ("\t-> snelheidslimiet: " + ToString(fWegenNetwerk->at(i)->getSnelheidsLimiet()) + " km/h" + "\n");
-        output += ("\t-> lengte: " + ToString(fWegenNetwerk->at(i)->getLengte()) + " m" + "\n");
-        output += ("\t-> verbinding: " + fWegenNetwerk->at(i)->getVerbinding() + "\n\n");
+        std::cout << "\n Baan: " << fBanen->at(i)->getNaam() << std::endl;
+        std::cout << "\t-> snelheidslimiet: " << fBanen->at(i)->getSnelheidsLimiet() << " km/h" << std::endl;
+        std::cout << "\t-> lengte: " << fBanen->at(i)->getLengte() << " m " << std::endl;
+        std::cout << "\t-> verbinding: " << fWegenNetwerk->at(i)->getVerbinding() << std::endl << std::endl;
+
     }
     for(unsigned int i = 0; i<fVoertuigen->size(); i++){
-        output += ("\nVoertuig: " + fVoertuigen->at(i)->getType() + " (" + fVoertuigen->at(i)->getNummerPlaat() + ")" + "\n");
-        output += ("\t-> baan: " + fVoertuigen->at(i)->getBaan() + "\n");
-        output += ("\t-> positie: " + ToString(fVoertuigen->at(i)->getPositie()) + " m" + "\n");
-        output += ("\t-> snelheid: " + ToString(fVoertuigen->at(i)->getSnelheid()) + " km/h" + "\n");
+        std::cout << "\nVoertuig: " << fVoertuigen->at(i)->getType() << " (" << fVoertuigen->at(i)->getNummerPlaat() << ")" << std::endl;
+        std::cout << "\t-> baan: " << fVoertuigen->at(i)->getBaan() << std::endl;
+        std::cout << "\t-> positie: " << fVoertuigen->at(i)->getPositie() << " m " << std::endl;
+        std::cout << "\t-> snelheid: " << fVoertuigen->at(i)->getSnelheid() << " km/h" << std::endl;
     }
-
 }
 
 void System::simulate(unsigned int iterations) {
@@ -200,7 +211,7 @@ void System::simulate(unsigned int iterations) {
 }
 
 
-void System::automaticSimulation(std::string& output) {
+void System::automaticSimulation() {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
     for(unsigned int i = 0; i < fBanen->size(); i++){
         fBanen->at(i)->sortVerkeersteken();
@@ -208,9 +219,8 @@ void System::automaticSimulation(std::string& output) {
     }
     while(fVoertuigen->size()>0){
         simulate();
-
-        output += "+-----------------------------------------------------+\n";
-        simpeleUitvoer(output);
+        std::cout <<  "\n+-----------------------------------------------------+" << std::endl;
+        simpeleUitvoer();
     }
 }
 

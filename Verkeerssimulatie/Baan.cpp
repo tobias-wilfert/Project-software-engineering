@@ -11,13 +11,14 @@
 
 Baan::Baan() {
     _initCheck = this;
-    fVerbindingObject = 0;
+    fVerbindingObject = NULL;
     fLengte = 0;
     fSnelheidsLimiet = 0;
     fNaam = "";
     fVerbinding = "";
-    fVerbindingObject = NULL;
     fContainsBushalte = false;
+    flastVoertuig = NULL;
+
 
     ENSURE(properlyInitialized(), "Constructor must end in properly initialized state");
 }
@@ -197,4 +198,12 @@ void Baan::setfContainsBushalte() {
 
 const bool Baan::containsBushalte() const {
     return fContainsBushalte;
+}
+
+Voertuig *Baan::getfLastVoertuig() const {
+    return flastVoertuig;
+}
+
+void Baan::setfLastVoertuig(Voertuig *lastVoertuig) {
+    Baan::flastVoertuig = lastVoertuig;
 }

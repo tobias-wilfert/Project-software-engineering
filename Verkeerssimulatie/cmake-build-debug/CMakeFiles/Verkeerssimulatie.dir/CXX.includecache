@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.cpp
+Baan.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
+
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
 string
 -
@@ -46,6 +50,16 @@ sstream
 tinystr.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Parser/tinystr.h
 
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.cpp
+System.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
+string
+-
+sstream
+-
+algorithm
+-
+
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/System.h
 vector
 -
@@ -72,11 +86,25 @@ string
 DesignByContract.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/DesignByContract.h
 
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.cpp
+iostream
+-
+cmath
+-
+Voertuig.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
+
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Voertuig.h
 Baan.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/Baan.h
 DesignByContract.h
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/DesignByContract.h
+
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.cpp
+cstring
+-
+XmlParser.h
+/Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 
 /Users/tobiaswilfert/Desktop/Project-software-engineering/Verkeerssimulatie/XmlParser.h
 vector

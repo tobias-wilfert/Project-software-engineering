@@ -34,40 +34,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97f6ac4c-9f6e-424c-94a1-4321ba53fd38" name="Default" comment="Cleaned Up all Tests">
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/BaanLengteFormat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/BaanLengteNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/BaanMurphy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/BaanNaamNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/BaanRijstrokenFormat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/BaanRijstrokenFormatMin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/BaanRijstrokenNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/BaanSnelheidslimietFormat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/BaanSnelheidslimietNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/BaanVerbindingNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/Empty.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/EmptyRootTag.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenBaanFormat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenBaanNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenMurphy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenPositieFormat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenPositieFormatMin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenPositieNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenSnelheidslimietFormat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenSnelheidslimietFormatMin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenSnelheidslimietNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenTypeFormat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenTypeNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VoertuigBaanNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VoertuigMurphy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VoertuigNummerplaatNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VoertuigPositieFormat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VoertuigPositieFormatMin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VoertuigPositieNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VoertuigSnelheidFormat.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VoertuigSnelheidFormatMin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VoertuigSnelheidNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VoertuigTypeNULL.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/VoertuigTypeUnkown.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/.idea/Polymoprophisme.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Polymoprophisme/.idea/modules.xml" beforeDir="false" />
@@ -339,28 +305,17 @@
       <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/workingDirectory/Wegen_en_voertuigen.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/workingDirectory/Wegennetwerk.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baan.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baan.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baan.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/System.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/System.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/System.h" beforeDir="false" afterPath="$PROJECT_DIR$/System.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/XmlParserTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/XmlParserTest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlParser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/XmlParser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XmlParser.h" beforeDir="false" afterPath="$PROJECT_DIR$/XmlParser.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/System.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/System.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/System.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/BaanTest.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/SystemTest.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Tests/XmlParserTest.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie_debug" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie_debug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voertuig.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Voertuig.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voertuig.h" beforeDir="false" afterPath="$PROJECT_DIR$/Voertuig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/System.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/main.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/Empty.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Parser/AllMurphy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/Error.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/Parser/Error.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/Wrong.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Wrong.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TFA/.idea/TFA.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TFA/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TFA/.idea/misc.xml" beforeDir="false" />
@@ -655,8 +610,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+            <state relative-caret-position="533">
+              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
               <folding>
                 <element signature="e#417#436#0" expanded="true" />
               </folding>
@@ -665,29 +620,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/AllMurphy.txt">
+        <entry file="file://$PROJECT_DIR$/System.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1159" />
+            <state relative-caret-position="123">
+              <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tests/XmlParserTest.cpp">
+        <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="401" column="1" selection-start-line="401" selection-start-column="1" selection-end-line="401" selection-end-column="1" />
-              <folding>
-                <element signature="e#426#445#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="568">
+              <caret line="494" column="7" selection-start-line="494" selection-start-column="7" selection-end-line="494" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/AllMurphy.xml">
+        <entry file="file://$PROJECT_DIR$/Voertuig.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-525">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="226">
+              <caret line="54" column="15" lean-forward="true" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
+              <folding>
+                <element signature="e#494#511#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -740,10 +697,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Verkeersteken.cpp" />
-        <option value="$PROJECT_DIR$/Verkeersteken.h" />
-        <option value="$PROJECT_DIR$/aangepast.txt" />
-        <option value="$PROJECT_DIR$/workingDirectory/Empty.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/EmptyRootTag.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/RootTagOmittingClosingTag.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/BaanSnelhaidslimietFormat.xml" />
@@ -754,8 +707,6 @@
         <option value="$PROJECT_DIR$/workingDirectory/Parser/BaanLengteNULL.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/BaanVerbindingNULL.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/BaanMurphy.xml" />
-        <option value="$PROJECT_DIR$/System.cpp" />
-        <option value="$PROJECT_DIR$/System.h" />
         <option value="$PROJECT_DIR$/XmlParser.h" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/WorkingReference.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/XmlParserTest.txt" />
@@ -789,8 +740,14 @@
         <option value="$PROJECT_DIR$/workingDirectory/Parser/BaanRijstrokenFormat.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/BaanRijstrokenFormatMin.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/AllMurphy.xml" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Tests/XmlParserTest.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/System.h" />
+        <option value="$PROJECT_DIR$/Voertuig.h" />
+        <option value="$PROJECT_DIR$/Baan.h" />
+        <option value="$PROJECT_DIR$/Baan.cpp" />
+        <option value="$PROJECT_DIR$/System.cpp" />
+        <option value="$PROJECT_DIR$/Voertuig.cpp" />
       </list>
     </option>
   </component>
@@ -807,17 +764,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Verkeerssimulatie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Verkeerssimulatie" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -833,6 +779,17 @@
             <path>
               <item name="Verkeerssimulatie" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Verkeerssimulatie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Verkeerssimulatie" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -870,7 +827,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.Verkeerssimulatie_debug">
+  <component name="RunManager" selected="CMake Application.Verkeerssimulatie">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -957,6 +914,8 @@
       <workItem from="1556792156150" duration="134000" />
       <workItem from="1557385869752" duration="14999000" />
       <workItem from="1557559858437" duration="24378000" />
+      <workItem from="1557612309013" duration="95000" />
+      <workItem from="1557915047684" duration="12605000" />
     </task>
     <task id="LOCAL-00001" summary="Replaced Nullpointer with O and added Header Comments to all files.">
       <created>1553442896535</created>
@@ -1071,7 +1030,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227128000" />
+    <option name="totallyTimeSpent" value="239828000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1084,14 +1043,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32739726" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.12328767" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.9589041" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.34931508" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1187,43 +1147,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VoertuigPositieNULL.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VoertuigPositieFormat.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VoertuigPositieFormat.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VoertuigSnelheidNULL.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VoertuigSnelheidFormatMin.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VoertuigSnelheidNULL.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VoertuigSnelheidFormatMin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VoertuigSnelheidFormat.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1345,9 +1268,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenSnelheidsFormatNULL.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenSnelheidsFormatNULL.txt" />
     <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenSnelheidslimietNULL.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1444,35 +1365,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/AllMurphy.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/XmlParserTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6416">
+          <caret line="401" column="1" selection-start-line="401" selection-start-column="1" selection-end-line="401" selection-end-column="1" />
+          <folding>
+            <element signature="e#426#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/AllMurphy.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-525">
+        <state relative-caret-position="128">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/AllMurphy.txt">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1159" />
+        <state relative-caret-position="16">
+          <caret line="1707" column="43" selection-start-line="1707" selection-start-column="43" selection-end-line="1707" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baan.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2457">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baan.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="167" column="13" selection-start-line="167" selection-start-column="13" selection-end-line="167" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        <state relative-caret-position="533">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding>
             <element signature="e#417#436#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/XmlParserTest.cpp">
+    <entry file="file://$PROJECT_DIR$/Voertuig.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="401" column="1" selection-start-line="401" selection-start-column="1" selection-end-line="401" selection-end-column="1" />
+        <state relative-caret-position="226">
+          <caret line="54" column="15" lean-forward="true" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="15" />
           <folding>
-            <element signature="e#426#445#0" expanded="true" />
+            <element signature="e#494#511#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="71" column="42" lean-forward="true" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="494" column="7" selection-start-line="494" selection-start-column="7" selection-end-line="494" selection-end-column="7" />
         </state>
       </provider>
     </entry>

@@ -15,6 +15,9 @@
 #include "Verkeersteken.h"
 #include "DesignByContract.h"
 
+// Forward declaration
+class Voertuig;
+
 class Baan {
 private:
 
@@ -45,9 +48,11 @@ private:
     /// Indicates if this baan has a bushalte
     bool fContainsBushalte;
 
+    /// Pointer to the last vehicle on the baan
+    Voertuig* flastVoertuig;
+
 public:
 
-    void setfContainsBushalte();
     /**
     \n ENSURE(properlyInitialized(), "Constructor must end in properly initialized state");
     */
@@ -154,13 +159,19 @@ public:
      */
     const std::vector<Verkeersteken *> &getFVerkeerstekens() const;
 
+    void setfContainsBushalte();
+
+    const bool containsBushalte() const;
+
+    Voertuig *getfLastVoertuig() const;
+
+    void setfLastVoertuig(Voertuig *lastVoertuig);
+
     //-----------------------------------------
     ///auxiliary routines (private use)
     //-----------------------------------------
 
     bool properlyInitialized() const;
-
-    const bool containsBushalte() const;
 
 };
 

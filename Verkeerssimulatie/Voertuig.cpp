@@ -139,69 +139,54 @@ void Voertuig::setDeleteObject(bool deleteObject) {
 }
 
 void Voertuig::updatePosition() {
-    //if type==BUS && nextBushalte == NULL{calculateNextBushalte()
-    if(fType == "BUS" && fBaanObject->containsBushalte() &&fNextBushalte == NULL){
-        //find nextbushalte
-        findNextBushalte();
-    }
+    // TODO add preconditions
 
-    //Bereken Positie()
-    fPositie = fPositie + fSnelheid;
-    //if nieuwepos buiten baan of baanVerbinding exists
-    if (fPositie > fBaanObject->getLengte()) {
-        if (fBaanObject->getVerbindingObject() != 0) {
-            fPositie = fPositie - fBaanObject->getLengte();
-            fBaanObject = fBaanObject->getVerbindingObject();
-            fBaan = fBaanObject->getNaam();
-        } else {
-            // Delete voertuig from vector (after the iteration) as it still is needed for the other calulations
-            fPositie = 0;
+    // Check Type and call another function if it is a bus
+
+    // 1. update Position(m) with speed (km/h)
+    fOldPositie = fPositie;
+    fPositie += convertKMHtoMS(fSnelheid);
+
+    // 1.1. Check if new position is out of bound ban
+    if (fPositie >= fBaanObject->getLengte()){
+        // We are out of bounds
+        if(fBaanObject->getVerbindingObject() != NULL){
+            // There is a verbinding the car can go
+            // Update position
+            fPositie -= fBaanObject->getLengte();
+
+            // If it was the last Vehicle on the Baan set last Vehilce NULL
+            if (fBaanObject->getfLastVoertuig() == this){
+                fBaanObject->setfLastVoertuig(NULL);
+            }
+
+            // Update name and ban object
+            setBaan(getBaanObject()->getVerbinding());
+            setBaanObject(getBaanObject()->getVerbindingObject());
+
+            // Set self as lat object on new baan
+            fBaanObject->setfLastVoertuig(this);
+
+        }else{
+
+            // There is no verbinding the car can go to and should be deleted
             fDeleteObject = true;
-        }
-    }
-    //if current zone NULL or nieuwe positie groter dan current zone end; try to find current zone {findNextZone()}
-    //try to find the new zone if currentZone is NULL or we are past the currentZone
-    if (fCurrentZone == NULL or (fCurrentZone != NULL && fPositie > fCurrentZone->getFEndPositie())){
-        assignCurrentZone();
-    }
+            fPositie = 0;
 
-    // if(bushalte != NULL){ // dus als type == BUS met BUSHALTE
-    if(fNextBushalte != NULL){
-        //als
-        double dIdeal = 2*((3/4)*fSnelheid + 2);
-        double verschil = fNextBushalte->getFPositie() -  fPositie;
-        double tempVertraging = -pow(fSnelheid, 2)/(verschil); //mss is de volgende positie pakken beter? dan remt jij harder
-
-        if(verschil <= dIdeal){
-            //calculate snelheid
-            fSnelheid = fSnelheid + fVersnelling;
-            //calculate deceleration
-            fVersnelling = tempVertraging;
-            if(tempVertraging < -7){
-                std::cerr << "BUS MET NUMMERPLAAT: "<< fNummerPlaat << " CAN'T BREAK IN TIME";
+            // If it was the last Vehicle on the Baan set last Vehilce NULL
+            if (fBaanObject->getfLastVoertuig() == this){
+                fBaanObject->setfLastVoertuig(NULL);
             }
         }
-        //    o-BUS-o |bushalte| o-BUS-o
-        else if(fNextBushalte->getFPositie() >= fPositie-10 && fNextBushalte->getFPositie() <= fPositie){
-            if(fSnelheid- tempVertraging <=0){
-                fSnelheid = 0;
-                fVersnelling = 0;
-            }
-        }
-        else{//anders als wij nog in goede afstand zitten
-
-        }
-
     }
-    // }
 
-    //else if(currentZone == NULL){
-            // doe gewoon
-            // update speed
-            // update acceleration
-    //    }
-    // elseif(currentZone != NULL){
-    //
+    // 2. update the snelheid (km/h) with versnelling (m/s^2)
+    fSnelheid += convertMStoKMH(fVersnelling);
+
+    // 3. update the versnelling (m/s^2)
+    calculateVersnelling();
+
+    //TODO add post conditions
 }
 
 Verkeersteken *Voertuig::getFCurrentZone() const {
@@ -312,4 +297,200 @@ void Voertuig::assignCurrentZone() {
             break;
         }
     }
+}
+
+float Voertuig::convertKMHtoMS(float speed) {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling convertKMHtoMS");
+    return speed*5.0/18.0;
+}
+
+float Voertuig::convertMStoKMH(float speed) {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling convertMStoKMH");
+    return speed*18.0/5.0;
+}
+
+void Voertuig::calculateVersnelling() {
+
+    //TODO Add postcondition
+
+    // 1. Calculate ideal
+    // 1.1. Check if there is a vehicle infront on this baan
+    Voertuig* previousVoertuig = NULL;
+
+    if (fNextVoertuig != NULL){
+        previousVoertuig = fNextVoertuig;
+    }else{
+        // 1.2. Check if there is a vehicle on the next baan
+        if(fBaanObject->getVerbindingObject() != NULL){
+            // There is a verbinding
+            if (fBaanObject->getVerbindingObject()->getfLastVoertuig() != NULL){
+                // There is a car on the Baan
+                previousVoertuig = fBaanObject->getVerbindingObject()->getfLastVoertuig();
+            }
+        }
+    }
+
+    // 1.2 Start the calculation
+    float deltaIdeal;
+    float deltaActual;
+
+    if (previousVoertuig != NULL){
+        // There is a car infront
+        deltaIdeal = 0.75*fSnelheid + previousVoertuig->getLengte() + 2;
+        deltaActual = previousVoertuig->getOldPositie() - previousVoertuig->getLengte() - fPositie;
+
+    }else{
+        // The foreseeable road is clear
+        deltaIdeal = 0*75*fSnelheid;
+        deltaActual = 75000;
+
+    }
+
+    float idealVersnelling = 0.5*(deltaActual-deltaIdeal);
+
+    // 2. Calculate legal
+    // 2.1. Check if we are in a zone
+    if (fCurrentZone == NULL or (fCurrentZone != NULL && fPositie > fCurrentZone->getFEndPositie())){
+        assignCurrentZone();
+    }
+
+    // 2.2. IF we are in a zone take that speed limit. Default baan speed limit
+    float snelheidsLimiet;
+
+    if (fCurrentZone == NULL){
+        // We are not in a zone
+        snelheidsLimiet = fBaanObject->getSnelheidsLimiet();
+    }else{
+        // We are in a zone
+        snelheidsLimiet = fCurrentZone->getFSnelheidslimiet();
+    };
+
+    // 2.3. Start the calculation
+    float legalVersnelling;
+
+    if (fSnelheid > snelheidsLimiet){
+        // The voertuig goes to fast speed -> We need to brake
+        // Check if we need to break max or nuanced
+        if (fSnelheid+convertMStoKMH(fMinVersnelling) > snelheidsLimiet){
+            // We need to break max
+            legalVersnelling = fMinVersnelling;
+
+        }else{
+            // We can break nuanced
+            legalVersnelling = convertKMHtoMS(snelheidsLimiet-fSnelheid);
+        }
+    }else if (fSnelheid < snelheidsLimiet){
+        // The voertuig goes to slow speed -> We can accelerate
+        // Check if we can accelerate max or nuanced
+        if (fSnelheid+convertMStoKMH(fMaxVersnelling) < snelheidsLimiet){
+            legalVersnelling = fMaxVersnelling;
+
+        }else{
+            // We need to accelerate nuanced
+            legalVersnelling = convertKMHtoMS(snelheidsLimiet-fSnelheid);
+        }
+    }else{
+        // The voertuig goes perfect speed
+        legalVersnelling = 0;
+    }
+
+    // 3. Check which is the smallest and take that one.
+    if (legalVersnelling < idealVersnelling){
+        fVersnelling = legalVersnelling;
+    }else{
+        fVersnelling = idealVersnelling;
+    }
+
+    /*
+
+    // 3. IF bus Calculate Bushalte
+    float stopVersnelling;
+
+    if (fType == "BUS"){
+        // We need to check for bus stops
+
+        // 3.1. Find the Next bus stop
+        if(fBaanObject->containsBushalte() and fNextBushalte == NULL){
+            findNextBushalte();
+        }
+
+        // 3.2. Check if we need to break
+        if (fNextBushalte != NULL and (fNextBushalte->getFPositie()-fPositie < 1.5*fSnelheid)){
+            // We need to break
+
+            // 3.2.1. Calculate the breaking speed
+            // TODO: Add fetrues to a bus that are breaking speed
+
+        }else{
+            // We can go on without a problem
+            stopVersnelling = fMaxVersnelling;
+        }
+    }
+
+
+    //if type==BUS && nextBushalte == NULL{calculateNextBushalte()
+    if(fType == "BUS" && fBaanObject->containsBushalte() &&fNextBushalte == NULL){
+        //find nextbushalte
+        findNextBushalte();
+    }
+
+    //Bereken Positie()
+    fPositie = fPositie + fSnelheid;
+    //if nieuwepos buiten baan of baanVerbinding exists
+    if (fPositie > fBaanObject->getLengte()) {
+        if (fBaanObject->getVerbindingObject() != 0) {
+            fPositie = fPositie - fBaanObject->getLengte();
+            fBaanObject = fBaanObject->getVerbindingObject();
+            fBaan = fBaanObject->getNaam();
+        } else {
+            // Delete voertuig from vector (after the iteration) as it still is needed for the other calulations
+            fPositie = 0;
+            fDeleteObject = true;
+        }
+    }
+    //if current zone NULL or nieuwe positie groter dan current zone end; try to find current zone {findNextZone()}
+    //try to find the new zone if currentZone is NULL or we are past the currentZone
+    if (fCurrentZone == NULL or (fCurrentZone != NULL && fPositie > fCurrentZone->getFEndPositie())){
+        assignCurrentZone();
+    }
+
+    // if(bushalte != NULL){ // dus als type == BUS met BUSHALTE
+    if(fNextBushalte != NULL){
+        //als
+        double dIdeal = 2*((3/4)*fSnelheid + 2);
+        double verschil = fNextBushalte->getFPositie() -  fPositie;
+        double tempVertraging = -pow(fSnelheid, 2)/(verschil); //mss is de volgende positie pakken beter? dan remt jij harder
+
+        if(verschil <= dIdeal){
+            //calculate snelheid
+            fSnelheid = fSnelheid + fVersnelling;
+            //calculate deceleration
+            fVersnelling = tempVertraging;
+            if(tempVertraging < -7){
+                std::cerr << "BUS MET NUMMERPLAAT: "<< fNummerPlaat << " CAN'T BREAK IN TIME";
+            }
+        }
+            //    o-BUS-o |bushalte| o-BUS-o
+        else if(fNextBushalte->getFPositie() >= fPositie-10 && fNextBushalte->getFPositie() <= fPositie){
+            if(fSnelheid- tempVertraging <=0){
+                fSnelheid = 0;
+                fVersnelling = 0;
+            }
+        }
+        else{//anders als wij nog in goede afstand zitten
+
+        }
+
+    }
+    // }
+
+    //else if(currentZone == NULL){
+    // doe gewoon
+    // update speed
+    // update acceleration
+    //    }
+    // elseif(currentZone != NULL){
+    //
+
+     */
 }

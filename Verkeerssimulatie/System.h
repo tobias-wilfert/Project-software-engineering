@@ -85,7 +85,7 @@ public:
      * @post A Texted Based Representation of the System is printed to the Terminal
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling simpeleUitvoer");
      */
-    void simpeleUitvoer(std::string& output) const;
+    void simpeleUitvoer() const;
 
     /**
      * Simulates #iterations amount of time intervals in the system,
@@ -105,7 +105,7 @@ public:
      * @post A system with no Vehicles in it
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
      */
-    void automaticSimulation(std::string& output);
+    void automaticSimulation();
 
     /**
      *  Iterates over all Wegen Netwerken in the system letting everyone

@@ -278,6 +278,23 @@ public:
      */
     void setFRijstrook(int fRijstrook);
 
+    /*
+     * Converts speed in km/h to speed in m/s
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling convertKMHtoMS");
+     */
+    float convertKMHtoMS(float speed);
+
+    /*
+     * Converts speed in m/s to km/h
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling convertMStoKMH");
+     */
+    float convertMStoKMH(float speed);
+
+    /*
+     * Calculates the new Versnelling based on multiple factors
+     */
+    void calculateVersnelling();
+
     //-----------------------------------------
     ///auxiliary routines (private use)
     //-----------------------------------------
