@@ -89,17 +89,6 @@ void System::organizeVehicles() {
             }
         }
 
-        // Set Last voertuig for ban
-        if (fVoertuigen->at(i)->getBaanObject()->getfLastVoertuig() == NULL){
-            // First one to be set
-            fVoertuigen->at(i)->getBaanObject()->setfLastVoertuig(fVoertuigen->at(i));
-        }else{
-            // Only change if smaller position
-            if (fVoertuigen->at(i)->getPositie() < fVoertuigen->at(i)->getBaanObject()->getfLastVoertuig()->getPositie()){
-                fVoertuigen->at(i)->getBaanObject()->setfLastVoertuig(fVoertuigen->at(i));
-            }
-        }
-
         fVoertuigen->at(i)->setNextVoertuig(tempNextVoertuig);
     }
 }
@@ -121,6 +110,17 @@ void System::initializeVehicleBaanObject() {
                 if(currentVehicleWay == fWegenNetwerk->at(j)->getNaam()){
                     fVoertuigen->at(i)->setBaanObject(fWegenNetwerk->at(j));
                 }
+            }
+        }
+
+        // Set Last voertuig for ban
+        if (fVoertuigen->at(i)->getBaanObject()->getfLastVoertuig() == NULL){
+            // First one to be set
+            fVoertuigen->at(i)->getBaanObject()->setfLastVoertuig(fVoertuigen->at(i));
+        }else{
+            // Only change if smaller position
+            if (fVoertuigen->at(i)->getPositie() < fVoertuigen->at(i)->getBaanObject()->getfLastVoertuig()->getPositie()){
+                fVoertuigen->at(i)->getBaanObject()->setfLastVoertuig(fVoertuigen->at(i));
             }
         }
     }
