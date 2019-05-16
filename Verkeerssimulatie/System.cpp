@@ -175,25 +175,29 @@ void System::simpeleUitvoer() const {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling simpeleUitvoer");
 
     for(unsigned int i = 0; i<fBanen->size(); i++){
-        std::cout << "\n Baan: " << fBanen->at(i)->getNaam() << std::endl;
+
+
+        std::cout << "\nBaan: " << fBanen->at(i)->getNaam() << std::endl;
+        std::cout << "\t-> lengte:          " << fBanen->at(i)->getLengte() << " m" << std::endl;
+        std::cout << "\t-> rijstroken:      " << fBanen->at(i)->getFRijstroken() << std::endl;
         std::cout << "\t-> snelheidslimiet: " << fBanen->at(i)->getSnelheidsLimiet() << " km/h" << std::endl;
-        std::cout << "\t-> lengte: " << fBanen->at(i)->getLengte() << " m " << std::endl;
     }
     for(unsigned int i = 0; i<fWegenNetwerk->size(); i++){
-        std::cout << "\n Baan: " << fBanen->at(i)->getNaam() << std::endl;
-        std::cout << "\t-> snelheidslimiet: " << fBanen->at(i)->getSnelheidsLimiet() << " km/h" << std::endl;
-        std::cout << "\t-> lengte: " << fBanen->at(i)->getLengte() << " m " << std::endl;
-        std::cout << "\t-> verbinding: " << fWegenNetwerk->at(i)->getVerbinding() << std::endl << std::endl;
+        std::cout << "\nBaan: " << fWegenNetwerk->at(i)->getNaam() << std::endl;
+        std::cout << "\t-> lengte:          " << fWegenNetwerk->at(i)->getLengte() << " m" << std::endl;
+        std::cout << "\t-> rijstroken:      " << fWegenNetwerk->at(i)->getFRijstroken() << std::endl;
+        std::cout << "\t-> snelheidslimiet: " << fWegenNetwerk->at(i)->getSnelheidsLimiet() << " km/h" << std::endl;
+        std::cout << "\t-> verbinding:      " << fWegenNetwerk->at(i)->getVerbinding() << std::endl;
 
     }
     for(unsigned int i = 0; i<fVoertuigen->size(); i++){
         std::cout << "\nVoertuig: " << fVoertuigen->at(i)->getType() << " (" << fVoertuigen->at(i)->getNummerPlaat() << ")" << std::endl;
-        std::cout << "\t-> baan: " << fVoertuigen->at(i)->getBaan() << std::endl;
-        std::cout << "\t-> positie: " << fVoertuigen->at(i)->getPositie() << " m " << std::endl;
-        std::cout << "\t-> snelheid: " << fVoertuigen->at(i)->getSnelheid() << " km/h" << std::endl;
+        std::cout << "\t-> baan:            " << fVoertuigen->at(i)->getBaan() << std::endl;
+        std::cout << "\t-> positie:         " << fVoertuigen->at(i)->getPositie() << " m" << std::endl;
+        std::cout << "\t-> snelheid:        " << fVoertuigen->at(i)->getSnelheid() << " km/h" << std::endl;
 
         if (fVoertuigen->at(i)->getType() == "BUS" and fVoertuigen->at(i)->getFPauseCounter() != 0){
-            std::cout << "\t-> Stoping since: " <<  30-fVoertuigen->at(i)->getFPauseCounter() << "s " << std::endl;
+            std::cout << "\t-> Stoping since:   " <<  30-fVoertuigen->at(i)->getFPauseCounter() << " s" << std::endl;
         }
     }
 }
@@ -215,16 +219,72 @@ void System::simulate(unsigned int iterations) {
 }
 
 
-void System::automaticSimulation() {
+void System::automaticSimulation(std::string type) {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
+
     for(unsigned int i = 0; i < fBanen->size(); i++){
         fBanen->at(i)->sortVerkeersteken();
         fBanen->at(i)->assignZoneLimit();
     }
     while(fVoertuigen->size()>0){
         simulate();
-        std::cout <<  "\n+-----------------------------------------------------+" << std::endl;
-        simpeleUitvoer();
+
+        if (type == "simpele"){
+            std::cout << std::endl << "#=======================================#" << std::endl;
+            simpeleUitvoer();
+        }else{
+
+            // Test run
+            organizeVehicles();
+            std::cout << std::endl << "#" << std::endl;
+
+            for (unsigned int i = 0; i < fBanen->size(); i++){
+                std::cout << fBanen->at(i)->getNaam() << "|";
+                if (fBanen->at(i)->getfLastVoertuig() != NULL){
+                    std::cout << std::string(int(fBanen->at(i)->getfLastVoertuig()->getPositie()/10),'=');
+                }else{
+                    std::cout << std::string(fBanen->at(i)->getLengte()/10,'=') << std::endl;
+                }
+
+
+                // Loop over all cars
+                Voertuig* current = fBanen->at(i)->getfLastVoertuig();
+                while (current != NULL){
+                    std::cout << current->getType()[0];
+
+
+                    if (current->getNextVoertuig() != NULL){
+                        std::cout << std::string(int(current->getNextVoertuig()->getPositie()/10-current->getPositie()/10),'=');
+                    }else{
+                        std::cout << std::string(int(fBanen->at(i)->getLengte()/10-current->getPositie()/10),'=') << std::endl;
+                    }
+                    current = current->getNextVoertuig();
+                }
+            }
+            for (unsigned int i = 0; i < fWegenNetwerk->size(); i++){
+                std::cout << fWegenNetwerk->at(i)->getNaam() << "|";
+                if (fWegenNetwerk->at(i)->getfLastVoertuig() != NULL){
+                    std::cout << std::string(int(fWegenNetwerk->at(i)->getfLastVoertuig()->getPositie()/10),'=');
+                }else{
+                    std::cout << std::string(fWegenNetwerk->at(i)->getLengte()/10,'=') << std::endl;
+                }
+
+
+                // Loop over all cars
+                Voertuig* current = fWegenNetwerk->at(i)->getfLastVoertuig();
+                while (current != NULL){
+                    std::cout << current->getType()[0];
+
+                    if (current->getNextVoertuig() != NULL){
+                        std::cout << std::string(int(current->getNextVoertuig()->getPositie()/10-current->getPositie()/10),'=');
+                    }else{
+                        std::cout << std::string(int(fWegenNetwerk->at(i)->getLengte()/10-current->getPositie()/10),'=') << std::endl;
+                    }
+                    current = current->getNextVoertuig();
+                }
+            }
+        }
+
     }
 }
 

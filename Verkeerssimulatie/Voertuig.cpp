@@ -338,11 +338,20 @@ void Voertuig::calculateVersnelling() {
 float Voertuig::idealVersnelling() {
 
     // 1. Calculate ideal
-    // 1.1. Check if there is a vehicle infront on this baan
+
+    // 1.1. Start the calculation
+    float deltaIdeal;
+    float deltaActual;
+
+    // 1.2. Check if there is a vehicle infront on this baan
     Voertuig* previousVoertuig = NULL;
 
     if (fNextVoertuig != NULL){
+        // There is a car infront
         previousVoertuig = fNextVoertuig;
+        deltaIdeal = 0.75*fSnelheid + previousVoertuig->getLengte() + 2;
+        deltaActual = previousVoertuig->getOldPositie() - previousVoertuig->getLengte() - fPositie;
+
     }else{
         // 1.2. Check if there is a vehicle on the next baan
         if(fBaanObject->getVerbindingObject() != NULL){
@@ -350,24 +359,18 @@ float Voertuig::idealVersnelling() {
             if (fBaanObject->getVerbindingObject()->getfLastVoertuig() != NULL){
                 // There is a car on the Baan
                 previousVoertuig = fBaanObject->getVerbindingObject()->getfLastVoertuig();
+                // There is a car infront
+                deltaIdeal = 0.75*fSnelheid + previousVoertuig->getLengte() + 2;
+                deltaActual = previousVoertuig->getOldPositie() - previousVoertuig->getLengte() + (fBaanObject->getLengte() - fPositie);
+                //eltaActual = previousVoertuig->getOldPositie() - previousVoertuig->getLengte() - fPositie;
             }
         }
     }
 
-    // 1.2 Start the calculation
-    float deltaIdeal;
-    float deltaActual;
-
-    if (previousVoertuig != NULL){
-        // There is a car infront
-        deltaIdeal = 0.75*fSnelheid + previousVoertuig->getLengte() + 2;
-        deltaActual = previousVoertuig->getOldPositie() - previousVoertuig->getLengte() - fPositie;
-
-    }else{
+    if (previousVoertuig == NULL){
         // The foreseeable road is clear
         deltaIdeal = 0*75*fSnelheid;
         deltaActual = 75000;
-
     }
 
     return 0.5*(deltaActual-deltaIdeal);

@@ -105,7 +105,7 @@ public:
      * @post A system with no Vehicles in it
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
      */
-    void automaticSimulation();
+    void automaticSimulation(std::string type = "simpele");
 
     /**
      *  Iterates over all Wegen Netwerken in the system letting everyone
