@@ -187,6 +187,11 @@ void Voertuig::updatePosition() {
         // 2. update the snelheid (km/h) with versnelling (m/s^2)
         fSnelheid += convertMStoKMH(fVersnelling);
 
+        // Nullify if value is smaller than 0.01
+        if (convertKMHtoMS(fSnelheid) < 0.1){
+            fSnelheid = 0;
+        }
+
         // 3. update the versnelling (m/s^2)
         calculateVersnelling();
     }
@@ -439,6 +444,10 @@ void Voertuig::updatePositionBus() {
         fIsStoping = false;
     }
 
+    if (fPositie > 900 and fNummerPlaat == "0LML935"){
+        //exit(5);
+    }
+
     // TODO Probably best to use old Position
     // 1.1. Check if new position is out of bound ban
     if (fPositie >= fBaanObject->getLengte()){
@@ -485,10 +494,7 @@ void Voertuig::updatePositionBus() {
         }
 
         // 3. update the versnelling (m/s^2)
-        // Not needed if we are stoping
-        if (!fIsStoping){
-            calculateVersnellingBus();
-        }
+        calculateVersnellingBus();
 
     }else{
         // Decrement the PauseCounter by one
@@ -516,12 +522,17 @@ void Voertuig::calculateVersnellingBus() {
         }
 
         // 3.2. Check if we need to break
-        if (fNextBushalte != NULL and (fNextBushalte->getFPositie()-fOldPositie < 1.5*fSnelheid)){
+        if (!fIsStoping and fNextBushalte != NULL and (fNextBushalte->getFPositie()-(fOldPositie-convertKMHtoMS(fSnelheid)) < 1.5*fSnelheid)) {
             // We need to break
             // 3.2.1. Calculate the breaking speed
-            stopVersnelling = -(convertKMHtoMS(fSnelheid)*convertKMHtoMS(fSnelheid))/(fNextBushalte->getFPositie()-fOldPositie);
+            stopVersnelling = -(convertKMHtoMS(fSnelheid) * convertKMHtoMS(fSnelheid)) /
+                              (fNextBushalte->getFPositie() + 5 - (fOldPositie - convertKMHtoMS(fSnelheid)));
+            // TODO REMOVE the +5
             fIsStoping = true;
 
+        }else if(fIsStoping){
+            // We are currently breaking
+            stopVersnelling = fVersnelling;
         }else{
             // We can go on without a problem
             stopVersnelling = fMaxVersnelling;
@@ -541,6 +552,16 @@ void Voertuig::calculateVersnellingBus() {
         fVersnelling = legalversnelling;
     }
 
+    // Check If we needed to break while trying to stop
+    // If yes we need to recalculate our acceleration to stop in the nex iiteration
+    if (stopVersnelling != fVersnelling){
+        fIsStoping = false;
+    }
+
     //ENSURE(fVersnelling >= fMinVersnelling, "calculateVersnellingBus post condition failure");
     //ENSURE(fVersnelling <= fMaxVersnelling, "calculateVersnellingBus post condition failure");
+}
+
+int Voertuig::getFPauseCounter() const {
+    return fPauseCounter;
 }

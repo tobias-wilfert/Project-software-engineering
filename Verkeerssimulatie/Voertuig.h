@@ -74,6 +74,10 @@ private:
 
     /// If none 0 the this doesn't move
     int fPauseCounter;
+public:
+    int getFPauseCounter() const;
+
+private:
 
     /// Is true if this is a bus and in the process of stoping for a Bushalte
     bool fIsStoping;

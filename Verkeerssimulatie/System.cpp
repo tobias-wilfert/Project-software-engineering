@@ -191,6 +191,10 @@ void System::simpeleUitvoer() const {
         std::cout << "\t-> baan: " << fVoertuigen->at(i)->getBaan() << std::endl;
         std::cout << "\t-> positie: " << fVoertuigen->at(i)->getPositie() << " m " << std::endl;
         std::cout << "\t-> snelheid: " << fVoertuigen->at(i)->getSnelheid() << " km/h" << std::endl;
+
+        if (fVoertuigen->at(i)->getType() == "BUS" and fVoertuigen->at(i)->getFPauseCounter() != 0){
+            std::cout << "\t-> Stoping since: " <<  30-fVoertuigen->at(i)->getFPauseCounter() << "s " << std::endl;
+        }
     }
 }
 
