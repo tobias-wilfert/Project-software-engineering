@@ -22,11 +22,14 @@ std::string ToString(T val)
 
 
 System::System(std::vector<Baan *> *Banen, std::vector<Baan *> *WegenNetwerk, std::vector<Voertuig *> *Voertuigen)
-        : fBanen(Banen), fWegenNetwerk(WegenNetwerk), fVoertuigen(Voertuigen) {
+        : fBanen(Banen), fWegenNetwerk(WegenNetwerk), fVoertuigen(Voertuigen), counter(0) {
     _initCheck = this;
     //TODO ENSRURE
     for(int j = 0; j < fBanen->size(); j++){
         fBanen->at(j)->setfContainsBushalte();
+    }
+    for(int j = 0; j < fWegenNetwerk->size(); j++){
+        fWegenNetwerk->at(j)->setfContainsBushalte();
     }
 
     ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
@@ -146,8 +149,8 @@ void System::initializeBaanVerbindingObjects() {
                 }
             }
         }
-    }
 
+    }
 }
 
 void System::filterVehicles() {
@@ -175,12 +178,24 @@ void System::simpeleUitvoer() const {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling simpeleUitvoer");
 
     for(unsigned int i = 0; i<fBanen->size(); i++){
-
-
         std::cout << "\nBaan: " << fBanen->at(i)->getNaam() << std::endl;
         std::cout << "\t-> lengte:          " << fBanen->at(i)->getLengte() << " m" << std::endl;
         std::cout << "\t-> rijstroken:      " << fBanen->at(i)->getFRijstroken() << std::endl;
         std::cout << "\t-> snelheidslimiet: " << fBanen->at(i)->getSnelheidsLimiet() << " km/h" << std::endl;
+
+        std::cout << std::endl;
+        for(unsigned int j = 0; j < fBanen->at(i)->getFVerkeerstekens().size(); j++){
+            if (fBanen->at(i)->getFVerkeerstekens().at(j)->getFType() == "ZONE"){
+                std::cout << "\t-> " << fBanen->at(i)->getFVerkeerstekens().at(j)->getFType() << ": ";
+                std::cout << fBanen->at(i)->getFVerkeerstekens().at(j)->getFSnelheidslimiet() << "km/h (";
+                std::cout << fBanen->at(i)->getFVerkeerstekens().at(j)->getFPositie() << "m - ";
+                std::cout << fBanen->at(i)->getFVerkeerstekens().at(j)->getFEndPositie() <<  "m)" << std::endl;
+
+            }else{
+                std::cout << "\t-> " << fBanen->at(i)->getFVerkeerstekens().at(j)->getFType() << ": ";
+                std::cout << fBanen->at(i)->getFVerkeerstekens().at(j)->getFPositie() << "m" << std::endl;
+            }
+        }
     }
     for(unsigned int i = 0; i<fWegenNetwerk->size(); i++){
         std::cout << "\nBaan: " << fWegenNetwerk->at(i)->getNaam() << std::endl;
@@ -189,7 +204,21 @@ void System::simpeleUitvoer() const {
         std::cout << "\t-> snelheidslimiet: " << fWegenNetwerk->at(i)->getSnelheidsLimiet() << " km/h" << std::endl;
         std::cout << "\t-> verbinding:      " << fWegenNetwerk->at(i)->getVerbinding() << std::endl;
 
+        std::cout << std::endl;
+        for(unsigned int j = 0; j < fWegenNetwerk->at(i)->getFVerkeerstekens().size(); j++){
+            if (fWegenNetwerk->at(i)->getFVerkeerstekens().at(j)->getFType() == "ZONE"){
+                std::cout << "\t-> " << fWegenNetwerk->at(i)->getFVerkeerstekens().at(j)->getFType() << ": ";
+                std::cout << fWegenNetwerk->at(i)->getFVerkeerstekens().at(j)->getFSnelheidslimiet() << "km/h (";
+                std::cout << fWegenNetwerk->at(i)->getFVerkeerstekens().at(j)->getFPositie() << "m - ";
+                std::cout << fWegenNetwerk->at(i)->getFVerkeerstekens().at(j)->getFEndPositie() <<  "m)" << std::endl;
+
+            }else{
+                std::cout << "\t-> "  << fWegenNetwerk->at(i)->getFVerkeerstekens().at(j)->getFType() << ": ";
+                std::cout << fWegenNetwerk->at(i)->getFVerkeerstekens().at(j)->getFPositie() << "m" << std::endl;
+            }
+        }
     }
+
     for(unsigned int i = 0; i<fVoertuigen->size(); i++){
         std::cout << "\nVoertuig: " << fVoertuigen->at(i)->getType() << " (" << fVoertuigen->at(i)->getNummerPlaat() << ")" << std::endl;
         std::cout << "\t-> baan:            " << fVoertuigen->at(i)->getBaan() << std::endl;
@@ -209,6 +238,7 @@ void System::simulate(unsigned int iterations) {
     organizeVehicles();
     initializeVehicleBaanObject();
     initializeBaanVerbindingObjects();
+
     for(unsigned int i = 0; i < iterations; i++){
         for(unsigned int j = 0; j < fVoertuigen->size(); j ++){
             fVoertuigen->at(j)->updatePosition();
@@ -219,72 +249,34 @@ void System::simulate(unsigned int iterations) {
 }
 
 
-void System::automaticSimulation(std::string type) {
+void System::automaticSimulation(std::string type, std::string fileName,int factor,int time) {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
 
     for(unsigned int i = 0; i < fBanen->size(); i++){
         fBanen->at(i)->sortVerkeersteken();
         fBanen->at(i)->assignZoneLimit();
     }
+    for(unsigned int i = 0; i < fWegenNetwerk->size(); i++){
+        fWegenNetwerk->at(i)->sortVerkeersteken();
+        fWegenNetwerk->at(i)->assignZoneLimit();
+    }
+
+    // Clean the standard file
+    std::ofstream myfile;
+    myfile.open (fileName+".txt");
+    myfile << "";
+    myfile.close();
+
     while(fVoertuigen->size()>0){
         simulate();
-
+        counter++;
         if (type == "simpele"){
             std::cout << std::endl << "#=======================================#" << std::endl;
             simpeleUitvoer();
         }else{
 
-            // Test run
-            organizeVehicles();
-            std::cout << std::endl << "#" << std::endl;
-
-            for (unsigned int i = 0; i < fBanen->size(); i++){
-                std::cout << fBanen->at(i)->getNaam() << "|";
-                if (fBanen->at(i)->getfLastVoertuig() != NULL){
-                    std::cout << std::string(int(fBanen->at(i)->getfLastVoertuig()->getPositie()/10),'=');
-                }else{
-                    std::cout << std::string(fBanen->at(i)->getLengte()/10,'=') << std::endl;
-                }
-
-
-                // Loop over all cars
-                Voertuig* current = fBanen->at(i)->getfLastVoertuig();
-                while (current != NULL){
-                    std::cout << current->getType()[0];
-
-
-                    if (current->getNextVoertuig() != NULL){
-                        std::cout << std::string(int(current->getNextVoertuig()->getPositie()/10-current->getPositie()/10),'=');
-                    }else{
-                        std::cout << std::string(int(fBanen->at(i)->getLengte()/10-current->getPositie()/10),'=') << std::endl;
-                    }
-                    current = current->getNextVoertuig();
-                }
-            }
-            for (unsigned int i = 0; i < fWegenNetwerk->size(); i++){
-                std::cout << fWegenNetwerk->at(i)->getNaam() << "|";
-                if (fWegenNetwerk->at(i)->getfLastVoertuig() != NULL){
-                    std::cout << std::string(int(fWegenNetwerk->at(i)->getfLastVoertuig()->getPositie()/10),'=');
-                }else{
-                    std::cout << std::string(fWegenNetwerk->at(i)->getLengte()/10,'=') << std::endl;
-                }
-
-
-                // Loop over all cars
-                Voertuig* current = fWegenNetwerk->at(i)->getfLastVoertuig();
-                while (current != NULL){
-                    std::cout << current->getType()[0];
-
-                    if (current->getNextVoertuig() != NULL){
-                        std::cout << std::string(int(current->getNextVoertuig()->getPositie()/10-current->getPositie()/10),'=');
-                    }else{
-                        std::cout << std::string(int(fWegenNetwerk->at(i)->getLengte()/10-current->getPositie()/10),'=') << std::endl;
-                    }
-                    current = current->getNextVoertuig();
-                }
-            }
+            grafischeImpressie(fileName, factor, time);
         }
-
     }
 }
 
@@ -312,4 +304,120 @@ bool System::compareFiles(const std::string &p1, const std::string &p2) {
     return std::equal(std::istreambuf_iterator<char>(f1.rdbuf()),
                       std::istreambuf_iterator<char>(),
                       std::istreambuf_iterator<char>(f2.rdbuf()));
+}
+
+void System::grafischeImpressie(std::string name, int factor, int time) {
+
+    if(time == 0 or time == counter){
+        std::string output;
+        // Organize Vehicles is needed as a vehicle could have changed the baan in the last iteration of simulation
+        organizeVehicles();
+        output += ("\nSystem after: " + std::to_string(counter) + " s\n");
+
+        // Output the Banen
+        for (unsigned int i = 0; i < fBanen->size(); i++){
+            std::pair<std::string,std::string> verkeerstekenOutput = outputVerkeersteken(fBanen->at(i),factor);
+            output += (fBanen->at(i)->getNaam() + " | " + verkeerstekenOutput.first + "\n");
+            output += (fBanen->at(i)->getNaam() + " | " + verkeerstekenOutput.second + "\n");
+            output += (fBanen->at(i)->getNaam() + " | " + outputBaan(fBanen->at(i),factor) + "\n");
+
+            for (unsigned int j = 1; j < fBanen->at(i)->getFRijstroken(); j++){
+                output += (fBanen->at(i)->getNaam() + " | " + std::string(fBanen->at(i)->getLengte()/factor,'=') + "\n");
+            }
+        }
+
+        // Ouput the Netwerken
+        for (unsigned int i = 0; i < fWegenNetwerk->size(); i++) {
+            std::pair<std::string,std::string> verkeerstekenOutput = outputVerkeersteken(fWegenNetwerk->at(i),factor);
+            output += (fWegenNetwerk->at(i)->getNaam() + " | " + verkeerstekenOutput.first + "\n");
+            output += (fWegenNetwerk->at(i)->getNaam() + " | " + verkeerstekenOutput.second + "\n");
+            output += (fWegenNetwerk->at(i)->getNaam() + " | " + outputBaan(fWegenNetwerk->at(i),factor) + "\n");
+
+            // Draw the extra rijstroken
+            for (unsigned int j = 1; j < fWegenNetwerk->at(i)->getFRijstroken(); j++){
+                output += (fWegenNetwerk->at(i)->getNaam() + " | " + std::string(fWegenNetwerk->at(i)->getLengte()/factor,'=') + "\n");
+            }
+        }
+
+        // Write to file
+        std::ofstream myfile;
+        myfile.open (name+".txt",std::fstream::app);
+        myfile << output;
+        myfile.close();
+
+    }
+}
+
+std::string System::outputBaan(Baan *baan, int factor) {
+
+    std::string baanOutput = std::string(baan->getLengte()/factor,'=');
+    // Loop over all cars
+    Voertuig* current = baan->getfLastVoertuig();
+    while (current != NULL){
+        bool possible = false;
+        int bias = 0;
+        while(!possible){
+            // Check that we aren't out of bounds
+            if (current->getPositie() / factor + bias < baanOutput.size()){
+                if (baanOutput[current->getPositie() / factor + bias] == '=') {
+                    possible = true;
+                    baanOutput[current->getPositie() / factor + bias] = current->getType()[0];
+                } else {
+                    bias++;
+                }
+            }else{
+                baanOutput[baanOutput.size()-1] = current->getType()[0];
+                possible = true;
+            }
+        }
+        current = current->getNextVoertuig();
+    }
+
+    return baanOutput;
+}
+
+std::pair<std::string, std::string> System::outputVerkeersteken(Baan *baan, int factor) {
+
+    std::string zones = std::string(baan->getLengte()/factor,'_');
+    std::string bushalte = std::string(baan->getLengte()/factor,'_');
+
+    for(unsigned int j = 0; j < baan->getFVerkeerstekens().size(); j++){
+
+        Verkeersteken* current = baan->getFVerkeerstekens().at(j);
+        bool possible = false;
+        int bias = 0;
+        while(!possible){
+
+            // Check the type
+            if (current->getFType() == "ZONE"){
+                // Check that we aren't out of bounds
+                if (current->getFPositie() / factor + bias < bushalte.size()){
+                    if(zones[current->getFPositie()/factor+bias] == '_'){
+                        possible = true;
+                        zones[current->getFPositie()/factor+bias] = 'Z';
+                    }else{
+                        bias++;
+                    }
+                }else{
+                    zones[zones.size()-1] = 'Z';
+                    possible = true;
+                }
+            }else {
+                // Check that we aren't out of bounds
+                if (current->getFPositie() / factor + bias < bushalte.size()){
+                    if (bushalte[current->getFPositie() / factor + bias] == '_') {
+                        possible = true;
+                        bushalte[current->getFPositie() / factor + bias] = 'B';
+                    } else {
+                        bias++;
+                    }
+                }else{
+                    bushalte[bushalte.size()-1] = 'B';
+                    possible = true;
+                }
+            }
+        }
+    }
+
+    return std::make_pair(zones,bushalte);
 }

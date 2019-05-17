@@ -1,8 +1,16 @@
 <BAAN>
+    <naam>A12</naam>
+    <snelheidslimiet>50</snelheidslimiet>
+    <lengte>1000</lengte>
+    <rijstroken>3</rijstroken>
+</BAAN>
+
+<BAAN>
     <naam>Middelheimlaan</naam>
     <snelheidslimiet>50</snelheidslimiet>
     <lengte>1500</lengte>
     <rijstroken>3</rijstroken>
+    <verbinding>A12</verbinding>
 </BAAN>
 
 <VERKEERSTEKEN>
@@ -35,7 +43,7 @@
 <VERKEERSTEKEN>
     <type>BUSHALTE</type>
     <baan>Middelheimlaan</baan>
-    <positie>750</positie>
+    <positie>1500</positie>
 </VERKEERSTEKEN>
 
 <VOERTUIG>

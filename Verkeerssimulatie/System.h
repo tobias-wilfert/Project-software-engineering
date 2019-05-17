@@ -36,8 +36,11 @@ private:
     /// Pointer to a vector of pointers to all Instances of Voertuigen in the System
     std::vector<Voertuig*>* fVoertuigen;
 
-    ///Use pointer to myself to verify whether I am properly initialized
+    /// Use pointer to myself to verify whether I am properly initialized
     System * _initCheck;
+
+    /// Keeps track of the time passed since system started
+    int counter;
 
 public:
 
@@ -105,7 +108,7 @@ public:
      * @post A system with no Vehicles in it
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
      */
-    void automaticSimulation(std::string type = "simpele");
+    void automaticSimulation(std::string type = "simpele", std::string fileName="grafischeOutput",int factor = 10, int time = 0);
 
     /**
      *  Iterates over all Wegen Netwerken in the system letting everyone
@@ -141,6 +144,12 @@ public:
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling filterVehicles");
      */
     void filterVehicles();
+
+    void grafischeImpressie(std::string name, int factor, int time);
+
+    std::string outputBaan(Baan* baan, int factor);
+
+    std::pair<std::string,std::string> outputVerkeersteken(Baan* baan, int factor);
 
     //-----------------------------------------
     ///auxiliary routines (private use)

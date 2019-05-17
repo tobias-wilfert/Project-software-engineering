@@ -447,10 +447,6 @@ void Voertuig::updatePositionBus() {
         fIsStoping = false;
     }
 
-    if (fPositie > 900 and fNummerPlaat == "0LML935"){
-        //exit(5);
-    }
-
     // TODO Probably best to use old Position
     // 1.1. Check if new position is out of bound ban
     if (fPositie >= fBaanObject->getLengte()){

@@ -18,6 +18,7 @@ Baan::Baan() {
     fVerbinding = "";
     fContainsBushalte = false;
     flastVoertuig = NULL;
+    fRijstroken = 1;
 
 
     ENSURE(properlyInitialized(), "Constructor must end in properly initialized state");

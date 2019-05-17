@@ -3,7 +3,7 @@
     <snelheidslimiet>66</snelheidslimiet>
     <lengte>1234</lengte>
     <rijstroken>5</rijstroken>
-    <verbinding>Middelheimlaan</verbinding>
+
 </BAAN>
 
 <BAAN>
@@ -11,6 +11,7 @@
     <snelheidslimiet>50</snelheidslimiet>
     <lengte>1000</lengte>
     <rijstroken>3</rijstroken>
+    <verbinding>A12</verbinding>
 </BAAN>
 
 <VERKEERSTEKEN>
