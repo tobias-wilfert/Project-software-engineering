@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : Baan.h
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 2.0
+// Version     : 3.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -36,9 +36,6 @@ private:
     /// A pointer to the instance of Baan that this Instance has a Verbining with
     Baan* fVerbindingObject;
 
-    ///Use pointer to myself to verify whether I am properly initialized
-    Baan * _initCheck;
-
     /// A collection of road regulations
     std::vector<Verkeersteken*> fVerkeerstekens;
 
@@ -51,14 +48,19 @@ private:
     /// Pointer to the last vehicle on the baan
     Voertuig* flastVoertuig;
 
+    ///Use pointer to myself to verify whether I am properly initialized
+    Baan * _initCheck;
+
 public:
+
+    /// Consturctor
 
     /**
     \n ENSURE(properlyInitialized(), "Constructor must end in properly initialized state");
     */
     Baan();
 
-    virtual ~Baan();
+    /// Getters and setters
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling getLengte()");
@@ -133,6 +135,38 @@ public:
     void setFRijstroken(int fRijstroken);
 
     /**
+    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling addFVerkeersteken()");
+    \n REQUIRE(verkeersteken != NULL, "addFVerkeersteken() precondition failure");
+    \n ENSURE(getFVerkeerstekens().back() == verkeersteken, "addFVerkeersteken() postcondition failure" );
+     */
+    void addFVerkeersteken(Verkeersteken* verkeersteken);
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling getFVerkeerstekens()");
+     */
+    const std::vector<Verkeersteken *> &getFVerkeerstekens() const;
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setfContainsBushalte()");
+     */
+    void setfContainsBushalte();
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling containsBushalte()");
+     */
+    const bool containsBushalte() const;
+
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling getfLastVoertuig()");
+     */
+    Voertuig *getfLastVoertuig() const;
+
+    //TODO More complex
+    void setfLastVoertuig(Voertuig *lastVoertuig);
+
+    /// Methods
+
+    /**
     \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling assignZoneLimit()");
      */
     void assignZoneLimit();
@@ -147,25 +181,6 @@ public:
      */
     void sortVerkeersteken();
 
-    /**
-    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling addFVerkeersteken()");
-    \n REQUIRE(verkeersteken != NULL, "addFVerkeersteken() precondition failure");
-    \n ENSURE(getFVerkeerstekens().back() == verkeersteken, "addFVerkeersteken() postcondition failure" );
-     */
-    void addFVerkeersteken(Verkeersteken* verkeersteken);
-
-    /**
-    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling getFVerkeerstekens()");
-     */
-    const std::vector<Verkeersteken *> &getFVerkeerstekens() const;
-
-    void setfContainsBushalte();
-
-    const bool containsBushalte() const;
-
-    Voertuig *getfLastVoertuig() const;
-
-    void setfLastVoertuig(Voertuig *lastVoertuig);
 
     //-----------------------------------------
     ///auxiliary routines (private use)

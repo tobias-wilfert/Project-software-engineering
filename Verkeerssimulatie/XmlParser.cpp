@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : XmlParser.cpp
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 2.0
+// Version     : 3.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -12,10 +12,10 @@
 XmlParser::XmlParser(const char* nameOfFile): fkFileName(nameOfFile) {
 
     _initCheck = this;
-
-    fVoertuigen = new  std::vector<Voertuig*>;
     fBanen = new  std::vector<Baan*>;
     fWegenNetwerk = new  std::vector<Baan*>;
+    fVoertuigen = new  std::vector<Voertuig*>;
+
     // If file can't be read stop the program
     try {
         isReadable();
@@ -55,9 +55,11 @@ void XmlParser::parseFile() {
     // Loop over all elements in the most outer scope
     for (TiXmlElement* rootElement = root; rootElement != NULL; rootElement = rootElement->NextSiblingElement()) {
 
+        // If element is a Voertuig
         if (is_equal(rootElement->Value(),"VOERTUIG")) {
+
             Voertuig *voertuig = new Voertuig();
-            voertuig->setFVersnelling(0);
+
             // Loop over all child elements of rootElement
             for (TiXmlElement *childOfRootElement = rootElement->FirstChildElement();
                  childOfRootElement != NULL; childOfRootElement = childOfRootElement->NextSiblingElement()) {
@@ -171,6 +173,7 @@ void XmlParser::parseFile() {
             }
         }
 
+        // If element is a Baan
         if (is_equal(rootElement->Value(),"BAAN")) {
             Baan *baan = new Baan;
 
@@ -180,7 +183,6 @@ void XmlParser::parseFile() {
             // Loop over all child elements of rootElement
             for (TiXmlElement *childOfRootElement = rootElement->FirstChildElement();
                  childOfRootElement != NULL; childOfRootElement = childOfRootElement->NextSiblingElement()) {
-
 
                 // Get the value and text of the element
                 std::string elementText;
@@ -211,7 +213,6 @@ void XmlParser::parseFile() {
                     std::cerr << std::endl;
                 }
 
-
                 // Check the value of element Value
                 if (elementValue == "naam") {
                     baan->setNaam(elementText);
@@ -227,7 +228,6 @@ void XmlParser::parseFile() {
                         //Add a new line to seperate different errors
                         std::cerr << std::endl;
                     }
-
 
                 } else if (elementValue == "lengte") {
                     try {
@@ -283,16 +283,11 @@ void XmlParser::parseFile() {
             }
         }
 
-        //lees verkeersteken
-        //een baan gaat een vector van type "verkeersteken" hebben genaamd: "verkeerstekens"
-        // dit kan van type "ZONE" en "BUSHALTE" zijn
-
-        ///Todo: vraag, kunnen wij ervanuit gaan dat de baan altijd eerst gegeven wordt voor de verkeersteken?
-        ///evt. oplossing, skip if baan niet bestaat
-
+        // If element is a verkeersteken
         if (is_equal(rootElement->Value(),"VERKEERSTEKEN")) {
             // Loop over all child elements of rootElement
             Verkeersteken* verkeersteken = new Verkeersteken;
+
             for (TiXmlElement *childOfRootElement = rootElement->FirstChildElement();
                  childOfRootElement != NULL; childOfRootElement = childOfRootElement->NextSiblingElement()) {
                 // Get the value and text of the element
@@ -324,7 +319,7 @@ void XmlParser::parseFile() {
                     std::cerr << std::endl;
 
                 }
-                //we'll split the parsing in two: parsing a BUSHALTE and parsing a ZONE
+                // We'll split the parsing in two: parsing a BUSHALTE and parsing a ZONE
                 // Check the value of element Value
                 // type, baan, positie, sneleheidslimiet
                 if (elementValue == "type") {
@@ -373,9 +368,11 @@ void XmlParser::parseFile() {
                         std::cerr << "BAAN needs to declared before VERKEERSTEKEN" << std::endl;
                         //Add a new line to seperate different errors
                         std::cerr << std::endl;
+                    }else{
+                        // If the baan is found then make sure to add this element to baan
+                        verkeersteken->setFBaan(elementText);
                     }
-                    //if the baan is found then make sure to add this element to baan
-                    verkeersteken->setFBaan(elementText);
+
                 } else if (elementValue == "positie") {
                     try {
                         verkeersteken->setFPositie(stoi(elementText));
@@ -389,7 +386,7 @@ void XmlParser::parseFile() {
                     }
                 }
             }
-            //now add the variable to the Baan's "fVerkeerstekens"
+            //Now add the variable to the Baan's "fVerkeerstekens"
             for(unsigned int i = 0; i < fBanen->size(); i++ ){
                 if(fBanen->at(i)->getNaam() == verkeersteken->getFBaan()){
                     fBanen->at(i)->addFVerkeersteken(verkeersteken);
@@ -452,6 +449,8 @@ bool XmlParser::properlyInitialized() const{
 }
 
 bool XmlParser::compareFiles(const std::string &p1, const std::string &p2) {
+    REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling compareFiles");
+
     // File compare
     // Source: https://stackoverflow.com/a/37575457/8076979
     std::ifstream f1(p1.c_str(), std::ifstream::binary|std::ifstream::ate);

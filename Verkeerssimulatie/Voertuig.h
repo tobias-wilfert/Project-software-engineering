@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : Voertuig.h
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 2.0
+// Version     : 3.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -15,7 +15,7 @@
 class Voertuig {
 private:
 
-    /// The length of the Vehicle (3m per default)
+    /// The length of the Vehicle
     double fLengte;
 
     /// The position of the Vehicle on a Baan in m from the start
@@ -48,9 +48,6 @@ private:
     /// Boolean value that is true if the vehicle should be deleted
     bool fDeleteObject;
 
-    /// Use pointer to myself to verify whether I am properly initialized
-    Voertuig * _initCheck;
-
     /// Maximum speed the vehicle can achieve
     double fMaxSnelheid;
 
@@ -74,15 +71,16 @@ private:
 
     /// If none 0 the this doesn't move
     int fPauseCounter;
-public:
-    int getFPauseCounter() const;
-
-private:
 
     /// Is true if this is a bus and in the process of stoping for a Bushalte
     bool fIsStoping;
 
+    /// Use pointer to myself to verify whether I am properly initialized
+    Voertuig * _initCheck;
+
 public:
+
+    /// Constructor
 
     /**
     \n ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
@@ -90,6 +88,8 @@ public:
     Voertuig();
 
     virtual ~Voertuig();
+
+    /// Getters and Setters
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getLengte");
@@ -209,17 +209,6 @@ public:
     void setDeleteObject(bool deleteObject);
 
     /**
-     * This method updates the position of the the Vehicle as well as speed and acceleration
-     * @pre A valid Vehicle
-     * @post A Vehicle with updated position, speed and acceleration
-     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling updatePosition");
-     \n ENSURE(fPositie <= fBaanObject->getLengte(), "updatePosition post condition failure");
-     \n ENSURE(versnelling <= fMaxVersnelling, "updatePosition post condition failure");
-     \n ENSURE(versnelling >= fMinVernsellign, "updatePosition post condition failure");
-     */
-    void updatePosition();
-
-    /**
     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFCurrentZone");
      */
     Verkeersteken *getFCurrentZone() const;
@@ -252,7 +241,6 @@ public:
     \n ENSURE(getFVersnelling() == fVersnelling, "setFVersnelling post condition failure");
      */
     void setFVersnelling(double fVersnelling);
-
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling setFMaxSnelheid");
@@ -287,17 +275,34 @@ public:
      */
     void setFRijstrook(int fRijstrook);
 
+    //TODO Add documentation
+    
+    int getFPauseCounter() const;
+
+    /// Methods
+
+    /**
+     * This method updates the position of the the Vehicle as well as speed and acceleration
+     * @pre A valid Vehicle
+     * @post A Vehicle with updated position, speed and acceleration
+     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling updatePosition");
+     \n ENSURE(fPositie <= fBaanObject->getLengte(), "updatePosition post condition failure");
+     \n ENSURE(versnelling <= fMaxVersnelling, "updatePosition post condition failure");
+     \n ENSURE(versnelling >= fMinVernsellign, "updatePosition post condition failure");
+     */
+    void updatePosition();
+
     /*
      * Converts speed in km/h to speed in m/s
     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling convertKMHtoMS");
      */
-    float convertKMHtoMS(float speed);
+    double convertKMHtoMS(double speed);
 
     /*
      * Converts speed in m/s to km/h
     \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling convertMStoKMH");
      */
-    float convertMStoKMH(float speed);
+    double convertMStoKMH(double speed);
 
     /*
      * Calculates the new Versnelling based on multiple factors
@@ -308,9 +313,9 @@ public:
 
     void findNextBushalte();
 
-    float idealVersnelling();
+    double idealVersnelling();
 
-    float legalVersnelling();
+    double legalVersnelling();
 
     void updatePositionBus();
 

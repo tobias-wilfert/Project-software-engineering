@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : System.cpp
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 2.0
+// Version     : 3.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -261,12 +261,6 @@ void System::automaticSimulation(std::string type, std::string fileName,int fact
         fWegenNetwerk->at(i)->assignZoneLimit();
     }
 
-    // Clean the standard file
-    std::ofstream myfile;
-    myfile.open (fileName+".txt");
-    myfile << "";
-    myfile.close();
-
     while(fVoertuigen->size()>0){
         simulate();
         counter++;
@@ -274,6 +268,12 @@ void System::automaticSimulation(std::string type, std::string fileName,int fact
             std::cout << std::endl << "#=======================================#" << std::endl;
             simpeleUitvoer();
         }else{
+
+            // Clean the standard file
+            std::ofstream myfile;
+            myfile.open (fileName+".txt");
+            myfile << "";
+            myfile.close();
 
             grafischeImpressie(fileName, factor, time);
         }

@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : Baan.cpp
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 2.0
+// Version     : 3.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -9,22 +9,11 @@
 #include "Baan.h"
 
 
-Baan::Baan() {
+Baan::Baan(): fLengte(0), fSnelheidsLimiet(0), fNaam(""), fVerbinding(""), fVerbindingObject(NULL),
+fRijstroken(1), fContainsBushalte(false), flastVoertuig(NULL){
+
     _initCheck = this;
-    fVerbindingObject = NULL;
-    fLengte = 0;
-    fSnelheidsLimiet = 0;
-    fNaam = "";
-    fVerbinding = "";
-    fContainsBushalte = false;
-    flastVoertuig = NULL;
-    fRijstroken = 1;
-
-
     ENSURE(properlyInitialized(), "Constructor must end in properly initialized state");
-}
-
-Baan::~Baan() {
 }
 
 const double &Baan::getLengte() const {
@@ -36,9 +25,10 @@ const double &Baan::getLengte() const {
 
 void Baan::setLengte(const double &lengte) {
     REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setLengte()");
-
     REQUIRE(lengte > 0, "setLengte() precondition failure");
+
     Baan::fLengte = lengte;
+
     ENSURE(getLengte() == fLengte, "setLengte ()post condition failure");
     ENSURE(fLengte > 0, "setLengte() postcondition failure");
 }
@@ -191,6 +181,8 @@ bool Baan::properlyInitialized() const{
 }
 
 void Baan::setfContainsBushalte() {
+    REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setfContainsBushalte()");
+
     for(int i = 0; i < fVerkeerstekens.size(); i++){
         if(fVerkeerstekens.at(i)->getFType() == "BUSHALTE"){
             fContainsBushalte = true;
@@ -199,10 +191,14 @@ void Baan::setfContainsBushalte() {
 }
 
 const bool Baan::containsBushalte() const {
+    REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling containsBushalte()");
+
     return fContainsBushalte;
 }
 
 Voertuig *Baan::getfLastVoertuig() const {
+    REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling getfLastVoertuig()");
+
     return flastVoertuig;
 }
 

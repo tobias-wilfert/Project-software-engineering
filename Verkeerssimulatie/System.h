@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : System.h
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 2.0
+// Version     : 3.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -145,19 +145,44 @@ public:
      */
     void filterVehicles();
 
+    //TODO Add post and pre consditons
+    /**
+     * Outputs a graphical representation to a txt file
+     * @param name The name of the file to write the output to
+     * @param factor The scale that should be used to adjust the graphical representation
+     * @param time If 0 then every time interval is outputted else only the one of the given time
+     */
     void grafischeImpressie(std::string name, int factor, int time);
 
+    /**
+     * Returns a graphical representation of a baan
+     * @param baan Pointer to the baan that should be represented
+     * @param factor The scale that should be used to adjust the graphical representation
+     * @return A string containing graphical representation of baan
+     */
     std::string outputBaan(Baan* baan, int factor);
 
+    /**
+     * Returns a graphical representation of the Verkeersteken on baan
+     * @param baan Pointer to the baan that should be represented
+     * @param factor he scale that should be used to adjust the graphical representation
+     * @return A pair consisting  of a graphical representation of all Bushaltes and all Zones
+     */
     std::pair<std::string,std::string> outputVerkeersteken(Baan* baan, int factor);
+
+    /**
+     * Checks whether the contents of two files ar the same
+     * @param p1 Location and name of the first file
+     * @param p2 Location and name of the second file
+     * @return True if the content of p1 and p2 are the same
+     */
+    bool compareFiles(const std::string& p1, const std::string& p2);
 
     //-----------------------------------------
     ///auxiliary routines (private use)
     //-----------------------------------------
 
     bool properlyInitialized() const;
-
-    bool compareFiles(const std::string& p1, const std::string& p2);
 
 };
 

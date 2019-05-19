@@ -306,24 +306,30 @@
       <change beforePath="$PROJECT_DIR$/../../Project-software-engineering-master-2/workingDirectory/Wegennetwerk.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Baan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baan.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baan.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baan.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/System.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/System.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/System.h" beforeDir="false" afterPath="$PROJECT_DIR$/System.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/BaanTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/BaanTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/SystemTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/SystemTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/VerkeerssimulatieTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/VerkeerssimulatieTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/VerkeerstekenTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/VerkeerstekenTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/VoertuigTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/VoertuigTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/XmlParserTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/XmlParserTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Verkeersteken.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Verkeersteken.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Verkeersteken.h" beforeDir="false" afterPath="$PROJECT_DIR$/Verkeersteken.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Voertuig.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Voertuig.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voertuig.h" beforeDir="false" afterPath="$PROJECT_DIR$/Voertuig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlParser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/XmlParser.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlParser.h" beforeDir="false" afterPath="$PROJECT_DIR$/XmlParser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Baan.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Baan.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/System.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/System.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/System.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/Voertuig.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/XmlParser.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/BusTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/BusTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/Friday_Night.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/Holiday.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/Monday_Morning.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/Test_Result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/Traffic_Jam.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/Wednesday_Night.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/Wegen_en_voertuigen.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/verkeersTekenVB.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/verkeersTekenVB.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/grafischeOutput.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TFA/.idea/TFA.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TFA/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../TFA/.idea/misc.xml" beforeDir="false" />
@@ -615,92 +621,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
-              <folding>
-                <element signature="e#419#438#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/System.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4384">
-              <caret line="277" column="39" selection-start-line="277" selection-start-column="39" selection-end-line="277" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workingDirectory/BusTest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/workingDirectory/grafischeOutput.txt">
+        <entry file="file://$PROJECT_DIR$/Voertuig.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42336">
-              <caret line="2646" lean-forward="true" selection-start-line="2646" selection-end-line="2646" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/System.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="356">
+              <caret line="278" column="4" selection-start-line="278" selection-start-column="4" selection-end-line="278" selection-end-column="4" />
               <folding>
-                <element signature="e#488#505#0" expanded="true" />
+                <element signature="e#494#511#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Baan.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Baan.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XmlParser.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3303">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#422#440#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/SystemTest.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1975">
-              <caret line="264" column="4" selection-start-line="264" selection-start-column="4" selection-end-line="268" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -709,7 +637,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>map</find>
       <find>set</find>
       <find>setLengte</find>
       <find>lengte</find>
@@ -739,13 +666,18 @@
       <find>REQUIRE</find>
       <find>427</find>
       <find>stoping</find>
+      <find>float</find>
     </findStrings>
     <replaceStrings>
       <replace>baan</replace>
       <replace>rootElement</replace>
       <replace>0</replace>
       <replace>NULL</replace>
+      <replace>double</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -753,16 +685,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/BaanNaamNULL.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/BaanLengteFormat.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/BaanLengteNULL.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/BaanVerbindingNULL.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/BaanMurphy.xml" />
-        <option value="$PROJECT_DIR$/XmlParser.h" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/WorkingReference.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/XmlParserTest.txt" />
-        <option value="$PROJECT_DIR$/Tests/VerkeerssimulatieTest.cpp" />
-        <option value="$PROJECT_DIR$/XmlParser.cpp" />
         <option value="$PROJECT_DIR$/workingDirectory/Wrong.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/VoertuigTypeNULL.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/VoertuigTypeUnkown.xml" />
@@ -791,19 +715,27 @@
         <option value="$PROJECT_DIR$/workingDirectory/Parser/BaanRijstrokenFormat.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/BaanRijstrokenFormatMin.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/AllMurphy.xml" />
-        <option value="$PROJECT_DIR$/Tests/XmlParserTest.cpp" />
-        <option value="$PROJECT_DIR$/Baan.h" />
-        <option value="$PROJECT_DIR$/Voertuig.h" />
         <option value="$PROJECT_DIR$/workingDirectory/AlphaTest.txt" />
-        <option value="$PROJECT_DIR$/Tests/BaanTest.cpp" />
         <option value="$PROJECT_DIR$/workingDirectory/verkeersTekenVB.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/BusTest.xml" />
-        <option value="$PROJECT_DIR$/Voertuig.cpp" />
         <option value="$PROJECT_DIR$/workingDirectory/AA.txt" />
-        <option value="$PROJECT_DIR$/Baan.cpp" />
-        <option value="$PROJECT_DIR$/System.h" />
         <option value="$PROJECT_DIR$/System.cpp" />
+        <option value="$PROJECT_DIR$/Verkeersteken.cpp" />
+        <option value="$PROJECT_DIR$/Verkeersteken.h" />
+        <option value="$PROJECT_DIR$/Tests/BaanTest.cpp" />
+        <option value="$PROJECT_DIR$/Tests/SystemTest.cpp" />
+        <option value="$PROJECT_DIR$/Tests/VerkeerssimulatieTest.cpp" />
+        <option value="$PROJECT_DIR$/Tests/VerkeerstekenTest.cpp" />
+        <option value="$PROJECT_DIR$/Tests/VoertuigTest.cpp" />
+        <option value="$PROJECT_DIR$/Tests/XmlParserTest.cpp" />
+        <option value="$PROJECT_DIR$/XmlParser.h" />
+        <option value="$PROJECT_DIR$/XmlParser.cpp" />
         <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Voertuig.cpp" />
+        <option value="$PROJECT_DIR$/Baan.cpp" />
+        <option value="$PROJECT_DIR$/Baan.h" />
+        <option value="$PROJECT_DIR$/System.h" />
+        <option value="$PROJECT_DIR$/Voertuig.h" />
       </list>
     </option>
   </component>
@@ -820,27 +752,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Verkeerssimulatie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Verkeerssimulatie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Verkeerssimulatie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Verkeerssimulatie" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Verkeerssimulatie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Verkeerssimulatie" type="462c0819:PsiDirectoryNode" />
-              <item name="workingDirectory" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -856,6 +767,17 @@
             <path>
               <item name="Verkeerssimulatie" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Verkeerssimulatie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Verkeerssimulatie" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -983,7 +905,10 @@
       <workItem from="1557612309013" duration="95000" />
       <workItem from="1557915047684" duration="21053000" />
       <workItem from="1557993569685" duration="6617000" />
-      <workItem from="1558006685976" duration="22292000" />
+      <workItem from="1558006685976" duration="22486000" />
+      <workItem from="1558186029710" duration="613000" />
+      <workItem from="1558190236007" duration="3128000" />
+      <workItem from="1558260184904" duration="1033000" />
     </task>
     <task id="LOCAL-00001" summary="Replaced Nullpointer with O and added Header Comments to all files.">
       <created>1553442896535</created>
@@ -1098,7 +1023,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277185000" />
+    <option name="totallyTimeSpent" value="282153000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1113,13 +1038,13 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16397415" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17124394" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32739726" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3178082" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.3178082" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.38356164" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1218,7 +1143,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Voertuig.cpp</url>
-          <line>518</line>
+          <line>519</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
@@ -1230,29 +1155,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenPositieNULL.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenBaanNULL.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenPositieFormat.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenPositieNULL.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenPositieFormatMin.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenPositieFormatMin.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1364,16 +1266,6 @@
     <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/AllMurphy.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/XmlParserTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6416">
-          <caret line="401" column="1" selection-start-line="401" selection-start-column="1" selection-end-line="401" selection-end-column="1" />
-          <folding>
-            <element signature="e#426#445#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/AllMurphy.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -1381,27 +1273,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aangepast.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-370" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Voertuig.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
-          <folding>
-            <element signature="e#494#511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/AlphaTest.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Monday_Morning.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/AlphaTest.txt" />
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Monday_Morning.txt" />
     <entry file="file://$PROJECT_DIR$/workingDirectory/Monday_Morning.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1419,27 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/BaanTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Verkeersteken.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Verkeersteken.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="103" column="16" selection-start-line="103" selection-start-column="16" selection-end-line="103" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/workingDirectory/verkeersTekenVB.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1447,92 +1299,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
+    <entry file="file://$PROJECT_DIR$/workingDirectory/AA.txt" />
+    <entry file="file://$PROJECT_DIR$/workingDirectory/grafischeOutput.html" />
+    <entry file="file://$PROJECT_DIR$/workingDirectory/BusTest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="518" column="31" selection-start-line="518" selection-start-column="31" selection-end-line="518" selection-end-column="31" />
+        <state relative-caret-position="112">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/AA.txt">
+    <entry file="file://$PROJECT_DIR$/workingDirectory/grafischeOutput.txt" />
+    <entry file="file://$PROJECT_DIR$/DesignByContract.h">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/grafischeOutput.html">
+    <entry file="file://$PROJECT_DIR$/Verkeersteken.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="48">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/System.h">
+    <entry file="file://$PROJECT_DIR$/Tests/BaanTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="48">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/SystemTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/VerkeerssimulatieTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/VerkeerstekenTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/VoertuigTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/XmlParserTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding>
-            <element signature="e#488#505#0" expanded="true" />
+            <element signature="e#426#445#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baan.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baan.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XmlParser.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3303">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="-997">
+          <caret line="388" column="15" selection-start-line="388" selection-start-column="15" selection-end-line="388" selection-end-column="15" />
           <folding>
             <element signature="e#422#440#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/SystemTest.cpp">
+    <entry file="file://$PROJECT_DIR$/aangepast.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1975">
-          <caret line="264" column="4" selection-start-line="264" selection-start-column="4" selection-end-line="268" selection-end-column="19" />
+        <state relative-caret-position="488">
+          <caret line="559" selection-start-line="559" selection-end-line="559" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="38" column="61" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+        <state relative-caret-position="219">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
           <folding>
-            <element signature="e#419#438#0" expanded="true" />
+            <element signature="e#417#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Baan.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XmlParser.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="115" lean-forward="true" selection-start-line="115" selection-end-line="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="176" column="60" selection-start-line="176" selection-start-column="60" selection-end-line="176" selection-end-column="60" />
+          <folding>
+            <element signature="e#488#505#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/System.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4384">
-          <caret line="277" column="39" selection-start-line="277" selection-start-column="39" selection-end-line="277" selection-end-column="39" />
+        <state relative-caret-position="-6">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/BusTest.xml">
+    <entry file="file://$PROJECT_DIR$/Verkeersteken.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-1176">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/grafischeOutput.txt">
+    <entry file="file://$PROJECT_DIR$/Baan.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42336">
-          <caret line="2646" lean-forward="true" selection-start-line="2646" selection-end-line="2646" />
+        <state relative-caret-position="103">
+          <caret line="163" column="23" selection-start-line="163" selection-start-column="23" selection-end-line="163" selection-end-column="23" />
+          <folding>
+            <element signature="e#482#499#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Voertuig.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="278" column="4" selection-start-line="278" selection-start-column="4" selection-end-line="278" selection-end-column="4" />
+          <folding>
+            <element signature="e#494#511#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

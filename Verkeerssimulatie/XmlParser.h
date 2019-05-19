@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : XmlParser.h
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 2.0
+// Version     : 3.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -119,13 +119,20 @@ public:
     */
     std::vector<Voertuig *> *getVoertuigen() const;
 
+    /**
+     * Checks whether the contents of two files ar the same
+     * @param p1 Location and name of the first file
+     * @param p2 Location and name of the second file
+     * @return True if the content of p1 and p2 are the same
+    \n REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling compareFiles");
+     */
+    bool compareFiles(const std::string& p1, const std::string& p2);
+
     //-----------------------------------------
     ///auxiliary routines (private use)
     //-----------------------------------------
 
     bool properlyInitialized() const;
-
-    bool compareFiles(const std::string& p1, const std::string& p2);
 
 };
 

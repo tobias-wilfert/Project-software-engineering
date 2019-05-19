@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : main.cpp
 // Author      : John Castillo & Tobias Wilfert
-// Version     : 2.0
+// Version     : 3.0
 // Copyright   : Project Software Engineering - BA1 Informatica - John Castillo & Tobias Wilfert - University of Antwerp
 // Description : Verkeerssimulatie in C++
 //============================================================================
@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
     System system = System(parser.getBanen(),parser.getWegenNetwerk(),parser.getVoertuigen());
 
     // Start the simulation
-    system.automaticSimulation("complex","grafischeOutput",10);
+    system.automaticSimulation();
 
     return 0;
 }
