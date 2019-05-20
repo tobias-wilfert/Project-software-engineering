@@ -78,6 +78,54 @@ private:
     /// Use pointer to myself to verify whether I am properly initialized
     Voertuig * _initCheck;
 
+    /*
+     * Converts speed in km/h to speed in m/s
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling convertKMHtoMS");
+     */
+    double convertKMHtoMS(double speed);
+
+    /*
+     * Converts speed in m/s to km/h
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling convertMStoKMH");
+     */
+    double convertMStoKMH(double speed);
+
+    /*
+     * Calculates the new Versnelling based on multiple factors
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling calculateVersnelling");
+    \n ENSURE(fPositie <= fBaanObject->getLengte(), "calculateVersnelling post condition failure");
+    \n ENSURE(fVersnelling <= fMaxVersnelling, "calculateVersnelling post condition failure");
+    \n ENSURE(fVersnelling >= fMinVersnelling, "calculateVersnelling post condition failure");
+     */
+    void calculateVersnelling();
+
+    /*
+     * Calculates the Versnelling needed to keep the ideal distance to the next Voertuig
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling idealVersnelling");
+     */
+    double idealVersnelling();
+
+    /*
+     * Calculates the Versnelling needed to obey legal restrictions
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling idealVersnelling");
+     */
+    double legalVersnelling();
+
+    /*
+     * Updates the position of the the Vehicle(if type is BUS) as well as speed and acceleration
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling updatePosition");
+    \n ENSURE(fPositie <= fBaanObject->getLengte(), "updatePositionBus post condition failure");
+    \n ENSURE(fVersnelling <= fMaxVersnelling, "updatePositionBus post condition failure");
+    \n ENSURE(fVersnelling >= fMinVersnelling, "updatePositionBus post condition failure");
+     */
+    void updatePositionBus();
+
+    /*
+     * Calculates the Versnelling needed to stop at the next Bushalte
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling calculateVersnellingBus");
+     */
+    void calculateVersnellingBus();
+
 public:
 
     /// Constructor
@@ -275,51 +323,33 @@ public:
      */
     void setFRijstrook(int fRijstrook);
 
-    //TODO Add documentation
-    
+    /*
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFPauseCounter");
+     */
     int getFPauseCounter() const;
+
+    /*
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling findNextBushalte");
+     */
+    void findNextBushalte();
+
+    /*
+    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling assignCurrentZone");
+     */
+    void assignCurrentZone();
 
     /// Methods
 
     /**
-     * This method updates the position of the the Vehicle as well as speed and acceleration
+     * Updates the position of the the Vehicle as well as speed and acceleration
      * @pre A valid Vehicle
      * @post A Vehicle with updated position, speed and acceleration
      \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling updatePosition");
      \n ENSURE(fPositie <= fBaanObject->getLengte(), "updatePosition post condition failure");
-     \n ENSURE(versnelling <= fMaxVersnelling, "updatePosition post condition failure");
-     \n ENSURE(versnelling >= fMinVernsellign, "updatePosition post condition failure");
+     \n ENSURE(fVersnelling <= fMaxVersnelling, "updatePosition post condition failure");
+     \n ENSURE(fVersnelling >= fMinVersnelling, "updatePosition post condition failure");
      */
     void updatePosition();
-
-    /*
-     * Converts speed in km/h to speed in m/s
-    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling convertKMHtoMS");
-     */
-    double convertKMHtoMS(double speed);
-
-    /*
-     * Converts speed in m/s to km/h
-    \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling convertMStoKMH");
-     */
-    double convertMStoKMH(double speed);
-
-    /*
-     * Calculates the new Versnelling based on multiple factors
-     */
-    void calculateVersnelling();
-
-    void assignCurrentZone();
-
-    void findNextBushalte();
-
-    double idealVersnelling();
-
-    double legalVersnelling();
-
-    void updatePositionBus();
-
-    void calculateVersnellingBus();
 
     //-----------------------------------------
     ///auxiliary routines (private use)

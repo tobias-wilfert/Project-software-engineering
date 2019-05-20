@@ -8,7 +8,7 @@
 
 #include "Verkeersteken.h"
 
-Verkeersteken::Verkeersteken(): fSnelheidslimiet(20000) {
+Verkeersteken::Verkeersteken(): fSnelheidslimiet(2000) {
     _initCheck = this;
 
     ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");

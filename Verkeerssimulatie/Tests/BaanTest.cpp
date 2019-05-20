@@ -30,6 +30,7 @@ protected:
     }
 };
 
+
 //////////////////////  BAAN TEST BEGINS HERE  /////////////////////////////////
 //test xml file with duplicate Banen objects
 
@@ -105,7 +106,7 @@ TEST_F(BaanTest, BanenGetVerbindingObject){
     EXPECT_EQ(systemTest.getWegenNetwerk()->at(0)->getVerbindingObject(), systemTest.getBanen()->at(0));
 }
 
-/// NEW FUNCTIONS
+/// Tests 2.0
 
 Baan b = Baan();
 
@@ -127,4 +128,119 @@ TEST_F(BaanTest,addFVerkeersteken_postcondition){
     Verkeersteken* v = new Verkeersteken();
     b.addFVerkeersteken(v);
     EXPECT_TRUE(v == b.getFVerkeerstekens().back());
+}
+
+/// Tests 3.0
+TEST_F(BaanTest, Baan_setfLastVoertuig_postcondition){
+    Voertuig* v = new Voertuig;
+    b.setfLastVoertuig(v);
+    EXPECT_TRUE(v == b.getfLastVoertuig());
+}
+
+TEST_F(BaanTest, Baan_asignZoneLimit_postconditionNormal){
+
+    Baan c = Baan();
+
+    c.setLengte(100);
+    c.setNaam("A1");
+
+    Verkeersteken* v1 = new Verkeersteken();
+    v1->setFPositie(1);
+    v1->setFType("ZONE");
+    v1->setFBaan("A1");
+    v1->setFEndPositie(0);
+
+    Verkeersteken* v2 = new Verkeersteken();
+    v2->setFPositie(50);
+    v2->setFType("ZONE");
+    v2->setFBaan("A2");
+    v2->setFEndPositie(0);
+
+    c.addFVerkeersteken(v1);
+    c.addFVerkeersteken(v2);
+
+    c.assignZoneLimit();
+
+    EXPECT_TRUE(50 == v1->getFEndPositie());
+}
+
+TEST_F(BaanTest, Baan_asignZoneLimit_postconditionLast){
+
+    Baan c = Baan();
+
+    c.setLengte(100);
+    c.setNaam("A1");
+
+    Verkeersteken* v1 = new Verkeersteken();
+    v1->setFPositie(1);
+    v1->setFType("ZONE");
+    v1->setFBaan("A1");
+    v1->setFEndPositie(0);
+
+    Verkeersteken* v2 = new Verkeersteken();
+    v2->setFPositie(50);
+    v2->setFType("ZONE");
+    v2->setFBaan("A2");
+    v2->setFEndPositie(0);
+
+    c.addFVerkeersteken(v1);
+    c.addFVerkeersteken(v2);
+
+    c.assignZoneLimit();
+
+    EXPECT_TRUE(100 == v2->getFEndPositie());
+}
+
+TEST_F(BaanTest, Baan_asignZoneLimit_postconditionNegative){
+
+    Baan c = Baan();
+
+    c.setLengte(100);
+    c.setNaam("A1");
+
+    Verkeersteken* v1 = new Verkeersteken();
+    v1->setFPositie(1);
+    v1->setFType("ZONE");
+    v1->setFBaan("A1");
+    v1->setFEndPositie(0);
+
+    Verkeersteken* v2 = new Verkeersteken();
+    v2->setFPositie(50);
+    v2->setFType("ZONE");
+    v2->setFBaan("A2");
+    v2->setFEndPositie(0);
+
+    c.addFVerkeersteken(v1);
+    c.addFVerkeersteken(v2);
+
+    v2->setFPositie(0);
+
+    EXPECT_DEATH(c.assignZoneLimit(),"");
+}
+
+TEST_F(BaanTest, Baan_asignZoneLimit_postconditionNegative2){
+
+    Baan c = Baan();
+
+    c.setLengte(100);
+    c.setNaam("A1");
+
+    Verkeersteken* v1 = new Verkeersteken();
+    v1->setFPositie(1);
+    v1->setFType("ZONE");
+    v1->setFBaan("A1");
+    v1->setFEndPositie(0);
+
+    Verkeersteken* v2 = new Verkeersteken();
+    v2->setFPositie(50);
+    v2->setFType("ZONE");
+    v2->setFBaan("A2");
+    v2->setFEndPositie(0);
+
+    c.addFVerkeersteken(v1);
+    c.addFVerkeersteken(v2);
+
+    v2->setFPositie(101);
+
+    EXPECT_DEATH(c.assignZoneLimit(),"");
 }

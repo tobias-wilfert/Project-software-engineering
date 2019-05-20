@@ -60,7 +60,7 @@ public:
     */
     Baan();
 
-    /// Getters and setters
+    /// Getters and Setters
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling getLengte()");
@@ -70,6 +70,7 @@ public:
     /**
     \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setLengte()");
     \n REQUIRE(lengte > 0, "setLengte precondition failure");
+    \n ENSURE(getLengte() == fLengte, "setLengte ()post condition failure");
     \n ENSURE(fLengte > 0, "setLengte postcondition failure");
     */
     void setLengte(const double &lengte);
@@ -161,22 +162,31 @@ public:
      */
     Voertuig *getfLastVoertuig() const;
 
-    //TODO More complex
+    /**
+    \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setfLastVoertuig()");
+    \n ENSURE(this->getfLastVoertuig() == lastVoertuig, "setfLastVoertuig() postcondition failure" );
+     */
     void setfLastVoertuig(Voertuig *lastVoertuig);
 
     /// Methods
 
     /**
+     * Assigns an end position to all Zones on this baan. This is the begin position of the
+     * next zone or if there is no next zone then the end of the baan.
     \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling assignZoneLimit()");
+    \n ENSURE(fVerkeerstekens.at(i)->getFPositie() <= fVerkeerstekens.at(i)->getFEndPositie(),
+                "assignZoneLimit post condition failure");
      */
     void assignZoneLimit();
 
     /**
+     * Checks whether the vector of Verkeersteken is sorted
     \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling isSorted()");
      */
     bool isSorted();
 
     /**
+     * Sorts the vector of Verkeersteken by position
     \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling sortVerkeersteken()");
      */
     void sortVerkeersteken();

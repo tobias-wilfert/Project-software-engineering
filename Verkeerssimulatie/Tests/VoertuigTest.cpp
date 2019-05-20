@@ -360,3 +360,5 @@ TEST_F(VoertuigTest,setFRijstrook_post){
     voertuig.setFRijstrook(4);
     EXPECT_TRUE(voertuig.getFRijstrook()==4);
 }
+
+// Test 3.0

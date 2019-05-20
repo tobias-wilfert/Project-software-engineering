@@ -88,7 +88,7 @@ private:
      * @param cc1 The first of the two const char that will be compared for equality
      * @param cc2 The second of the two const char that will be compared for equality
      * @pre None
-     * @pre None
+     * @post None
      * @return True if cc1 and cc2 are equal on the length of cc1 + 1 else False
      \n REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling is_equal");
      */
@@ -99,10 +99,14 @@ private:
 
 public:
 
+    /// Constructor
+
     /**
     \n ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
      */
     XmlParser(const char* nameOfFile);
+
+    /// Getters
 
     /**
     \n REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling getBanen");
@@ -119,6 +123,13 @@ public:
     */
     std::vector<Voertuig *> *getVoertuigen() const;
 
+
+    //-----------------------------------------
+    ///auxiliary routines (private use)
+    //-----------------------------------------
+
+    bool properlyInitialized() const;
+
     /**
      * Checks whether the contents of two files ar the same
      * @param p1 Location and name of the first file
@@ -127,12 +138,6 @@ public:
     \n REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling compareFiles");
      */
     bool compareFiles(const std::string& p1, const std::string& p2);
-
-    //-----------------------------------------
-    ///auxiliary routines (private use)
-    //-----------------------------------------
-
-    bool properlyInitialized() const;
 
 };
 

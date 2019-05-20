@@ -94,6 +94,13 @@ void System::organizeVehicles() {
 
         fVoertuigen->at(i)->setNextVoertuig(tempNextVoertuig);
     }
+
+    for(unsigned int i = 0; i<fVoertuigen->size(); i++){
+        if (fVoertuigen->at(i)->getNextVoertuig() != NULL){
+            ENSURE(fVoertuigen->at(i)->getNextVoertuig()->getPositie() > fVoertuigen->at(i)->getPositie(),
+                    "organizeVehicles post condition failure");
+        }
+    }
 }
 
 void System::initializeVehicleBaanObject() {
@@ -127,6 +134,11 @@ void System::initializeVehicleBaanObject() {
             }
         }
     }
+
+    for(unsigned int i = 0; i<fVoertuigen->size(); i++){
+        ENSURE(fVoertuigen->at(i)->getBaanObject()->getNaam() == fVoertuigen->at(i)->getBaan(),
+                   "initializeVehicleBaanObject post condition failure");
+    }
 }
 
 void System::initializeBaanVerbindingObjects() {
@@ -151,6 +163,12 @@ void System::initializeBaanVerbindingObjects() {
         }
 
     }
+
+    for(unsigned int i = 0; i < fWegenNetwerk->size(); i++){
+        bool ensure = fWegenNetwerk->at(i)->getVerbindingObject()->getNaam() == fWegenNetwerk->at(i)->getVerbinding();
+        ENSURE(ensure,"initializeBaanVerbindingObjects() post condition failure");
+    }
+
 }
 
 void System::filterVehicles() {
@@ -172,6 +190,11 @@ void System::filterVehicles() {
         delete fVoertuigen;
         fVoertuigen = tempVoertuigen;
     }
+
+    for(unsigned int i = 0; i<fVoertuigen->size(); i++){
+        ENSURE(fVoertuigen->at(i)->isDeleteObject() == false,"filterVehicles post condition failure");
+    }
+
 }
 
 void System::simpeleUitvoer() const {
@@ -251,6 +274,9 @@ void System::simulate(unsigned int iterations) {
 
 void System::automaticSimulation(std::string type, std::string fileName,int factor,int time) {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
+    REQUIRE(time >= 0, "When calling automaticSimulation() the parameter time must be a non negative number");
+    REQUIRE(factor <= getLengthOfShortestBaan()/2, "When calling automaticSimulation() the factor must be bigger or equal than half of the shortest baan length");
+    REQUIRE(fileName != "", "automaticSimulation() pre condition failure. Invalid fileName");
 
     for(unsigned int i = 0; i < fBanen->size(); i++){
         fBanen->at(i)->sortVerkeersteken();
@@ -261,6 +287,15 @@ void System::automaticSimulation(std::string type, std::string fileName,int fact
         fWegenNetwerk->at(i)->assignZoneLimit();
     }
 
+    // Clean file if we print to the file
+    if( type != "simpele"){
+        // Clean the standard file
+        std::ofstream myfile;
+        myfile.open (fileName+".txt");
+        myfile << "";
+        myfile.close();
+    }
+
     while(fVoertuigen->size()>0){
         simulate();
         counter++;
@@ -268,13 +303,6 @@ void System::automaticSimulation(std::string type, std::string fileName,int fact
             std::cout << std::endl << "#=======================================#" << std::endl;
             simpeleUitvoer();
         }else{
-
-            // Clean the standard file
-            std::ofstream myfile;
-            myfile.open (fileName+".txt");
-            myfile << "";
-            myfile.close();
-
             grafischeImpressie(fileName, factor, time);
         }
     }
@@ -285,6 +313,8 @@ bool System::properlyInitialized() const{
 }
 
 bool System::compareFiles(const std::string &p1, const std::string &p2) {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling compareFiles");
+
     // File compare
     // Source: https://stackoverflow.com/a/37575457/8076979
     std::ifstream f1(p1.c_str(), std::ifstream::binary|std::ifstream::ate);
@@ -307,6 +337,11 @@ bool System::compareFiles(const std::string &p1, const std::string &p2) {
 }
 
 void System::grafischeImpressie(std::string name, int factor, int time) {
+
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling grafischeImpressie");
+    REQUIRE(time >= 0, "When calling grafischeImpressie() the parameter time must be a non negative number");
+    REQUIRE(factor <= getLengthOfShortestBaan()/2, "When calling grafischeImpressie() the factor must be bigger or equal than half of the shortest baan length");
+    REQUIRE(name != "", "grafischeImpressie() pre condition failure. Invalid name");
 
     if(time == 0 or time == counter){
         std::string output;
@@ -349,6 +384,8 @@ void System::grafischeImpressie(std::string name, int factor, int time) {
 }
 
 std::string System::outputBaan(Baan *baan, int factor) {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling outputBaan");
+    REQUIRE(factor <= baan->getLengte()/2, "When calling outputBaan() the factor must be bigger or equal than half of baan length");
 
     std::string baanOutput = std::string(baan->getLengte()/factor,'=');
     // Loop over all cars
@@ -377,6 +414,8 @@ std::string System::outputBaan(Baan *baan, int factor) {
 }
 
 std::pair<std::string, std::string> System::outputVerkeersteken(Baan *baan, int factor) {
+    REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling outputVerkeersteken");
+    REQUIRE(factor <= baan->getLengte()/2, "When calling outputVerkeersteken() the factor must be bigger or equal than half of baan length");
 
     std::string zones = std::string(baan->getLengte()/factor,'_');
     std::string bushalte = std::string(baan->getLengte()/factor,'_');
@@ -420,4 +459,21 @@ std::pair<std::string, std::string> System::outputVerkeersteken(Baan *baan, int 
     }
 
     return std::make_pair(zones,bushalte);
+}
+
+int System::getLengthOfShortestBaan() const {
+    int smallest = 2;
+    for(unsigned int i = 0; i < getBanen()->size(); i++){
+        if (getBanen()->at(i)->getLengte() < smallest or smallest == 2){
+            smallest = getBanen()->at(i)->getLengte();
+        }
+    }
+
+    for(unsigned int i = 0; i < getWegenNetwerk()->size(); i++){
+        if (getWegenNetwerk()->at(i)->getLengte() < smallest or smallest == 2){
+            smallest = getWegenNetwerk()->at(i)->getLengte();
+        }
+    }
+
+    return smallest;
 }

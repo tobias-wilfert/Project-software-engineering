@@ -44,10 +44,14 @@ private:
 
 public:
 
+    /// Constructor
+
     /**
     \n ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
      */
     System(std::vector<Baan *> *Banen, std::vector<Baan *> *WegenNetwerk, std::vector<Voertuig *> *Voertuigen);
+
+    /// Getters and Setters
 
     /**
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling getBanen");
@@ -82,6 +86,8 @@ public:
      */
     void setVoertuigen(std::vector<Voertuig *> *Voertuigen);
 
+    /// Methods
+
     /**
      * Outputs a Simple Texted Based Representation of how the System looks
      * @pre A Valid system
@@ -96,19 +102,39 @@ public:
      * @pre A Valid system
      * @post Vehicles have adjusted speed, position and acceleration
      * @param iterations as Default 1, Specifies the number of iterations the system should simulate
-     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling simulate");
-     \n REQUIRE(iterations >= 0, "Iterations must be a positive integer");
+    \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling simulate");
+    \n REQUIRE(iterations >= 0, "Iterations must be a positive integer");
      */
     void simulate(unsigned int iterations = 1);
 
     /**
      * Calls simulate() till all Vehicles in the system are gone.
-     * After each call of simulate() it also calls simpeleUitvoer() to show the current state of the system
      * @pre A Valid system
      * @post A system with no Vehicles in it
+     * @param type Specifieces which type of output should be used "simple" or "graphical"(ASSCI Art). Default simpele
+     * @param fileName The name of a file the graphical impression should be writen to. Default grafischeOutput.txt
+     * @param factor The scale that should be used to adjust the graphical representation. Default 1
+     * @param time If 0 then every time interval is outputted else only the one of the given time. Default 0
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
+    \n REQUIRE(time >= 0, "When calling automaticSimulation() the parameter time must be a non negative number");
+    \n REQUIRE(factor <= getLengthOfShortestBaan()/2, "When calling automaticSimulation() the factor must be bigger or equal than half of the shortest baan length");
+    \n REQUIRE(fileName != "", "automaticSimulation() pre condition failure. Invalid fileName");
      */
-    void automaticSimulation(std::string type = "simpele", std::string fileName="grafischeOutput",int factor = 10, int time = 0);
+    void automaticSimulation(std::string type = "simpele", std::string fileName="grafischeOutput",int factor = 1, int time = 0);
+
+    /**
+     * Outputs a graphical representation to a txt file
+     * @param name The name of the file to write the output to
+     * @param factor The scale that should be used to adjust the graphical representation
+     * @param time If 0 then every time interval is outputted else only the one of the given time
+    \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling grafischeImpressie");
+    \n REQUIRE(time >= 0, "When calling grafischeImpressie() the parameter time must be a non negative number");
+    \n REQUIRE(factor <= getLengthOfShortestBaan()/2, "When calling grafischeImpressie() the factor must be bigger or equal than half of the shortest baan length");
+    \n REQUIRE(name != "", "grafischeImpressie() pre condition failure. Invalid name");
+     */
+    void grafischeImpressie(std::string name, int factor, int time);
+
+    /// Helper Methods
 
     /**
      *  Iterates over all Wegen Netwerken in the system letting everyone
@@ -116,6 +142,7 @@ public:
      *  @pre Wegen Netwerken that only know the name of the Baan they have a verbinding with
      *  @post Wegen Netwerken that have a pointer to the Baan they have a verbinding with
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling initializeBaanVerbindingObjects");
+    \n ENSURE(ensure,"initializeBaanVerbindingObjects() post condition failure");
      */
     void initializeBaanVerbindingObjects();
 
@@ -125,6 +152,8 @@ public:
      * @pre Voertuigen with NextVoertuig equal to 0
      * @post Voertuigen with fNextVoertuig a pointer to the Voertuig infront of them
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling organizeVehicles");
+    \n ENSURE(fVoertuigen->at(i)->getNextVoertuig()->getPositie() > fVoertuigen->at(i)->getPositie(),
+                    "organizeVehicles post condition failure");
      */
     void organizeVehicles();
 
@@ -134,6 +163,8 @@ public:
      * @pre Voertuigen that only know the name of the Baan they are on
      * @post Voertuigen that have a pointer to the Baan they are on
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling initializeVehicleBaanObject");
+    \n ENSURE(fVoertuigen->at(i)->getBaanObject()->getNaam() == fVoertuigen->at(i)->getBaan(),
+                   "initializeVehicleBaanObject post condition failure");
      */
     void initializeVehicleBaanObject();
 
@@ -142,23 +173,18 @@ public:
      *  @pre Vehicles with isDeleteObject() true and Vehicles with isDeleteObject() false
      *  @post Vehicles with isDeleteObject() false
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling filterVehicles");
+    \n ENSURE(fVoertuigen->at(i)->isDeleteObject() == false,"filterVehicles post condition failure");
      */
     void filterVehicles();
-
-    //TODO Add post and pre consditons
-    /**
-     * Outputs a graphical representation to a txt file
-     * @param name The name of the file to write the output to
-     * @param factor The scale that should be used to adjust the graphical representation
-     * @param time If 0 then every time interval is outputted else only the one of the given time
-     */
-    void grafischeImpressie(std::string name, int factor, int time);
 
     /**
      * Returns a graphical representation of a baan
      * @param baan Pointer to the baan that should be represented
      * @param factor The scale that should be used to adjust the graphical representation
      * @return A string containing graphical representation of baan
+    \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling outputBaan");
+    \n REQUIRE(factor <= baan->getLengte()/2, "When calling outputBaan() the factor must be bigger or equal than half of baan length");
+
      */
     std::string outputBaan(Baan* baan, int factor);
 
@@ -167,22 +193,20 @@ public:
      * @param baan Pointer to the baan that should be represented
      * @param factor he scale that should be used to adjust the graphical representation
      * @return A pair consisting  of a graphical representation of all Bushaltes and all Zones
+    \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling outputVerkeersteken");
+    \n REQUIRE(factor <= baan->getLengte()/2, "When calling outputVerkeersteken() the factor must be bigger or equal than half of baan length");
      */
     std::pair<std::string,std::string> outputVerkeersteken(Baan* baan, int factor);
-
-    /**
-     * Checks whether the contents of two files ar the same
-     * @param p1 Location and name of the first file
-     * @param p2 Location and name of the second file
-     * @return True if the content of p1 and p2 are the same
-     */
-    bool compareFiles(const std::string& p1, const std::string& p2);
 
     //-----------------------------------------
     ///auxiliary routines (private use)
     //-----------------------------------------
 
     bool properlyInitialized() const;
+
+    int getLengthOfShortestBaan() const;
+
+    bool compareFiles(const std::string& p1, const std::string& p2);
 
 };
 

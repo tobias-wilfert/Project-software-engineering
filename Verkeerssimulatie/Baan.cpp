@@ -42,9 +42,10 @@ const std::string &Baan::getNaam() const {
 
 void Baan::setNaam(const std::string &naam) {
     REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setNaam()");
-
     REQUIRE(!naam.empty(), "setNaam() precondition failure");
+
     Baan::fNaam = naam;
+
     ENSURE(getNaam() == fNaam, "setNaam() post condition failure");
 }
 
@@ -56,9 +57,10 @@ const int &Baan::getSnelheidsLimiet() const {
 
 void Baan::setSnelheidsLimiet(const int &snelheidsLimiet) {
     REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setSnelheidsLimiet()");
-
     REQUIRE(snelheidsLimiet > 0, "setSnelheidsLimiet() precondition failure");
+
     Baan::fSnelheidsLimiet = snelheidsLimiet;
+
     ENSURE(snelheidsLimiet == fSnelheidsLimiet, "setSnelheidsLimiet() postcondition failure");
 }
 
@@ -70,9 +72,10 @@ const std::string &Baan::getVerbinding() const {
 
 void Baan::setVerbinding(const std::string &verbinding) {
     REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setVerbinding");
-
     REQUIRE(verbinding != "", "setVerbinding() precondition failure");
+
     Baan::fVerbinding = verbinding;
+
     ENSURE(getVerbinding() == fVerbinding, "setVerbinding() postcondition failure");
 }
 
@@ -84,9 +87,10 @@ Baan *Baan::getVerbindingObject() const {
 
 void Baan::setVerbindingObject(Baan *verbinding) {
     REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setVerbindingObject()");
-
     REQUIRE(verbinding != NULL, "setVerbindingObject() precondition failure");
+
     Baan::fVerbindingObject = verbinding;
+
     ENSURE(fVerbindingObject == getVerbindingObject(), "setVerbindingObject() postcondition failure");
 }
 
@@ -98,9 +102,10 @@ int Baan::getFRijstroken() const {
 
 void Baan::setFRijstroken(int fRijstroken) {
     REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setFRijstroken()");
-
     REQUIRE(fRijstroken >= 1, "setFRijstroken() precondition failure");
+
     Baan::fRijstroken = fRijstroken;
+
     ENSURE(fRijstroken == getFRijstroken(), "setFRijstroken() postcondition failure");
 }
 
@@ -109,6 +114,9 @@ void Baan::assignZoneLimit() {
 
     Verkeersteken* currentZone = NULL;
     for(unsigned int i = 0; i < fVerkeerstekens.size(); i++){
+        if(fVerkeerstekens.at(i)->getFType() == "BUSHALTE"){
+            fVerkeerstekens.at(i)->setFEndPositie(fVerkeerstekens.at(i)->getFPositie());
+        }
         if(fVerkeerstekens.at(i)->getFType() == "ZONE" && currentZone == NULL){
             currentZone = fVerkeerstekens.at(i);
         }
@@ -119,10 +127,15 @@ void Baan::assignZoneLimit() {
         }
         // Als laatste zone is. eindigt het tot op't einde van de baan
         if(i == fVerkeerstekens.size()-1 and currentZone != NULL){
-            //TODO John dit werkt niet als er geen Zones zijn
             currentZone->setFEndPositie(fLengte);
         }
     }
+
+    for(unsigned int i = 0; i < fVerkeerstekens.size(); i++){
+        ENSURE(fVerkeerstekens.at(i)->getFPositie() <= fVerkeerstekens.at(i)->getFEndPositie(),
+                "assignZoneLimit post condition failure");
+    }
+
 }
 
 bool Baan::isSorted() {
@@ -164,9 +177,10 @@ void Baan::sortVerkeersteken() {
 
 void Baan::addFVerkeersteken(Verkeersteken* verkeersteken) {
     REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling addFVerkeersteken()");
-
     REQUIRE(verkeersteken != NULL, "addFVerkeersteken() precondition failure");
+
     Baan::fVerkeerstekens.push_back(verkeersteken);
+
     ENSURE(getFVerkeerstekens().back() == verkeersteken, "addFVerkeersteken() postcondition failure" );
 }
 
@@ -203,5 +217,9 @@ Voertuig *Baan::getfLastVoertuig() const {
 }
 
 void Baan::setfLastVoertuig(Voertuig *lastVoertuig) {
+    REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setfLastVoertuig()");
+    // Sadly we can't bemore specifiec in ourreuires as Voertuig is just a forward decelertion to this point
     Baan::flastVoertuig = lastVoertuig;
+
+    ENSURE(this->getfLastVoertuig() == lastVoertuig, "setfLastVoertuig() postcondition failure" );
 }

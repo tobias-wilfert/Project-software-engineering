@@ -39,10 +39,14 @@ private:
 
 public:
 
+    /// Constructor
+
     /**
     \n ENSURE(properlyInitialized(), "constructor must end in properlyInitialized state");
      */
     Verkeersteken();
+
+    /// Getters and Setters
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Verkeersteken wasn't initialized when calling getFBaan");

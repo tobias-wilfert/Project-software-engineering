@@ -224,7 +224,7 @@ void Voertuig::set_initCheck(Voertuig *_initCheck) {
 }
 
 void Voertuig::updatePosition() {
-    // TODO add preconditions
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling updatePosition");
 
     // Check Type and call another function if it is a bus
     if (fType == "BUS"){
@@ -280,10 +280,14 @@ void Voertuig::updatePosition() {
         calculateVersnelling();
     }
 
-    //TODO add post conditions
+    ENSURE(fPositie <= fBaanObject->getLengte(), "updatePosition post condition failure");
+    ENSURE(fVersnelling <= fMaxVersnelling, "updatePosition post condition failure");
+    ENSURE(fVersnelling >= fMinVersnelling, "updatePosition post condition failure");
 }
 
 void Voertuig::findNextBushalte() {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling findNextBushalte");
+
     Verkeersteken* bestGuess = new Verkeersteken();
     bestGuess->setFPositie(fBaanObject->getLengte()+10);
 
@@ -301,6 +305,8 @@ void Voertuig::findNextBushalte() {
 }
 
 void Voertuig::assignCurrentZone() {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling assignCurrentZone");
+
     for(int i = 0; i < fBaanObject->getFVerkeerstekens().size(); i++){
         Verkeersteken* tempZone = fBaanObject->getFVerkeerstekens().at(i);
         if(tempZone->getFPositie() <= fPositie && fPositie < tempZone->getFEndPositie() && tempZone->getFType() == "ZONE"){
@@ -321,6 +327,7 @@ double Voertuig::convertMStoKMH(double speed) {
 }
 
 void Voertuig::calculateVersnelling() {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling calculateVersnelling");
 
     // 1. Calculate ideal
     double idealversnelling = idealVersnelling();
@@ -334,9 +341,14 @@ void Voertuig::calculateVersnelling() {
     } else {
         fVersnelling = idealversnelling;
     }
+
+    ENSURE(fPositie <= fBaanObject->getLengte(), "calculateVersnelling post condition failure");
+    ENSURE(fVersnelling <= fMaxVersnelling, "calculateVersnelling post condition failure");
+    ENSURE(fVersnelling >= fMinVersnelling, "calculateVersnelling post condition failure");
 }
 
 double Voertuig::idealVersnelling() {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling idealVersnelling");
 
     // 1. Calculate ideal
 
@@ -378,6 +390,7 @@ double Voertuig::idealVersnelling() {
 }
 
 double Voertuig::legalVersnelling() {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling idealVersnelling");
 
     // 2. Calculate legal
     // 2.1. Check if we are in a zone
@@ -429,11 +442,8 @@ double Voertuig::legalVersnelling() {
 }
 
 void Voertuig::updatePositionBus() {
+    ENSURE(fPositie <= fBaanObject->getLengte(), "updatePositionBus post condition failure");
 
-    //TODO Consider that a bus can below 0 speed because the calculation is not perfect
-    //Bus should not change versnelling once it comes to stop at a bus
-    //Bus needs to wait 30 seconds once it stoped
-    
     // 1. update Position(m) with speed (km/h)
     fOldPositie = fPositie;
     fPositie += convertKMHtoMS(fSnelheid);
@@ -448,7 +458,7 @@ void Voertuig::updatePositionBus() {
         fIsStoping = false;
     }
 
-    // TODO Probably best to use old Position
+
     // 1.1. Check if new position is out of bound ban
     if (fPositie >= fBaanObject->getLengte()){
         // We are out of bounds
@@ -500,9 +510,13 @@ void Voertuig::updatePositionBus() {
         // Decrement the PauseCounter by one
         fPauseCounter -= 1;
     }
+
+    ENSURE(fVersnelling <= fMaxVersnelling, "updatePositionBus post condition failure");
+    ENSURE(fVersnelling >= fMinVersnelling, "updatePositionBus post condition failure");
 }
 
 void Voertuig::calculateVersnellingBus() {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling calculateVersnellingBus");
 
     // 1. Calculate ideal
     double idealversnelling = idealVersnelling();
@@ -527,7 +541,7 @@ void Voertuig::calculateVersnellingBus() {
             // 3.2.1. Calculate the breaking speed
             stopVersnelling = -(convertKMHtoMS(fSnelheid) * convertKMHtoMS(fSnelheid)) /
                               (fNextBushalte->getFPositie() + 5 - (fOldPositie - convertKMHtoMS(fSnelheid)));
-            // TODO REMOVE the +5
+
             fIsStoping = true;
 
         }else if(fIsStoping){
@@ -561,5 +575,7 @@ void Voertuig::calculateVersnellingBus() {
 }
 
 int Voertuig::getFPauseCounter() const {
+    REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling getFPauseCounter");
+
     return fPauseCounter;
 }

@@ -46,6 +46,7 @@ TEST_F(SystemTest, organizeVehicles){
 
     s.organizeVehicles();
 
+
     EXPECT_EQ(s.getVoertuigen()->at(0)->getNextVoertuig()->getNummerPlaat(), "651BUFF");
     EXPECT_EQ(s.getVoertuigen()->at(1)->getNextVoertuig()->getNummerPlaat(), "1THK180");
     EXPECT_EQ(s.getVoertuigen()->at(2)->getNextVoertuig()->getNummerPlaat(), "651BUFFF");
@@ -147,22 +148,208 @@ TEST_F(SystemTest, getWegenNetwerk){
 XmlParser parser8("SYSTEMsimulateTest.xml");
 System s3(parser8.getBanen(), parser8.getWegenNetwerk(), parser8.getVoertuigen());
 
-//TODO Uncomment when updat eposition is working
-/*
+
+
 TEST_F(SystemTest, automaticSimulation){
     unsigned int x = 6;
     EXPECT_EQ(s3.getVoertuigen()->size(), x);
 
     // Write the output to a file to comapare them later
-    std::string output;
-    s3.automaticSimulation(output);
+    // Redirect streams
+
+    std::streambuf *coutbuf = std::cout.rdbuf(); //save old buf
+    std::ofstream out("dummyTest.txt");
+    std::cout.rdbuf(out.rdbuf());
+
+    s3.automaticSimulation();
+
+    std::cout.rdbuf(coutbuf); //reset to standard output again
 
     x = 0;
     EXPECT_EQ(s3.getVoertuigen()->size(), x);
 }
 
+TEST_F(SystemTest, automaticSimulation_precondition){
+
+    std::vector<Baan*> b;
+    std::vector<Baan*> w;
+    std::vector<Voertuig*> v;
+
+    Baan* b1 = new Baan;
+    b1->setLengte(100);
+    b.push_back(b1);
+
+    System s0 = System(&b,&w,&v);
+
+    EXPECT_DEATH(s0.automaticSimulation("complex","dummyTest",75),"");
+}
+
+TEST_F(SystemTest, automaticSimulation_precondition1){
+
+    std::vector<Baan*> b;
+    std::vector<Baan*> w;
+    std::vector<Voertuig*> v;
+
+    Baan* b1 = new Baan;
+    b1->setLengte(100);
+    b.push_back(b1);
+
+    System s0 = System(&b,&w,&v);
+
+    EXPECT_DEATH(s0.automaticSimulation("complex","",25),"");
+}
+
+TEST_F(SystemTest, automaticSimulation_precondition2){
+
+    std::vector<Baan*> b;
+    std::vector<Baan*> w;
+    std::vector<Voertuig*> v;
+
+    Baan* b1 = new Baan;
+    b1->setLengte(100);
+    b.push_back(b1);
+
+    System s0 = System(&b,&w,&v);
+
+    EXPECT_DEATH(s0.automaticSimulation("complex","dummyTest",25,-1),"");
+}
+
+TEST_F(SystemTest, grafischeImpressie_precondition){
+
+    std::vector<Baan*> b;
+    std::vector<Baan*> w;
+    std::vector<Voertuig*> v;
+
+    Baan* b1 = new Baan;
+    b1->setLengte(100);
+    b.push_back(b1);
+
+    System s0 = System(&b,&w,&v);
+
+    EXPECT_DEATH(s0.grafischeImpressie("dummyTest",75,0),"");
+}
+
+TEST_F(SystemTest, grafischeImpressie_precondition1){
+
+    std::vector<Baan*> b;
+    std::vector<Baan*> w;
+    std::vector<Voertuig*> v;
+
+    Baan* b1 = new Baan;
+    b1->setLengte(100);
+    b.push_back(b1);
+
+    System s0 = System(&b,&w,&v);
+
+    EXPECT_DEATH(s0.grafischeImpressie("",25,0),"");
+}
+
+TEST_F(SystemTest, grafischeImpressie_precondition2){
+
+    std::vector<Baan*> b;
+    std::vector<Baan*> w;
+    std::vector<Voertuig*> v;
+
+    Baan* b1 = new Baan;
+    b1->setLengte(100);
+    b.push_back(b1);
+
+    System s0 = System(&b,&w,&v);
+
+    EXPECT_DEATH(s0.grafischeImpressie("dummyTest",25,-1),"");
+}
+
+TEST_F(SystemTest,initializeBaanVerbindingObjects_postcondition){
+    std::vector<Baan*> b;
+    std::vector<Baan*> w;
+    std::vector<Voertuig*> v;
+
+    Baan* b1 = new Baan;
+    b1->setLengte(100);
+    b1->setNaam("A12");
+
+    Baan* b2  = new Baan;
+    b2->setLengte(200);
+    b2->setNaam("A10");
+    b2->setVerbinding("A12");
+
+    b.push_back(b1);
+    w.push_back(b2);
+
+    System s0 = System(&b,&w,&v);
+
+    s0.initializeBaanVerbindingObjects();
+}
+
+TEST_F(SystemTest,initializeBaanVerbindingObjects_postconditionNegative){
+    std::vector<Baan*> b;
+    std::vector<Baan*> w;
+    std::vector<Voertuig*> v;
+
+    Baan* b1 = new Baan;
+    b1->setLengte(100);
+    b1->setNaam("A12");
+
+    Baan* b2  = new Baan;
+    b2->setLengte(200);
+    b2->setNaam("A10");
+    b2->setVerbinding("A13");
+
+    b.push_back(b1);
+    w.push_back(b2);
+
+    System s0 = System(&b,&w,&v);
+
+    EXPECT_DEATH(s0.initializeBaanVerbindingObjects(),"");
+}
+
+TEST_F(SystemTest,initializeBaanVerbindingObjects_organizeVehicles){
+    std::vector<Baan*> b;
+    std::vector<Baan*> w;
+    std::vector<Voertuig*> v;
+
+    Baan* b1 = new Baan;
+    b1->setLengte(1000);
+    b1->setNaam("A12");
+
+    b.push_back(b1);
+
+    Voertuig* v1 = new Voertuig();
+    Voertuig* v2 = new Voertuig();
+    Voertuig* v3 = new Voertuig();
+
+    v1->setPositie(50);
+    v2->setPositie(100);
+    v3->setPositie(500);
+
+    v.push_back(v3);
+    v.push_back(v2);
+    v.push_back(v1);
+
+    System s0 = System(&b,&w,&v);
+
+    s0.organizeVehicles();
+
+    EXPECT_TRUE(v1->getNextVoertuig() == v2);
+}
+
+TEST_F(SystemTest, outputVerkeersteken) {
+
+    std::vector<Baan *> b;
+    std::vector<Baan *> w;
+    std::vector<Voertuig *> v;
+
+    Baan *b1 = new Baan;
+    b1->setLengte(100);
+
+    System s0 = System(&b, &w, &v);
+
+    EXPECT_DEATH(s0.outputVerkeersteken(b1, 75), "");
+}
 
 /////////////////////////////////Test output of entire sysytem////////////////////////////////////////////////////
+
+/*
 
 TEST_F(SystemTest, entireSysytem_Traffic_Jam){
     XmlParser parser("Traffic_Jam.xml");
