@@ -110,10 +110,6 @@ TEST_F(BaanTest, BanenGetVerbindingObject){
 
 Baan b = Baan();
 
-TEST_F(BaanTest, Baan_setFRijstroken_precondition){
-    EXPECT_DEATH(b.setFRijstroken(-10),"");
-}
-
 TEST_F(BaanTest, Baan_setFRijstroken_postcondition){
     b.setFRijstroken(10);
     EXPECT_TRUE(10 == b.getFRijstroken());

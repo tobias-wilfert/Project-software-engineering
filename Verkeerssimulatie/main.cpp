@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
     System system = System(parser.getBanen(),parser.getWegenNetwerk(),parser.getVoertuigen());
 
     // Start the simulation
-    system.automaticSimulation("graphical","AA",500,0);
+    system.automaticSimulation("graphical","AA",10,0);
 
     return 0;
 }

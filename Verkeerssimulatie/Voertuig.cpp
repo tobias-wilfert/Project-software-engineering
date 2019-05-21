@@ -291,7 +291,7 @@ void Voertuig::findNextBushalte() {
     Verkeersteken* bestGuess = new Verkeersteken();
     bestGuess->setFPositie(fBaanObject->getLengte()+10);
 
-    for(int i = 0; i < fBaanObject->getFVerkeerstekens().size(); i++) {
+    for(unsigned int i = 0; i < fBaanObject->getFVerkeerstekens().size(); i++) {
         Verkeersteken *tempNaam = fBaanObject->getFVerkeerstekens().at(i);
         if(tempNaam->getFType() == "BUSHALTE" and fPositie < tempNaam->getFPositie() and tempNaam->getFPositie() < bestGuess->getFPositie()){
             bestGuess = tempNaam;
@@ -307,7 +307,7 @@ void Voertuig::findNextBushalte() {
 void Voertuig::assignCurrentZone() {
     REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling assignCurrentZone");
 
-    for(int i = 0; i < fBaanObject->getFVerkeerstekens().size(); i++){
+    for(unsigned int i = 0; i < fBaanObject->getFVerkeerstekens().size(); i++){
         Verkeersteken* tempZone = fBaanObject->getFVerkeerstekens().at(i);
         if(tempZone->getFPositie() <= fPositie && fPositie < tempZone->getFEndPositie() && tempZone->getFType() == "ZONE"){
             fCurrentZone = tempZone;

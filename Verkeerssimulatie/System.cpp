@@ -25,10 +25,10 @@ System::System(std::vector<Baan *> *Banen, std::vector<Baan *> *WegenNetwerk, st
         : fBanen(Banen), fWegenNetwerk(WegenNetwerk), fVoertuigen(Voertuigen), counter(0) {
     _initCheck = this;
     //TODO ENSRURE
-    for(int j = 0; j < fBanen->size(); j++){
+    for(unsigned int j = 0; j < fBanen->size(); j++){
         fBanen->at(j)->setfContainsBushalte();
     }
-    for(int j = 0; j < fWegenNetwerk->size(); j++){
+    for(unsigned int j = 0; j < fWegenNetwerk->size(); j++){
         fWegenNetwerk->at(j)->setfContainsBushalte();
     }
 
@@ -291,7 +291,8 @@ void System::automaticSimulation(std::string type, std::string fileName,int fact
     if( type != "simpele"){
         // Clean the standard file
         std::ofstream myfile;
-        myfile.open (fileName+".txt");
+        std::string fname = fileName+".txt";
+        myfile.open (fname.c_str());
         myfile << "";
         myfile.close();
     }
@@ -347,7 +348,14 @@ void System::grafischeImpressie(std::string name, int factor, int time) {
         std::string output;
         // Organize Vehicles is needed as a vehicle could have changed the baan in the last iteration of simulation
         organizeVehicles();
-        output += ("\nSystem after: " + std::to_string(counter) + " s\n");
+
+        // Convert int to string
+        std::string count;
+        std::ostringstream convert;
+        convert << counter;
+        count = convert.str();
+
+        output += ("\nSystem after: " + count + " s\n");
 
         // Output the Banen
         for (unsigned int i = 0; i < fBanen->size(); i++){
@@ -376,7 +384,8 @@ void System::grafischeImpressie(std::string name, int factor, int time) {
 
         // Write to file
         std::ofstream myfile;
-        myfile.open (name+".txt",std::fstream::app);
+        std::string fname = name+".txt";
+        myfile.open (fname.c_str(),std::fstream::app);
         myfile << output;
         myfile.close();
 

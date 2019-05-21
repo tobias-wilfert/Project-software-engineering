@@ -94,13 +94,13 @@ void Baan::setVerbindingObject(Baan *verbinding) {
     ENSURE(fVerbindingObject == getVerbindingObject(), "setVerbindingObject() postcondition failure");
 }
 
-int Baan::getFRijstroken() const {
+unsigned int Baan::getFRijstroken() const {
     REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling getFRijstroken()");
 
     return fRijstroken;
 }
 
-void Baan::setFRijstroken(int fRijstroken) {
+void Baan::setFRijstroken(unsigned int fRijstroken) {
     REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setFRijstroken()");
     REQUIRE(fRijstroken >= 1, "setFRijstroken() precondition failure");
 
@@ -197,7 +197,7 @@ bool Baan::properlyInitialized() const{
 void Baan::setfContainsBushalte() {
     REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setfContainsBushalte()");
 
-    for(int i = 0; i < fVerkeerstekens.size(); i++){
+    for(unsigned int i = 0; i < fVerkeerstekens.size(); i++){
         if(fVerkeerstekens.at(i)->getFType() == "BUSHALTE"){
             fContainsBushalte = true;
         }

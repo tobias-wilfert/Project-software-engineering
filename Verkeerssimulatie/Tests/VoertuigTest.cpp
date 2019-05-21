@@ -32,6 +32,8 @@ protected:
     }
 };
 
+
+
 // Declares the variables your tests want to use.
 Voertuig voertuig = Voertuig();
 
@@ -362,3 +364,4 @@ TEST_F(VoertuigTest,setFRijstrook_post){
 }
 
 // Test 3.0
+

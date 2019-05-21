@@ -40,7 +40,7 @@ private:
     std::vector<Verkeersteken*> fVerkeerstekens;
 
     /// The number of Lanes a Baan has
-    int fRijstroken;
+    unsigned int fRijstroken;
 
     /// Indicates if this baan has a bushalte
     bool fContainsBushalte;
@@ -126,14 +126,14 @@ public:
     /**
     \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling getFRijstroken()");
     */
-    int getFRijstroken() const;
+    unsigned int getFRijstroken() const;
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling setFRijstroken()");
     \n REQUIRE(fRijstroken >= 1, "setFRijstroken() precondition failure");
     \n ENSURE(fRijstroken == getFRijstroken(), "setFRijstroken() postcondition failure");
      */
-    void setFRijstroken(int fRijstroken);
+    void setFRijstroken(unsigned int fRijstroken);
 
     /**
     \n REQUIRE(this->properlyInitialized(), "Baan wasn't initialized when calling addFVerkeersteken()");

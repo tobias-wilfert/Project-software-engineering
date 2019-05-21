@@ -33,6 +33,8 @@ protected:
 
 };
 
+
+
 /////////////////////////////////Begin System Tests////////////////////////////////////////////////////
 
 TEST_F(SystemTest, organizeVehicles){
@@ -163,11 +165,13 @@ TEST_F(SystemTest, automaticSimulation){
 
     s3.automaticSimulation();
 
+
     std::cout.rdbuf(coutbuf); //reset to standard output again
 
     x = 0;
     EXPECT_EQ(s3.getVoertuigen()->size(), x);
 }
+
 
 TEST_F(SystemTest, automaticSimulation_precondition){
 
@@ -346,6 +350,9 @@ TEST_F(SystemTest, outputVerkeersteken) {
 
     EXPECT_DEATH(s0.outputVerkeersteken(b1, 75), "");
 }
+
+
+
 
 /////////////////////////////////Test output of entire sysytem////////////////////////////////////////////////////
 
