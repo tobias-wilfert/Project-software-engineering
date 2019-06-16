@@ -14,12 +14,12 @@ int main(int argc, char** argv) {
 
     // The name of the file that will serve as input
     //const char* kFileName = argv[1];
-    const char* kFileName =  "SystemOutput/RushHour.xml";
+    const char* kFileName =  "SystemOutput/2ndTest.xml";
 
     // SOURCE: https://stackoverflow.com/a/50650024/8076979
     // Redirect streams
-    // std::ofstream out("SystemOutput/BusTest.txt");
-    // std::cout.rdbuf(out.rdbuf());
+    //std::ofstream out("SystemOutput/2ndTest.txt");
+    //std::cout.rdbuf(out.rdbuf());
 
     // Parse the file
     XmlParser parser = XmlParser(kFileName);
@@ -28,8 +28,8 @@ int main(int argc, char** argv) {
     System system = System(parser.getBanen(),parser.getWegenNetwerk(),parser.getVoertuigen());
 
     // Start the simulation
-    //system.automaticSimulation("simpele");
-    system.automaticSimulation("graphical","grafischeOutput",3);
+    system.automaticSimulation("simpele");
+    //system.automaticSimulation("graphical","grafischeOutput",3);
 
     return 0;
 }

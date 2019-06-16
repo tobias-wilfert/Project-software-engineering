@@ -427,3 +427,63 @@ TEST_F(SystemTest, entireSystem_RushHour){
     std::cout.rdbuf(coutbuf);
     EXPECT_TRUE(systemTest.compareFiles("dummyTest.txt","SystemOutput/RushHour.txt"));
 }
+
+TEST_F(SystemTest, entireSystem_1stTest){
+    XmlParser parser("SystemOutput/1stTest.xml");
+    System systemTest(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+
+    // Redirect streams
+    std::ofstream out("dummyTest.txt");
+    std::streambuf *coutbuf = std::cout.rdbuf();//save old buf
+    std::cout.rdbuf(out.rdbuf());
+
+    systemTest.automaticSimulation("simpele");
+
+    std::cout.rdbuf(coutbuf);
+    EXPECT_TRUE(systemTest.compareFiles("dummyTest.txt","SystemOutput/1stTest.txt"));
+}
+
+TEST_F(SystemTest, entireSystem_2ndTest){
+    XmlParser parser("SystemOutput/2ndTest.xml");
+    System systemTest(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+
+    // Redirect streams
+    std::ofstream out("dummyTest.txt");
+    std::streambuf *coutbuf = std::cout.rdbuf();//save old buf
+    std::cout.rdbuf(out.rdbuf());
+
+    systemTest.automaticSimulation("simpele");
+
+    std::cout.rdbuf(coutbuf);
+    EXPECT_TRUE(systemTest.compareFiles("dummyTest.txt","SystemOutput/2ndTest.txt"));
+}
+
+TEST_F(SystemTest, entireSystem_BusInc){
+    XmlParser parser("SystemOutput/BusInc.xml");
+    System systemTest(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+
+    // Redirect streams
+    std::ofstream out("dummyTest.txt");
+    std::streambuf *coutbuf = std::cout.rdbuf();//save old buf
+    std::cout.rdbuf(out.rdbuf());
+
+    systemTest.automaticSimulation("simpele");
+
+    std::cout.rdbuf(coutbuf);
+    EXPECT_TRUE(systemTest.compareFiles("dummyTest.txt","SystemOutput/BusInc.txt"));
+}
+
+TEST_F(SystemTest, entireSystem_MotorFiestInc){
+    XmlParser parser("SystemOutput/MotorFiestInc.xml");
+    System systemTest(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+
+    // Redirect streams
+    std::ofstream out("dummyTest.txt");
+    std::streambuf *coutbuf = std::cout.rdbuf();//save old buf
+    std::cout.rdbuf(out.rdbuf());
+
+    systemTest.automaticSimulation("simpele");
+
+    std::cout.rdbuf(coutbuf);
+    EXPECT_TRUE(systemTest.compareFiles("dummyTest.txt","SystemOutput/MotorFiestInc.txt"));
+}
