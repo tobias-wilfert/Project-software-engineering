@@ -14,7 +14,7 @@ int main(int argc, char** argv) {
 
     // The name of the file that will serve as input
     //const char* kFileName = argv[1];
-    const char* kFileName =  "SystemOutput/BusTest.xml";
+    const char* kFileName =  "SystemOutput/RushHour.xml";
 
     // SOURCE: https://stackoverflow.com/a/50650024/8076979
     // Redirect streams
@@ -28,8 +28,8 @@ int main(int argc, char** argv) {
     System system = System(parser.getBanen(),parser.getWegenNetwerk(),parser.getVoertuigen());
 
     // Start the simulation
-    system.automaticSimulation("simpele");
-    //system.automaticSimulation("graphical","grafischeOutput",10);
+    //system.automaticSimulation("simpele");
+    system.automaticSimulation("graphical","grafischeOutput",3);
 
     return 0;
 }

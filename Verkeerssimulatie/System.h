@@ -117,7 +117,7 @@ public:
      * @param time If 0 then every time interval is outputted else only the one of the given time. Default 0
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
     \n REQUIRE(time >= 0, "When calling automaticSimulation() the parameter time must be a non negative number");
-    \n REQUIRE(factor <= getLengthOfShortestBaan()/2, "When calling automaticSimulation() the factor must be bigger or equal than half of the shortest baan length");
+    \n REQUIRE(factor <= getLengthOfShortestBaan()/2, "When calling automaticSimulation() the factor must be smaller or equal than half of the shortest baan length");
     \n REQUIRE(fileName != "", "automaticSimulation() pre condition failure. Invalid fileName");
      */
     void automaticSimulation(std::string type = "simpele", std::string fileName="grafischeOutput",int factor = 1, int time = 0);
@@ -183,7 +183,7 @@ public:
      * @param factor The scale that should be used to adjust the graphical representation
      * @return A string containing graphical representation of baan
     \n REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling outputBaan");
-    \n REQUIRE(factor <= baan->getLengte()/2, "When calling outputBaan() the factor must be bigger or equal than half of baan length");
+    \n REQUIRE(factor <= baan->getLengte()/2, "When calling outputBaan() the factor must be smaller or equal than half of baan length");
 
      */
     std::string outputBaan(Baan* baan, int factor);

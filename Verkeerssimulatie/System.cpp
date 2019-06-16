@@ -275,7 +275,7 @@ void System::simulate(unsigned int iterations) {
 void System::automaticSimulation(std::string type, std::string fileName,int factor,int time) {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling automaticSimulation");
     REQUIRE(time >= 0, "When calling automaticSimulation() the parameter time must be a non negative number");
-    REQUIRE(factor <= getLengthOfShortestBaan()/2, "When calling automaticSimulation() the factor must be bigger or equal than half of the shortest baan length");
+    REQUIRE(factor <= getLengthOfShortestBaan()/2, "When calling automaticSimulation() the factor must be smaller or equal than half of the shortest baan length");
     REQUIRE(fileName != "", "automaticSimulation() pre condition failure. Invalid fileName");
 
     for(unsigned int i = 0; i < fBanen->size(); i++){
@@ -394,7 +394,7 @@ void System::grafischeImpressie(std::string name, int factor, int time) {
 
 std::string System::outputBaan(Baan *baan, int factor) {
     REQUIRE(this->properlyInitialized(), "System wasn't initialized when calling outputBaan");
-    REQUIRE(factor <= baan->getLengte()/2, "When calling outputBaan() the factor must be bigger or equal than half of baan length");
+    REQUIRE(factor <= baan->getLengte()/2, "When calling outputBaan() the factor must be smaller or equal than half of baan length");
 
     std::string baanOutput = std::string(baan->getLengte()/factor,'=');
     // Loop over all cars
@@ -408,6 +408,13 @@ std::string System::outputBaan(Baan *baan, int factor) {
                 if (baanOutput[current->getPositie() / factor + bias] == '=') {
                     possible = true;
                     baanOutput[current->getPositie() / factor + bias] = current->getType()[0];
+                    //TODO Scaled the vehicles
+                    for (unsigned int l = 0; l < current->getLengte()/factor;l++){
+                        if (current->getPositie() / factor + bias-l > 0 and baanOutput[current->getPositie() / factor + bias-l] == '='){
+                            baanOutput[current->getPositie() / factor + bias-l] = current->getType()[0];
+                        }
+                    }
+
                 } else {
                     bias++;
                 }
@@ -451,9 +458,6 @@ std::pair<std::string, std::string> System::outputVerkeersteken(Baan *baan, int 
                     possible = true;
                 }
             }else {
-
-                //TODO Adjust to represent the actual length of the Bus stop
-
                 // Check that we aren't out of bounds
                 if (current->getFPositie() / factor + bias < bushalte.size()){
                     if (bushalte[current->getFPositie() / factor + bias] == '_') {

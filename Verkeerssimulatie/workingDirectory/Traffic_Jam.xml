@@ -1,0 +1,37 @@
+<BAAN>
+    <naam>A2</naam>
+    <snelheidslimiet>100</snelheidslimiet>
+    <lengte>2000</lengte>
+</BAAN>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>1DEF001</nummerplaat>
+    <baan>A2</baan>
+    <positie>100</positie>
+    <snelheid>0</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>1DEF002</nummerplaat>
+    <baan>A2</baan>
+    <positie>105</positie>
+    <snelheid>0</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>1DEF003</nummerplaat>
+    <baan>A2</baan>
+    <positie>110</positie>
+    <snelheid>0</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>1DEF004</nummerplaat>
+    <baan>A2</baan>
+    <positie>115</positie>
+    <snelheid>0</snelheid>
+</VOERTUIG>
