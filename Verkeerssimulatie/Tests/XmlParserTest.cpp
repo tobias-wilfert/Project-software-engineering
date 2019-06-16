@@ -14,8 +14,7 @@
 
 class XmlParserTest: public ::testing::Test {
 protected:
-    friend class System;
-    friend class XmlParser;
+
     // You should make the members protected s.t. they can be
     // accessed from sub-classes.
 
@@ -42,7 +41,7 @@ protected:
 // Tests the default constructor.
 TEST_F(XmlParserTest, DefaultConstructor) {
 
-    XmlParser parser("Wegen_en_voertuigen.xml");
+    XmlParser parser("Parser/Wegen_en_voertuigen.xml");
 
     EXPECT_TRUE((parser.properlyInitialized()));
     EXPECT_TRUE((parser.getBanen()->size() > 0));

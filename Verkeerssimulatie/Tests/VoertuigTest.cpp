@@ -14,8 +14,6 @@
 
 class VoertuigTest: public ::testing::Test {
 protected:
-    friend class Baan;
-    friend class Voertuig;
 
     // You should make the members protected s.t. they can be
     // accessed from sub-classes.

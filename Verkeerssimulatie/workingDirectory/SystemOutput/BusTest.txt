@@ -1,0 +1,5801 @@
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         0 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         50 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         113.889 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         0 m
+	-> snelheid:        3.6 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         50 m
+	-> snelheid:        3.6 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         127.778 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         1 m
+	-> snelheid:        7.2 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         51 m
+	-> snelheid:        7.2 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         141.667 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         3 m
+	-> snelheid:        10.8 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         53 m
+	-> snelheid:        10.8 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         155.556 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         6 m
+	-> snelheid:        14.4 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         56 m
+	-> snelheid:        14.4 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         169.444 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         10 m
+	-> snelheid:        18 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         60 m
+	-> snelheid:        18 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         183.333 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         15 m
+	-> snelheid:        21.6 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         65 m
+	-> snelheid:        21.6 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         197.222 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         21 m
+	-> snelheid:        25.2 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         71 m
+	-> snelheid:        25.2 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         211.111 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         28 m
+	-> snelheid:        21.78 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         78 m
+	-> snelheid:        28.8 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         225 m
+	-> snelheid:        40.3101 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         34.05 m
+	-> snelheid:        19.377 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         86 m
+	-> snelheid:        32.4 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         236.197 m
+	-> snelheid:        30.6202 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         39.4325 m
+	-> snelheid:        20.1281 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         95 m
+	-> snelheid:        36 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         244.703 m
+	-> snelheid:        20.9302 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         45.0236 m
+	-> snelheid:        22.7767 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         105 m
+	-> snelheid:        39.6 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         250.517 m
+	-> snelheid:        11.2403 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         51.3505 m
+	-> snelheid:        26.1856 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         116 m
+	-> snelheid:        43.2 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.639 m
+	-> snelheid:        1.55039 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         58.6243 m
+	-> snelheid:        29.7856 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         128 m
+	-> snelheid:        46.8 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         66.8981 m
+	-> snelheid:        33.3856 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         141 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   1 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         76.1718 m
+	-> snelheid:        36.9856 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         154.889 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   2 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         86.4456 m
+	-> snelheid:        40.5856 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         168.778 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   3 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         97.7194 m
+	-> snelheid:        44.1856 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         182.667 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   4 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         109.993 m
+	-> snelheid:        47.7856 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         196.556 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   5 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         123.267 m
+	-> snelheid:        49.4873 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.444 m
+	-> snelheid:        46.4256 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   6 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         137.013 m
+	-> snelheid:        49.9989 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         223.34 m
+	-> snelheid:        22.6766 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   7 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         150.902 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         229.64 m
+	-> snelheid:        7.77597 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   8 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         164.791 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.799 m
+	-> snelheid:        1.65289 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   9 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         178.68 m
+	-> snelheid:        48.2891 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   10 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         192.093 m
+	-> snelheid:        35.2263 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   11 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         201.879 m
+	-> snelheid:        19.5417 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   12 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         207.307 m
+	-> snelheid:        8.2446 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   13 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         209.597 m
+	-> snelheid:        2.42774 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   14 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   15 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   16 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   17 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   18 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   19 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   20 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   21 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   22 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   23 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   24 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   25 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   26 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   27 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   28 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   29 s
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        0 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.07 m
+	-> snelheid:        3.6 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         255.07 m
+	-> snelheid:        7.2 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         257.07 m
+	-> snelheid:        10.8 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         260.07 m
+	-> snelheid:        14.4 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.259 m
+	-> snelheid:        1.46005 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         264.07 m
+	-> snelheid:        18 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         232.664 m
+	-> snelheid:        4.54903 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         269.07 m
+	-> snelheid:        21.6 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         233.928 m
+	-> snelheid:        8.13786 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         275.07 m
+	-> snelheid:        25.2 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         236.188 m
+	-> snelheid:        11.7379 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         282.07 m
+	-> snelheid:        28.8 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.271 m
+	-> snelheid:        0.707202 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         239.449 m
+	-> snelheid:        15.3379 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         290.07 m
+	-> snelheid:        32.4 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         210.468 m
+	-> snelheid:        2.7342 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         243.709 m
+	-> snelheid:        12.5056 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         299.07 m
+	-> snelheid:        36 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         211.227 m
+	-> snelheid:        5.74008 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         247.183 m
+	-> snelheid:        9.67327 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         309.07 m
+	-> snelheid:        39.6 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         212.822 m
+	-> snelheid:        9.18985 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         249.87 m
+	-> snelheid:        6.84098 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         320.07 m
+	-> snelheid:        43.2 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         215.374 m
+	-> snelheid:        12.7813 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         251.77 m
+	-> snelheid:        4.00868 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         332.07 m
+	-> snelheid:        46.8 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         218.925 m
+	-> snelheid:        13.1822 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         252.884 m
+	-> snelheid:        1.17639 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         345.07 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         222.587 m
+	-> snelheid:        11.4878 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         358.959 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         225.778 m
+	-> snelheid:        8.91026 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   1 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         372.848 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         228.253 m
+	-> snelheid:        6.07283 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   2 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         386.736 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         229.94 m
+	-> snelheid:        3.199 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   3 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         400.625 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         230.828 m
+	-> snelheid:        1.16842 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   4 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         414.514 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   5 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         428.403 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   6 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         442.292 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   7 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         456.181 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   8 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         470.07 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   9 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         483.959 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   10 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         497.848 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   11 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         511.736 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   12 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         525.625 m
+	-> snelheid:        53.6 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   13 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         540.514 m
+	-> snelheid:        57.2 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   14 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         556.403 m
+	-> snelheid:        60.8 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   15 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         573.292 m
+	-> snelheid:        64.4 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   16 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         591.181 m
+	-> snelheid:        68 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   17 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         610.07 m
+	-> snelheid:        71.6 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   18 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         629.959 m
+	-> snelheid:        75.2 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   19 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         650.848 m
+	-> snelheid:        78.8 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   20 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         672.736 m
+	-> snelheid:        82.4 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   21 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         695.625 m
+	-> snelheid:        86 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   22 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         719.514 m
+	-> snelheid:        89.6 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   23 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         744.403 m
+	-> snelheid:        93.2 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   24 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         770.292 m
+	-> snelheid:        96.8 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   25 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         797.181 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   26 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         824.959 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   27 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         852.736 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   28 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         880.514 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+	-> Stoping since:   29 s
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         908.292 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         936.07 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         963.848 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         253.211 m
+	-> snelheid:        3.6 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         991.625 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.211 m
+	-> snelheid:        7.2 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         19.4031 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         256.211 m
+	-> snelheid:        10.8 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         47.1809 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        0 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         259.211 m
+	-> snelheid:        14.4 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         74.9587 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.153 m
+	-> snelheid:        1.90436 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         263.211 m
+	-> snelheid:        18 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         102.736 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         231.682 m
+	-> snelheid:        4.83784 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         268.211 m
+	-> snelheid:        21.6 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         130.514 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         233.026 m
+	-> snelheid:        8.25894 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         274.211 m
+	-> snelheid:        25.2 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         158.292 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         235.32 m
+	-> snelheid:        11.8426 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         281.211 m
+	-> snelheid:        28.8 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         186.07 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         238.609 m
+	-> snelheid:        15.4426 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         289.211 m
+	-> snelheid:        32.4 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         213.848 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         242.899 m
+	-> snelheid:        19.0426 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         298.211 m
+	-> snelheid:        36 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         241.625 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         248.189 m
+	-> snelheid:        22.6426 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         308.211 m
+	-> snelheid:        39.6 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         269.403 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         254.478 m
+	-> snelheid:        26.2426 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         319.211 m
+	-> snelheid:        43.2 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         297.181 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         261.768 m
+	-> snelheid:        29.8426 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         331.211 m
+	-> snelheid:        46.8 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         324.959 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         270.057 m
+	-> snelheid:        33.4426 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         344.211 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         352.736 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         279.347 m
+	-> snelheid:        37.0426 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         358.1 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         380.514 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         289.637 m
+	-> snelheid:        40.6426 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         371.989 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         408.292 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         300.926 m
+	-> snelheid:        44.2426 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         385.877 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         436.07 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         313.216 m
+	-> snelheid:        47.827 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         399.766 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         463.848 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         326.501 m
+	-> snelheid:        49.4512 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         413.655 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         491.625 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         340.238 m
+	-> snelheid:        49.9692 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         427.544 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         519.403 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         354.118 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         441.433 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         547.181 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         368.007 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         455.322 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         574.959 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         381.896 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         469.211 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         602.736 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         395.785 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         483.1 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         630.514 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         409.674 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         496.989 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         658.292 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         423.562 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         510.877 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         686.07 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         437.451 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         524.766 m
+	-> snelheid:        53.6 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         713.848 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         451.34 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         539.655 m
+	-> snelheid:        57.2 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         741.625 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         465.229 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         555.544 m
+	-> snelheid:        60.8 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         769.403 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         479.118 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         572.433 m
+	-> snelheid:        64.4 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         797.181 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         493.007 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         590.322 m
+	-> snelheid:        68 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         824.959 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         506.896 m
+	-> snelheid:        50 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         609.211 m
+	-> snelheid:        71.6 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         852.736 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         520.785 m
+	-> snelheid:        53.6 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         629.1 m
+	-> snelheid:        75.2 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         880.514 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         535.674 m
+	-> snelheid:        57.2 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         649.989 m
+	-> snelheid:        78.8 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         908.292 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         551.562 m
+	-> snelheid:        60.8 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         671.877 m
+	-> snelheid:        82.4 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         936.07 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         568.451 m
+	-> snelheid:        64.4 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         694.766 m
+	-> snelheid:        86 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         963.848 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         586.34 m
+	-> snelheid:        68 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         718.655 m
+	-> snelheid:        89.6 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         991.625 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         605.229 m
+	-> snelheid:        71.6 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         743.544 m
+	-> snelheid:        93.2 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         1019.4 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         625.118 m
+	-> snelheid:        75.2 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         769.433 m
+	-> snelheid:        96.8 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         1047.18 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         646.007 m
+	-> snelheid:        78.8 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         796.322 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         1074.96 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         667.896 m
+	-> snelheid:        82.4 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         824.1 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         1102.74 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         690.785 m
+	-> snelheid:        86 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         851.877 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         1130.51 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         714.674 m
+	-> snelheid:        89.6 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         879.655 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         1158.29 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         739.562 m
+	-> snelheid:        93.2 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         907.433 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         1186.07 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         765.451 m
+	-> snelheid:        96.8 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         935.211 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (2LML935)
+	-> baan:            A12
+	-> positie:         1213.85 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         792.34 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         962.989 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         820.118 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         990.766 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         847.896 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         18.5441 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         875.674 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         46.3218 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         903.451 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         74.0996 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         931.229 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         101.877 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         959.007 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         129.655 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            Middelheimlaan
+	-> positie:         986.785 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         157.433 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         14.5624 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         185.211 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         42.3402 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         212.989 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         70.118 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         240.766 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         97.8958 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         268.544 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         125.674 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         296.322 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         153.451 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         324.1 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         181.229 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         351.877 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         209.007 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         379.655 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         236.785 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         407.433 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         264.562 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         435.211 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         292.34 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         462.989 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         320.118 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         490.766 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         347.896 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         518.544 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         375.674 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         546.322 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         403.451 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         574.1 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         431.229 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         601.877 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         459.007 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         629.655 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         486.785 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         657.433 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         514.562 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         685.211 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         542.34 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         712.989 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         570.118 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         740.766 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         597.896 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         768.544 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         625.674 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         796.322 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         653.451 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         824.1 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         681.229 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         851.877 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         709.007 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         879.655 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         736.785 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         907.433 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         764.562 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         935.211 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         792.34 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         962.989 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         820.118 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         990.766 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         847.896 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         1018.54 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         875.674 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         1046.32 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         903.451 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         1074.1 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         931.229 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         1101.88 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         959.007 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         1129.66 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         986.785 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         1157.43 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         1014.56 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         1185.21 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         1042.34 m
+	-> snelheid:        100 km/h
+
+Voertuig: BUS (0LML935)
+	-> baan:            A12
+	-> positie:         1212.99 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         1070.12 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         1097.9 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         1125.67 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         1153.45 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         1181.23 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)
+
+Voertuig: VRACHTWAGEN (1LML935)
+	-> baan:            A12
+	-> positie:         1209.01 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          1234 m
+	-> rijstroken:      5
+	-> snelheidslimiet: 66 km/h
+
+
+Baan: Middelheimlaan
+	-> lengte:          1000 m
+	-> rijstroken:      3
+	-> snelheidslimiet: 50 km/h
+	-> verbinding:      A12
+
+	-> BUSHALTE: 250m
+	-> ZONE: 100km/h (500m - 1000m)

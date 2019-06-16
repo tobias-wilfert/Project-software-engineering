@@ -360,8 +360,6 @@ void XmlParser::parseFile() {
                         }
                     }
                     if(!foundBaan){
-                        // TODO: John what the fuck is this here?
-                        //break; //end this loop and move to the next set of values
 
                         std::cerr << "Error on line: " << childOfRootElement->Row() << std::endl;
                         std::cerr << "Value of " << childOfRootElement->Value() << ": " << elementText << std::endl;

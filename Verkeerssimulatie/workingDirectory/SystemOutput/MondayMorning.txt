@@ -1,0 +1,3010 @@
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         13.8889 m
+	-> snelheid:        50 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         113.889 m
+	-> snelheid:        50 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         213.889 m
+	-> snelheid:        50 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         313.889 m
+	-> snelheid:        50 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         27.7778 m
+	-> snelheid:        57.2 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         127.778 m
+	-> snelheid:        57.2 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         227.778 m
+	-> snelheid:        57.2 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         327.778 m
+	-> snelheid:        57.2 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         43.6667 m
+	-> snelheid:        64.4 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         143.667 m
+	-> snelheid:        64.4 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         243.667 m
+	-> snelheid:        64.4 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         343.667 m
+	-> snelheid:        64.4 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         61.5556 m
+	-> snelheid:        71.6 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         161.556 m
+	-> snelheid:        71.6 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         261.556 m
+	-> snelheid:        71.6 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         361.556 m
+	-> snelheid:        71.6 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         81.4444 m
+	-> snelheid:        78.8 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         181.444 m
+	-> snelheid:        78.8 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         281.444 m
+	-> snelheid:        78.8 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         381.444 m
+	-> snelheid:        78.8 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         103.333 m
+	-> snelheid:        70.02 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         203.333 m
+	-> snelheid:        70.02 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         303.333 m
+	-> snelheid:        70.02 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         403.333 m
+	-> snelheid:        86 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         122.783 m
+	-> snelheid:        65.893 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         222.783 m
+	-> snelheid:        65.893 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         322.783 m
+	-> snelheid:        65.893 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         427.222 m
+	-> snelheid:        93.2 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         141.087 m
+	-> snelheid:        68.1274 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         241.087 m
+	-> snelheid:        68.1275 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         341.087 m
+	-> snelheid:        68.1275 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         453.111 m
+	-> snelheid:        100.4 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         160.011 m
+	-> snelheid:        73.7989 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         260.011 m
+	-> snelheid:        73.7989 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         360.011 m
+	-> snelheid:        73.7989 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         481 m
+	-> snelheid:        107.6 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         180.511 m
+	-> snelheid:        72.7602 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         280.511 m
+	-> snelheid:        72.7602 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         380.511 m
+	-> snelheid:        80.7502 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         510.889 m
+	-> snelheid:        114.8 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         200.722 m
+	-> snelheid:        69.1708 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         300.722 m
+	-> snelheid:        69.1708 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         402.942 m
+	-> snelheid:        87.9502 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         542.778 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         219.936 m
+	-> snelheid:        68.1107 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         319.936 m
+	-> snelheid:        68.1107 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         427.372 m
+	-> snelheid:        95.1502 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         576.111 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         238.856 m
+	-> snelheid:        70.7958 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         338.856 m
+	-> snelheid:        70.7958 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         453.803 m
+	-> snelheid:        102.35 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         609.444 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         258.521 m
+	-> snelheid:        72.1807 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         358.521 m
+	-> snelheid:        76.1757 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         482.233 m
+	-> snelheid:        109.55 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         642.778 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         278.572 m
+	-> snelheid:        70.8835 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         379.681 m
+	-> snelheid:        82.8699 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         512.664 m
+	-> snelheid:        116.237 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         676.111 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         298.261 m
+	-> snelheid:        69.3025 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         402.701 m
+	-> snelheid:        90.0142 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         544.952 m
+	-> snelheid:        119.122 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         709.444 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         317.512 m
+	-> snelheid:        69.812 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         427.705 m
+	-> snelheid:        97.2142 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         578.042 m
+	-> snelheid:        119.994 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         742.778 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         336.904 m
+	-> snelheid:        73.0703 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         454.709 m
+	-> snelheid:        104.414 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         611.373 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         776.111 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         357.202 m
+	-> snelheid:        78.4589 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         483.712 m
+	-> snelheid:        111.493 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         644.706 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         809.444 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         378.996 m
+	-> snelheid:        85.0448 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         514.683 m
+	-> snelheid:        116.37 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         678.04 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         842.778 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         402.619 m
+	-> snelheid:        92.1174 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         547.008 m
+	-> snelheid:        118.913 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         711.373 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         876.111 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         428.207 m
+	-> snelheid:        99.3174 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         580.039 m
+	-> snelheid:        119.838 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         744.706 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         909.444 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         455.796 m
+	-> snelheid:        106.495 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         613.327 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         778.04 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         942.778 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         485.377 m
+	-> snelheid:        112.509 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         646.661 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         811.373 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         976.111 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         516.63 m
+	-> snelheid:        116.613 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         679.994 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         844.706 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1009.44 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         549.022 m
+	-> snelheid:        118.841 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         713.327 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         878.04 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1042.78 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         582.034 m
+	-> snelheid:        119.755 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         746.661 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         911.373 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1070.56 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         615.299 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         779.994 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         944.706 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1098.33 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         648.632 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         813.327 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         978.04 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1126.11 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         681.966 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         846.661 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1011.37 m
+	-> snelheid:        110.129 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1153.89 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         715.299 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         879.994 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1041.96 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1181.67 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         748.632 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         913.327 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1069.74 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1209.44 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         781.966 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         946.661 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1097.52 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1237.22 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         815.299 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         979.994 m
+	-> snelheid:        115.146 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1125.3 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1265 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         848.632 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1011.98 m
+	-> snelheid:        106.845 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1153.08 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1292.78 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         881.966 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1041.66 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1180.85 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1320.56 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         915.299 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1069.44 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1208.63 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1348.33 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         948.632 m
+	-> snelheid:        117.624 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1097.21 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1236.41 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1376.11 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         981.306 m
+	-> snelheid:        111.878 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1124.99 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1264.19 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1403.89 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1012.38 m
+	-> snelheid:        105.077 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1152.77 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1291.96 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1431.67 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1041.57 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1180.55 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1319.74 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1459.44 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1069.35 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1208.33 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1347.52 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1487.22 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1097.13 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1236.1 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1375.3 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1515 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1124.9 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1263.88 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1403.08 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1542.78 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1152.68 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1291.66 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1430.85 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1570.56 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1180.46 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1319.44 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1458.63 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1598.33 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1208.24 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1347.21 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1486.41 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1626.11 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1236.02 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1374.99 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1514.19 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1653.89 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1263.79 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1402.77 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1541.96 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1681.67 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1291.57 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1430.55 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1569.74 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1709.44 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1319.35 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1458.33 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1597.52 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1737.22 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1347.13 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1486.1 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1625.3 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1765 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1374.9 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1513.88 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1653.08 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1792.78 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1402.68 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1541.66 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1680.85 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1820.56 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1430.46 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1569.44 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1708.63 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1848.33 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1458.24 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1597.21 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1736.41 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1876.11 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1486.02 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1624.99 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1764.19 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1903.89 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1513.79 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1652.77 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1791.96 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1931.67 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1541.57 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1680.55 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1819.74 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1959.44 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1569.35 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1708.33 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1847.52 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         1987.22 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1597.13 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1736.1 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1875.3 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2015 m
+	-> snelheid:        100 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1624.9 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1763.88 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1903.08 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2042.78 m
+	-> snelheid:        107.2 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1652.68 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1791.66 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1930.85 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2072.56 m
+	-> snelheid:        114.4 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1680.46 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1819.44 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1958.63 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2104.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1708.24 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1847.21 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         1986.41 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2137.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1736.02 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1874.99 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2014.19 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2171 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1763.79 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1902.77 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2041.96 m
+	-> snelheid:        107.2 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2204.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1791.57 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1930.55 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2071.74 m
+	-> snelheid:        114.4 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2237.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1819.35 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1958.33 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2103.52 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2271 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1847.13 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         1986.1 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2136.85 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2304.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1874.9 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2013.88 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2170.19 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2337.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1902.68 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2041.66 m
+	-> snelheid:        107.2 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2203.52 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2371 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1930.46 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2071.44 m
+	-> snelheid:        114.4 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2236.85 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2404.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1958.24 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2103.21 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2270.19 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2437.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         1986.02 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2136.55 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2303.52 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2471 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2013.79 m
+	-> snelheid:        100 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2169.88 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2336.85 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2504.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2041.57 m
+	-> snelheid:        107.2 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2203.21 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2370.19 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2537.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2071.35 m
+	-> snelheid:        114.4 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2236.55 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2403.52 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2571 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2103.13 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2269.88 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2436.85 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2604.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2136.46 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2303.21 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2470.19 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2637.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2169.79 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2336.55 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2503.52 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2671 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2203.13 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2369.88 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2536.85 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2704.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2236.46 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2403.21 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2570.19 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2737.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2269.79 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2436.55 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2603.52 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2771 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2303.13 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2469.88 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2636.85 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2804.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2336.46 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2503.21 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2670.19 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2837.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2369.79 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2536.55 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2703.52 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2871 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2403.13 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2569.88 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2736.85 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2904.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2436.46 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2603.21 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2770.19 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2937.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2469.79 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2636.55 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2803.52 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-4-GB)
+	-> baan:            E19
+	-> positie:         2971 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2503.13 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2669.88 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2836.85 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2536.46 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2703.21 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2870.19 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2569.79 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2736.55 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2903.52 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2603.13 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2769.88 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2936.85 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2636.46 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2803.21 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-3-GB)
+	-> baan:            E19
+	-> positie:         2970.19 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2669.79 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2836.55 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2703.13 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2869.88 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2736.46 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2903.21 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2769.79 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2936.55 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2803.13 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (BBC-2-GB)
+	-> baan:            E19
+	-> positie:         2969.88 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2836.46 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2869.79 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2903.13 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2936.46 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            E19
+	-> positie:         2969.79 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: E19
+	-> lengte:          3000 m
+	-> rijstroken:      2
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 100km/h (1000m - 2000m)
+	-> ZONE: 120km/h (2000m - 3000m)

@@ -345,7 +345,7 @@ public:
      * @pre A valid Vehicle
      * @post A Vehicle with updated position, speed and acceleration
      \n REQUIRE(this->properlyInitialized(), "Voertuig wasn't initialized when calling updatePosition");
-     \n ENSURE(fPositie <= fBaanObject->getLengte(), "updatePosition post condition failure");
+     \n ENSURE(fPositie <= getBaanObject()->getLengte(), "updatePosition post condition failure");
      \n ENSURE(fVersnelling <= fMaxVersnelling, "updatePosition post condition failure");
      \n ENSURE(fVersnelling >= fMinVersnelling, "updatePosition post condition failure");
      */

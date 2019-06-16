@@ -1,0 +1,4122 @@
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         110 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         115 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         110 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         115 m
+	-> snelheid:        0 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         110 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         115 m
+	-> snelheid:        7.2 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         110 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         115 m
+	-> snelheid:        7.2 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         110 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         117 m
+	-> snelheid:        14.4 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         110 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         117 m
+	-> snelheid:        14.4 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         110 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         121 m
+	-> snelheid:        21.6 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         110 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         121 m
+	-> snelheid:        21.6 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         110 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         127 m
+	-> snelheid:        28.8 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         110 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         127 m
+	-> snelheid:        28.8 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         110 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         135 m
+	-> snelheid:        36 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         110 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         135 m
+	-> snelheid:        36 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         110 m
+	-> snelheid:        5.4 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         145 m
+	-> snelheid:        43.2 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         110 m
+	-> snelheid:        5.4 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         145 m
+	-> snelheid:        43.2 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         111.5 m
+	-> snelheid:        12.6 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         157 m
+	-> snelheid:        50.4 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         111.5 m
+	-> snelheid:        12.6 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         157 m
+	-> snelheid:        50.4 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         115 m
+	-> snelheid:        19.8 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         171 m
+	-> snelheid:        57.6 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         115 m
+	-> snelheid:        19.8 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         171 m
+	-> snelheid:        57.6 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         120.5 m
+	-> snelheid:        27 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         187 m
+	-> snelheid:        64.8 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         120.5 m
+	-> snelheid:        27 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         187 m
+	-> snelheid:        64.8 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         128 m
+	-> snelheid:        34.2 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         205 m
+	-> snelheid:        72 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         105 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         128 m
+	-> snelheid:        34.2 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         205 m
+	-> snelheid:        72 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         105 m
+	-> snelheid:        3.6 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         137.5 m
+	-> snelheid:        41.4 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         225 m
+	-> snelheid:        79.2 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         105 m
+	-> snelheid:        3.6 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         137.5 m
+	-> snelheid:        41.4 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         225 m
+	-> snelheid:        79.2 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         106 m
+	-> snelheid:        10.8 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         149 m
+	-> snelheid:        48.6 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         247 m
+	-> snelheid:        86.4 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         106 m
+	-> snelheid:        10.8 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         149 m
+	-> snelheid:        48.6 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         247 m
+	-> snelheid:        86.4 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         109 m
+	-> snelheid:        18 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         162.5 m
+	-> snelheid:        55.8 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         271 m
+	-> snelheid:        93.6 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         109 m
+	-> snelheid:        18 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         162.5 m
+	-> snelheid:        55.8 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         271 m
+	-> snelheid:        93.6 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         114 m
+	-> snelheid:        25.2 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         178 m
+	-> snelheid:        63 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         297 m
+	-> snelheid:        100.8 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         114 m
+	-> snelheid:        25.2 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         178 m
+	-> snelheid:        63 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         297 m
+	-> snelheid:        100.8 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         121 m
+	-> snelheid:        32.4 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         195.5 m
+	-> snelheid:        70.2 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         325 m
+	-> snelheid:        108 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        0 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         121 m
+	-> snelheid:        32.4 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         195.5 m
+	-> snelheid:        70.2 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         325 m
+	-> snelheid:        108 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100 m
+	-> snelheid:        1.8 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         130 m
+	-> snelheid:        39.6 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         215 m
+	-> snelheid:        77.4 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         355 m
+	-> snelheid:        115.2 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100 m
+	-> snelheid:        1.8 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         130 m
+	-> snelheid:        39.6 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         215 m
+	-> snelheid:        77.4 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         355 m
+	-> snelheid:        115.2 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         100.5 m
+	-> snelheid:        9 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         141 m
+	-> snelheid:        46.8 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         236.5 m
+	-> snelheid:        84.6 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         387 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         100.5 m
+	-> snelheid:        9 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         141 m
+	-> snelheid:        46.8 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         236.5 m
+	-> snelheid:        84.6 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         387 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         103 m
+	-> snelheid:        16.2 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         154 m
+	-> snelheid:        54 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         260 m
+	-> snelheid:        91.8 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         420.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         103 m
+	-> snelheid:        16.2 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         154 m
+	-> snelheid:        54 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         260 m
+	-> snelheid:        91.8 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         420.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         107.5 m
+	-> snelheid:        23.4 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         169 m
+	-> snelheid:        61.2 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         285.5 m
+	-> snelheid:        99 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         453.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         107.5 m
+	-> snelheid:        23.4 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         169 m
+	-> snelheid:        61.2 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         285.5 m
+	-> snelheid:        99 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         453.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         114 m
+	-> snelheid:        30.6 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         186 m
+	-> snelheid:        68.4 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         313 m
+	-> snelheid:        106.2 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         487 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         114 m
+	-> snelheid:        30.6 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         186 m
+	-> snelheid:        68.4 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         313 m
+	-> snelheid:        106.2 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         487 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         122.5 m
+	-> snelheid:        37.8 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         205 m
+	-> snelheid:        75.6 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         342.5 m
+	-> snelheid:        113.4 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         520.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         122.5 m
+	-> snelheid:        37.8 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         205 m
+	-> snelheid:        75.6 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         342.5 m
+	-> snelheid:        113.4 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         520.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         133 m
+	-> snelheid:        45 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         226 m
+	-> snelheid:        82.8 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         374 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         553.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         133 m
+	-> snelheid:        45 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         226 m
+	-> snelheid:        82.8 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         374 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         553.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         145.5 m
+	-> snelheid:        52.2 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         249 m
+	-> snelheid:        90 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         407.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         587 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         145.5 m
+	-> snelheid:        52.2 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         249 m
+	-> snelheid:        90 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         407.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         587 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         160 m
+	-> snelheid:        59.4 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         274 m
+	-> snelheid:        97.2 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         440.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         620.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         160 m
+	-> snelheid:        59.4 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         274 m
+	-> snelheid:        97.2 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         440.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         620.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         176.5 m
+	-> snelheid:        66.6 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         301 m
+	-> snelheid:        104.4 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         474 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         653.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         176.5 m
+	-> snelheid:        66.6 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         301 m
+	-> snelheid:        104.4 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         474 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         653.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         195 m
+	-> snelheid:        73.8 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         330 m
+	-> snelheid:        111.6 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         507.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         687 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         195 m
+	-> snelheid:        73.8 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         330 m
+	-> snelheid:        111.6 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         507.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         687 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         215.5 m
+	-> snelheid:        81 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         361 m
+	-> snelheid:        118.8 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         540.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         720.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         215.5 m
+	-> snelheid:        81 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         361 m
+	-> snelheid:        118.8 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         540.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         720.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         238 m
+	-> snelheid:        88.2 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         394 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         574 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         753.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         238 m
+	-> snelheid:        88.2 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         394 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         574 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         753.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         262.5 m
+	-> snelheid:        95.4 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         427.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         607.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         787 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         262.5 m
+	-> snelheid:        95.4 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         427.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         607.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         787 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         289 m
+	-> snelheid:        102.6 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         460.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         640.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         820.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         289 m
+	-> snelheid:        102.6 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         460.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         640.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         820.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         317.5 m
+	-> snelheid:        109.8 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         494 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         674 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         853.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         317.5 m
+	-> snelheid:        109.8 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         494 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         674 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         853.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         348 m
+	-> snelheid:        117 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         527.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         707.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         887 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         348 m
+	-> snelheid:        117 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         527.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         707.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         887 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         380.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         560.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         740.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         920.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         380.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         560.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         740.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         920.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         413.833 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         594 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         774 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         953.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         413.833 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         594 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         774 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         953.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         447.167 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         627.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         807.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         987 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         447.167 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         627.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         807.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         987 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         480.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         660.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         840.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1020.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         480.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         660.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         840.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1020.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         513.833 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         694 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         874 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1053.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         513.833 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         694 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         874 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1053.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         547.167 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         727.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         907.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1087 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         547.167 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         727.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         907.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1087 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         580.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         760.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         940.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1120.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         580.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         760.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         940.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1120.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         613.833 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         794 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         974 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1153.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         613.833 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         794 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         974 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1153.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         647.167 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         827.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1007.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1187 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         647.167 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         827.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1007.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1187 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         680.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         860.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1040.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1220.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         680.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         860.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1040.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1220.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         713.833 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         894 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1074 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1253.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         713.833 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         894 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1074 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1253.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         747.167 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         927.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1107.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1287 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         747.167 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         927.333 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1107.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1287 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         780.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         960.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1140.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1320.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         780.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         960.667 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1140.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1320.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         813.833 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         994 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1174 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1353.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         813.833 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         994 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1174 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1353.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         847.167 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1027.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1207.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1387 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         847.167 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1027.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1207.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1387 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         880.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1060.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1240.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1420.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         880.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1060.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1240.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1420.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         913.833 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1094 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1274 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1453.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         913.833 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1094 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1274 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1453.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         947.167 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1127.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1307.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1487 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         947.167 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1127.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1307.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1487 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         980.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1160.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1340.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1520.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         980.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1160.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1340.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1520.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1013.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1194 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1374 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1553.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1013.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1194 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1374 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1553.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1047.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1227.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1407.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1587 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1047.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1227.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1407.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1587 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1080.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1260.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1440.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1620.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1080.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1260.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1440.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1620.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1113.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1294 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1474 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1653.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1113.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1294 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1474 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1653.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1147.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1327.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1507.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1687 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1147.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1327.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1507.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1687 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1180.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1360.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1540.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1720.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1180.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1360.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1540.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1720.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1213.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1394 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1574 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1753.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1213.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1394 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1574 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1753.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1247.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1427.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1607.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1787 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1247.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1427.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1607.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1787 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1280.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1460.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1640.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1820.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1280.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1460.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1640.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1820.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1313.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1494 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1674 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1853.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1313.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1494 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1674 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1853.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1347.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1527.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1707.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1887 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1347.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1527.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1707.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1887 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1380.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1560.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1740.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1920.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1380.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1560.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1740.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1920.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1413.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1594 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1774 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1953.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1413.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1594 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1774 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1953.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1447.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1627.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1807.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC004)
+	-> baan:            N1
+	-> positie:         1987 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1447.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1627.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1807.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC104)
+	-> baan:            N2
+	-> positie:         1987 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1480.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1660.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1840.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1480.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1660.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1840.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1513.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1694 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1874 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1513.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1694 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1874 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1547.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1727.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1907.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1547.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1727.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1907.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1580.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1760.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1940.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1580.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1760.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1940.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1613.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1794 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC003)
+	-> baan:            N1
+	-> positie:         1974 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1613.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1794 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC103)
+	-> baan:            N2
+	-> positie:         1974 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1647.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1827.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1647.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1827.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1680.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1860.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1680.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1860.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1713.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1894 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1713.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1894 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1747.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1927.33 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1747.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1927.33 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1780.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1960.67 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1780.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1960.67 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1813.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC002)
+	-> baan:            N1
+	-> positie:         1994 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1813.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC102)
+	-> baan:            N2
+	-> positie:         1994 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1847.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1847.17 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1880.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1880.5 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1913.83 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1913.83 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1947.17 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1947.17 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Voertuig: AUTO (1ABC001)
+	-> baan:            N1
+	-> positie:         1980.5 m
+	-> snelheid:        120 km/h
+
+Voertuig: AUTO (1ABC101)
+	-> baan:            N2
+	-> positie:         1980.5 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: N1
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+
+Baan: N2
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+

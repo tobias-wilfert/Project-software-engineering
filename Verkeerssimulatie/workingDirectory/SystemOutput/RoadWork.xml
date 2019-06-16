@@ -1,0 +1,27 @@
+<Comment> Bannen </Comment>
+
+<BAAN>
+    <naam>A12</naam>
+    <snelheidslimiet>120</snelheidslimiet>
+    <lengte>2000</lengte>
+    <rijstroken>1</rijstroken>
+</BAAN>
+
+<Comment> Verkeersteken </Comment>
+
+<VERKEERSTEKEN>
+    <type>ZONE</type>
+    <baan>A12</baan>
+    <positie>1000</positie>
+    <snelheidslimiet>60</snelheidslimiet>
+</VERKEERSTEKEN>
+
+<Comment> Cars </Comment>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>BBC-1-GB</nummerplaat>
+    <baan>A12</baan>
+    <positie>0</positie>
+    <snelheid>120</snelheid>
+</VOERTUIG>

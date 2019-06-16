@@ -38,7 +38,7 @@ protected:
 /////////////////////////////////Begin System Tests////////////////////////////////////////////////////
 
 TEST_F(SystemTest, organizeVehicles){
-    XmlParser parser3("SYSTEMorganizeVehiclesTest.xml");
+    XmlParser parser3("Parser/SYSTEMorganizeVehiclesTest.xml");
     System s(parser3.getBanen(), parser3.getWegenNetwerk(), parser3.getVoertuigen());
     Voertuig *nullpointer = NULL;  //nullpointer van Object Voertuig
     EXPECT_EQ(s.getVoertuigen()->at(0)->getNextVoertuig(), nullpointer);
@@ -62,7 +62,7 @@ TEST_F(SystemTest, organizeVehicles){
 
 
 TEST_F(SystemTest, initializeVehicleBaanObject){
-    XmlParser parser4("SYSTEMinitializeVehicleBaanObjectTest.xml");
+    XmlParser parser4("Parser/SYSTEMinitializeVehicleBaanObjectTest.xml");
     System s1(parser4.getBanen(), parser4.getWegenNetwerk(), parser4.getVoertuigen());
     Baan *nullpointer = NULL;
     EXPECT_EQ(s1.getVoertuigen()->at(0)->getBaanObject(), nullpointer);
@@ -76,7 +76,7 @@ TEST_F(SystemTest, initializeVehicleBaanObject){
     EXPECT_EQ(s1.getVoertuigen()->at(3)->getBaanObject(), s1.getBanen()->at(2));
 }
 
-XmlParser parser5("SYSTEMinitializeBaanVerbindingObjectsTest.xml");
+XmlParser parser5("Parser/SYSTEMinitializeBaanVerbindingObjectsTest.xml");
 System s = System(parser5.getBanen(), parser5.getWegenNetwerk(), parser5.getVoertuigen());
 
 TEST_F(SystemTest, initializeBaanVerbindingObjects){
@@ -97,7 +97,7 @@ TEST_F(SystemTest, initializeBaanVerbindingObjects){
     EXPECT_EQ(s.getWegenNetwerk()->at(4)->getVerbindingObject(), s.getWegenNetwerk()->at(2));
 }
 
-XmlParser parser6("SYSTEMfilterVehiclesTest.xml");
+XmlParser parser6("Parser/SYSTEMfilterVehiclesTest.xml");
 System s1(parser6.getBanen(), parser6.getWegenNetwerk(), parser6.getVoertuigen());
 TEST_F(SystemTest, filterVehicles){
     unsigned int x = 4;
@@ -126,7 +126,7 @@ TEST_F(SystemTest, filterVehicles){
 
 }
 
-XmlParser parser7("SYSTEMgetBanenEnWegenNetwerkTest.xml");
+XmlParser parser7("Parser/SYSTEMgetBanenEnWegenNetwerkTest.xml");
 System s2(parser7.getBanen(), parser7.getWegenNetwerk(), parser7.getVoertuigen());
 TEST_F(SystemTest, getBanen){
     unsigned int x = 4;
@@ -147,7 +147,7 @@ TEST_F(SystemTest, getWegenNetwerk){
     EXPECT_EQ(s2.getWegenNetwerk()->at(4)->getNaam(), "E100");
 }
 
-XmlParser parser8("SYSTEMsimulateTest.xml");
+XmlParser parser8("Parser/SYSTEMsimulateTest.xml");
 System s3(parser8.getBanen(), parser8.getWegenNetwerk(), parser8.getVoertuigen());
 
 
@@ -351,118 +351,79 @@ TEST_F(SystemTest, outputVerkeersteken) {
     EXPECT_DEATH(s0.outputVerkeersteken(b1, 75), "");
 }
 
-
-
-
 /////////////////////////////////Test output of entire sysytem////////////////////////////////////////////////////
 
-/*
+TEST_F(SystemTest, entireSystem_BusTest){
+    XmlParser parser("SystemOutput/BusTest.xml");
+    System systemTest(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
 
-TEST_F(SystemTest, entireSysytem_Traffic_Jam){
-    XmlParser parser("Traffic_Jam.xml");
-    System s(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+    // Redirect streams
+    std::ofstream out("dummyTest.txt");
+    std::streambuf *coutbuf = std::cout.rdbuf();//save old buf
+    std::cout.rdbuf(out.rdbuf());
 
-    // Write the output to a file to comapare them later
-    std::string output;
-    s.automaticSimulation(output);
+    systemTest.automaticSimulation("simpele");
 
-    // Write to file
-    std::ofstream myfile;
-    myfile.open ("Test_Result.txt");
-    myfile << output;
-    myfile.close();
-
-    // Check the output
-    EXPECT_TRUE(s.compareFiles("Test_Result.txt","Traffic_Jam.txt"));
+    std::cout.rdbuf(coutbuf);
+    EXPECT_TRUE(systemTest.compareFiles("dummyTest.txt","SystemOutput/BusTest.txt"));
 }
 
-TEST_F(SystemTest, entireSysytem_Friday_Night){
-    XmlParser parser("Friday_Night.xml");
-    System s(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+TEST_F(SystemTest, entireSystem_Holiday){
+    XmlParser parser("SystemOutput/Holiday.xml");
+    System systemTest(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
 
-    // Write the output to a file to comapare them later
-    std::string output;
-    s.automaticSimulation(output);
+    // Redirect streams
+    std::ofstream out("dummyTest.txt");
+    std::streambuf *coutbuf = std::cout.rdbuf();//save old buf
+    std::cout.rdbuf(out.rdbuf());
 
-    // Write to file
-    std::ofstream myfile;
-    myfile.open ("Test_Result.txt");
-    myfile << output;
-    myfile.close();
+    systemTest.automaticSimulation("simpele");
 
-    // Check the output
-    EXPECT_TRUE(s.compareFiles("Test_Result.txt","Friday_Night.txt"));
+    std::cout.rdbuf(coutbuf);
+    EXPECT_TRUE(systemTest.compareFiles("dummyTest.txt","SystemOutput/Holiday.txt"));
 }
 
-TEST_F(SystemTest, entireSysytem_Holiday){
-    XmlParser parser("Holiday.xml");
-    System s(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+TEST_F(SystemTest, entireSystem_MondayMorning){
+    XmlParser parser("SystemOutput/MondayMorning.xml");
+    System systemTest(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
 
-    // Write the output to a file to comapare them later
-    std::string output;
-    s.automaticSimulation(output);
+    // Redirect streams
+    std::ofstream out("dummyTest.txt");
+    std::streambuf *coutbuf = std::cout.rdbuf();//save old buf
+    std::cout.rdbuf(out.rdbuf());
 
-    // Write to file
-    std::ofstream myfile;
-    myfile.open ("Test_Result.txt");
-    myfile << output;
-    myfile.close();
+    systemTest.automaticSimulation("simpele");
 
-    // Check the output
-    EXPECT_TRUE(s.compareFiles("Test_Result.txt","Holiday.txt"));
+    std::cout.rdbuf(coutbuf);
+    EXPECT_TRUE(systemTest.compareFiles("dummyTest.txt","SystemOutput/MondayMorning.txt"));
 }
 
-TEST_F(SystemTest, entireSysytem_Monday_Morning){
-    XmlParser parser("Monday_Morning.xml");
-    System s(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+TEST_F(SystemTest, entireSystem_RoadWork){
+    XmlParser parser("SystemOutput/RoadWork.xml");
+    System systemTest(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
 
-    // Write the output to a file to comapare them later
-    std::string output;
-    s.automaticSimulation(output);
+    // Redirect streams
+    std::ofstream out("dummyTest.txt");
+    std::streambuf *coutbuf = std::cout.rdbuf();//save old buf
+    std::cout.rdbuf(out.rdbuf());
 
-    // Write to file
-    std::ofstream myfile;
-    myfile.open ("Test_Result.txt");
-    myfile << output;
-    myfile.close();
+    systemTest.automaticSimulation("simpele");
 
-    // Check the output
-    EXPECT_TRUE(s.compareFiles("Test_Result.txt","Monday_Morning.txt"));
+    std::cout.rdbuf(coutbuf);
+    EXPECT_TRUE(systemTest.compareFiles("dummyTest.txt","SystemOutput/RoadWork.txt"));
 }
 
-TEST_F(SystemTest, entireSysytem_Wednesday_Night){
-    XmlParser parser("Wednesday_Night.xml");
-    System s(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
+TEST_F(SystemTest, entireSystem_RushHour){
+    XmlParser parser("SystemOutput/RushHour.xml");
+    System systemTest(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
 
-    // Write the output to a file to comapare them later
-    std::string output;
-    s.automaticSimulation(output);
+    // Redirect streams
+    std::ofstream out("dummyTest.txt");
+    std::streambuf *coutbuf = std::cout.rdbuf();//save old buf
+    std::cout.rdbuf(out.rdbuf());
 
-    // Write to file
-    std::ofstream myfile;
-    myfile.open ("Test_Result.txt");
-    myfile << output;
-    myfile.close();
+    systemTest.automaticSimulation("simpele");
 
-    // Check the output
-    EXPECT_TRUE(s.compareFiles("Test_Result.txt","Wednesday_Night.txt"));
+    std::cout.rdbuf(coutbuf);
+    EXPECT_TRUE(systemTest.compareFiles("dummyTest.txt","SystemOutput/RushHour.txt"));
 }
-
-TEST_F(SystemTest, entireSysytem_Wegen_en_voertuigen){
-    XmlParser parser("Wegen_en_voertuigen.xml");
-    System s(parser.getBanen(), parser.getWegenNetwerk(), parser.getVoertuigen());
-
-    // Write the output to a file to comapare them later
-    std::string output;
-    s.automaticSimulation(output);
-
-    // Write to file
-    std::ofstream myfile;
-    myfile.open ("Test_Result.txt");
-    myfile << output;
-    myfile.close();
-
-    // Check the output
-    EXPECT_TRUE(s.compareFiles("Test_Result.txt","Wegen_en_voertuigen.txt"));
-}
- */

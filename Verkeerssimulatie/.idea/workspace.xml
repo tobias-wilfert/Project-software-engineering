@@ -21,7 +21,7 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
   </component>
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="Verkeerssimulatie" targetName="Verkeerssimulatie" />
       <config projectName="Verkeerssimulatie" targetName="Verkeerssimulatie_debug" />
@@ -34,25 +34,92 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97f6ac4c-9f6e-424c-94a1-4321ba53fd38" name="Default" comment="Cleaned Up all Tests">
+      <change afterPath="$PROJECT_DIR$/workingDirectory/FileCompare/Empty1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingDirectory/FileCompare/Empty2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingDirectory/FileCompare/TwoCities.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingDirectory/FileCompare/Whitman.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingDirectory/FileCompare/Whitman2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingDirectory/FileCompare/WhitmanLong.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingDirectory/FileCompare/WhitmanShort.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingDirectory/Parser/Working.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingDirectory/SystemOutput/MondayMorning.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingDirectory/SystemOutput/RoadWork.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workingDirectory/SystemOutput/RushHour.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/.idea/GraphTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/GraphTest.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/GraphTest.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/GraphTest.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/GraphTest.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/GraphTest.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/GraphTest.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/GraphTest.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/GraphTest.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/GraphTest.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/GraphTest.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/GraphTest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/GraphTest.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/HellingHeightMap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/HellingIgnitionMap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/WindIgnitionMap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/WindNone.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/WindVegetationMap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/WindnHeightMap.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/cmake-build-debug/example.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../GraphTest/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.." beforeDir="false" afterPath="$PROJECT_DIR$/.." afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baan.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Baan.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Baan.h" beforeDir="false" afterPath="$PROJECT_DIR$/Baan.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/System.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/System.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/BaanTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/BaanTest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/SystemTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/SystemTest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/VoertuigTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/VoertuigTest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/XmlParserTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/XmlParserTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/System.h" beforeDir="false" afterPath="$PROJECT_DIR$/System.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/BaanTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/SystemTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/VerkeerssimulatieTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/VerkeerstekenTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/VoertuigTest.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/XmlParserTest.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Voertuig.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Voertuig.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Voertuig.h" beforeDir="false" afterPath="$PROJECT_DIR$/Voertuig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XmlParser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/XmlParser.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.12.0/CompilerIdCXX/a.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
@@ -93,15 +160,18 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/Voertuig.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/XmlParser.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Verkeerssimulatie_debug.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Verkeerssimulatie.cbp" afterDir="false" />
@@ -133,34 +203,196 @@
       <change beforePath="$PROJECT_DIR$/gtest/include/gtest/internal/gtest-type-util.h.pump" beforeDir="false" afterPath="$PROJECT_DIR$/gtest/include/gtest/internal/gtest-type-util.h.pump" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gtest/lib/libgtest.a" beforeDir="false" afterPath="$PROJECT_DIR$/gtest/lib/libgtest.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gtest/lib/libgtest_main.a" beforeDir="false" afterPath="$PROJECT_DIR$/gtest/lib/libgtest_main.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/gtest-death-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/gtest-message.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/gtest-param-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/gtest-param-test.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/gtest-printers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/gtest-spi.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/gtest-test-part.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/gtest-typed-test.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/gtest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/gtest_pred_impl.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/gtest_prod.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/internal/gtest-death-test-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/internal/gtest-filepath.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/internal/gtest-internal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/internal/gtest-linked_ptr.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/internal/gtest-param-util-generated.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/internal/gtest-param-util-generated.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/internal/gtest-param-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/internal/gtest-port.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/internal/gtest-string.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/internal/gtest-tuple.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/internal/gtest-tuple.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/internal/gtest-type-util.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/include/gtest/internal/gtest-type-util.h.pump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/lib/libgtest.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gtest_linux/lib/libgtest_main.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/gtest-death-test.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/gtest-message.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/gtest-param-test.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/gtest-param-test.h.pump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/gtest-printers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/gtest-spi.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/gtest-test-part.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/gtest-typed-test.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/gtest.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/gtest_pred_impl.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/gtest_prod.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/internal/gtest-death-test-internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/internal/gtest-filepath.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/internal/gtest-internal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/internal/gtest-linked_ptr.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/internal/gtest-param-util-generated.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/internal/gtest-param-util-generated.h.pump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/internal/gtest-param-util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/internal/gtest-port.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/internal/gtest-string.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/internal/gtest-tuple.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/internal/gtest-tuple.h.pump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/internal/gtest-type-util.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/include/gtest/internal/gtest-type-util.h.pump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/lib/libgtest.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gtest_unix/lib/libgtest_main.a" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workingDirectory/AA.txt" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/AA.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/AA.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/BusTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/SystemOutput/BusTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/DuplicateBanen4Banen2Duplicaten.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Parser/DuplicateBanen4Banen2Duplicaten.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/DuplicateBanen4Banen4Duplicaten.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Parser/DuplicateBanen4Banen4Duplicaten.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/Friday_Night.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/GetterAndSetterTester.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Parser/GetterAndSetterTester.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/Holiday.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/SystemOutput/Holiday.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/Monday_Morning.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/OneWegenNetwerk.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Parser/OneWegenNetwerk.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/SYSTEMfilterVehiclesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Parser/SYSTEMfilterVehiclesTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/SYSTEMgetBanenEnWegenNetwerkTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Parser/SYSTEMgetBanenEnWegenNetwerkTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/SYSTEMinitializeBaanVerbindingObjectsTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Parser/SYSTEMinitializeBaanVerbindingObjectsTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/SYSTEMinitializeVehicleBaanObjectTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Parser/SYSTEMinitializeVehicleBaanObjectTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/SYSTEMorganizeVehiclesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Parser/SYSTEMorganizeVehiclesTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/SYSTEMsimulateTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Parser/SYSTEMsimulateTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/Traffic_Jam.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/Wednesday_Night.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/Wegen_en_voertuigen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/workingDirectory/Parser/Wegen_en_voertuigen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/Wegennetwerk.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/Wrong.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/dummyTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/newTypesTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workingDirectory/verkeersTekenVB.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Screenshot 2019-06-03 at 09.36.16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Screenshot 2019-06-03 at 10.41.37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Screenshot 2019-06-03 at 18.31.42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Backgrounds/Background-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Backgrounds/Background-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Backgrounds/Background-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Backgrounds/Background-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Backgrounds/Background-menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Coins and Powerups/goods.atlas/coin-bronze.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Coins and Powerups/goods.atlas/coin-gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Coins and Powerups/goods.atlas/power-up-star.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Enemies/bee.atlas/bee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Enemies/bee.atlas/bee_fly.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Enemies/enemies.atlas/bat-fly-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Enemies/enemies.atlas/bat-fly-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Enemies/enemies.atlas/bat-fly-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Enemies/enemies.atlas/bat-fly-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Enemies/enemies.atlas/blade-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Enemies/enemies.atlas/blade-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Enemies/enemies.atlas/ghost-frown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Enemies/enemies.atlas/mad-fly-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Enemies/enemies.atlas/mad-fly-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Environment/ground.atlas/ice-tile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Extras/gold-medal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/HUD/hud.atlas/button-menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/HUD/hud.atlas/button-restart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/HUD/hud.atlas/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/HUD/hud.atlas/heart-full.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Icon/Icon-60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Icon/Icon-60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Icon/Icon-76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Icon/Icon-76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Icon/Icon-Small-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Icon/Icon-Small-40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Icon/Icon-Small-40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Particles/dot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Pierre/pierre.atlas/pierre-dead.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Pierre/pierre.atlas/pierre-flying-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Pierre/pierre.atlas/pierre-flying-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Pierre/pierre.atlas/pierre-flying-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Pierre/pierre.atlas/pierre-flying-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Screenshots/phone-3.5-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Screenshots/phone-4-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Screenshots/phone-4.7-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Screenshots/phone-5.5-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Screenshots/tablet-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Sound/BackgroundMusic.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Sound/Coin.aif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Sound/Hurt.aif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Sound/Powerup.aif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-1/Sound/StartGame.aif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Backgrounds/background-back@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Backgrounds/background-back@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Backgrounds/background-front@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Backgrounds/background-front@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Backgrounds/background-menu@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Backgrounds/background-menu@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Backgrounds/background-middle@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Backgrounds/background-middle@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Crates/crate-power-up@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Crates/crate-power-up@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Crates/crate@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Crates/crate@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/bat-fly@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/bat-fly@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/bat@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/bat@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/bee-fly@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/bee-fly@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/bee@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/bee@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/blade-2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/blade-2@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/blade@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/blade@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/madfly-fly@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/madfly-fly@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/madfly@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Enemies/madfly@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Environment/coin-bronze@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Environment/coin-bronze@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Environment/coin-gold@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Environment/coin-gold@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Environment/ground@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Environment/ground@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Environment/star@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Environment/star@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Extras/gold-medal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/HUD/button-menu@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/HUD/button-menu@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/HUD/button-restart@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/HUD/button-restart@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/HUD/button@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/HUD/button@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/HUD/heart-full@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/HUD/heart-full@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Icon/Icon-60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Icon/Icon-60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Icon/Icon-76.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Icon/Icon-76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Icon/Icon-83-5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Icon/Icon-Small-40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Icon/Icon-Small-40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Icon/Icon-Small-40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Particles/dot@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Particles/dot@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Pierre/pierre-dead@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Pierre/pierre-dead@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Pierre/pierre-flying-1@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Pierre/pierre-flying-1@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Pierre/pierre-flying-2@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Pierre/pierre-flying-2@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Pierre/pierre-flying-3@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Pierre/pierre-flying-3@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Pierre/pierre-flying-4@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Pierre/pierre-flying-4@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Screenshots/phone-5.5-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Screenshots/tablet-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Sound/BackgroundMusic.m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Sound/Coin.aif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Sound/Hurt.aif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Sound/Powerup.aif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../assets-2/Sound/StartGame.aif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../calculus_2018.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../fase2-ta-2018-2019-cisse-pieter-olivier-tobias" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code.xcodeproj/project.xcworkspace/xcuserdata/tobiaswilfert.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code.xcodeproj/xcuserdata/tobiaswilfert.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code/Actions.sks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code/GameScene.sks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code/GameScene.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code/GameViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../just toget the code/just toget the code/Info.plist" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -173,49 +405,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FUSProjectUsageTrigger">
-    <session id="1198478363">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Verkeerssimulatie_debug (disassembly)" value="2" />
-          <entry key="cpp" value="16" />
-          <entry key="h" value="1" />
-          <entry key="txt" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Disassembly" value="2" />
-          <entry key="ObjectiveC" value="17" />
-          <entry key="PLAIN_TEXT" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cpp" value="392" />
-          <entry key="h" value="10" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="ObjectiveC" value="402" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+            <state relative-caret-position="368">
+              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
               <folding>
                 <element signature="e#417#436#0" expanded="true" />
               </folding>
@@ -224,48 +420,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/XmlParserTest.cpp">
+        <entry file="file://$PROJECT_DIR$/System.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="86" column="62" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
-              <folding>
-                <element signature="e#426#445#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workingDirectory/AA.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39221" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/XmlParserTest.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/BaanLengteFormat.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gtest/include/gtest/gtest.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="2288" selection-start-line="2288" selection-end-line="2288" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/VerkeerssimulatieTest.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="261">
+              <caret line="131" column="50" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -273,8 +431,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/SystemTest.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="160" selection-start-line="160" selection-end-line="160" />
+            <state relative-caret-position="154">
+              <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -283,26 +441,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>setLengte</find>
-      <find>lengte</find>
-      <find>deleteObject</find>
-      <find>vector</find>
-      <find>typeOfFile</find>
-      <find>fVo</find>
-      <find>positie</find>
-      <find>verbinding</find>
-      <find>initiali</find>
-      <find>initializeVehicleBaanObject</find>
-      <find>TEST_F</find>
-      <find>System</find>
-      <find>GetLengteWorking</find>
-      <find>GetNextVoertuigWorking</find>
-      <find>nullptr</find>
-      <find>simulate</find>
-      <find>Voertu</find>
-      <find>versnelling</find>
-      <find>no match</find>
-      <find>// Version</find>
       <find>// Version     : 1.0</find>
       <find>hello</find>
       <find>rijstro</find>
@@ -313,6 +451,26 @@
       <find>stoping</find>
       <find>float</find>
       <find>fVersnelling</find>
+      <find>simpele</find>
+      <find>Holiday</find>
+      <find>BusTest</find>
+      <find>Wrong.xml</find>
+      <find>DuplicateBanen</find>
+      <find>GetterAndSetter</find>
+      <find>GetterAndS</find>
+      <find>Friday_</find>
+      <find>newTypesTest</find>
+      <find>OneWegenNetwerk</find>
+      <find>SYSTEMsimuk</find>
+      <find>OneWe</find>
+      <find>Monday</find>
+      <find>SYSTEMfil</find>
+      <find>verkeersTekenVB</find>
+      <find>Wegen_en_</find>
+      <find>Wegennetwerk.xml</find>
+      <find>Sys</find>
+      <find>VierBanenTweeDuplicaten</find>
+      <find>initializeVeh</find>
     </findStrings>
     <replaceStrings>
       <replace>baan</replace>
@@ -320,9 +478,11 @@
       <replace>0</replace>
       <replace>NULL</replace>
       <replace>double</replace>
+      <replace>simple</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/workingDirectory</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -331,18 +491,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/WorkingReference.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/XmlParserTest.txt" />
-        <option value="$PROJECT_DIR$/workingDirectory/Wrong.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/VoertuigTypeNULL.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/VoertuigTypeUnkown.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/VoertuigNummerplaatNULL.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/VoertuigBaanNULL.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/VoertuigPositieNULL.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/VoertuigPositieFormatMin.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/VoertuigPositieFormat.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/VoertuigSnelheidNULL.xml" />
-        <option value="$PROJECT_DIR$/workingDirectory/Parser/VoertuigSnelheidFormatMin.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/VoertuigSnelheidFormat.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/VoertuigMurphy.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenTypeNULL.xml" />
@@ -365,34 +513,40 @@
         <option value="$PROJECT_DIR$/workingDirectory/verkeersTekenVB.xml" />
         <option value="$PROJECT_DIR$/workingDirectory/AA.txt" />
         <option value="$PROJECT_DIR$/Tests/VerkeerstekenTest.cpp" />
-        <option value="$PROJECT_DIR$/XmlParser.cpp" />
         <option value="$PROJECT_DIR$/Verkeersteken.h" />
         <option value="$PROJECT_DIR$/Verkeersteken.cpp" />
         <option value="$PROJECT_DIR$/workingDirectory/BusTest.xml" />
-        <option value="$PROJECT_DIR$/Voertuig.h" />
         <option value="$PROJECT_DIR$/XmlParser.h" />
-        <option value="$PROJECT_DIR$/System.h" />
-        <option value="$PROJECT_DIR$/Voertuig.cpp" />
         <option value="$PROJECT_DIR$/Baan.cpp" />
         <option value="$PROJECT_DIR$/Baan.h" />
-        <option value="$PROJECT_DIR$/System.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-        <option value="$PROJECT_DIR$/Tests/BaanTest.cpp" />
-        <option value="$PROJECT_DIR$/Tests/VoertuigTest.cpp" />
         <option value="$PROJECT_DIR$/Tests/SystemTest.cpp" />
         <option value="$PROJECT_DIR$/Tests/VerkeerssimulatieTest.cpp" />
+        <option value="$PROJECT_DIR$/XmlParser.cpp" />
+        <option value="$PROJECT_DIR$/System.h" />
+        <option value="$PROJECT_DIR$/Voertuig.cpp" />
+        <option value="$PROJECT_DIR$/Voertuig.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Tests/VoertuigTest.cpp" />
+        <option value="$PROJECT_DIR$/workingDirectory/Parser/Working.xml" />
+        <option value="$PROJECT_DIR$/workingDirectory/FileCompare/Equal2.txt" />
+        <option value="$PROJECT_DIR$/workingDirectory/FileCompare/Equal1.txt" />
+        <option value="$PROJECT_DIR$/workingDirectory/FileCompare/Equal1Short.txt" />
+        <option value="$PROJECT_DIR$/workingDirectory/FileCompare/WhitmanLong.txt" />
+        <option value="$PROJECT_DIR$/workingDirectory/FileCompare/TwoCities.txt" />
+        <option value="$PROJECT_DIR$/Tests/FileCompareTest.cpp" />
+        <option value="$PROJECT_DIR$/workingDirectory/SystemOutput/RushHour.xml" />
+        <option value="$PROJECT_DIR$/workingDirectory/SystemOutput/MondayMorning.xml" />
+        <option value="$PROJECT_DIR$/workingDirectory/SystemOutput/RoadWork.xml" />
+        <option value="$PROJECT_DIR$/Tests/BaanTest.cpp" />
         <option value="$PROJECT_DIR$/Tests/XmlParserTest.cpp" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/workingDirectory/Parser/SystemTest.cpp" />
+        <option value="$PROJECT_DIR$/System.cpp" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="125" />
     <option name="y" value="303" />
     <option name="width" value="1280" />
@@ -434,12 +588,13 @@
             <path>
               <item name="Verkeerssimulatie" type="b2602c69:ProjectViewProjectNode" />
               <item name="Verkeerssimulatie" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+              <item name="workingDirectory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Verkeerssimulatie" type="b2602c69:ProjectViewProjectNode" />
               <item name="Verkeerssimulatie" type="462c0819:PsiDirectoryNode" />
               <item name="workingDirectory" type="462c0819:PsiDirectoryNode" />
+              <item name="SystemOutput" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -452,17 +607,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/workingDirectory/Parser" />
-      <recent name="$PROJECT_DIR$/Parser" />
-      <recent name="$PROJECT_DIR$/Tests" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/workingDirectory" />
       <recent name="$PROJECT_DIR$/Tests" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Tests" />
+      <recent name="$PROJECT_DIR$/workingDirectory/Parser" />
+      <recent name="$PROJECT_DIR$/workingDirectory/SystemOutput" />
+      <recent name="$PROJECT_DIR$/Parser" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -477,7 +633,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Verkeerssimulatie_debug">
+  <component name="RunManager" selected="CMake Application.Verkeerssimulatie_debug">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -494,9 +650,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.Verkeerssimulatie" />
-      <item itemvalue="Application.Verkeerssimulatie_debug" />
+      <item itemvalue="CMake Application.Build All" />
+      <item itemvalue="CMake Application.Verkeerssimulatie" />
+      <item itemvalue="CMake Application.Verkeerssimulatie_debug" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -574,6 +730,8 @@
       <workItem from="1558333443541" duration="17001000" />
       <workItem from="1558431325822" duration="181000" />
       <workItem from="1558431809653" duration="2176000" />
+      <workItem from="1560598359899" duration="9103000" />
+      <workItem from="1560666599820" duration="9299000" />
     </task>
     <task id="LOCAL-00001" summary="Replaced Nullpointer with O and added Header Comments to all files.">
       <created>1553442896535</created>
@@ -688,7 +846,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301590000" />
+    <option name="totallyTimeSpent" value="319992000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -700,16 +858,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1280" height="999" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28675282" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29644588" />
       <window_info id="Structure" order="1" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32739726" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.30927834" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.27123287" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.580756" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -719,7 +876,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32876712" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.5383734" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.5383562" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -793,9 +950,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -821,175 +989,10 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenSnelheidslimietFormatMin.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenSnelheidslimietNULL.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Parser/tinyxml.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="917" selection-start-line="917" selection-end-line="917" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Parser/tinyxml.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="200" selection-start-line="200" selection-end-line="200" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenMurphy.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/BaanRijstrokenFormatMin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/BaanRijstrokenFormat.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/BaanRijstrokenFormatMin.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/BaanRijstrokenFormat.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/BaanRijstrokenNULL.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/BaanRijstrokenNULL.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/BaanMurphy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VerkeerstekenMurphy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/VoertuigMurphy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/AllMurphy.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/AllMurphy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/AlphaTest.txt" />
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Monday_Morning.txt" />
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Monday_Morning.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string" />
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__config" />
-    <entry file="file://$PROJECT_DIR$/workingDirectory/verkeersTekenVB.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/grafischeOutput.html" />
-    <entry file="file://$PROJECT_DIR$/workingDirectory/grafischeOutput.txt" />
-    <entry file="file://$PROJECT_DIR$/aangepast.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignByContract.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/.txt" />
-    <entry file="file://$PROJECT_DIR$/Verkeersteken.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XmlParser.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="388" column="15" selection-start-line="388" selection-start-column="15" selection-end-line="388" selection-end-column="15" />
-          <folding>
-            <element signature="e#422#440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/BusTest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/dummyTest.txt" />
-    <entry file="file://$PROJECT_DIR$/System.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="198" column="83" selection-start-line="198" selection-start-column="83" selection-end-line="198" selection-end-column="83" />
-          <folding>
-            <element signature="e#488#505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XmlParser.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1280">
-          <caret line="90" column="12" selection-start-line="90" selection-start-column="12" selection-end-line="90" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Verkeersteken.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Voertuig.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="126" column="35" selection-start-line="126" selection-start-column="35" selection-end-line="126" selection-end-column="35" />
+        <state relative-caret-position="105">
+          <caret line="347" column="42" selection-start-line="347" selection-start-column="42" selection-end-line="347" selection-end-column="42" />
           <folding>
             <element signature="e#494#511#0" expanded="true" />
           </folding>
@@ -998,102 +1001,279 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Voertuig.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="309" column="17" selection-start-line="309" selection-start-column="17" selection-end-line="309" selection-end-column="17" />
+        <state relative-caret-position="210">
+          <caret line="282" column="23" selection-start-line="282" selection-start-column="23" selection-end-line="282" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Baan.cpp">
+    <entry file="file://$PROJECT_DIR$/XmlParser.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Baan.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
-          <folding>
-            <element signature="e#482#499#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/System.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="354" column="27" selection-start-line="354" selection-start-column="27" selection-end-line="354" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/BaanTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2705">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/VerkeerstekenTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-770">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/VoertuigTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4535">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/SystemTest.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="160" selection-start-line="160" selection-end-line="160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gtest/include/gtest/gtest.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="2288" selection-start-line="2288" selection-end-line="2288" />
+        <state relative-caret-position="471">
+          <caret line="138" column="7" lean-forward="true" selection-start-line="138" selection-start-column="7" selection-end-line="138" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/VerkeerssimulatieTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="176">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/BaanLengteFormat.txt">
+    <entry file="file://$PROJECT_DIR$/Tests/VoertuigTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/FileCompare/Whitman2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/FileCompare/WhitmanLong.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/FileCompare/WhitmanShort.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/FileCompare/Whitman.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/FileCompare/Empty1.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/XmlParserTest.txt">
+    <entry file="file://$PROJECT_DIR$/workingDirectory/FileCompare/Empty2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/FileCompare/TwoCities.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/RushHour.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/SystemOutput/RushHour.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/SystemOutput/MondayMorning.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/newTypesTest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/SystemOutput/RushHour.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" selection-start-line="33" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/SystemOutput/MondayMorning.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="25" selection-start-line="25" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/SystemOutput/RoadWork.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="1231" column="19" selection-start-line="1231" selection-start-column="19" selection-end-line="1231" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/SystemOutput/RoadWork.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/SystemOutput/Holiday.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65407" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/SystemOutput/Holiday.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-910" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/grafischeOutput.txt">
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-2784">
+          <caret line="363" column="117" selection-start-line="363" selection-start-column="117" selection-end-line="363" selection-end-column="117" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32501" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/SystemOutput/BusTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="122" column="96" selection-start-line="122" selection-start-column="81" selection-end-line="122" selection-end-column="96" />
+          <folding>
+            <element signature="e#488#505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Wrong.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/Working.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/DuplicateBanen4Banen2Duplicaten.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/DuplicateBanen4Banen4Duplicaten.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/BaanTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/GetterAndSetterTester.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/SystemOutput/BusTest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63608" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Friday_Night.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/dummyTest.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Monday_Morning.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/OneWegenNetwerk.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/SYSTEMfilterVehiclesTest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/SYSTEMinitializeBaanVerbindingObjectsTest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/SYSTEMsimulateTest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/SYSTEMinitializeVehicleBaanObjectTest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/SYSTEMorganizeVehiclesTest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/SYSTEMgetBanenEnWegenNetwerkTest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Traffic_Jam.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workingDirectory/Parser/Wegen_en_voertuigen.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/XmlParserTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="86" column="62" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
+        <state relative-caret-position="1280">
+          <caret line="80" column="63" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="63" />
           <folding>
             <element signature="e#426#445#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workingDirectory/AA.txt">
+    <entry file="file://$PROJECT_DIR$/Tests/VerkeerstekenTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39221" />
+        <state relative-caret-position="16">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/FileCompareTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="104" column="1" lean-forward="true" selection-start-line="104" selection-start-column="1" selection-end-line="104" selection-end-column="1" />
+          <folding>
+            <element signature="e#428#447#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/SystemTest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="131" column="50" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="29" column="36" lean-forward="true" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        <state relative-caret-position="368">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding>
             <element signature="e#417#436#0" expanded="true" />
           </folding>

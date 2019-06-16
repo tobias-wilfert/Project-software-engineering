@@ -206,6 +206,13 @@ public:
 
     int getLengthOfShortestBaan() const;
 
+    /**
+     * Checks whether the contents of two files ar the same
+     * @param p1 Location and name of the first file
+     * @param p2 Location and name of the second file
+     * @return True if the content of p1 and p2 are the same
+    \n REQUIRE(this->properlyInitialized(), "XmlParser wasn't initialized when calling compareFiles");
+     */
     bool compareFiles(const std::string& p1, const std::string& p2);
 
 };

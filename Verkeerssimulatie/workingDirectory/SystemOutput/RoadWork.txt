@@ -1,0 +1,1241 @@
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         33.3333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         66.6667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         100 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         133.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         166.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         200 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         233.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         266.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         300 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         333.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         366.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         400 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         433.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         466.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         500 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         533.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         566.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         600 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         633.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         666.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         700 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         733.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         766.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         800 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         833.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         866.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         900 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         933.333 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         966.667 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1000 m
+	-> snelheid:        120 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1033.33 m
+	-> snelheid:        91.2 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1058.67 m
+	-> snelheid:        62.4 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1076 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1092.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1109.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1126 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1142.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1159.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1176 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1192.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1209.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1226 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1242.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1259.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1276 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1292.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1309.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1326 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1342.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1359.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1376 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1392.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1409.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1426 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1442.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1459.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1476 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1492.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1509.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1526 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1542.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1559.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1576 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1592.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1609.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1626 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1642.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1659.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1676 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1692.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1709.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1726 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1742.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1759.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1776 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1792.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1809.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1826 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1842.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1859.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1876 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1892.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1909.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1926 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1942.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1959.33 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1976 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)
+
+Voertuig: AUTO (BBC-1-GB)
+	-> baan:            A12
+	-> positie:         1992.67 m
+	-> snelheid:        60 km/h
+
+#=======================================#
+
+Baan: A12
+	-> lengte:          2000 m
+	-> rijstroken:      1
+	-> snelheidslimiet: 120 km/h
+
+	-> ZONE: 60km/h (1000m - 2000m)

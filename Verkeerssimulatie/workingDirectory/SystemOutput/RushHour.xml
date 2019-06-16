@@ -1,0 +1,138 @@
+<Comment> Bannen </Comment>
+
+<BAAN>
+    <naam>E19</naam>
+    <snelheidslimiet>120</snelheidslimiet>
+    <lengte>3000</lengte>
+    <rijstroken>3</rijstroken>
+</BAAN>
+
+<BAAN>
+    <naam>A12</naam>
+    <snelheidslimiet>100</snelheidslimiet>
+    <lengte>3000</lengte>
+    <rijstroken>2</rijstroken>
+    <verbinding>E19</verbinding>
+</BAAN>
+
+<BAAN>
+    <naam>Middelheimlaan</naam>
+    <snelheidslimiet>60</snelheidslimiet>
+    <lengte>1000</lengte>
+    <rijstroken>1</rijstroken>
+    <verbinding>A12</verbinding>
+</BAAN>
+
+<Comment> Verkeersteken </Comment>
+
+<VERKEERSTEKEN>
+    <type>BUSHALTE</type>
+    <baan>Middelheimlaan</baan>
+    <positie>250</positie>
+</VERKEERSTEKEN>
+
+<VERKEERSTEKEN>
+    <type>ZONE</type>
+    <baan>Middelheimlaan</baan>
+    <positie>500</positie>
+    <snelheidslimiet>30</snelheidslimiet>
+</VERKEERSTEKEN>
+
+<VERKEERSTEKEN>
+    <type>ZONE</type>
+    <baan>E19</baan>
+    <positie>1000</positie>
+    <snelheidslimiet>100</snelheidslimiet>
+</VERKEERSTEKEN>
+
+<Comment> Cars </Comment>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>BBC-1-GB</nummerplaat>
+    <baan>Middelheimlaan</baan>
+    <positie>100</positie>
+    <snelheid>0</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>BBC-2-GB</nummerplaat>
+    <baan>Middelheimlaan</baan>
+    <positie>50</positie>
+    <snelheid>0</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>BBC-3-GB</nummerplaat>
+    <baan>Middelheimlaan</baan>
+    <positie>150</positie>
+    <snelheid>0</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>BBC-4-GB</nummerplaat>
+    <baan>Middelheimlaan</baan>
+    <positie>200</positie>
+    <snelheid>0</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>ARD-1-DE</nummerplaat>
+    <baan>A12</baan>
+    <positie>100</positie>
+    <snelheid>10</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>ARD-2-DE</nummerplaat>
+    <baan>A12</baan>
+    <positie>50</positie>
+    <snelheid>10</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>ARD-3-DE</nummerplaat>
+    <baan>A12</baan>
+    <positie>150</positie>
+    <snelheid>10</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>ARD-4-DE</nummerplaat>
+    <baan>A12</baan>
+    <positie>200</positie>
+    <snelheid>10</snelheid>
+</VOERTUIG>
+
+<Comment> Other Vehicles </Comment>
+
+<VOERTUIG>
+    <type>VRACHTWAGEN</type>
+    <nummerplaat>1LML935</nummerplaat>
+    <baan>Middelheimlaan</baan>
+    <positie>0</positie>
+    <snelheid>0</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>BUS</type>
+    <nummerplaat>0LML935</nummerplaat>
+    <baan>Middelheimlaan</baan>
+    <positie>75</positie>
+    <snelheid>0</snelheid>
+</VOERTUIG>
+
+<VOERTUIG>
+    <type>BUS</type>
+    <nummerplaat>2LML935</nummerplaat>
+    <baan>Middelheimlaan</baan>
+    <positie>125</positie>
+    <snelheid>0</snelheid>
+</VOERTUIG>

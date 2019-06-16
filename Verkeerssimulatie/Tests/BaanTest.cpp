@@ -34,17 +34,17 @@ protected:
 //////////////////////  BAAN TEST BEGINS HERE  /////////////////////////////////
 //test xml file with duplicate Banen objects
 
-XmlParser parser = XmlParser("GetterAndSetterTester.xml");
-XmlParser parser1 = XmlParser("OneWegenNetwerk.xml");
+XmlParser parser = XmlParser("Parser/GetterAndSetterTester.xml");
+XmlParser parser1 = XmlParser("Parser/OneWegenNetwerk.xml");
 unsigned int x = 1;
 
 TEST_F(BaanTest, VierBanenVierDuplicaten){
-    XmlParser parser4("DuplicateBanen4Banen4Duplicaten.xml");
+    XmlParser parser4("Parser/DuplicateBanen4Banen4Duplicaten.xml");
     EXPECT_EQ(parser4.getBanen()->size(), x);
 }
 
 TEST_F(BaanTest, VierBanenTweeDuplicaten){
-    XmlParser parser4("DuplicateBanen4Banen2Duplicaten.xml");
+    XmlParser parser4("Parser/DuplicateBanen4Banen2Duplicaten.xml");
     x = 2;
     EXPECT_EQ(parser4.getBanen()->size(), x);
 }
@@ -100,7 +100,7 @@ TEST_F(BaanTest, BanenSetVerbindingRandGeval){
 }
 
 TEST_F(BaanTest, BanenGetVerbindingObject){
-    XmlParser parser2("OneWegenNetwerk.xml");
+    XmlParser parser2("Parser/OneWegenNetwerk.xml");
     System systemTest(parser2.getBanen(),parser2.getWegenNetwerk(),parser2.getVoertuigen());
     systemTest.initializeBaanVerbindingObjects();
     EXPECT_EQ(systemTest.getWegenNetwerk()->at(0)->getVerbindingObject(), systemTest.getBanen()->at(0));

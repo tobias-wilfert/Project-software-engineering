@@ -24,7 +24,7 @@ std::string ToString(T val)
 System::System(std::vector<Baan *> *Banen, std::vector<Baan *> *WegenNetwerk, std::vector<Voertuig *> *Voertuigen)
         : fBanen(Banen), fWegenNetwerk(WegenNetwerk), fVoertuigen(Voertuigen), counter(0) {
     _initCheck = this;
-    //TODO ENSRURE
+
     for(unsigned int j = 0; j < fBanen->size(); j++){
         fBanen->at(j)->setfContainsBushalte();
     }
@@ -451,6 +451,9 @@ std::pair<std::string, std::string> System::outputVerkeersteken(Baan *baan, int 
                     possible = true;
                 }
             }else {
+
+                //TODO Adjust to represent the actual length of the Bus stop
+
                 // Check that we aren't out of bounds
                 if (current->getFPositie() / factor + bias < bushalte.size()){
                     if (bushalte[current->getFPositie() / factor + bias] == '_') {

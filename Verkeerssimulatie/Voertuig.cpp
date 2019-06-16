@@ -280,7 +280,7 @@ void Voertuig::updatePosition() {
         calculateVersnelling();
     }
 
-    ENSURE(fPositie <= fBaanObject->getLengte(), "updatePosition post condition failure");
+    ENSURE(fPositie <= getBaanObject()->getLengte(), "updatePosition post condition failure");
     ENSURE(fVersnelling <= fMaxVersnelling, "updatePosition post condition failure");
     ENSURE(fVersnelling >= fMinVersnelling, "updatePosition post condition failure");
 }
@@ -557,7 +557,6 @@ void Voertuig::calculateVersnellingBus() {
     }
 
     // 4. Check which is the smallest and take that one.
-    //TODO Bus can't react to somtheing in the way between him and the bus stop
     if (stopVersnelling <= idealversnelling and stopVersnelling <= legalversnelling){
         fVersnelling = stopVersnelling;
     }else if (idealversnelling <= stopVersnelling and idealversnelling <= legalversnelling){

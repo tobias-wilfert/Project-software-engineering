@@ -1,0 +1,13 @@
+<BAAN>
+    <naam>A1</naam>
+    <snelheidslimiet>100</snelheidslimiet>
+    <lengte>2000</lengte>
+</BAAN>
+
+<VOERTUIG>
+    <type>AUTO</type>
+    <nummerplaat>1DEF001</nummerplaat>
+    <baan>A1</baan>
+    <positie>10</positie>
+    <snelheid>100</snelheid>
+</VOERTUIG>
