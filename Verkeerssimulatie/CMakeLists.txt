@@ -45,7 +45,9 @@ set(DEBUG_SOURCE_FILES
 add_executable(Verkeerssimulatie ${RELEASE_SOURCE_FILES})
 
 # Create DEBUG target
+add_executable(${PROJECT_NAME}.test ${DEBUG_SOURCE_FILES})
 add_executable(Verkeerssimulatie_debug ${DEBUG_SOURCE_FILES})
 
 # Link library
 target_link_libraries(Verkeerssimulatie_debug gtest)
+target_link_libraries(${PROJECT_NAME}.test gtest)
