@@ -18,3 +18,9 @@ jobs:
         cd build
         cmake  ..
         make
+    - name: Test
+      run: |
+        cd Verkeerssimulatie
+        cd workingDirectory
+        ../build/Verkeerssimulatie.test
+      
