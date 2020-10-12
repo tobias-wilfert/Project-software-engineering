@@ -48,4 +48,4 @@ add_executable(Verkeerssimulatie ${RELEASE_SOURCE_FILES})
 add_executable(Verkeerssimulatie_debug ${DEBUG_SOURCE_FILES})
 
 # Link library
-target_link_libraries(Verkeerssimulatie_debug gtest_linux)
+target_link_libraries(Verkeerssimulatie_debug gtest)
