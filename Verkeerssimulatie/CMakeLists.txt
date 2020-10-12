@@ -6,10 +6,10 @@ set(CMAKE_CXX_FLAGS "-Wall -Werror")
 set(CMAKE_EXE_LINKER_FLAGS -pthread)
 
 # Set include dir
-include_directories(gtest/include)
+include_directories(gtest_linux/include)
 
 # Set Library dir
-link_directories(gtest/lib)
+link_directories(gtest_linux/lib)
 
 # Set source files for RELEASE target
 set(RELEASE_SOURCE_FILES main.cpp Parser/tinystr.cpp Parser/tinystr.h Parser/tinyxml.cpp Parser/tinyxml.h Parser/tinyxmlerror.cpp Parser/tinyxmlparser.cpp XmlParser.cpp XmlParser.h Voertuig.cpp Voertuig.h Baan.cpp Baan.h System.cpp System.h DesignByContract.h Verkeersteken.cpp Verkeersteken.h)
@@ -48,4 +48,4 @@ add_executable(Verkeerssimulatie ${RELEASE_SOURCE_FILES})
 add_executable(Verkeerssimulatie_debug ${DEBUG_SOURCE_FILES})
 
 # Link library
-target_link_libraries(Verkeerssimulatie_debug gtest)
+target_link_libraries(Verkeerssimulatie_debug gtest_linux)
